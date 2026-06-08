@@ -1,0 +1,25 @@
+{
+  "n": 500,
+  "seed": 27,
+  "width": 240,
+  "height": 80,
+  "perturbations": [
+    "clean",
+    "blur",
+    "glare",
+    "touch",
+    "broken",
+    "threshold",
+    "perspective",
+    "compression",
+    "combo"
+  ],
+  "train_ratio": 0.8,
+  "format": "legacy_hu_synthetic_AAA999",
+  "outputs": {
+    "images": "images/",
+    "masks": "masks/",
+    "annotations": "annotations.jsonl",
+    "manifest": "manifest.csv"
+  }
+}
