@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "name": "cc_baseline",
+      "args": "--mode cc"
+    },
+    {
+      "name": "ips_no_priors",
+      "args": "--mode ips --w_density 0 --w_blocking 0 --w_overlap 0"
+    },
+    {
+      "name": "ips_density_only",
+      "args": "--mode ips --w_density 2 --w_blocking 0 --w_overlap 0"
+    },
+    {
+      "name": "ips_blocking_only",
+      "args": "--mode ips --w_density 0 --w_blocking 2 --w_overlap 0"
+    },
+    {
+      "name": "ips_full_priors",
+      "args": "--mode ips --w_density 2 --w_blocking 2 --w_overlap 10"
+    }
+  ]
+}
