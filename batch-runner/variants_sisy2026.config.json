@@ -1,0 +1,9 @@
+{
+  "variants": [
+    {"name": "cc_baseline", "args": "--config configs/sisy/cc_baseline.yaml"},
+    {"name": "ips_no_priors", "args": "--config configs/sisy/ips_no_priors.yaml"},
+    {"name": "ips_density_only", "args": "--config configs/sisy/ips_density_only.yaml"},
+    {"name": "ips_blocking_only", "args": "--config configs/sisy/ips_blocking_only.yaml"},
+    {"name": "ips_full_priors", "args": "--config configs/sisy/ips_full_priors.yaml"}
+  ]
+}

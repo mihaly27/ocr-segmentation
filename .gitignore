@@ -1,0 +1,18 @@
+
+# Python cache / environments
+__pycache__/
+*.py[cod]
+.venv/
+*/.venv/
+
+# Local backups
+*.bak
+
+# Run outputs and generated artifacts
+batch-runner/runs/
+batch-runner/*results_pack*.zip
+ips_single_image/out-*/
+sisy_run_pack/
+
+# Optional: generated packages
+*.zip

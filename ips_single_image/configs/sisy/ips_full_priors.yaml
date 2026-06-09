@@ -1,0 +1,41 @@
+preprocess:
+  mode: otsu
+  fixed_tau: 0.45
+  adaptive_block_size: 31
+  adaptive_C: 5
+  morph_kernel: 3
+  morph_iter: 1
+
+cut:
+  max_cuts_per_component: 3
+  min_rel_width_for_split: 1.6
+  smooth_window: 5
+  min_cut_margin: 2
+  max_column_sum_quantile: 0.2
+
+ocr:
+  backend: tesseract
+  whitelist: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+  psm: 10
+  oem: 3
+  pad: 2
+  resize_h: 64
+
+search:
+  beam_size: 50
+  max_steps: 12
+  expected_count: 6
+
+scoring:
+  w_fit: 1.0
+  w_overlap: 10.0
+  w_prior: 0.0
+  w_density: 2.0
+  w_blocking: 2.0
+  overlap_eps: 0.02
+  rho_max: 0.75
+  blocking_gap_ratio: 0.05
+  aspect_min: 0.25
+  aspect_max: 4.0
+  extent_min: 0.05
+  extent_max: 0.95
