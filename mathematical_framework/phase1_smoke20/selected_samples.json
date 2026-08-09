@@ -1,122 +1,122 @@
 [
   {
-    "id": "test_004042_blur_LNL512",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004042_blur_LNL512.png",
-    "gt": "LNL512",
+    "id": "train_003637_blur_ELI721",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003637_blur_ELI721.png",
+    "gt": "ELI721",
     "perturbation": "blur"
   },
   {
-    "id": "test_004288_broken_ADC981",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004288_broken_ADC981.png",
-    "gt": "ADC981",
+    "id": "train_001543_broken_IPA038",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001543_broken_IPA038.png",
+    "gt": "IPA038",
     "perturbation": "broken"
   },
   {
-    "id": "train_003888_clean_RKX870",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003888_clean_RKX870.png",
-    "gt": "RKX870",
+    "id": "train_003123_clean_IZL252",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003123_clean_IZL252.png",
+    "gt": "IZL252",
     "perturbation": "clean"
   },
   {
-    "id": "train_001448_combo_VYK245",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001448_combo_VYK245.png",
-    "gt": "VYK245",
+    "id": "train_000251_combo_QIK477",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000251_combo_QIK477.png",
+    "gt": "QIK477",
     "perturbation": "combo"
   },
   {
-    "id": "train_003508_compression_ASC226",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003508_compression_ASC226.png",
-    "gt": "ASC226",
+    "id": "train_001096_compression_TWX331",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001096_compression_TWX331.png",
+    "gt": "TWX331",
     "perturbation": "compression"
   },
   {
-    "id": "train_001838_glare_OJE282",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001838_glare_OJE282.png",
-    "gt": "OJE282",
+    "id": "train_003098_glare_AJR743",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003098_glare_AJR743.png",
+    "gt": "AJR743",
     "perturbation": "glare"
   },
   {
-    "id": "train_002328_perspective_XBQ191",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002328_perspective_XBQ191.png",
-    "gt": "XBQ191",
+    "id": "train_001248_perspective_FDV067",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001248_perspective_FDV067.png",
+    "gt": "FDV067",
     "perturbation": "perspective"
   },
   {
-    "id": "train_001400_threshold_FKO795",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001400_threshold_FKO795.png",
-    "gt": "FKO795",
+    "id": "train_002687_threshold_AWO123",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002687_threshold_AWO123.png",
+    "gt": "AWO123",
     "perturbation": "threshold"
   },
   {
-    "id": "test_004782_touch_KHV656",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004782_touch_KHV656.png",
-    "gt": "KHV656",
+    "id": "train_001326_touch_WGR550",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001326_touch_WGR550.png",
+    "gt": "WGR550",
     "perturbation": "touch"
   },
   {
-    "id": "train_001063_blur_KXW933",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001063_blur_KXW933.png",
-    "gt": "KXW933",
+    "id": "test_004519_blur_CVS112",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004519_blur_CVS112.png",
+    "gt": "CVS112",
     "perturbation": "blur"
   },
   {
-    "id": "train_000373_broken_QJL262",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000373_broken_QJL262.png",
-    "gt": "QJL262",
+    "id": "test_004792_broken_SCQ851",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004792_broken_SCQ851.png",
+    "gt": "SCQ851",
     "perturbation": "broken"
   },
   {
-    "id": "test_004608_clean_BJG869",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004608_clean_BJG869.png",
-    "gt": "BJG869",
+    "id": "test_004527_clean_HOF413",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004527_clean_HOF413.png",
+    "gt": "HOF413",
     "perturbation": "clean"
   },
   {
-    "id": "train_001853_combo_FTU228",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001853_combo_FTU228.png",
-    "gt": "FTU228",
+    "id": "test_004148_combo_EXT043",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004148_combo_EXT043.png",
+    "gt": "EXT043",
     "perturbation": "combo"
   },
   {
-    "id": "train_003877_compression_ZJN510",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003877_compression_ZJN510.png",
-    "gt": "ZJN510",
+    "id": "train_002518_compression_LPQ548",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002518_compression_LPQ548.png",
+    "gt": "LPQ548",
     "perturbation": "compression"
   },
   {
-    "id": "train_000353_glare_SJL297",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000353_glare_SJL297.png",
-    "gt": "SJL297",
+    "id": "test_004556_glare_XAF810",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004556_glare_XAF810.png",
+    "gt": "XAF810",
     "perturbation": "glare"
   },
   {
-    "id": "train_003858_perspective_PFT839",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003858_perspective_PFT839.png",
-    "gt": "PFT839",
+    "id": "train_002877_perspective_CAK656",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002877_perspective_CAK656.png",
+    "gt": "CAK656",
     "perturbation": "perspective"
   },
   {
-    "id": "train_003308_threshold_NUN639",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003308_threshold_NUN639.png",
-    "gt": "NUN639",
+    "id": "train_000509_threshold_JOO326",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000509_threshold_JOO326.png",
+    "gt": "JOO326",
     "perturbation": "threshold"
   },
   {
-    "id": "test_004935_touch_KVO394",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004935_touch_KVO394.png",
-    "gt": "KVO394",
+    "id": "test_004566_touch_YRM953",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004566_touch_YRM953.png",
+    "gt": "YRM953",
     "perturbation": "touch"
   },
   {
-    "id": "train_000091_blur_FFF170",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000091_blur_FFF170.png",
-    "gt": "FFF170",
+    "id": "train_001711_blur_XSE527",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001711_blur_XSE527.png",
+    "gt": "XSE527",
     "perturbation": "blur"
   },
   {
-    "id": "train_003478_broken_NZV577",
-    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003478_broken_NZV577.png",
-    "gt": "NZV577",
+    "id": "train_000877_broken_YZF898",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000877_broken_YZF898.png",
+    "gt": "YZF898",
     "perturbation": "broken"
   }
 ]

@@ -1,0 +1,11 @@
+id,raw_hash_mismatch,semantic_hash_mismatch,prediction_mismatch,segment_count_mismatch,selected_boxes_mismatch
+train_000251_combo_QIK477,1,0,0,0,0
+train_001543_broken_IPA038,1,0,0,0,0
+train_003123_clean_IZL252,1,0,0,0,0
+train_003637_blur_ELI721,1,0,0,0,0
+train_001096_compression_TWX331,1,0,0,0,0
+train_003098_glare_AJR743,1,0,0,0,0
+train_001248_perspective_FDV067,1,0,0,0,0
+train_002687_threshold_AWO123,1,0,0,0,0
+train_001326_touch_WGR550,1,0,0,0,0
+test_004519_blur_CVS112,1,0,0,0,0
