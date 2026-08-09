@@ -1,0 +1,8 @@
+{
+  "pred": "TFL528",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6a9a544f46da61d4eed664e653bb5c3f0d2a22ad25763148e0adf59e3b590b5f",
+  "total_ms": 631.7740557715297
+}

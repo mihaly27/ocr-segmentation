@@ -1,0 +1,8 @@
+{
+  "pred": "KR323",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eb04784ea6869fd8e4250dc73feb772f00e872024112a28d148062106728fa1f",
+  "total_ms": 648.3149603009224
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "XL55",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8e8400b9057d073ae940809a7f5a1f42edfbacbdd1b007c073105557b21ee78b",
+  "total_ms": 824.1665782406926
+}

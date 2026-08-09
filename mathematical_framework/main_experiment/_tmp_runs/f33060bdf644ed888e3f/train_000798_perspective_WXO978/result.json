@@ -1,0 +1,8 @@
+{
+  "pred": "WX97",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5918c88413528ed2534c64c31b8e3e2813188e9a874d52361071a17be14f8de9",
+  "total_ms": 575.6728760898113
+}

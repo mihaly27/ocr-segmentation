@@ -1,0 +1,8 @@
+{
+  "pred": "FW72",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c750681da59006051d2809cf68abad4f9fcd3e88b9091279711e96c7d7b5cfa0",
+  "total_ms": 586.0545430332422
+}

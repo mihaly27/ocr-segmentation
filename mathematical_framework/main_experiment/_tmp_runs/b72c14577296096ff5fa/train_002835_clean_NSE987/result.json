@@ -1,0 +1,8 @@
+{
+  "pred": "NSE987",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3e088ac85bdb587e6bc46bfec04a433da6972e1f39b9d1376e213b285d3240c6",
+  "total_ms": 576.7215630039573
+}

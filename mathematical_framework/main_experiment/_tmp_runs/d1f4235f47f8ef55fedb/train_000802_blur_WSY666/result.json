@@ -1,0 +1,8 @@
+{
+  "pred": "WS666",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a5107709fccf139a96b3609612e43baf8c01f2e72c9da77f1b3563b43121aa8d",
+  "total_ms": 801.4730354771018
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "HDY24",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c461f01aef24a1909bd6010940ded6ea33e370d83f0b4a281e500c3da3427bdf",
+  "total_ms": 566.5369397029281
+}

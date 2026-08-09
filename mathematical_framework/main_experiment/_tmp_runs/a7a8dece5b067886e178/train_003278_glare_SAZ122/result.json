@@ -1,0 +1,8 @@
+{
+  "pred": "SAZ122",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "001f2f915bad087513bcc5fcb5517e63a8bdc61979d308e6dc78ced4145da42b",
+  "total_ms": 567.368108779192
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "EFS949",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "10b49560f6f14163bfd9833d16d13bd7c809b2d9a19c07035c25ba02778c9d3c",
+  "total_ms": 566.3461806252599
+}

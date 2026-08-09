@@ -1,0 +1,8 @@
+{
+  "pred": "UD489",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7779566008fdd48001c5071fe55784b22e0f11bc0b3548bed69a83bc22659b32",
+  "total_ms": 573.7338634207845
+}

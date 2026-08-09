@@ -1,0 +1,8 @@
+{
+  "pred": "LCR235",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0cca91fd5f1a1de8e0cba5078c738756df23e4200988eaab54bef599497e3ef7",
+  "total_ms": 549.9771488830447
+}

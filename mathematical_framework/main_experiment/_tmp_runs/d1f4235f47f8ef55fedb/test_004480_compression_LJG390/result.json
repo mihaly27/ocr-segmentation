@@ -1,0 +1,8 @@
+{
+  "pred": "LJG30",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1e4c622bcc0a34ddfbaa540cd7b4464264d6db57766cb740343e79c7e00c92f8",
+  "total_ms": 903.8487719371915
+}

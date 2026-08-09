@@ -1,0 +1,8 @@
+{
+  "pred": "8689",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "27cb18e2e6fc605ab47e3d7931bc9a85c1c7b5167aa57f471dc12c48b898a58e",
+  "total_ms": 827.9981473460793
+}

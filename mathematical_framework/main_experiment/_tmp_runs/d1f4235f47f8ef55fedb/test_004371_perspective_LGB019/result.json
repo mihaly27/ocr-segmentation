@@ -1,0 +1,8 @@
+{
+  "pred": "LGB019",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "67587e3c23d845665ba01ad869a68fa2b6bb1dcd919c09b25622d8431952d778",
+  "total_ms": 562.926939688623
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "C0609",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "bc7dd52263107ed6260eb13237c191ed2a74c336e23efcf79243064043026868",
+  "total_ms": 564.9273106828332
+}

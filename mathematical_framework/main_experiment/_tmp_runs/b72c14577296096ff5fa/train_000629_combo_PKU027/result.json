@@ -1,0 +1,8 @@
+{
+  "pred": "PKU027",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cc8b37fc424d0288c3af9b542e96a82cb56280d769bf5e6840fec0d1770d5064",
+  "total_ms": 677.6301320642233
+}

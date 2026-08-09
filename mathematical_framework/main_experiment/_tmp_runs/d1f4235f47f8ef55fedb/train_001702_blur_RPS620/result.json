@@ -1,0 +1,8 @@
+{
+  "pred": "RPS620",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d9c0e3d81c41fbab3c95c492177d297e0405f8cc077985b513625eaee061fec7",
+  "total_ms": 565.7907444983721
+}

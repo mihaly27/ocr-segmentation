@@ -1,0 +1,8 @@
+{
+  "pred": "N5",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "41abbf6385a94a098aeeef32aa4646750806116d7de4940b02898d5598cf86a5",
+  "total_ms": 240.27940817177296
+}

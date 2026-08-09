@@ -1,0 +1,8 @@
+{
+  "pred": "T00222",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f59c704fee733d421f2707d9cd68792ccc3f608eb0d24bac1e687ed6ca1f7105",
+  "total_ms": 552.6396352797747
+}

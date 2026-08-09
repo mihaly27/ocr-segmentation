@@ -1,0 +1,8 @@
+{
+  "pred": "GH26",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d6fa65d10a47501c7e4219ef48b70bf9388be23c6d270c83c1c073e9d7194729",
+  "total_ms": 566.1370763555169
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "WAZ622",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "04ca57627b2e37714f6ebd471fc196ab0eab317a4f6e72435a82cf3902929693",
+  "total_ms": 588.4628854691982
+}

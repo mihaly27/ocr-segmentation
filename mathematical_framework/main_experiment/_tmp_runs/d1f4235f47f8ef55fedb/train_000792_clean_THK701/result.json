@@ -1,0 +1,8 @@
+{
+  "pred": "THK701",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a3480f55d1d6bb70f3bff49f14bf363aaa9f3b3ab287fce02484727ed6245b32",
+  "total_ms": 548.229156062007
+}

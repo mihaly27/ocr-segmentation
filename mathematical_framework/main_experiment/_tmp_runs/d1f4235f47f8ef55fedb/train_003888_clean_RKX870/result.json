@@ -1,0 +1,8 @@
+{
+  "pred": "RK4870",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2a9d1d82bfc85087554cf64a16c6f87a24a43527eb2811296a7a797fc2e0ee5e",
+  "total_ms": 721.6575685888529
+}

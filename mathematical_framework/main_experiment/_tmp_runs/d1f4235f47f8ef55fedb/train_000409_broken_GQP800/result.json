@@ -1,0 +1,8 @@
+{
+  "pred": "GQ800",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6c7f69ade03d060ddc114140f1af76454c2f155c16170910c85f817394944662",
+  "total_ms": 1016.3611313328147
+}

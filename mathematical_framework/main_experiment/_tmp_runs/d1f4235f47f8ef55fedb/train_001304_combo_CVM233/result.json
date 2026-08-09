@@ -1,0 +1,8 @@
+{
+  "pred": "CVM233",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1ec22128b0a2c1a9f24a6224671c2951b97d9f363dd21de887462800cd86a827",
+  "total_ms": 695.5841444432735
+}

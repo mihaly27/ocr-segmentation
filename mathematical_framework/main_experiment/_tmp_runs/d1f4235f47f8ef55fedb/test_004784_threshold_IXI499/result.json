@@ -1,0 +1,8 @@
+{
+  "pred": "X499",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "85ddffcb0a4e826edab00047c7f321d945824ffd56c90a16eeaa7a6ab44e61bf",
+  "total_ms": 753.9799502119422
+}

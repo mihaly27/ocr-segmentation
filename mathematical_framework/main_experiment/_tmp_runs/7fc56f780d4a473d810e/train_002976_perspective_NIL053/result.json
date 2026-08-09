@@ -1,0 +1,8 @@
+{
+  "pred": "N1L053",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "41fad6f9fc405b63d670afdfe8280a3ece5d675c2745183ec2e1d47b6b1d80ee",
+  "total_ms": 560.4831967502832
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "XMW523",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cd5d13e82a9cfa8d6b808be223e199d29166c8805fd23fd34b69f8198741675a",
+  "total_ms": 841.0169295966625
+}

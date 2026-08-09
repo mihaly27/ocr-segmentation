@@ -1,0 +1,8 @@
+{
+  "pred": "DN204",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cf05af5ce8e49904f65d0635e93b917945a5a8a2054649fb6b5efc268e8802ad",
+  "total_ms": 566.5289564058185
+}

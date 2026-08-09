@@ -1,0 +1,8 @@
+{
+  "pred": "BBQ066",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7ff47d2ba089e61639d524c6c35db7485dac9a62e200f4211b9df6947a186747",
+  "total_ms": 545.0028209015727
+}

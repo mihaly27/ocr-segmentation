@@ -1,0 +1,8 @@
+{
+  "pred": "SS923",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "de25731f83ef8733312ff6255e0fade1bd009c7c2abab7acc832619070e32192",
+  "total_ms": 678.7838730961084
+}

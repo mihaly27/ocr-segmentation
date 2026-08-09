@@ -1,0 +1,8 @@
+{
+  "pred": "OC962",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5a9df70a76be15ebe7e24a040eb53aed7a6300739a2b19582ddc34ccc79e2a15",
+  "total_ms": 525.4812492057681
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "GJT384",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "43dafcdbce80dde94360aabcbca7b3d6f0d9858c85fb29aea1c075302c1d8174",
+  "total_ms": 935.6053685769439
+}

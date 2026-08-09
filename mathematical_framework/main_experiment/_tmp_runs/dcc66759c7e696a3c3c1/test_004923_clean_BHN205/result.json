@@ -1,0 +1,8 @@
+{
+  "pred": "BHN205",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d0becac52fad7a460480e43414b1e5bf62be09925c8710e03afaa660405f0b2d",
+  "total_ms": 548.5850647091866
+}

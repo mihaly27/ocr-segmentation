@@ -1,0 +1,8 @@
+{
+  "pred": "MC851",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0f4d9bff015908221e818438cc1bdec0784e58479a714d9abb0b054dcead0be4",
+  "total_ms": 562.1037250384688
+}

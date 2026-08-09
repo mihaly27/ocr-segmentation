@@ -1,0 +1,8 @@
+{
+  "pred": "TJW813",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5a2f8ac86e0ed230810a0c24bbe880af90049d662d8f272b857e4adfe3d71798",
+  "total_ms": 576.5103865414858
+}

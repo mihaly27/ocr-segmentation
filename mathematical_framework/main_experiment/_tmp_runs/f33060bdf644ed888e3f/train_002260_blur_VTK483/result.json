@@ -1,0 +1,8 @@
+{
+  "pred": "VTK483",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "98106b476497d4fb32e0451b030c437ee921cec812fbd6aeef9f5a0d6aebd0b0",
+  "total_ms": 576.9647499546409
+}

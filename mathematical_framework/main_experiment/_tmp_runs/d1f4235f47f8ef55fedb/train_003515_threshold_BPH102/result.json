@@ -1,0 +1,8 @@
+{
+  "pred": "BPH102",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d2ec65c2a2f2c8ce569b7c1fcc1e56be81435d1e53c4594a7f2871a401498a59",
+  "total_ms": 756.8778470158577
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "NLU547",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "49d3eb1457f29c4d8d42d8bde467ea3b680c27341771c54623a6b02081d067f7",
+  "total_ms": 566.6682431474328
+}

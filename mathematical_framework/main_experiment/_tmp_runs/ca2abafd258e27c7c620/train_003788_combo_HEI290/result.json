@@ -1,0 +1,8 @@
+{
+  "pred": "HE290",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d97dc22181d6ec9b9cda0967d4f33af86bf3ea72349481b00a758a547d4ffa7c",
+  "total_ms": 683.3016602322459
+}

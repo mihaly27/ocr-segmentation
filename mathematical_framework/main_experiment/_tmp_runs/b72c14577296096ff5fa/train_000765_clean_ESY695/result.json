@@ -1,0 +1,8 @@
+{
+  "pred": "ESY695",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b642f09e9f3bff7dd80fbee702ca7728d2bec05054b5f5b1591ed257d088a17e",
+  "total_ms": 565.6408006325364
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "TN021",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "983559d32b9c9d5d9b986d199a4a0660a8db239b343c6c5e91e0b7152c3496e3",
+  "total_ms": 845.6231895834208
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "LMS666",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a9551d8e0f5fedecfd7094342fa76839a814acfaa19d1ac32c0d0d001be62d8b",
+  "total_ms": 548.7510981038213
+}

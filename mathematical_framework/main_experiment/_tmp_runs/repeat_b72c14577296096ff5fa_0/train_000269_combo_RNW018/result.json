@@ -1,0 +1,8 @@
+{
+  "pred": "RNW018",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8e415339e39bd1dc2a517eba47022f44a47d4052155c0422c42d0a4de1812c34",
+  "total_ms": 547.1898531541228
+}

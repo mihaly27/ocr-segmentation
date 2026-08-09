@@ -1,0 +1,8 @@
+{
+  "pred": "MD9",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9af3effae437f04eabba03336f83d505071847cf4ec093b514c82f355d52b758",
+  "total_ms": 701.8806040287018
+}

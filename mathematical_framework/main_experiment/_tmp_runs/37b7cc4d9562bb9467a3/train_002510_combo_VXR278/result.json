@@ -1,0 +1,8 @@
+{
+  "pred": "VR2",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c07512b41424452b9e377b6b1f76ef5d10d5d08a6407352def040d13c35d1fe8",
+  "total_ms": 288.8515470549464
+}

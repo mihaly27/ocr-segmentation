@@ -1,0 +1,8 @@
+{
+  "pred": "DD813",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b9cd5304e10cf56d8e0e8e074db8084ee78d13aa5e800be49c2186db49b98289",
+  "total_ms": 574.271802790463
+}

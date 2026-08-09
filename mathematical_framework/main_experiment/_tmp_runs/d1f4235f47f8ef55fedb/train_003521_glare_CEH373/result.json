@@ -1,0 +1,8 @@
+{
+  "pred": "CEH373",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9ac74e55de9ee98dcee9e6a6d03c3afa7ec6054dc459fc9448a6d9cf6485c5ea",
+  "total_ms": 555.7117573916912
+}

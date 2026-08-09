@@ -1,0 +1,8 @@
+{
+  "pred": "DCK181",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "deaecfa62288c5a52d2a639e2710ec6980195819471cd1f21a9f0c9c83d7d9d6",
+  "total_ms": 645.1817695051432
+}

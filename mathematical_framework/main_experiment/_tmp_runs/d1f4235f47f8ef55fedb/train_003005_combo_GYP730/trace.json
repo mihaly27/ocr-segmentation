@@ -1,0 +1,254 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003005_combo_GYP730.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 1.6,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 2.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.05,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.5950247868895531,
+    "preprocess_ms": 0.367102213203907,
+    "cc_ms": 0.21103862673044205,
+    "search_ms": 28.064309619367123,
+    "ocr_ms": 735.1332185789943,
+    "total_ms": 764.3706938251853
+  },
+  "initial_segments": [
+    {
+      "id": 3,
+      "bbox": [
+        25,
+        20,
+        32,
+        37
+      ],
+      "area": 979
+    },
+    {
+      "id": 1,
+      "bbox": [
+        60,
+        19,
+        31,
+        35
+      ],
+      "area": 565
+    },
+    {
+      "id": 4,
+      "bbox": [
+        98,
+        21,
+        26,
+        33
+      ],
+      "area": 613
+    },
+    {
+      "id": 5,
+      "bbox": [
+        135,
+        20,
+        25,
+        34
+      ],
+      "area": 492
+    },
+    {
+      "id": 2,
+      "bbox": [
+        165,
+        18,
+        56,
+        38
+      ],
+      "area": 1604
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 3,
+      "bbox": [
+        25,
+        20,
+        32,
+        37
+      ],
+      "area": 979
+    },
+    {
+      "id": 1,
+      "bbox": [
+        60,
+        19,
+        31,
+        35
+      ],
+      "area": 565
+    },
+    {
+      "id": 4,
+      "bbox": [
+        98,
+        21,
+        26,
+        33
+      ],
+      "area": 613
+    },
+    {
+      "id": 5,
+      "bbox": [
+        135,
+        20,
+        25,
+        34
+      ],
+      "area": 492
+    },
+    {
+      "id": 2,
+      "bbox": [
+        165,
+        18,
+        56,
+        38
+      ],
+      "area": 1604
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 0.0,
+      "n": 5
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "per_segment": [
+        {
+          "id": 3,
+          "aspect": 0.8648648648648649,
+          "extent": 0.8268581081081081,
+          "pen": 0.0
+        },
+        {
+          "id": 1,
+          "aspect": 0.8857142857142857,
+          "extent": 0.5207373271889401,
+          "pen": 0.0
+        },
+        {
+          "id": 4,
+          "aspect": 0.7878787878787878,
+          "extent": 0.7144522144522144,
+          "pen": 0.0
+        },
+        {
+          "id": 5,
+          "aspect": 0.7352941176470589,
+          "extent": 0.5788235294117647,
+          "pen": 0.0
+        },
+        {
+          "id": 2,
+          "aspect": 1.4736842105263157,
+          "extent": 0.7537593984962406,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "pairs": [],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "density": 0.22151041666666665,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 0,
+      "blocking_weighted": 0.0,
+      "blocking_pairs": [],
+      "blocking_gap_ratio": 0.05
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 2.0,
+      "w_density": 2.0,
+      "w_blocking": 2.0
+    },
+    "total": 0.0,
+    "expected_count": 6
+  },
+  "ocr": {
+    "pred": "GYP73",
+    "per_segment": [
+      "G",
+      "Y",
+      "P",
+      "7",
+      "3"
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 5,
+    "expected_count": 6
+  },
+  "trace_hash": "e465dfe6743719614404eaf1c047ce70248875012e5454a667570c480b8ffc83"
+}

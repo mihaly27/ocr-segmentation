@@ -1,0 +1,8 @@
+{
+  "pred": "NJR895",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "091a58ab6a4f0ac2c8b9cfd7c542fd710950afb11de37eadbdc1fbfc819df304",
+  "total_ms": 880.6539541110396
+}

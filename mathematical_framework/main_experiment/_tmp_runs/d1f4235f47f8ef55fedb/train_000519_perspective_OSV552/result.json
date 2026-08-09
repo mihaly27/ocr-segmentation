@@ -1,0 +1,8 @@
+{
+  "pred": "SV552",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "25928aa1bfd4a372b85b90a01a7968584484f1474dc52a106d42631d225377f9",
+  "total_ms": 803.9966151118279
+}

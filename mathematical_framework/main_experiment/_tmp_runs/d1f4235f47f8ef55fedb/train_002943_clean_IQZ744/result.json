@@ -1,0 +1,8 @@
+{
+  "pred": "Z744",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c4f69512ec222577f0b8ca6877dd7a28bfd93eee520da5b8fd462ce2029f365d",
+  "total_ms": 553.0640725046396
+}

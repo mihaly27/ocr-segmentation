@@ -1,0 +1,8 @@
+{
+  "pred": "CRU871",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "01c158064ee8035cc98a25523c7232e4899882f6d160458b220e989c0607882f",
+  "total_ms": 585.2168928831816
+}

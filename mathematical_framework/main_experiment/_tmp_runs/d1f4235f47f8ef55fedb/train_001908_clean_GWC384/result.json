@@ -1,0 +1,8 @@
+{
+  "pred": "GWC384",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eb406f0851030b7f6b1c721157c1b47014ee0857d5e6d592e98b731240815d5f",
+  "total_ms": 584.5982516184449
+}

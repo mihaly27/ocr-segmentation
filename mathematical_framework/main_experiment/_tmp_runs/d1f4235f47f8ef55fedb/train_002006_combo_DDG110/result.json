@@ -1,0 +1,8 @@
+{
+  "pred": "DDT10",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "26dd73b6ec8d65ed4165f44b8d01fe81f7ecc794e7309a727e1394b3838feb5f",
+  "total_ms": 499.73238725215197
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "ZH274",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "757c337df055ae6f0c1f74342cf386234d6c379900cfd4b5871fcc4aedb44353",
+  "total_ms": 568.3049196377397
+}

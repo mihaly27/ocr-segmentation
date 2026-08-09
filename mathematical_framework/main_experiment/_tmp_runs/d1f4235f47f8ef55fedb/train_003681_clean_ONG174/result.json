@@ -1,0 +1,8 @@
+{
+  "pred": "NG174",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "799e583f34c05add5fad9f4578e7f2d8bb33e76abac349c24c1b19d5b563135c",
+  "total_ms": 575.7160289213061
+}

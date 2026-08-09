@@ -1,0 +1,8 @@
+{
+  "pred": "CDN06",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8d3d980dbc0a1554d6d6bbd8b18428595fe3532410f17dff8f9a7ed1acb9a99c",
+  "total_ms": 638.4205566719174
+}

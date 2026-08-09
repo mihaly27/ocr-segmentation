@@ -1,0 +1,8 @@
+{
+  "pred": "GA396",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2713cfac59b694161ce0b6680354ba48be84db5e2731fd9aa0b6e9db231e1da0",
+  "total_ms": 596.0586676374078
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "MAM013",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f50f2fb58f2d925e983ad8d5546343f940d18863d4ca6ef9b56e24214ee110d2",
+  "total_ms": 586.2442990764976
+}

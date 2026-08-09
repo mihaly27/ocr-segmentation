@@ -1,0 +1,8 @@
+{
+  "pred": "AWL429",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "aa58c2931daa792c609ab02ffee8bd92dcac50d5836fb18570a2c5e0fee932c9",
+  "total_ms": 646.0754163563251
+}

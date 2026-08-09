@@ -1,0 +1,8 @@
+{
+  "pred": "SW530",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f665dae0229e023dc5c4def93ca26805ca4d11770cd8789633c31e4817aad496",
+  "total_ms": 575.7525218650699
+}

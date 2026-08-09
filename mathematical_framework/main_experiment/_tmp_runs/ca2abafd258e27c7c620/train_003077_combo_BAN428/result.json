@@ -1,0 +1,8 @@
+{
+  "pred": "B42",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "aff0f22505e1544c61d87c02735b209bf7375ebc24dad404b46ec36affefe414",
+  "total_ms": 311.75083853304386
+}

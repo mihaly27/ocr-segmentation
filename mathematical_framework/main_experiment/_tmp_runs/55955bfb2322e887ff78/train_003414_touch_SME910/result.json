@@ -1,0 +1,8 @@
+{
+  "pred": "SME910",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e8eee7d5d56d25e2d7de3368732031634b75db9143c289822c8c465e10300586",
+  "total_ms": 665.3443658724427
+}

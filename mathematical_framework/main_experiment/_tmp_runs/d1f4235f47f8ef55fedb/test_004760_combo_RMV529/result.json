@@ -1,0 +1,8 @@
+{
+  "pred": "RMV529",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "98f403322e1aa30896b3fd1dfd3a3cbdabd543372c63da8a2e78c02117c0cec3",
+  "total_ms": 705.2803924307227
+}

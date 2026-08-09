@@ -1,0 +1,227 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001934_combo_QNQ797.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 1.6,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 2.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.05,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.7652249187231064,
+    "preprocess_ms": 0.2974923700094223,
+    "cc_ms": 0.1778947189450264,
+    "search_ms": 22.091064602136612,
+    "ocr_ms": 382.3262192308903,
+    "total_ms": 405.65789584070444
+  },
+  "initial_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        28,
+        22,
+        97,
+        39
+      ],
+      "area": 2598
+    },
+    {
+      "id": 2,
+      "bbox": [
+        132,
+        25,
+        23,
+        30
+      ],
+      "area": 395
+    },
+    {
+      "id": 3,
+      "bbox": [
+        160,
+        24,
+        23,
+        30
+      ],
+      "area": 544
+    },
+    {
+      "id": 4,
+      "bbox": [
+        187,
+        25,
+        20,
+        28
+      ],
+      "area": 316
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        28,
+        22,
+        97,
+        39
+      ],
+      "area": 2598
+    },
+    {
+      "id": 2,
+      "bbox": [
+        132,
+        25,
+        23,
+        30
+      ],
+      "area": 395
+    },
+    {
+      "id": 3,
+      "bbox": [
+        160,
+        24,
+        23,
+        30
+      ],
+      "area": 544
+    },
+    {
+      "id": 4,
+      "bbox": [
+        187,
+        25,
+        20,
+        28
+      ],
+      "area": 316
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 0.0,
+      "n": 4
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "per_segment": [
+        {
+          "id": 1,
+          "aspect": 2.4871794871794872,
+          "extent": 0.6867565424266455,
+          "pen": 0.0
+        },
+        {
+          "id": 2,
+          "aspect": 0.7666666666666667,
+          "extent": 0.572463768115942,
+          "pen": 0.0
+        },
+        {
+          "id": 3,
+          "aspect": 0.7666666666666667,
+          "extent": 0.7884057971014493,
+          "pen": 0.0
+        },
+        {
+          "id": 4,
+          "aspect": 0.7142857142857143,
+          "extent": 0.5642857142857143,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "pairs": [],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "density": 0.20067708333333334,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 0,
+      "blocking_weighted": 0.0,
+      "blocking_pairs": [],
+      "blocking_gap_ratio": 0.05
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 2.0,
+      "w_density": 2.0,
+      "w_blocking": 2.0
+    },
+    "total": 0.0,
+    "expected_count": 6
+  },
+  "ocr": {
+    "pred": "Q79I",
+    "per_segment": [
+      "Q",
+      "7",
+      "9",
+      "I"
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 4,
+    "expected_count": 6
+  },
+  "trace_hash": "11e99be15c80ba988a33a2a0c74b494220a385f33ce5c736080fa193b4491d31"
+}

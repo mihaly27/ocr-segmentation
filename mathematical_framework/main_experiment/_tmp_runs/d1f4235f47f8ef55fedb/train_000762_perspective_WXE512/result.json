@@ -1,0 +1,8 @@
+{
+  "pred": "WXE512",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "94db3b58a86b7e32260ea94fd58c5296490686927dfbec44d0572fd5989deb16",
+  "total_ms": 733.5852114483714
+}

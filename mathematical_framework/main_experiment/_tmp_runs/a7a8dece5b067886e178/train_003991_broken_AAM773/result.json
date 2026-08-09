@@ -1,0 +1,8 @@
+{
+  "pred": "AAM773",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "01d5d2ea8a761c71593d6ab1b8c0bbe001f1060ea035b21ea3dc33e90aa5d843",
+  "total_ms": 566.6566267609596
+}

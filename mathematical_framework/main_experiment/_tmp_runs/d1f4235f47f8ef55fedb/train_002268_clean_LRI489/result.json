@@ -1,0 +1,8 @@
+{
+  "pred": "LRI489",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "038b9cea13d6914267b5966bc25b10b2c06a722ba89550af65bc9d1cdd8705ec",
+  "total_ms": 579.1472932323813
+}

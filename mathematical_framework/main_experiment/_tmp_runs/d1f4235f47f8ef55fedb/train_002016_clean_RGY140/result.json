@@ -1,0 +1,8 @@
+{
+  "pred": "RGY140",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e2b24c47d774f5d0e63a1deca196f9c047c3782d8cf4ae332e3434932c3744ed",
+  "total_ms": 766.1344492807984
+}

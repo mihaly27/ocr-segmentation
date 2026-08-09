@@ -1,0 +1,8 @@
+{
+  "pred": "UT255",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4de17ac241b2d1ad0feda87f8f17eed81060fcdcb3aeefead8888b9cac245236",
+  "total_ms": 869.164738804102
+}

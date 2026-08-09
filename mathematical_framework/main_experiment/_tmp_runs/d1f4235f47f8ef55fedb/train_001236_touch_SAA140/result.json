@@ -1,0 +1,8 @@
+{
+  "pred": "SA140",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ee201c5742038cd6d5bd60acb40db71eeeaa54cb9c3e77c71a763e46784459ad",
+  "total_ms": 855.3816471248865
+}

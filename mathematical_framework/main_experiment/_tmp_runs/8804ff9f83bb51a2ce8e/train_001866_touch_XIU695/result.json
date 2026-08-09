@@ -1,0 +1,8 @@
+{
+  "pred": "XU695",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b5580bd8d25c74220e6eec39180e41a4fe98541a6a09c588c68aeba6ffa1525a",
+  "total_ms": 609.865952283144
+}

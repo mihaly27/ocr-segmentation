@@ -1,0 +1,8 @@
+{
+  "pred": "ALM931",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "399bf1b71076b019b4cb0ade61d03c87f8d1348408b8c7bd6865353565ae80b9",
+  "total_ms": 683.8962687179446
+}

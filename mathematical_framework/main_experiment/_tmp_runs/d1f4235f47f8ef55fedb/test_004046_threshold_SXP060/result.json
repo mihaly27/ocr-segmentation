@@ -1,0 +1,8 @@
+{
+  "pred": "S4060",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e2d3a7802c979774b278315ac62162868926e922050eaad14b721f6e0e8838e5",
+  "total_ms": 687.2584074735641
+}

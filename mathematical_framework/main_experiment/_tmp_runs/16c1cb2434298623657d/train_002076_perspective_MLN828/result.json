@@ -1,0 +1,8 @@
+{
+  "pred": "MLN828",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "13dcc8a6c88a0a4ed69be049c58cc52a6e82aaa5f5b1c7c54b4407c87ee6b355",
+  "total_ms": 590.2375243604183
+}

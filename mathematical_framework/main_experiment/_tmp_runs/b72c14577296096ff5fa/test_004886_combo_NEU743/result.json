@@ -1,0 +1,8 @@
+{
+  "pred": "NEU743",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "81c7c8843a625a4f58a5afaad50993acb8d4f4a43a04a8386fcbe0a3917355fb",
+  "total_ms": 653.340170159936
+}

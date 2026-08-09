@@ -1,0 +1,359 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002542_broken_IZG592.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 1.6,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 2.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.05,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.43289829045534134,
+    "preprocess_ms": 0.3163982182741165,
+    "cc_ms": 0.19132159650325775,
+    "search_ms": 0.5162758752703667,
+    "ocr_ms": 1167.8601168096066,
+    "total_ms": 1169.3170107901096
+  },
+  "initial_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        20,
+        19,
+        7,
+        30
+      ],
+      "area": 201
+    },
+    {
+      "id": 4,
+      "bbox": [
+        44,
+        21,
+        23,
+        30
+      ],
+      "area": 423
+    },
+    {
+      "id": 2,
+      "bbox": [
+        82,
+        19,
+        26,
+        31
+      ],
+      "area": 402
+    },
+    {
+      "id": 3,
+      "bbox": [
+        100,
+        19,
+        7,
+        7
+      ],
+      "area": 42
+    },
+    {
+      "id": 5,
+      "bbox": [
+        136,
+        20,
+        20,
+        31
+      ],
+      "area": 380
+    },
+    {
+      "id": 6,
+      "bbox": [
+        172,
+        20,
+        21,
+        27
+      ],
+      "area": 349
+    },
+    {
+      "id": 8,
+      "bbox": [
+        174,
+        45,
+        9,
+        6
+      ],
+      "area": 50
+    },
+    {
+      "id": 7,
+      "bbox": [
+        210,
+        20,
+        20,
+        30
+      ],
+      "area": 355
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        20,
+        19,
+        7,
+        30
+      ],
+      "area": 201
+    },
+    {
+      "id": 4,
+      "bbox": [
+        44,
+        21,
+        23,
+        30
+      ],
+      "area": 423
+    },
+    {
+      "id": 2,
+      "bbox": [
+        82,
+        19,
+        26,
+        31
+      ],
+      "area": 402
+    },
+    {
+      "id": 3,
+      "bbox": [
+        100,
+        19,
+        7,
+        7
+      ],
+      "area": 42
+    },
+    {
+      "id": 5,
+      "bbox": [
+        136,
+        20,
+        20,
+        31
+      ],
+      "area": 380
+    },
+    {
+      "id": 6,
+      "bbox": [
+        172,
+        20,
+        21,
+        27
+      ],
+      "area": 349
+    },
+    {
+      "id": 8,
+      "bbox": [
+        174,
+        45,
+        9,
+        6
+      ],
+      "area": 50
+    },
+    {
+      "id": 7,
+      "bbox": [
+        210,
+        20,
+        20,
+        30
+      ],
+      "area": 355
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 17.357142857142854,
+      "n": 8
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.02380952380952389,
+      "weighted": 0.02380952380952389,
+      "per_segment": [
+        {
+          "id": 1,
+          "aspect": 0.23333333333333334,
+          "extent": 0.9571428571428572,
+          "pen": 0.02380952380952389
+        },
+        {
+          "id": 4,
+          "aspect": 0.7666666666666667,
+          "extent": 0.6130434782608696,
+          "pen": 0.0
+        },
+        {
+          "id": 2,
+          "aspect": 0.8387096774193549,
+          "extent": 0.4987593052109181,
+          "pen": 0.0
+        },
+        {
+          "id": 3,
+          "aspect": 1.0,
+          "extent": 0.8571428571428571,
+          "pen": 0.0
+        },
+        {
+          "id": 5,
+          "aspect": 0.6451612903225806,
+          "extent": 0.6129032258064516,
+          "pen": 0.0
+        },
+        {
+          "id": 6,
+          "aspect": 0.7777777777777778,
+          "extent": 0.6155202821869489,
+          "pen": 0.0
+        },
+        {
+          "id": 8,
+          "aspect": 1.5,
+          "extent": 0.9259259259259259,
+          "pen": 0.0
+        },
+        {
+          "id": 7,
+          "aspect": 0.6666666666666666,
+          "extent": 0.5916666666666667,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 1.3333333333333333,
+      "weighted": 13.333333333333332,
+      "pairs": [
+        {
+          "i": 2,
+          "j": 3,
+          "inter_norm": 1.0
+        },
+        {
+          "i": 6,
+          "j": 8,
+          "inter_norm": 0.3333333333333333
+        }
+      ],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 2.0,
+      "weighted": 4.0,
+      "density": 0.1146875,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 2,
+      "blocking_weighted": 4.0,
+      "blocking_pairs": [
+        {
+          "a": 2,
+          "b": 3,
+          "gap": -8.0,
+          "thresh": 0.35000000000000003
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "gap": -19.0,
+          "thresh": 0.45
+        }
+      ],
+      "blocking_gap_ratio": 0.05
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 2.0,
+      "w_density": 2.0,
+      "w_blocking": 2.0
+    },
+    "total": 17.357142857142854,
+    "expected_count": 6
+  },
+  "ocr": {
+    "pred": "ZG5Q2",
+    "per_segment": [
+      "",
+      "Z",
+      "G",
+      "",
+      "5",
+      "Q",
+      "",
+      "2"
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 8,
+    "expected_count": 6
+  },
+  "trace_hash": "3629c4fd4c76a34fa80d6a60c98e00ea67dc596fbe13e29194861026aea0890c"
+}

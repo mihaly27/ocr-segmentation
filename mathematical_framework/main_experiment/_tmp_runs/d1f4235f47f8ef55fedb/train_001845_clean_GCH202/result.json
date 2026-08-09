@@ -1,0 +1,8 @@
+{
+  "pred": "GCH202",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c36fd343cfc3d44a1f3eaaecb3a6c5e38429b76ac8b1f5a78b42b96de01c646d",
+  "total_ms": 603.0726209282875
+}

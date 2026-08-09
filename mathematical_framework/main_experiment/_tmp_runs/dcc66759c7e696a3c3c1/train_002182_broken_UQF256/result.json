@@ -1,0 +1,8 @@
+{
+  "pred": "LQF256",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7d20ca05f97031639de4aec92b5cf76dec72d468a9a5e6316609d154fdd657d4",
+  "total_ms": 971.3070392608643
+}

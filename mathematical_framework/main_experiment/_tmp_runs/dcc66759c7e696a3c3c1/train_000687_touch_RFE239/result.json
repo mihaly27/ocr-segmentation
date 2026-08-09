@@ -1,0 +1,8 @@
+{
+  "pred": "RFE239",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ed312c5f011ca09800bf723fcf79675807bda96ef62ed2dcc9344db8139868d2",
+  "total_ms": 781.934404745698
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "ASE800",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2e755c8f4cf1406c687169ec17cb79de25733fbd45bcdd14937756962e624b92",
+  "total_ms": 561.0800292342901
+}

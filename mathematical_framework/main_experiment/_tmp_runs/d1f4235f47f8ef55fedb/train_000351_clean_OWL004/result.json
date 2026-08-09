@@ -1,0 +1,8 @@
+{
+  "pred": "WL4",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2c1c87f549b18cb5bb7e44d50a87d66e6c86255cad826b7d488003e617094874",
+  "total_ms": 572.0479488372803
+}

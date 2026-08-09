@@ -1,0 +1,8 @@
+{
+  "pred": "ED482",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e53523921dbb2d5957bc188199a15c753294d6875eb17aee674a84ebf7c56393",
+  "total_ms": 558.3100095391273
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "UCB060",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eaa98efa2c51d970087d3377f3a04bab3edb03bccceba16815c720a0adbaa6e4",
+  "total_ms": 783.5837351158261
+}

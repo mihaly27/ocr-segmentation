@@ -1,0 +1,8 @@
+{
+  "pred": "CXF704",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e722fc6c19decca2520a2477c4ec379ae4635d6c02bb7a78813f0d1cd13ca57c",
+  "total_ms": 609.0053133666515
+}

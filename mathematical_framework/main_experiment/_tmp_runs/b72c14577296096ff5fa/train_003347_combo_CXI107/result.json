@@ -1,0 +1,8 @@
+{
+  "pred": "CX107",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d39635b30bf536724d40f96f9fc68ac1ce1e05f68ca84ea87ea93dd2b4f31755",
+  "total_ms": 995.1083287596703
+}

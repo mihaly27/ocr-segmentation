@@ -1,0 +1,8 @@
+{
+  "pred": "SAT647",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "351b4026082657f83ebce00ce1cd6a33c67f5ee5562442a5caa29fd8a7deeb08",
+  "total_ms": 879.2068269103765
+}

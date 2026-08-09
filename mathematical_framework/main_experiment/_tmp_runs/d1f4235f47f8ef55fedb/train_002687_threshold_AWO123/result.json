@@ -1,0 +1,8 @@
+{
+  "pred": "AW123",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9ec7dfdcd455a7b8f2c7c242fd33fe80fff28170bc9cba60f3ad9cd9e7fa0415",
+  "total_ms": 915.065810084343
+}

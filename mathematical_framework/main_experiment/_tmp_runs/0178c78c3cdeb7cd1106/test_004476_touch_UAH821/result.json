@@ -1,0 +1,8 @@
+{
+  "pred": "UAH821",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "663b7c9e6887c67fb772884541810f19900378123b10acc9da65784f05f55eff",
+  "total_ms": 610.6043681502342
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "VBZ355",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1ce202f2ffea7032b0fa0bad1271a5a1d90c617b5b749b0274b834a91fd03300",
+  "total_ms": 558.2057908177376
+}

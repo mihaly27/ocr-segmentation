@@ -1,0 +1,8 @@
+{
+  "pred": "SE218",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "151dd205ecbb30a7288d059c9c38f2b1f92677128a2166142a7d1e2bd6cd8556",
+  "total_ms": 594.7601711377501
+}

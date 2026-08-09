@@ -1,0 +1,8 @@
+{
+  "pred": "MO242",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "45184b40ab673a4412e6e67533cfd774388cfb88ea6e50acf255ce068ba89f32",
+  "total_ms": 597.4813420325518
+}

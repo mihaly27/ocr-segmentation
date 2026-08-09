@@ -1,0 +1,8 @@
+{
+  "pred": "SHT94",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "fc64fd2d2931d98ebdd681b75fd2dd06d6395b4e08ff5da76d2b86527e017112",
+  "total_ms": 551.9098015502095
+}

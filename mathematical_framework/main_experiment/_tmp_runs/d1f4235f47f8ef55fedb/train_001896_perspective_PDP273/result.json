@@ -1,0 +1,8 @@
+{
+  "pred": "PD273",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5a14751f5ea69d9f8dfb0cf2ca3816f893af71f9de5dd5d0a454355c127e773a",
+  "total_ms": 1015.7823786139488
+}

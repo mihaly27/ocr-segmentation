@@ -1,0 +1,8 @@
+{
+  "pred": "WA099",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "05e0285d3a171770822248b552edf95cb8c6157f610664ebc9a9736381ce8686",
+  "total_ms": 599.5069723576307
+}

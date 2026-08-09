@@ -1,0 +1,8 @@
+{
+  "pred": "MBG025",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "33c79ecb5c4fb6011b1d5e207b01e5cab3d2ca53b125eaa5fc545b47d0b33c09",
+  "total_ms": 556.7524898797274
+}

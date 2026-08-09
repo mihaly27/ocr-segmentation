@@ -1,0 +1,8 @@
+{
+  "pred": "WH312",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2d1416e5bd1d9d74a2d884d725f09daea472191393db2660b30dc0c0793a4946",
+  "total_ms": 561.0090112313628
+}

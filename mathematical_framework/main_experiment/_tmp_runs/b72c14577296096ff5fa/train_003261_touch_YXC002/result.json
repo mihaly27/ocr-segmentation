@@ -1,0 +1,8 @@
+{
+  "pred": "XC002",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "097e9bc685df9885e88c8c1b0ca48a76ea8c7a479ce6f53992bdd9c2c3346d55",
+  "total_ms": 771.302342414856
+}

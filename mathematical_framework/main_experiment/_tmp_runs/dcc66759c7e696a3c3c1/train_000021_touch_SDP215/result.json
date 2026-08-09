@@ -1,0 +1,8 @@
+{
+  "pred": "S21",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a0fdf9858fff5689a1662873be1b1973f6aed1f8980a9d318bcaf7de1ffea1c9",
+  "total_ms": 345.2265877276659
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "UNE285",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "be4df3f55fe900350a036b2ca27d602f2c3ce2dd0d533f88a8c32f6faface838",
+  "total_ms": 844.5653095841408
+}

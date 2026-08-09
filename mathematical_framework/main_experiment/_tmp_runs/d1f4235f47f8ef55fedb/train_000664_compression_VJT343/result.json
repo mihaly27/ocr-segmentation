@@ -1,0 +1,8 @@
+{
+  "pred": "VJT343",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "fdf757bc26aaa8c58a93ca2f08ce2b4623765e3d5a9c2411e743cfce7c36b140",
+  "total_ms": 568.7403548508883
+}

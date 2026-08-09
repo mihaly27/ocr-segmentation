@@ -1,0 +1,8 @@
+{
+  "pred": "S8",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "99141ff5ec3ceae13e07a3d124948f299f7e7e6dff4234b7688e720a159e98c5",
+  "total_ms": 827.2207099944353
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "SV4562",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f7ef0ce296b2c1717ea24a7fbddc2edbbb47404824bdbb81accd3368fded56c3",
+  "total_ms": 859.4346717000008
+}

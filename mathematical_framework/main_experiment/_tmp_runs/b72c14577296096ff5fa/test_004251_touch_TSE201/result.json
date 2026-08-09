@@ -1,0 +1,8 @@
+{
+  "pred": "TSE201",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3748dc4dcdd2487be0675da2287b763eb7cb0b77c598e6c5b90265d40e7795f0",
+  "total_ms": 721.561792306602
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "W656",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1cd9807276f7f759d36531a2ab6bf6565a94c2973aba8e730d1752aee3c56d96",
+  "total_ms": 573.1532108038664
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "UKG218",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "44d4dbc4da2cdde906c26eb99e39e0a478eda50b0855d903588efa46b2d23176",
+  "total_ms": 699.9418148770928
+}

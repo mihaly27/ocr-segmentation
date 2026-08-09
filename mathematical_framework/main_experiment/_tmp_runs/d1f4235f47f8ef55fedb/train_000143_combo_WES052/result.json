@@ -1,0 +1,8 @@
+{
+  "pred": "WE50",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d39dbe06d4718740f9cda4b662c592eac4a6f65cbdb73a78496aff4f2aeebe27",
+  "total_ms": 473.8172860816121
+}

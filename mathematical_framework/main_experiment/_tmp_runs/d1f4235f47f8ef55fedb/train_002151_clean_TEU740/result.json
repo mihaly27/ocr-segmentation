@@ -1,0 +1,8 @@
+{
+  "pred": "TEU740",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "11b6fa13a1f45d46713efd01f62caec19381efd74aac335c4842e2123b7cf867",
+  "total_ms": 773.4569692984223
+}

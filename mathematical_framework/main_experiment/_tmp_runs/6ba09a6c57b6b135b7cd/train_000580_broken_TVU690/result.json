@@ -1,0 +1,8 @@
+{
+  "pred": "TVU90",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "de54d9eaef3e8ed26ebff27a9ab9aebef8ae09e0dd286f4192999d924c0e400f",
+  "total_ms": 691.7095184326172
+}

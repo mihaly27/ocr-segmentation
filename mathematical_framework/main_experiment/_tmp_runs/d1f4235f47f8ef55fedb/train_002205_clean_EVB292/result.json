@@ -1,0 +1,8 @@
+{
+  "pred": "EVB292",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2f60c9c1ee3a66107640961cf56a604243f2507a2d9d2191fb14603ee8ead458",
+  "total_ms": 557.2450459003448
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "CR17",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3ed38d14a8cbc3045e2a6508d1e341c4c1ed5c8e922a2a7ff0bc92bc08fef6e9",
+  "total_ms": 570.9853107109666
+}

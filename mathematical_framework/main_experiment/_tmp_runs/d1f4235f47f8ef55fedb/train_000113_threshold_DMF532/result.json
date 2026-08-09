@@ -1,0 +1,8 @@
+{
+  "pred": "DMF532",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "725ad6e84a9438e85a3bac81ad00aece45f5d04ea2308434d5a4dc3495f3ba96",
+  "total_ms": 650.0379415228963
+}

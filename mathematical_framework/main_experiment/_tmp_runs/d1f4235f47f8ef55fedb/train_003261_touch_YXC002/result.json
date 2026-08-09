@@ -1,0 +1,8 @@
+{
+  "pred": "YC002",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "63aeb46ef2c7027299f96c08d93dbde30c7c39ca5be91d261aef7f36af07d654",
+  "total_ms": 745.2329536899924
+}

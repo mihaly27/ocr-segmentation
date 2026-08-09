@@ -1,0 +1,8 @@
+{
+  "pred": "1BWV838",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ae84b729d322b53471137e71b5a24e76cf59d36081773bbec41ec364c8c4ef55",
+  "total_ms": 760.8184209093451
+}

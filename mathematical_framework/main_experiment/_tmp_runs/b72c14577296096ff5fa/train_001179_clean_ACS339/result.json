@@ -1,0 +1,8 @@
+{
+  "pred": "ACS339",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7b87d1943530161f5bbccad309b74a5dc891b8a4b63f6213c9c768a2d3f3fe71",
+  "total_ms": 564.6844608709216
+}

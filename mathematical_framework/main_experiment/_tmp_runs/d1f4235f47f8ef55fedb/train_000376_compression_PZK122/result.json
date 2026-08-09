@@ -1,0 +1,8 @@
+{
+  "pred": "DZK122",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "78165fc21fd453fb1109ab8720a7d8c94337fbd72ad691bf390dc043c1367cd8",
+  "total_ms": 550.4847392439842
+}

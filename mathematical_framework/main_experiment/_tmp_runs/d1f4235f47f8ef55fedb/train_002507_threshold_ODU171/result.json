@@ -1,0 +1,8 @@
+{
+  "pred": "DU171",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a3d19fd58036283824c0aacdb727f6453e9b6d844d3f244893406eb5266ed8f2",
+  "total_ms": 765.9480553120375
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "GT98",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1022d45901d8d4cd13a84f7aec9f86f10f3d847c69fbcd5ca688098ece8210bc",
+  "total_ms": 494.90481801331043
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "TR920",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0aea20b18168a4902794bb6ca2c0cfa464016626a02f1fef717b30fc337f16c8",
+  "total_ms": 575.9385069832206
+}

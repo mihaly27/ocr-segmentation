@@ -1,0 +1,8 @@
+{
+  "pred": "TM170",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "40cbb53e0847346879e1596b86c89e91b92af38c371681c2700a61376224c3b2",
+  "total_ms": 550.2219963818789
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "N92",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "82553b6e1ba7f36987e9d495a7c8ae41f545b94da4abb32a169d12222da28f40",
+  "total_ms": 384.05271992087364
+}

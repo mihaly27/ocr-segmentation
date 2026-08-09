@@ -1,0 +1,8 @@
+{
+  "pred": "MR122",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "bf3e38eeaffb1bdfd6da3862e188c400adace8ae392f49ae9979b20fac3ab258",
+  "total_ms": 698.7901711836457
+}

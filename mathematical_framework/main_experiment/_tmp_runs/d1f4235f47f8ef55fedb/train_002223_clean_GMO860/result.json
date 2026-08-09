@@ -1,0 +1,8 @@
+{
+  "pred": "GM80",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9cf2dae203b217b40ecff35faee7f90f111737460ce65935b2a4aac92c3631e1",
+  "total_ms": 569.4248471409082
+}

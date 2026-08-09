@@ -1,0 +1,8 @@
+{
+  "pred": "RUL305",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "855d958f1fe083bc594174e0e12208011d8b0e505cb81d354002b05241666409",
+  "total_ms": 928.298850543797
+}

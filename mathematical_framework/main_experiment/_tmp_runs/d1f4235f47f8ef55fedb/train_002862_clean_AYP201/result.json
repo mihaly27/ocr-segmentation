@@ -1,0 +1,8 @@
+{
+  "pred": "AYD201",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "071a432a1ace7ff6b35904f0e589f085bbfeda80ac1445007c2ffa05aa0fa237",
+  "total_ms": 555.0139993429184
+}

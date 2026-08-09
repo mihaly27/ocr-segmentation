@@ -1,0 +1,8 @@
+{
+  "pred": "EL558",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b851218a6e6c4c516260c83bb0ef559ffb203cd7f5a4e24b91f63916d3c7c96b",
+  "total_ms": 839.8937387391925
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "UD612",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2e6ec11216917f1d93209dc328db90543a14d777d519282e7e3544176c39b223",
+  "total_ms": 857.6651541516185
+}

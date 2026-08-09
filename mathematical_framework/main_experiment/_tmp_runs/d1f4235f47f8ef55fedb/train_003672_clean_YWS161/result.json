@@ -1,0 +1,8 @@
+{
+  "pred": "YWS161",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e0a7f2f9ef62651bed626b7728771f95c1b7b20c558d9de2b05d98b4b78b5553",
+  "total_ms": 778.3928047865629
+}

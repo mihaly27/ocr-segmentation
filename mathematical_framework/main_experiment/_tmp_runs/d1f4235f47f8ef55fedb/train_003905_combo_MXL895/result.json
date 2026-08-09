@@ -1,0 +1,8 @@
+{
+  "pred": "XL895",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3adaa5e27ab0ab2654d316118f13ddca4d9226a957575a3c40e96faedf4d7cfb",
+  "total_ms": 761.3128582015634
+}

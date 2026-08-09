@@ -1,0 +1,8 @@
+{
+  "pred": "YL084",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8ae6066daaaa47bf7a55c41e2fe443da8cd033c164d50a44ba2ae663bffa24f9",
+  "total_ms": 550.6163444370031
+}

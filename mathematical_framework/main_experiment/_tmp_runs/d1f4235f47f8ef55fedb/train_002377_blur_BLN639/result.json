@@ -1,0 +1,8 @@
+{
+  "pred": "BL639",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "08941c1185abf221e656f77a40119ecedd775e956a08d0f4d0e6d3a292050e79",
+  "total_ms": 560.0661737844348
+}

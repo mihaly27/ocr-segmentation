@@ -1,0 +1,8 @@
+{
+  "pred": "LK2",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7e0d0225eae71cc6aa31a52f47c4658de3d8bf2bed9e07a71fff5c67f690bb5c",
+  "total_ms": 301.40246078372
+}

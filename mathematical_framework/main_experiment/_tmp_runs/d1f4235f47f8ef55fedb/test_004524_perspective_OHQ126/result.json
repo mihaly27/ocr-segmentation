@@ -1,0 +1,8 @@
+{
+  "pred": "HQ126",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "10a4c4df64949bbbc775415090c57bd87a80c04f4abf09cf71f8f3759bde67a0",
+  "total_ms": 559.9099854007363
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "CP793",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "63044f30b01bf23ad5a70cd100080c8d4b05325e1dc90d64c3de82dd8e7eefde",
+  "total_ms": 695.5542005598545
+}

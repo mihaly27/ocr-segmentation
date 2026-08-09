@@ -1,0 +1,8 @@
+{
+  "pred": "JC26",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "bccc49794242c1f5e26ed81b192e64d26f91e9bacebd10e7ea66cb21b2e5f077",
+  "total_ms": 798.9600813016295
+}

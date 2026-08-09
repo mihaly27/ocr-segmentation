@@ -1,0 +1,8 @@
+{
+  "pred": "AD400",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7ec99c05216eb1fd2bed0e89d4bd007b2f58aec9032ae0388c5c4048e8afd2c0",
+  "total_ms": 557.2653552517295
+}

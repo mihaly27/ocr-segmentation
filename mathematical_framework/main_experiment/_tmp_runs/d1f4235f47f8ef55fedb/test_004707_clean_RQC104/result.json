@@ -1,0 +1,8 @@
+{
+  "pred": "RC104",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6014d345a9b28f9c9e74e1c2bc35b779d3b5e7322d6148f01d9f15d5d8c73378",
+  "total_ms": 564.959635026753
+}

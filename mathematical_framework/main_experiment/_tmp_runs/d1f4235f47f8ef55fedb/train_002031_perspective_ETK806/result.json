@@ -1,0 +1,8 @@
+{
+  "pred": "ET406",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0a58db9c7a0a8b3fa4e8d9fd05c4ddb94083f3df6e9e72237b61fa435997e1fc",
+  "total_ms": 560.4451084509492
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "NS177",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3d96c9cb0c0362481682a77aeb3edfd0eef41b668e82e106f5440b22eb34a17d",
+  "total_ms": 582.1717185899615
+}

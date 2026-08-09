@@ -1,0 +1,8 @@
+{
+  "pred": "K525",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5afbbb415662f4079f408bd39f5d59cb1a2202c2a47dfba71591cfb2cd029c4e",
+  "total_ms": 918.8056783750653
+}

@@ -1,0 +1,227 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003392_combo_VBW808.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 1.2,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 4.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.05,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.5931984633207321,
+    "preprocess_ms": 0.3209458664059639,
+    "cc_ms": 0.19720196723937988,
+    "search_ms": 62.64088582247496,
+    "ocr_ms": 434.92774199694395,
+    "total_ms": 498.679974116385
+  },
+  "initial_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        26,
+        19,
+        29,
+        30
+      ],
+      "area": 517
+    },
+    {
+      "id": 4,
+      "bbox": [
+        59,
+        20,
+        24,
+        31
+      ],
+      "area": 691
+    },
+    {
+      "id": 2,
+      "bbox": [
+        88,
+        19,
+        42,
+        32
+      ],
+      "area": 1063
+    },
+    {
+      "id": 3,
+      "bbox": [
+        138,
+        19,
+        86,
+        37
+      ],
+      "area": 2437
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        26,
+        19,
+        29,
+        30
+      ],
+      "area": 517
+    },
+    {
+      "id": 4,
+      "bbox": [
+        59,
+        20,
+        24,
+        31
+      ],
+      "area": 691
+    },
+    {
+      "id": 2,
+      "bbox": [
+        88,
+        19,
+        42,
+        32
+      ],
+      "area": 1063
+    },
+    {
+      "id": 3,
+      "bbox": [
+        138,
+        19,
+        86,
+        37
+      ],
+      "area": 2437
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 0.0,
+      "n": 4
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "per_segment": [
+        {
+          "id": 1,
+          "aspect": 0.9666666666666667,
+          "extent": 0.5942528735632184,
+          "pen": 0.0
+        },
+        {
+          "id": 4,
+          "aspect": 0.7741935483870968,
+          "extent": 0.928763440860215,
+          "pen": 0.0
+        },
+        {
+          "id": 2,
+          "aspect": 1.3125,
+          "extent": 0.7909226190476191,
+          "pen": 0.0
+        },
+        {
+          "id": 3,
+          "aspect": 2.324324324324324,
+          "extent": 0.7658705216844752,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "pairs": [],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "density": 0.24520833333333333,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 0,
+      "blocking_weighted": 0.0,
+      "blocking_pairs": [],
+      "blocking_gap_ratio": 0.05
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 4.0,
+      "w_density": 4.0,
+      "w_blocking": 4.0
+    },
+    "total": 0.0,
+    "expected_count": 6
+  },
+  "ocr": {
+    "pred": "BW8",
+    "per_segment": [
+      "",
+      "B",
+      "W",
+      "8"
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 4,
+    "expected_count": 6
+  },
+  "trace_hash": "efb73763a790e27d0609ca57bf15cb607a40e579bba287a38a4f86d8b5e9066b"
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "LZP14",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5844a1a928fccc059a042611d4daa0b501f26870fd0f5d3d8fe7203ada63b9f7",
+  "total_ms": 704.8406759276986
+}

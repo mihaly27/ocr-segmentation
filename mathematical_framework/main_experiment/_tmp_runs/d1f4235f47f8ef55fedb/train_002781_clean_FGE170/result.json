@@ -1,0 +1,8 @@
+{
+  "pred": "FGE170",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "50824f2abfb7ef96d947cfa7c630ec01dd69fde6c7454b28a9505ca5119c485e",
+  "total_ms": 556.4766321331263
+}

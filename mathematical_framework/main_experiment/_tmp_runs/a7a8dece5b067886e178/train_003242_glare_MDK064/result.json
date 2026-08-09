@@ -1,0 +1,8 @@
+{
+  "pred": "MDK04",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a1a30c84c85d96765797edc0cabd6e23add42a0f954f6ab1ba28ca8f614ff90f",
+  "total_ms": 616.2671837955713
+}

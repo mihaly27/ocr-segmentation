@@ -1,0 +1,8 @@
+{
+  "pred": "BSB214",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "73f1013dbaf0826b9251682db5929fb7a5d2c94e2462a3f41fe86efc46af25c4",
+  "total_ms": 570.8773769438267
+}

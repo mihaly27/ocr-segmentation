@@ -1,0 +1,8 @@
+{
+  "pred": "D84",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ee43bcdb5332fa0e8fd2befc3e19ecaa7ac8472b278803929b60681b9e3d86a6",
+  "total_ms": 565.9064184874296
+}

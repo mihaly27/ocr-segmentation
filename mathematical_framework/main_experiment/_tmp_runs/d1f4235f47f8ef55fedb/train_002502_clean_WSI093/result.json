@@ -1,0 +1,8 @@
+{
+  "pred": "WS093",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a3805c87e3f6f160f528fd331014469546407e665e3333e2d79313c17f6a7c16",
+  "total_ms": 881.9451043382287
+}

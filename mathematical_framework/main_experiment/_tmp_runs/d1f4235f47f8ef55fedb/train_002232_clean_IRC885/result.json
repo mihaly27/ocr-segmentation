@@ -1,0 +1,8 @@
+{
+  "pred": "IRC885",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "42e1c9002b0ed4fcc194cc6d37aad3b142f51abcbd6709e8c256b36a124b3541",
+  "total_ms": 668.0260887369514
+}

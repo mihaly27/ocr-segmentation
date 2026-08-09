@@ -1,0 +1,8 @@
+{
+  "pred": "GX1G",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a65ce3c710b76d3f4f2fa0aaa9ac143ee074c32191fb7fcd3ee36e440a253759",
+  "total_ms": 800.659878179431
+}

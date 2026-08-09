@@ -1,0 +1,8 @@
+{
+  "pred": "I55",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "214a27bf46081502b59fc5faf5ddd26623bdcdb1dd612340ed3582a916f55ece",
+  "total_ms": 555.5910309776664
+}

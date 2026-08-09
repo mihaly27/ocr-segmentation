@@ -1,0 +1,8 @@
+{
+  "pred": "BY699",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3fd4b8129649ccc855e43da99ada6e6bb50de95739c15b871375b396cda70aa7",
+  "total_ms": 568.6402535066009
+}

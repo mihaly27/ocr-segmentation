@@ -1,0 +1,8 @@
+{
+  "pred": "SYA364",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "28e440b364b3348a2ce494af26ee3deaa97fd99283ab5cf55ce386511f477451",
+  "total_ms": 575.6092173978686
+}

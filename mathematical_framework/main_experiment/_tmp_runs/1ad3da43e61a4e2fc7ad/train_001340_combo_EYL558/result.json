@@ -1,0 +1,8 @@
+{
+  "pred": "FL55",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a77953750005d6b1ee850af061981056bff8a21cead2640931f72dfcf5785bc8",
+  "total_ms": 400.06391890347004
+}

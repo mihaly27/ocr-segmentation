@@ -1,0 +1,8 @@
+{
+  "pred": "HS351",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "94ffaf23b552eb8be82f77e93aea3eea7eb5cac402e2b7e3a7ec684ac5062df7",
+  "total_ms": 593.0119045078754
+}

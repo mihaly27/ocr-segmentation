@@ -1,0 +1,8 @@
+{
+  "pred": "RUNC1",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "27c6d33bf9f49695ba56f09e2f9ce639648115ad3ad574bedce299113a22cc79",
+  "total_ms": 559.2805137857795
+}

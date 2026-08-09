@@ -1,0 +1,8 @@
+{
+  "pred": "ECE223",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0a5a021717bf9998e3a8abc3817e1e417675a43d32db5be12099d535115f5da9",
+  "total_ms": 586.7221038788557
+}

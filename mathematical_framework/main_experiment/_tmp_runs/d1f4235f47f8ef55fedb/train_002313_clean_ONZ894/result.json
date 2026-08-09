@@ -1,0 +1,8 @@
+{
+  "pred": "NZ894",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8247e68688742558fc4be13ec8bcee8cccf8d9d6d42b28a74f0d1caa0f9d7088",
+  "total_ms": 575.5005795508623
+}

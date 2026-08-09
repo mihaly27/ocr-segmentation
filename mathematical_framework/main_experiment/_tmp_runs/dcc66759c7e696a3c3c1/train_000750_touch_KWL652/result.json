@@ -1,0 +1,8 @@
+{
+  "pred": "KL652",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "463c4596f4883827f4ca0de907ec0285c69f4153933d53927347ae4ecae5c7e5",
+  "total_ms": 607.650195248425
+}

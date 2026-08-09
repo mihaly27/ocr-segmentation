@@ -1,0 +1,8 @@
+{
+  "pred": "TA688",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e6c89cea2131f4f8977730f2cd11a198df2e158f306c0abc641cb729e7b0287b",
+  "total_ms": 571.1329616606236
+}

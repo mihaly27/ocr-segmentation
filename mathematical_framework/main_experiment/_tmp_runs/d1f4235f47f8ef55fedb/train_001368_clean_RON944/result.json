@@ -1,0 +1,8 @@
+{
+  "pred": "N944",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "03bf080da23ac3d0fedadfb3594776b1e60dc059302cd6025084cb326c85a48d",
+  "total_ms": 601.9140593707561
+}

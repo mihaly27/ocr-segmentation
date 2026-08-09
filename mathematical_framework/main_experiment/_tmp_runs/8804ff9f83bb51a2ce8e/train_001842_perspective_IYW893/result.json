@@ -1,0 +1,8 @@
+{
+  "pred": "YW893",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ac0baa00ceff9f0d791ff2dfc8e1f17ceebcc7423157824d2344ac38e97e5090",
+  "total_ms": 563.4247874841094
+}

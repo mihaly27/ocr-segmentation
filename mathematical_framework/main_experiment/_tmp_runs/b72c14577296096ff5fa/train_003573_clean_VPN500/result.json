@@ -1,0 +1,8 @@
+{
+  "pred": "VDN500",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5af0c7db1ef333b3a301e9a3888948d3f8347a1a406d8bacf5549e53339747f9",
+  "total_ms": 555.1493223756552
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "LT40",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cc0d8874e7fb371864d8841c5136c6f6800239825ad4c8c90c80c26f518cd35c",
+  "total_ms": 733.8900296017528
+}

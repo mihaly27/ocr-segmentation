@@ -1,0 +1,8 @@
+{
+  "pred": "QED687",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "42d26909393654ce5b891a39f520affb134fd56892d0b4bf8cf39f6a4a77f1c3",
+  "total_ms": 568.8968673348427
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "EYU312",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "84b14aadfa2a28c2584462e0fd68a642bc252a136d6a8621b8ba053c3b61362b",
+  "total_ms": 570.2901650220156
+}

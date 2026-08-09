@@ -1,0 +1,8 @@
+{
+  "pred": "AUH523",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7de3e1711b34fbef52062225fb3439b0a7089b7d1abf590c32b8769c4069078b",
+  "total_ms": 556.2792895361781
+}

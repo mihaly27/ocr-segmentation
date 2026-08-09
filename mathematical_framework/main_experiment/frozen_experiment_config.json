@@ -1,0 +1,84 @@
+{
+  "adaptive_coordinates": [
+    "cut.min_rel_width_for_split",
+    "scoring.w_prior",
+    "scoring.blocking_gap_ratio"
+  ],
+  "reference_state": {
+    "cut.min_rel_width_for_split": 1.6,
+    "scoring.w_prior": 2.0,
+    "scoring.blocking_gap_ratio": 0.05
+  },
+  "base_steps": {
+    "cut.min_rel_width_for_split": 0.1,
+    "scoring.w_prior": 0.25,
+    "scoring.blocking_gap_ratio": 0.01
+  },
+  "hard_lower": {
+    "cut.min_rel_width_for_split": 1.2,
+    "scoring.w_prior": 0.0,
+    "scoring.blocking_gap_ratio": 0.0
+  },
+  "hard_upper": {
+    "cut.min_rel_width_for_split": 2.0,
+    "scoring.w_prior": 4.0,
+    "scoring.blocking_gap_ratio": 0.13
+  },
+  "W_diag": {
+    "cut.min_rel_width_for_split": 1.1,
+    "scoring.w_prior": 0.8036784889951276,
+    "scoring.blocking_gap_ratio": 1.901416931827527
+  },
+  "delta_W": 7.530441831891154,
+  "delta_I_volume_matched": 6.906028937898533,
+  "raw_grid_levels": {
+    "cut.min_rel_width_for_split": [
+      1.2,
+      1.6,
+      2.0
+    ],
+    "scoring.w_prior": [
+      0.0,
+      2.0,
+      4.0
+    ],
+    "scoring.blocking_gap_ratio": [
+      0.0,
+      0.05,
+      0.13
+    ]
+  },
+  "controllers": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B3-I",
+    "B3-R0"
+  ],
+  "stream_conditions": [
+    "clean",
+    "blur",
+    "clean",
+    "glare",
+    "clean",
+    "threshold",
+    "clean",
+    "compression",
+    "clean",
+    "perspective",
+    "clean",
+    "touch",
+    "clean",
+    "broken",
+    "clean",
+    "combo",
+    "clean"
+  ],
+  "reference_clean_n": 100,
+  "block_size": 45,
+  "proposal_gate_eval_each": 15,
+  "gate_repeat_n": 2,
+  "partition_sha256": "6c0a099aada74c475497a41ae080aa0a762d15794cd33cf785b9d2abbba6343e",
+  "ground_truth_policy": "Never passed to ips_single_image/main.py; used only by outer evaluator."
+}

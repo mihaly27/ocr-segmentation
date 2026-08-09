@@ -1,0 +1,8 @@
+{
+  "pred": "HAN54",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4777db1cb16e56b8b16a7c5da32e224a711c0beff94b89739e997c6b4b79c397",
+  "total_ms": 619.4135956466198
+}

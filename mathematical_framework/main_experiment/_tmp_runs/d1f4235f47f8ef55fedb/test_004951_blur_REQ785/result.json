@@ -1,0 +1,8 @@
+{
+  "pred": "RE785",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "227c1c6d2209e1226b1deac99cbd3e1b4445cbee452543c2a71d7c3cadee9072",
+  "total_ms": 661.797309294343
+}

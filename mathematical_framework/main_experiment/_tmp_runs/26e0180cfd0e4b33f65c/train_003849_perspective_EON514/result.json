@@ -1,0 +1,8 @@
+{
+  "pred": "EN514",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "05e2b2af0e0b00c1ce4c31ed2132782ef012a0d4f230290b02fbe1b103187e95",
+  "total_ms": 568.2808049023151
+}

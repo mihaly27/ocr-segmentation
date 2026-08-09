@@ -1,0 +1,8 @@
+{
+  "pred": "AJGI",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "98d195cae3f9075f20c58a3604f5f27a0beaf5dacab5e15fadb9b386df48b06a",
+  "total_ms": 1385.251578874886
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "WSF992",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "aeb3a7dec71668b49e0bbbd107390d22d959c8096e46e69ae5817a76e786e4e2",
+  "total_ms": 578.1744532287121
+}

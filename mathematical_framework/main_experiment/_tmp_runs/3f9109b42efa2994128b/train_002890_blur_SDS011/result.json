@@ -1,0 +1,8 @@
+{
+  "pred": "SS011",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1b27210f74f29aef3a3d31c0e53d060cb9997a1e431f1bd0083460eb39a9bc8d",
+  "total_ms": 549.611515365541
+}

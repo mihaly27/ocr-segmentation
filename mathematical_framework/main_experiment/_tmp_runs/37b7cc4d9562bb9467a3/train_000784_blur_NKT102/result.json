@@ -1,0 +1,8 @@
+{
+  "pred": "KT102",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a8c742c51d73908ca59b1d0cf327bbd4e2643ec795a19b43e665d6cfcf3c9e32",
+  "total_ms": 610.2572036907077
+}

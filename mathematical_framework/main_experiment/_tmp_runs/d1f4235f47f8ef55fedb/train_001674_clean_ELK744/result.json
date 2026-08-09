@@ -1,0 +1,8 @@
+{
+  "pred": "ELK744",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9ae8a2b635a63e3e76542f88a2cd53583ea1918607378ce7bbbc58f88ee67e0a",
+  "total_ms": 561.1500833183527
+}

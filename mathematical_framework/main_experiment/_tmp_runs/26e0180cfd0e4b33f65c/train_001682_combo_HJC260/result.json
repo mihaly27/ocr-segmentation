@@ -1,0 +1,8 @@
+{
+  "pred": "JC260",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cbe3760918e2902aba2f77879c19ed98ad2e157d43ec0cd0b7bfeaed434f3912",
+  "total_ms": 798.5415868461132
+}

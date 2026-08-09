@@ -1,0 +1,8 @@
+{
+  "pred": "VNE405",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ffe2836b5a0dd3a7ae272b7dbb2c05863d0293b1c87c301f45411983628c9af9",
+  "total_ms": 563.2846765220165
+}

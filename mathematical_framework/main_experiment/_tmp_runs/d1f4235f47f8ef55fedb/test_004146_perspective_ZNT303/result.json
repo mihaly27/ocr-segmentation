@@ -1,0 +1,8 @@
+{
+  "pred": "ZNT303",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "97537ab1ef396e24bfd864005b774ad834407c56221019cf57aff101f1d18b98",
+  "total_ms": 648.739199154079
+}

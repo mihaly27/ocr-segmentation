@@ -1,0 +1,8 @@
+{
+  "pred": "ZAS887",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8e4bdb8fd9a582d5be33148e4cd39edc805f745e881830d52f1f67cb16f078cb",
+  "total_ms": 557.4684385210276
+}

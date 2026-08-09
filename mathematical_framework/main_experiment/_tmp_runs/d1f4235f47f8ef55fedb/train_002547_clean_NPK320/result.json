@@ -1,0 +1,8 @@
+{
+  "pred": "NK32",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8e475417326af3deae2492ac140988b98a131d16b14f51f12b6a3322293f6224",
+  "total_ms": 559.191576205194
+}

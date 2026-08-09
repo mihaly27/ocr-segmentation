@@ -1,0 +1,8 @@
+{
+  "pred": "TT312",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c40c3ac3b9474bca1ffa1b006337a1d7d22cb1bd05d7e47493dd76ab5ba97131",
+  "total_ms": 778.0226254835725
+}

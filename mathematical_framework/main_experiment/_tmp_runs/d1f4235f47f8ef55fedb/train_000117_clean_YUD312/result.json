@@ -1,0 +1,8 @@
+{
+  "pred": "YUD312",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0b513f222fd35478c7829817b39f28c6cce435f71a7a5db99a43f7d316c7b236",
+  "total_ms": 576.535346917808
+}

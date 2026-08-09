@@ -1,0 +1,8 @@
+{
+  "pred": "AT4939",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0ceb1ab878b7d4221fbb381e57a16c0be9b7a746173bdd960b588d71deb81e1c",
+  "total_ms": 555.8070745319128
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "SD25",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "fe9eae9786637d86b6cc02ef25f151199c42c921e4e0d7d88da6f7fe1246e8a9",
+  "total_ms": 537.0567850768566
+}

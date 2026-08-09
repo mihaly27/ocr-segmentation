@@ -1,0 +1,8 @@
+{
+  "pred": "BW0",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e1b4c52244f3e7441b6ac49c8ec6933afcb425851b2da884536dc768f77eab31",
+  "total_ms": 575.074328109622
+}

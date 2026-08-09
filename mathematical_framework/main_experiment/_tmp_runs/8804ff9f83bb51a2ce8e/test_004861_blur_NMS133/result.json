@@ -1,0 +1,8 @@
+{
+  "pred": "S133",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "78e15de4fde528bbf1282fe9bffe18eeaa4ef090c1f00c3e2d86fb3f3ae0a398",
+  "total_ms": 575.1759009435773
+}

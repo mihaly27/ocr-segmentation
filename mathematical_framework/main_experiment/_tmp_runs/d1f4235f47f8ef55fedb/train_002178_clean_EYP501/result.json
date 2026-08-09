@@ -1,0 +1,8 @@
+{
+  "pred": "EYD501",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "11369c6640adfd817df2271f7de4462d2dd77f8c02e7c58bdcc232472145915b",
+  "total_ms": 810.8005858957767
+}

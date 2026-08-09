@@ -1,0 +1,8 @@
+{
+  "pred": "FFF17",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0b71396cdf745c53b76bc16eef554e83289bd1f27cfebb6dd0805611eed29056",
+  "total_ms": 565.385009162128
+}

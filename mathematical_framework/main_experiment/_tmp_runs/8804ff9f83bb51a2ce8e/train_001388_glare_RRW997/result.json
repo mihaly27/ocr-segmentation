@@ -1,0 +1,8 @@
+{
+  "pred": "RW997",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "56f0469d13fe68fe669f439a17a468bf9aaea2ab8241f81071a9498e25d523ea",
+  "total_ms": 600.0017737969756
+}

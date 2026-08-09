@@ -1,0 +1,8 @@
+{
+  "pred": "WQ324",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "20e36f2089657eb0f3951ecce7d7295e9799dc919049fc22d3d75e3cf9c0e5eb",
+  "total_ms": 582.5599543750286
+}

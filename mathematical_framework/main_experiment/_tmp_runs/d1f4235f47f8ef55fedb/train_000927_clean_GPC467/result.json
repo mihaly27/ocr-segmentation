@@ -1,0 +1,8 @@
+{
+  "pred": "GPC467",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "37049aebb2bd7c23371cf9ec5319b75e66494d1a9f78beaa1be047f5aaf4a87c",
+  "total_ms": 572.5621152669191
+}

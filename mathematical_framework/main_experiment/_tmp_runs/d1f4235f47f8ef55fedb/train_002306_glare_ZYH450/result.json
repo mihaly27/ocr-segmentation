@@ -1,0 +1,8 @@
+{
+  "pred": "ZY450",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6bc773e57706c73a7c125c61670328328d927bf5b5636806e4e0681458d44068",
+  "total_ms": 560.0541029125452
+}

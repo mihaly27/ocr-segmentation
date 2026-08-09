@@ -1,0 +1,8 @@
+{
+  "pred": "LDD562",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "397e4693d126ac47784cb2a38e7b0106caf2bdfb6509e784e4ce8603c5cc28c3",
+  "total_ms": 563.6957250535488
+}

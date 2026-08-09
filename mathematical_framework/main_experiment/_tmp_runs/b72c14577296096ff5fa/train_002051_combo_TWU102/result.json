@@ -1,0 +1,8 @@
+{
+  "pred": "TJ04",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c0477304568c0c66b4edb939254f293488fbf85fe9d5f77fa6d373d3f44d4091",
+  "total_ms": 495.2083108946681
+}

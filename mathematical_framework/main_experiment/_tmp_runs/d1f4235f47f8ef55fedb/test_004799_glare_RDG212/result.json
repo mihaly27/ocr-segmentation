@@ -1,0 +1,8 @@
+{
+  "pred": "DG212",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "90e2fcbd4138dce943d68534c281058fbe78cadbad39a646059dba43c4408389",
+  "total_ms": 786.3268423825502
+}

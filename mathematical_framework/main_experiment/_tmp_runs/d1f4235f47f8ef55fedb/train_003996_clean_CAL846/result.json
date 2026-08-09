@@ -1,0 +1,8 @@
+{
+  "pred": "CAL846",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d9b52bfbca054ac50166850967e101068ca26a2e0ef4e80341c5cdcee6c8cd52",
+  "total_ms": 680.6711498647928
+}

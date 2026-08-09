@@ -1,0 +1,8 @@
+{
+  "pred": "ENJ19",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "81dc63f4bdb37daf3bd3dfdb0db838b0cca322ee07241b657c99dcbf89595449",
+  "total_ms": 633.1775886937976
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "WS264",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "91e83ad3fa5c35b0e1958851624f2a6194c419c34b7a45792eb2b228ad75cbd7",
+  "total_ms": 584.0818667784333
+}

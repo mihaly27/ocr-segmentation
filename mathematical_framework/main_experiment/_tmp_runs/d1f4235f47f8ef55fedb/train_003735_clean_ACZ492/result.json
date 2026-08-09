@@ -1,0 +1,8 @@
+{
+  "pred": "ACZ492",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "43b478f27871304c8765a54c9862564d8eca58f34438ea6729b57537ee6a5139",
+  "total_ms": 562.494058161974
+}

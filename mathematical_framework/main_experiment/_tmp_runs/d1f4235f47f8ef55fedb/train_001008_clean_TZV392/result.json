@@ -1,0 +1,8 @@
+{
+  "pred": "TAV392",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9f73fd168594beab927bfa946afc05dc40c7d6476dba8b51f4ac9653f2fe2a8d",
+  "total_ms": 958.5710912942886
+}

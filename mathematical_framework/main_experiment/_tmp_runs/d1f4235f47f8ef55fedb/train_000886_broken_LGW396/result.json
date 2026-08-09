@@ -1,0 +1,8 @@
+{
+  "pred": "LGV396",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "86d614c549fd0ef84f9314fcd27ab490f9b489cda580a150380cdde4535f3d24",
+  "total_ms": 1020.8435449749231
+}

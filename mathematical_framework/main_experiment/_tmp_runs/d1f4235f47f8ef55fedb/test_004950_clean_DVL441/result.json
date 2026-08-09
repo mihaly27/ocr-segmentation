@@ -1,0 +1,8 @@
+{
+  "pred": "DVL441",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "69328f597d14ca116cef7cbbf40fae4574b449d1d7774e0cf7322ba4d51a43cb",
+  "total_ms": 748.9006482064724
+}

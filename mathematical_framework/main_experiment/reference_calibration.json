@@ -1,0 +1,19 @@
+{
+  "tau_D": 1.7733452889742856,
+  "U_max": 0.1386722785857638,
+  "L_max": 1246.4817337878048,
+  "epsilon_U": 0.03895287601436794,
+  "tau_plate": 0.06666666666666667,
+  "tau_char": 0.6777777777777778,
+  "tau_dseg": 1.3333333333333333,
+  "tau_dbox": null,
+  "env_feature_names": [
+    "mean_y",
+    "std_y",
+    "lap_var",
+    "foreground_occupancy",
+    "cc_count",
+    "median_cc_width",
+    "median_cc_height"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "KZ134",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "dba141c34dcd4cfb075c243e14abbec0a78a08941faad3ae86a733e442c4bf31",
+  "total_ms": 557.2415748611093
+}

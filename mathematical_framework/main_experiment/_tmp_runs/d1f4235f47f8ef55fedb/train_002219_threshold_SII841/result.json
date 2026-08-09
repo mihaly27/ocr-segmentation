@@ -1,0 +1,8 @@
+{
+  "pred": "SII81",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "16d725baa0fcb87d1c0b2d545fb9d525771fc52b71ab94d54c1de329e860260a",
+  "total_ms": 558.2884000614285
+}

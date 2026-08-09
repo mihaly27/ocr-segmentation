@@ -1,0 +1,8 @@
+{
+  "pred": "SNZ035",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9ab3b9a88e048107e502accd6771281d808c97adf3a141cd7bb18b514023b61a",
+  "total_ms": 688.6145025491714
+}

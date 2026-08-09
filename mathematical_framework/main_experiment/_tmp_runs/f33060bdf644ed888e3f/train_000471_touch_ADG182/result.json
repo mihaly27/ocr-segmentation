@@ -1,0 +1,8 @@
+{
+  "pred": "ADG182",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "99d6ee578c0cda32e2b05eed0fd84ac4f38d03b599e8fb644704a67844a77c92",
+  "total_ms": 615.8487908542156
+}

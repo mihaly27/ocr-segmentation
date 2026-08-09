@@ -1,0 +1,8 @@
+{
+  "pred": "WWM011",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e459a8aded7d4b05504ba36aa78c7c89868bc49453d7daf66b3b3d1ee4ba23ae",
+  "total_ms": 680.5126378312707
+}

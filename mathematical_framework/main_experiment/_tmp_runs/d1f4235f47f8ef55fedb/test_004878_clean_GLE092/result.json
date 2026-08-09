@@ -1,0 +1,8 @@
+{
+  "pred": "GLE092",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "02b8c8f97866d060471f374e4a3ab4a3bb37cfc7b748049bc6a5519ac2acdc0f",
+  "total_ms": 586.7592645809054
+}

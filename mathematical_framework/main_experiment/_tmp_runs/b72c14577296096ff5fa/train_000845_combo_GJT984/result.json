@@ -1,0 +1,8 @@
+{
+  "pred": "GT984",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7202a4ac9aa4c0d2760aaa9606b2dd9b7db71b70b39da112bbb72dd9eb166881",
+  "total_ms": 584.9416442215443
+}

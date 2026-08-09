@@ -1,0 +1,8 @@
+{
+  "pred": "DBR910",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "636fc9f69f42f669281adaecb8b2a71d0a1115ee10343c7c45935b6f291fa131",
+  "total_ms": 576.3705521821976
+}

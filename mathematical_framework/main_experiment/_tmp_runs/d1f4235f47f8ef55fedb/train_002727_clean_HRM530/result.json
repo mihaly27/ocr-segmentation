@@ -1,0 +1,8 @@
+{
+  "pred": "HM530",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "8afc16012a7f3d959e73c8aae899830740e81c8eb8ef552b85a25be701cd087f",
+  "total_ms": 856.0241451486945
+}

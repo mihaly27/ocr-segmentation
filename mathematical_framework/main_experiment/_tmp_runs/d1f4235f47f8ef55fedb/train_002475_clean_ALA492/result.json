@@ -1,0 +1,8 @@
+{
+  "pred": "ALA492",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "fc1dabc2a6d36713d9123747e2c8dbb58730bce3e8aab0ded7fa1ce8c7f9f552",
+  "total_ms": 561.7964370176196
+}

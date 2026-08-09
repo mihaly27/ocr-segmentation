@@ -1,0 +1,8 @@
+{
+  "pred": "SR153",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5e63ad9debf708a1a549064bfeb44f81a30f0e7f0bfc6298cb1b9cb5b329244c",
+  "total_ms": 547.1148760989308
+}

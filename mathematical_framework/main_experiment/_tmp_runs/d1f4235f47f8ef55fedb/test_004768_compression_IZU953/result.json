@@ -1,0 +1,8 @@
+{
+  "pred": "ZU953",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "163b69cfa1e5a510d32513bc3ef0a86b42c8ab09a8292e77a6cfe1283292558a",
+  "total_ms": 830.9947401285172
+}

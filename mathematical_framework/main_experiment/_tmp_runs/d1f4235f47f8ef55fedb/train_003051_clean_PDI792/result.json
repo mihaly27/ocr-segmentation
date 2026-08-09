@@ -1,0 +1,8 @@
+{
+  "pred": "D792",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4d25ebc7a252b2015b05d4d6ad5352ab69112f43cbf5efb66b13b2454a694bb5",
+  "total_ms": 536.3985309377313
+}

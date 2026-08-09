@@ -1,0 +1,8 @@
+{
+  "pred": "TC877",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1f44cc6ead8d35aec448f5a02172442119b28852b40c3adb4d7de914dddc31d4",
+  "total_ms": 578.9002571254969
+}

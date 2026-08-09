@@ -1,0 +1,8 @@
+{
+  "pred": "WZN202",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3435009bdadb6eddb6a8e812ba4efd12efb69d71b512e503b8f2ab71879add5c",
+  "total_ms": 822.6763717830181
+}

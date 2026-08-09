@@ -1,0 +1,8 @@
+{
+  "pred": "CLW305",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "60f0ec7d311f300cfe413e0f87cf264410809f5362bf7daf578be5f2a93d7490",
+  "total_ms": 556.8062886595726
+}

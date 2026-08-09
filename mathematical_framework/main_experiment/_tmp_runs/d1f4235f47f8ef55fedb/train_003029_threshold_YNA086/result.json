@@ -1,0 +1,8 @@
+{
+  "pred": "YNA06",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "af3e3b6aa61a0ed1ef33f35ca06684ce779271ca2f074ddfd15a8fb8ab5431f6",
+  "total_ms": 559.1004528105259
+}

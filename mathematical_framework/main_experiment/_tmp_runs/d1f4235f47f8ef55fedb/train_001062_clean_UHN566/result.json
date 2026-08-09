@@ -1,0 +1,8 @@
+{
+  "pred": "UHN566",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "48c19dc0ea203abfb57ea7ac4ba929e3732ff8b3f24108ae452ff1c5328a4fdf",
+  "total_ms": 602.8760178014636
+}

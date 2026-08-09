@@ -1,0 +1,8 @@
+{
+  "pred": "EBL425",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e18d1b613a97e1b5dfe29b47136006f87cb1601ef177dcbeab329f5ad90f6946",
+  "total_ms": 550.5862822756171
+}

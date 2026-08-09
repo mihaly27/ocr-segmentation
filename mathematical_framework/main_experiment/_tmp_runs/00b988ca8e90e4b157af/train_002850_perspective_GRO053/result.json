@@ -1,0 +1,8 @@
+{
+  "pred": "G053",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a48fc1ec842abc9819cede0ab4b2abcc993fae0b5c74ae151814e8647da36942",
+  "total_ms": 548.0268746614456
+}

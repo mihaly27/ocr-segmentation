@@ -1,0 +1,8 @@
+{
+  "pred": "JMB165",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "348d7a3b58704b12c00cf53bc0cb9f41070bdb8e163e685dcc36f2b87eab6081",
+  "total_ms": 574.0138301625848
+}

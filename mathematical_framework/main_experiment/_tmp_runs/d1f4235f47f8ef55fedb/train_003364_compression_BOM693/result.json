@@ -1,0 +1,8 @@
+{
+  "pred": "BM693",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "71018a4e394f596ec167486ad5e25af32213398ee005eda7448f4b04d5a49d8f",
+  "total_ms": 584.7553815692663
+}

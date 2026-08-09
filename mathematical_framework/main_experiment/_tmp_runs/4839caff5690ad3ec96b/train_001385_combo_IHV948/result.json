@@ -1,0 +1,8 @@
+{
+  "pred": "H9",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b36d3df5f6c53ad2be2045945c8484177f491f4d5a9568240f984a4a65e93d03",
+  "total_ms": 249.6028132736683
+}

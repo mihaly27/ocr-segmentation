@@ -1,0 +1,8 @@
+{
+  "pred": "UAC742",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f8a231abc7cc3001668e5e4deccc6879ea2505e076ebc449a783379a71fe9889",
+  "total_ms": 566.4251269772649
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "ZDF872",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e45fa2314e62ccdb1ce5a62a66dc1435abdbd64d48ee54f5b483a2bc2afefc76",
+  "total_ms": 569.5454087108374
+}

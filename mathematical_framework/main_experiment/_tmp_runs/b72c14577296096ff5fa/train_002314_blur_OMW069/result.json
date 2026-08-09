@@ -1,0 +1,8 @@
+{
+  "pred": "W06",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1e485ecfffd778f077358109f016a788446a9370c437040ec17e81a155b13d79",
+  "total_ms": 586.5354984998703
+}

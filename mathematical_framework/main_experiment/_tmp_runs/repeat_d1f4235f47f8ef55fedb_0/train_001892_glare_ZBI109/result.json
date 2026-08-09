@@ -1,0 +1,8 @@
+{
+  "pred": "ZBI19",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "526f01a9cdf3fdf43c4067a1707370f23b8dfa478db89e59681182474f7f9ff1",
+  "total_ms": 529.1347997263074
+}

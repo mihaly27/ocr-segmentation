@@ -1,0 +1,8 @@
+{
+  "pred": "ZN328",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e40b403a6f0a4794e80340d742efa5f667a5edc436bb404d686c49cebb64924d",
+  "total_ms": 575.0775085762143
+}

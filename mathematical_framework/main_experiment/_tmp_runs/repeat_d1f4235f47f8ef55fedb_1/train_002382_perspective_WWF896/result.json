@@ -1,0 +1,8 @@
+{
+  "pred": "WWF896",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f6fe978acf0b6dfc2a83716bb9741742bfbf619f96e66f57236060ac8dc38011",
+  "total_ms": 571.7592919245362
+}

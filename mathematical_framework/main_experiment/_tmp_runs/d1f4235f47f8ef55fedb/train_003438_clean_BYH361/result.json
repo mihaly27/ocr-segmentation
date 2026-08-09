@@ -1,0 +1,8 @@
+{
+  "pred": "BYH361",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f5ead28eebb1528ebb7e128244bc95b6c7e6c2069016a8177177dcc6f1e6ebb7",
+  "total_ms": 695.9333904087543
+}

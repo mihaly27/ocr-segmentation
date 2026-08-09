@@ -1,0 +1,8 @@
+{
+  "pred": "MRN226",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "597ef108390f371adf8c56587ab49cca87a85be0084132a0a18a7a430bde9ca1",
+  "total_ms": 560.1801788434386
+}

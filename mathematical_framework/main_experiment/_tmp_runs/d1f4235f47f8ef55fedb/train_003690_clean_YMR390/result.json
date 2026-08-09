@@ -1,0 +1,8 @@
+{
+  "pred": "YMR39",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4fab287f4c881c8cdac4eee66861c1b73b411e0b16adcb2db8c48db58b6c6548",
+  "total_ms": 580.3552232682705
+}

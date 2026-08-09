@@ -1,0 +1,8 @@
+{
+  "pred": "PH655",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cc9cebaf65cff73fb0d8eabd807b13d0a7a6635b948f18becfa46c92ca49e31c",
+  "total_ms": 827.8411123901606
+}

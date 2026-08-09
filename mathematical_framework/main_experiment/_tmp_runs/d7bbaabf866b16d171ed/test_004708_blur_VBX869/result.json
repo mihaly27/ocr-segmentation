@@ -1,0 +1,8 @@
+{
+  "pred": "VBX869",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "065e055a2bcfb3b3b453cc07d04a7018015a265cc0ae71d8473d4c7c7e540d51",
+  "total_ms": 569.5223966613412
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "CSC962",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0a9e1c68f85e8eef5a49b894905495bed141e6a75fd8f4124a61bb268ee7d57f",
+  "total_ms": 608.7906118482351
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "KAW640",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0b0f90c39bfed189df233ce11d8cfd64e0f586b9e8f6775c9ded9186fbd4d1bb",
+  "total_ms": 580.3978256881237
+}

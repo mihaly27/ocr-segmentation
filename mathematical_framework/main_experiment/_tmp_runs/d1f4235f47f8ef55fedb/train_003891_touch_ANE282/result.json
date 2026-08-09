@@ -1,0 +1,8 @@
+{
+  "pred": "ANE282",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c03429e984eeed864bf6fb7bd961980d2c1cab99346582bee22388be794405de",
+  "total_ms": 759.5485327765346
+}

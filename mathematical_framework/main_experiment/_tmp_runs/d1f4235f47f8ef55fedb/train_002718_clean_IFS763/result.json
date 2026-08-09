@@ -1,0 +1,8 @@
+{
+  "pred": "FS763",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "86c1574e624a379a6f3fc456ada32cfba4bcc4849ee9eb4f8922d6d9107289cb",
+  "total_ms": 566.8577011674643
+}

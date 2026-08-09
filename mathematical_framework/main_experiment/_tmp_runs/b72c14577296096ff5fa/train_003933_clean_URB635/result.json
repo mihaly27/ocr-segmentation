@@ -1,0 +1,8 @@
+{
+  "pred": "URB35",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6864239f7f0b7cb4ade098469bf61717a268a7f0558a8f8dae970514af82e5b2",
+  "total_ms": 552.0861204713583
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "CSC781",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9926e25a5f5ac7a268eb033d574eb20c2e034d21dcd406780eedd1e0314a9b9e",
+  "total_ms": 535.3788007050753
+}

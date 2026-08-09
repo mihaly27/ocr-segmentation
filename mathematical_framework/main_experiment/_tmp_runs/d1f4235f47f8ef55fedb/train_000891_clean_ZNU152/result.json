@@ -1,0 +1,8 @@
+{
+  "pred": "ZNU152",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "fd2b8f2c680974f8c4708fab4e33778f7bc308ee0dc510705c550139d2a527f2",
+  "total_ms": 741.0691659897566
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "TXE548",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0c05958910b9f89c71df82789c7fb24c5a1cde7a9078e034d0804a3a0e66844c",
+  "total_ms": 549.9866381287575
+}

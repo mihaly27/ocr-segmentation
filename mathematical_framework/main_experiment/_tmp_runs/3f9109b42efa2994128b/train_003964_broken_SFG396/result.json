@@ -1,0 +1,8 @@
+{
+  "pred": "SFG396",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0d60260b23447a0df4a4afd3355ce6bd2227a196fbc441f94a4116f78e8c4955",
+  "total_ms": 568.2648876681924
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "FE173",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ff06edb45610cde8207f7eea938e7785937216aa9605d8ae50c9d6649b4a7fa2",
+  "total_ms": 546.1002727970481
+}

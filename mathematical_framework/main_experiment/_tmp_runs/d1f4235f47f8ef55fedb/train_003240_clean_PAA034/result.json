@@ -1,0 +1,8 @@
+{
+  "pred": "PAA034",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "277bdceafd19d4e4c5c952abbc53d29a213a6b2ed97305155dfff6a7bc1cae96",
+  "total_ms": 727.2277669981122
+}

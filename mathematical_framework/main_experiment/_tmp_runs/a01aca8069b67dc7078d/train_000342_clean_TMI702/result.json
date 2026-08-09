@@ -1,0 +1,8 @@
+{
+  "pred": "TM702",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9413a07e29cb13746a645860ff220e499fbaadfc52253885a1e47110da5090a2",
+  "total_ms": 560.7294868677855
+}

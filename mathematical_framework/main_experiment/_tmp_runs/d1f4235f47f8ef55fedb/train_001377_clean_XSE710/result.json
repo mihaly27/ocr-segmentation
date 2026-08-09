@@ -1,0 +1,8 @@
+{
+  "pred": "XSE710",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f4576b5babb2c520bf4b67dec2322d523f9f40440e4d4e08931d29b9e5b5f298",
+  "total_ms": 555.6435165926814
+}

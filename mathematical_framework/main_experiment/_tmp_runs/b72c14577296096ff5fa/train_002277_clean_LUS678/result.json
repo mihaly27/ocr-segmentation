@@ -1,0 +1,8 @@
+{
+  "pred": "LUS78",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "767a7f8dae4583d051513f74f643b2bcc1034d5d696b29d752f1a1391396a308",
+  "total_ms": 550.4204984754324
+}

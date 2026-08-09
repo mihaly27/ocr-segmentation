@@ -1,0 +1,8 @@
+{
+  "pred": "GCS709",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "37ce2724113de514fc82c35377dd98a66282ac32ddc49649643298f73a7afad9",
+  "total_ms": 592.5874430686235
+}

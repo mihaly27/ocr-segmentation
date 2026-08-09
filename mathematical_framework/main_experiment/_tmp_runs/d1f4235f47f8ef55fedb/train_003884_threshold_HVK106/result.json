@@ -1,0 +1,8 @@
+{
+  "pred": "HVK106",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "23f0c3ebfebb8f37b2f96bc87ecbf7c422849a508579135eaf8dfb135e3add40",
+  "total_ms": 660.5373462662101
+}

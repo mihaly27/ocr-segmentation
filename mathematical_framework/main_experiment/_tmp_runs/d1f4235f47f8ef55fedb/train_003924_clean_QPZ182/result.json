@@ -1,0 +1,8 @@
+{
+  "pred": "QDA182",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "d7ccea870e678fd6978f3eb08836b2a3832fcb82970b314e472d77e33c2c231e",
+  "total_ms": 559.8914939910173
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "IS853",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4146fa97fd36af6ebf5d177f4477ba8bf599a0815b5f562365c2af6f1a5270f4",
+  "total_ms": 753.06277256459
+}

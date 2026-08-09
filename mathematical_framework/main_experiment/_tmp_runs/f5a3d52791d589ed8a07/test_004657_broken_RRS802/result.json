@@ -1,0 +1,8 @@
+{
+  "pred": "RRS2",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "334a6195f8933bab8984ebbf337082610cd77d6b1bb35e38d827f9004958ade7",
+  "total_ms": 755.6841569021344
+}

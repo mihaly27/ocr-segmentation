@@ -1,0 +1,8 @@
+{
+  "pred": "UW382",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "e3dbf1461b187944a6997c61f33f784c8badc307d4d743f390df41cae4f6abf5",
+  "total_ms": 705.6661481037736
+}

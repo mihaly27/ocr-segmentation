@@ -1,0 +1,8 @@
+{
+  "pred": "GF460",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a6ba3ef41a52c93348590bba70155a1e8334c0d0eeafb1efb92e310f3396eced",
+  "total_ms": 562.7354057505727
+}

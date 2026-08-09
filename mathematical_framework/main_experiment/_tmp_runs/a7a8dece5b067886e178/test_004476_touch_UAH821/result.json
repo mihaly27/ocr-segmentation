@@ -1,0 +1,8 @@
+{
+  "pred": "UA81",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9b7f353614cdefcaea23e8788552d81563a6fb11ec9df69d649cf12c42d4788e",
+  "total_ms": 384.1934511438012
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "GYU258",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "428b886247f9728c1b356f4d8c431f11f1f651e8a0e40b763f1ebf611190feaa",
+  "total_ms": 768.5353355482221
+}

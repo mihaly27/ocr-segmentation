@@ -1,0 +1,8 @@
+{
+  "pred": "UCQ186",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a416e62779956483a12eda76f0e5722efa06876adade59551b175b1cffa0a3da",
+  "total_ms": 845.2240927144885
+}

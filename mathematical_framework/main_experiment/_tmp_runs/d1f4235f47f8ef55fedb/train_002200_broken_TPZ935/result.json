@@ -1,0 +1,8 @@
+{
+  "pred": "TDZ935",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9a4c916bbc7ffef22ab7cbba6758a6458f3958b8618c46122718d552a7a2249a",
+  "total_ms": 607.1654045954347
+}

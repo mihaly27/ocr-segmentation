@@ -1,0 +1,8 @@
+{
+  "pred": "OVZ207",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "1e4967312bb23dbe5aeb94eedcaf2a7b3923774e0f6e54bff2583281c78bcd66",
+  "total_ms": 555.4595245048404
+}

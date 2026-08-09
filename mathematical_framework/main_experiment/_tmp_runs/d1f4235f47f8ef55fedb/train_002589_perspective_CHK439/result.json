@@ -1,0 +1,8 @@
+{
+  "pred": "CHK439",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "982111102fb449660faed626d48bc569ec57dc70a3c72243813f1c5b470ae814",
+  "total_ms": 885.8803948387504
+}

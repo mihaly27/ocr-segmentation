@@ -1,0 +1,8 @@
+{
+  "pred": "TDR316",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ddf3f16da0821c0e0e3b727fd6fff29f58334c3ce30650a840fc478877d2132e",
+  "total_ms": 575.612342916429
+}

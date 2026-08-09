@@ -1,0 +1,8 @@
+{
+  "pred": "FYZ25",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "c1b41f0eabaf2612243f01e38913b14827c0298be0e8b3b88b27c0109a01de44",
+  "total_ms": 765.1174366474152
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "D894",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2ccc034c569b37a5df744e045d928e6c2732eb0abcc5af81a10b37662c514150",
+  "total_ms": 570.5162836238742
+}

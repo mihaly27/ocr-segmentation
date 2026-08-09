@@ -1,0 +1,13 @@
+cd ~/ocr-segmentation
+
+python3 mathematical_framework/ips_main_experiment.py \
+  --repo ips_single_image \
+  --manifest synthetic-generator/data/synthetic_plates_sisy2026/manifest.csv \
+  --dataset-root synthetic-generator/data/synthetic_plates_sisy2026 \
+  --dev-selected mathematical_framework/phase1_200/selected_samples.json \
+  --output mathematical_framework/main_experiment \
+  --reference-clean-n 100 \
+  --block-size 45 \
+  --gate-repeat-n 2 \
+  --workers 8 \
+  --timeout 180

@@ -1,0 +1,8 @@
+{
+  "pred": "PF478",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "afc5c604a1ec81c3dbeef8f7fd9eb7004319f8051146e541a6a0e6034151af0e",
+  "total_ms": 569.048510864377
+}

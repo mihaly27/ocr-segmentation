@@ -1,0 +1,8 @@
+{
+  "pred": "U607",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b80bd8bd388f8b742eb46dd4cbaec05b6bdebf15e37d7d3e139a6bda9fa21d3c",
+  "total_ms": 639.4082317128778
+}

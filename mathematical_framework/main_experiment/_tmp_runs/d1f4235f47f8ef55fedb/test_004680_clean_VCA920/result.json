@@ -1,0 +1,8 @@
+{
+  "pred": "VCA920",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "4aae3d4fc420b153b49358c895f2f320b824d725a95a3d3195eceb7b629e50d9",
+  "total_ms": 828.5304317250848
+}

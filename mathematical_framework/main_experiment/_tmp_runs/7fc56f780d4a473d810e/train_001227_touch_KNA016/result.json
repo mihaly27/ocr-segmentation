@@ -1,0 +1,8 @@
+{
+  "pred": "KNA016",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "100cf6792e239e8de4e7b0365892351f4b9b70069cb055a7db2b55b403b97b37",
+  "total_ms": 564.6093767136335
+}

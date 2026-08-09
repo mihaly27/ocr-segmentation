@@ -1,0 +1,8 @@
+{
+  "pred": "VU64",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "3fbc45565ab462dc72406e13529dcfd794a34704e45fb02901596201f255742a",
+  "total_ms": 925.0666117295623
+}

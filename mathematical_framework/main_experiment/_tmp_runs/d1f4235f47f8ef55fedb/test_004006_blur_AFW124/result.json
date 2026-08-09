@@ -1,0 +1,8 @@
+{
+  "pred": "AFW124",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "ae7c88f2a6f9fbfa5f675678b34244309be806bcf2be063e57e2edbbf615589f",
+  "total_ms": 560.8205609023571
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "YTS898",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "398b6e20a05615c81cb7561fdbda8f40afa210ab875a3c2de70b62f7bb2bbc14",
+  "total_ms": 560.0731382146478
+}

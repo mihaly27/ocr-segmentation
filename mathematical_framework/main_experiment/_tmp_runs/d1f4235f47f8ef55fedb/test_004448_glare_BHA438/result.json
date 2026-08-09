@@ -1,0 +1,8 @@
+{
+  "pred": "BHA438",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "dc16ed9b6073d1b6cdd2c41847c730f73cca7c331296598154406e42469fb00a",
+  "total_ms": 736.6154883056879
+}

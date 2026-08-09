@@ -1,0 +1,8 @@
+{
+  "pred": "SR577",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "70de20e381605514673f088d8b06cc0baf59c90f8193a3811d4c411979e40f2a",
+  "total_ms": 553.4262973815203
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "GXV50",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9e4c36e7392a59938c6ea30bcacf6e94c7cddaaddbfc6a455996e168924fa381",
+  "total_ms": 544.8223985731602
+}

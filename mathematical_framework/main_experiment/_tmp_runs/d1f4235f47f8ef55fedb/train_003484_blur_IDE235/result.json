@@ -1,0 +1,8 @@
+{
+  "pred": "DE235",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eb73e5d6a3bbe20c49c6107feff4346ac48cd8254dd8ace98e84e54fd0b98d8a",
+  "total_ms": 734.7898185253143
+}

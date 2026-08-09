@@ -1,0 +1,8 @@
+{
+  "pred": "RLC640",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6b2760b1c58769b50304da6d37a201fa4cff35df5cf5870b66ef279a082838fe",
+  "total_ms": 559.93636790663
+}

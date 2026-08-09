@@ -1,0 +1,8 @@
+{
+  "pred": "BKK703",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "62ce431f7f85c3b91fc9395ee56eeba922cc359c1ef7ecde7c1d1b7c56adda41",
+  "total_ms": 862.4530667439103
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "ZNC311",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "9abe160d187a28c503f8aaa6f61ca6f84ae853c835e65fee8994da01034022f7",
+  "total_ms": 859.5640640705824
+}

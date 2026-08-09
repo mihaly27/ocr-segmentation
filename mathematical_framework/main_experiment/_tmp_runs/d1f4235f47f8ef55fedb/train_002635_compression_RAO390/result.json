@@ -1,0 +1,8 @@
+{
+  "pred": "RA039",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "2ad0d56178aac339210e748b68d64b13ce90744a1b70cc574efed28fb6f64594",
+  "total_ms": 620.3822158277035
+}

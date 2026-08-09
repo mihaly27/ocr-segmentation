@@ -1,0 +1,8 @@
+{
+  "pred": "YDB502",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "a5544aeecebfabeac7886b2bf841fd1341d4eff3af7b0eeee56e3cdef6550552",
+  "total_ms": 583.744584582746
+}

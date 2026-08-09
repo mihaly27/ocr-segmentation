@@ -1,0 +1,8 @@
+{
+  "pred": "E370",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cbfbe679de669a5befba245cfe26aa7d529c89d983b934822ecc6ea01a6e11a4",
+  "total_ms": 480.52281327545643
+}

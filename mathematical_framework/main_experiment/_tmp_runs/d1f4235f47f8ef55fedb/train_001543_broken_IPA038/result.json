@@ -1,0 +1,8 @@
+{
+  "pred": "DA038",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5ae96f79ccc7ce5367c87c42d2315aadc9ea3a1c543460346f8de2a25c4f2e4b",
+  "total_ms": 763.983472250402
+}

@@ -1,0 +1,8 @@
+{
+  "pred": "FUB288",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "0ace9dce41f3459176451bfa8b91060cd3d0e4bdf970503948f9e99ce88151cf",
+  "total_ms": 550.4495408385992
+}

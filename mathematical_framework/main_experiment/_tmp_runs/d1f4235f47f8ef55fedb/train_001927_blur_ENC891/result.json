@@ -1,0 +1,8 @@
+{
+  "pred": "ENC81",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "01097f3899b06163fbdb832f39cc74be6d78c4710492295e8f94faf75796d269",
+  "total_ms": 882.1695810183883
+}

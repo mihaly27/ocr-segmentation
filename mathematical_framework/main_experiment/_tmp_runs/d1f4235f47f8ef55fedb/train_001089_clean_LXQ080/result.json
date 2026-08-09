@@ -1,0 +1,8 @@
+{
+  "pred": "LX080",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eb1348c5e98c00e88f9c126165003b6ebf106de8a9f013a9419b1a3795457945",
+  "total_ms": 576.4483017846942
+}

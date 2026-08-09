@@ -1,0 +1,342 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004108_broken_IVU671.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 2.0,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 2.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.05,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.5001137033104897,
+    "preprocess_ms": 0.3527859225869179,
+    "cc_ms": 0.20911451429128647,
+    "search_ms": 0.5643349140882492,
+    "ocr_ms": 868.3717530220747,
+    "total_ms": 869.9981020763516
+  },
+  "initial_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        19,
+        16,
+        8,
+        31
+      ],
+      "area": 246
+    },
+    {
+      "id": 2,
+      "bbox": [
+        42,
+        17,
+        27,
+        31
+      ],
+      "area": 422
+    },
+    {
+      "id": 5,
+      "bbox": [
+        85,
+        18,
+        24,
+        32
+      ],
+      "area": 371
+    },
+    {
+      "id": 3,
+      "bbox": [
+        136,
+        17,
+        22,
+        32
+      ],
+      "area": 449
+    },
+    {
+      "id": 6,
+      "bbox": [
+        173,
+        18,
+        21,
+        7
+      ],
+      "area": 133
+    },
+    {
+      "id": 8,
+      "bbox": [
+        178,
+        44,
+        3,
+        5
+      ],
+      "area": 15
+    },
+    {
+      "id": 7,
+      "bbox": [
+        182,
+        32,
+        4,
+        7
+      ],
+      "area": 26
+    },
+    {
+      "id": 4,
+      "bbox": [
+        212,
+        17,
+        20,
+        31
+      ],
+      "area": 331
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        19,
+        16,
+        8,
+        31
+      ],
+      "area": 246
+    },
+    {
+      "id": 2,
+      "bbox": [
+        42,
+        17,
+        27,
+        31
+      ],
+      "area": 422
+    },
+    {
+      "id": 5,
+      "bbox": [
+        85,
+        18,
+        24,
+        32
+      ],
+      "area": 371
+    },
+    {
+      "id": 3,
+      "bbox": [
+        136,
+        17,
+        22,
+        32
+      ],
+      "area": 449
+    },
+    {
+      "id": 6,
+      "bbox": [
+        173,
+        18,
+        21,
+        7
+      ],
+      "area": 133
+    },
+    {
+      "id": 8,
+      "bbox": [
+        178,
+        44,
+        3,
+        5
+      ],
+      "area": 15
+    },
+    {
+      "id": 7,
+      "bbox": [
+        182,
+        32,
+        4,
+        7
+      ],
+      "area": 26
+    },
+    {
+      "id": 4,
+      "bbox": [
+        212,
+        17,
+        20,
+        31
+      ],
+      "area": 331
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 2.0919354838709676,
+      "n": 8
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.09193548387096784,
+      "weighted": 0.09193548387096784,
+      "per_segment": [
+        {
+          "id": 1,
+          "aspect": 0.25806451612903225,
+          "extent": 0.9919354838709677,
+          "pen": 0.041935483870967794
+        },
+        {
+          "id": 2,
+          "aspect": 0.8709677419354839,
+          "extent": 0.5041816009557945,
+          "pen": 0.0
+        },
+        {
+          "id": 5,
+          "aspect": 0.75,
+          "extent": 0.4830729166666667,
+          "pen": 0.0
+        },
+        {
+          "id": 3,
+          "aspect": 0.6875,
+          "extent": 0.6377840909090909,
+          "pen": 0.0
+        },
+        {
+          "id": 6,
+          "aspect": 3.0,
+          "extent": 0.9047619047619048,
+          "pen": 0.0
+        },
+        {
+          "id": 8,
+          "aspect": 0.6,
+          "extent": 1.0,
+          "pen": 0.050000000000000044
+        },
+        {
+          "id": 7,
+          "aspect": 0.5714285714285714,
+          "extent": 0.9285714285714286,
+          "pen": 0.0
+        },
+        {
+          "id": 4,
+          "aspect": 0.6451612903225806,
+          "extent": 0.5338709677419354,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "pairs": [],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 1.0,
+      "weighted": 2.0,
+      "density": 0.10380208333333334,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 1,
+      "blocking_weighted": 2.0,
+      "blocking_pairs": [
+        {
+          "a": 6,
+          "b": 8,
+          "gap": -16.0,
+          "thresh": 0.15000000000000002
+        }
+      ],
+      "blocking_gap_ratio": 0.05
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 2.0,
+      "w_density": 2.0,
+      "w_blocking": 2.0
+    },
+    "total": 2.0919354838709676,
+    "expected_count": 6
+  },
+  "ocr": {
+    "pred": "VU64",
+    "per_segment": [
+      "",
+      "V",
+      "U",
+      "6",
+      "",
+      "4",
+      "",
+      ""
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 8,
+    "expected_count": 6
+  },
+  "trace_hash": "9301f01cc6ef0fa905433d486b21ed08f36a8d02eaa601cebaa51b8abecd6974"
+}

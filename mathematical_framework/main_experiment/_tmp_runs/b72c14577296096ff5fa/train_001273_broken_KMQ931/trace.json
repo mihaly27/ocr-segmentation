@@ -1,0 +1,412 @@
+{
+  "input": {
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001273_broken_KMQ931.png",
+    "H": 80,
+    "W": 240,
+    "gt": ""
+  },
+  "config": {
+    "preprocess": {
+      "mode": "otsu",
+      "fixed_tau": 0.45,
+      "adaptive_block_size": 31,
+      "adaptive_C": 5,
+      "morph_kernel": 3,
+      "morph_iter": 1
+    },
+    "cut": {
+      "max_cuts_per_component": 3,
+      "min_rel_width_for_split": 1.2,
+      "smooth_window": 5,
+      "min_cut_margin": 2,
+      "max_column_sum_quantile": 0.2
+    },
+    "search": {
+      "beam_size": 50,
+      "max_steps": 12,
+      "expected_count": 6
+    },
+    "scoring": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior": 2.0,
+      "w_density": null,
+      "w_blocking": null,
+      "overlap_eps": 0.02,
+      "rho_max": 0.75,
+      "blocking_gap_ratio": 0.0,
+      "aspect_min": 0.25,
+      "aspect_max": 4.0,
+      "extent_min": 0.05,
+      "extent_max": 0.95
+    },
+    "ocr": {
+      "backend": "tesseract",
+      "whitelist": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "psm": 10,
+      "oem": 3,
+      "pad": 2,
+      "resize_h": 64
+    }
+  },
+  "timings_ms": {
+    "load_ms": 0.4707975313067436,
+    "preprocess_ms": 0.34103263169527054,
+    "cc_ms": 0.20971614867448807,
+    "search_ms": 29.238534159958363,
+    "ocr_ms": 906.4490785822272,
+    "total_ms": 936.7091590538621
+  },
+  "initial_segments": [
+    {
+      "id": 1,
+      "bbox": [
+        23,
+        21,
+        19,
+        26
+      ],
+      "area": 229
+    },
+    {
+      "id": 7,
+      "bbox": [
+        38,
+        42,
+        5,
+        5
+      ],
+      "area": 22
+    },
+    {
+      "id": 2,
+      "bbox": [
+        59,
+        20,
+        26,
+        26
+      ],
+      "area": 485
+    },
+    {
+      "id": 3,
+      "bbox": [
+        99,
+        20,
+        23,
+        31
+      ],
+      "area": 386
+    },
+    {
+      "id": 4,
+      "bbox": [
+        146,
+        21,
+        18,
+        27
+      ],
+      "area": 313
+    },
+    {
+      "id": 5,
+      "bbox": [
+        178,
+        21,
+        17,
+        27
+      ],
+      "area": 216
+    },
+    {
+      "id": 6,
+      "bbox": [
+        211,
+        20,
+        15,
+        26
+      ],
+      "area": 225
+    }
+  ],
+  "selected_segments": [
+    {
+      "id": 596,
+      "bbox": [
+        23,
+        21,
+        16,
+        26
+      ],
+      "area": 214
+    },
+    {
+      "id": 7,
+      "bbox": [
+        38,
+        42,
+        5,
+        5
+      ],
+      "area": 22
+    },
+    {
+      "id": 597,
+      "bbox": [
+        39,
+        21,
+        3,
+        6
+      ],
+      "area": 15
+    },
+    {
+      "id": 452,
+      "bbox": [
+        59,
+        20,
+        11,
+        26
+      ],
+      "area": 222
+    },
+    {
+      "id": 453,
+      "bbox": [
+        70,
+        20,
+        15,
+        26
+      ],
+      "area": 263
+    },
+    {
+      "id": 524,
+      "bbox": [
+        99,
+        20,
+        10,
+        26
+      ],
+      "area": 165
+    },
+    {
+      "id": 525,
+      "bbox": [
+        109,
+        20,
+        13,
+        31
+      ],
+      "area": 221
+    },
+    {
+      "id": 4,
+      "bbox": [
+        146,
+        21,
+        18,
+        27
+      ],
+      "area": 313
+    },
+    {
+      "id": 5,
+      "bbox": [
+        178,
+        21,
+        17,
+        27
+      ],
+      "area": 216
+    },
+    {
+      "id": 6,
+      "bbox": [
+        211,
+        20,
+        15,
+        26
+      ],
+      "area": 225
+    }
+  ],
+  "search_history": [
+    {
+      "step": 0,
+      "action": "init",
+      "score": 10.0,
+      "n": 7
+    },
+    {
+      "step": 10,
+      "action": "split",
+      "target_id": 2,
+      "variant": [
+        452,
+        453
+      ],
+      "score": 10.0,
+      "n": 8
+    },
+    {
+      "step": 11,
+      "action": "split",
+      "target_id": 3,
+      "variant": [
+        524,
+        525
+      ],
+      "score": 10.0,
+      "n": 9
+    },
+    {
+      "step": 12,
+      "action": "split",
+      "target_id": 1,
+      "variant": [
+        596,
+        597
+      ],
+      "score": 6.0,
+      "n": 10
+    }
+  ],
+  "score_breakdown": {
+    "fit": {
+      "sum": 0.0,
+      "weighted": 0.0,
+      "per_segment": [
+        {
+          "id": 596,
+          "aspect": 0.6153846153846154,
+          "extent": 0.5144230769230769,
+          "pen": 0.0
+        },
+        {
+          "id": 7,
+          "aspect": 1.0,
+          "extent": 0.88,
+          "pen": 0.0
+        },
+        {
+          "id": 597,
+          "aspect": 0.5,
+          "extent": 0.8333333333333334,
+          "pen": 0.0
+        },
+        {
+          "id": 452,
+          "aspect": 0.4230769230769231,
+          "extent": 0.7762237762237763,
+          "pen": 0.0
+        },
+        {
+          "id": 453,
+          "aspect": 0.5769230769230769,
+          "extent": 0.6743589743589744,
+          "pen": 0.0
+        },
+        {
+          "id": 524,
+          "aspect": 0.38461538461538464,
+          "extent": 0.6346153846153846,
+          "pen": 0.0
+        },
+        {
+          "id": 525,
+          "aspect": 0.41935483870967744,
+          "extent": 0.5483870967741935,
+          "pen": 0.0
+        },
+        {
+          "id": 4,
+          "aspect": 0.6666666666666666,
+          "extent": 0.6440329218106996,
+          "pen": 0.0
+        },
+        {
+          "id": 5,
+          "aspect": 0.6296296296296297,
+          "extent": 0.47058823529411764,
+          "pen": 0.0
+        },
+        {
+          "id": 6,
+          "aspect": 0.5769230769230769,
+          "extent": 0.5769230769230769,
+          "pen": 0.0
+        }
+      ]
+    },
+    "overlap": {
+      "sum": 0.2,
+      "weighted": 2.0,
+      "pairs": [
+        {
+          "i": 596,
+          "j": 7,
+          "inter_norm": 0.2
+        }
+      ],
+      "eps": 0.02
+    },
+    "prior": {
+      "sum": 2.0,
+      "weighted": 4.0,
+      "density": 0.09770833333333333,
+      "density_pen": 0.0,
+      "density_weighted": 0.0,
+      "rho_max": 0.75,
+      "blocking": 2,
+      "blocking_weighted": 4.0,
+      "blocking_pairs": [
+        {
+          "a": 596,
+          "b": 7,
+          "gap": -1.0,
+          "thresh": 0.0
+        },
+        {
+          "a": 7,
+          "b": 597,
+          "gap": -4.0,
+          "thresh": 0.0
+        }
+      ],
+      "blocking_gap_ratio": 0.0
+    },
+    "weights": {
+      "w_fit": 1.0,
+      "w_overlap": 10.0,
+      "w_prior_legacy": 2.0,
+      "w_density": 2.0,
+      "w_blocking": 2.0
+    },
+    "total": 6.0,
+    "expected_count": 6,
+    "count_pen": 4.0
+  },
+  "ocr": {
+    "pred": "NLNYC931",
+    "per_segment": [
+      "N",
+      "L",
+      "",
+      "N",
+      "Y",
+      "C",
+      "",
+      "9",
+      "3",
+      "1"
+    ]
+  },
+  "metrics": {
+    "char_accuracy": null,
+    "full_plate_accuracy": null,
+    "segment_count": 10,
+    "expected_count": 6
+  },
+  "trace_hash": "248132c22519c29377ffcd8a6f45b94276a98a3294165d146671671ff8925551"
+}

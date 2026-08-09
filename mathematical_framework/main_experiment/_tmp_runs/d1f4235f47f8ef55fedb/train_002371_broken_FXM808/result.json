@@ -1,0 +1,8 @@
+{
+  "pred": "F4M808",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5b86fe31e79d8b111e8d198c9811ea98d7560e346191c4013d0adbf5a7c446de",
+  "total_ms": 609.686054289341
+}

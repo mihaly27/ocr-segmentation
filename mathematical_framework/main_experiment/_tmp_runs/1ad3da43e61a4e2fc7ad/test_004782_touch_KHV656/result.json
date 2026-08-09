@@ -1,0 +1,8 @@
+{
+  "pred": "KH656",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "6a1165758f1f6efbfa286fbe4df71686ef331796b63fbe0d95c703f17c9f2ee5",
+  "total_ms": 615.8077828586102
+}

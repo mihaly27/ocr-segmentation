@@ -1,0 +1,8 @@
+{
+  "pred": "S91",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "88e872c3403e5270f1ef7b168c66acb9c6fe6852bc8f862c0a0dc27570805fb4",
+  "total_ms": 344.4776078686118
+}

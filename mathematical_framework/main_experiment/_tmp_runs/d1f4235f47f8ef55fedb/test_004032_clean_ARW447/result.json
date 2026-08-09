@@ -1,0 +1,8 @@
+{
+  "pred": "ARW447",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "944d8e39b4f722fa9b705ffece801e7e68898cf433acca9b5a91d74a33512a9e",
+  "total_ms": 784.0025974437594
+}

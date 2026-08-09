@@ -1,0 +1,8 @@
+{
+  "pred": "XJG224",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cfd0ce315c8bdf0cee17a9f8245a835c07cfb1240715136ab0254dff9765bbba",
+  "total_ms": 844.3552805110812
+}

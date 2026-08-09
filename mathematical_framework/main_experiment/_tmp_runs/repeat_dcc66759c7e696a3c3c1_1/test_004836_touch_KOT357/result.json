@@ -1,0 +1,8 @@
+{
+  "pred": "K37",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "7e8deaae1a9f786205c21772db5693d605f30d5e5ceac5b5aac502f6fac72b6f",
+  "total_ms": 340.79887717962265
+}

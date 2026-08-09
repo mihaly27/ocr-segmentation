@@ -1,0 +1,8 @@
+{
+  "pred": "WF390",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "cd882b1b0a7677470d341ec13dc4f39db84741c38465d4617408cd78932c0a3e",
+  "total_ms": 757.1080941706896
+}

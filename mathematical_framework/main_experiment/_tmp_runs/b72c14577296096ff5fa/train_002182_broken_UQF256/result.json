@@ -1,0 +1,8 @@
+{
+  "pred": "LCDF25",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "546cd93f3d475e5c2259c0d739cc07ff99be15de72c2e4f506df90cb79072b8c",
+  "total_ms": 1480.1314771175385
+}

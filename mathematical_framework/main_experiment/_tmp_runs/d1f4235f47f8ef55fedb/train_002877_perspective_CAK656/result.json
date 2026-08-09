@@ -1,0 +1,8 @@
+{
+  "pred": "CA4656",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "eb977cd40617c1bcba42a2e23d1f6d35cfb30bd27039b5b79c702dbf2edcf668",
+  "total_ms": 836.5060482174158
+}

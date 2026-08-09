@@ -1,0 +1,8 @@
+{
+  "pred": "UE456",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "79c3c251670b2c31d2a8f827ff117b5010892534c49005de535654f379e98416",
+  "total_ms": 558.6680704727769
+}

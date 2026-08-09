@@ -1,0 +1,8 @@
+{
+  "pred": "ATCJ329",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "71d1e168d83c3570e65a35bf6c4eb7121d03ca393248c373bc3245ad9f69f270",
+  "total_ms": 737.8295492380857
+}

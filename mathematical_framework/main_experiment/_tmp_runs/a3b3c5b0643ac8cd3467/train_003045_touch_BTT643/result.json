@@ -1,0 +1,8 @@
+{
+  "pred": "B6",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "5bb7896d7cc1a8098c96f05c7d928465c683e9f16be36c913e1042f20bb0c2c7",
+  "total_ms": 218.4955608099699
+}

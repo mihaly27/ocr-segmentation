@@ -1,0 +1,8 @@
+{
+  "pred": "FID412",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "f7b5e530df0a8f1557a097c666809f9bbe67611f142f0082302b9586f7cb09d9",
+  "total_ms": 561.6646567359567
+}

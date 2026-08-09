@@ -1,0 +1,8 @@
+{
+  "pred": "UTA931",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "b06a91209b1d78dbb2a7fb91af4030373a953892642ce633a870d66562058288",
+  "total_ms": 838.3756401017308
+}

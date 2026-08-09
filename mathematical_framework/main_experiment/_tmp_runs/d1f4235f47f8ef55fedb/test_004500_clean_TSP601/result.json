@@ -1,0 +1,8 @@
+{
+  "pred": "TSP01",
+  "gt": "",
+  "char_accuracy": null,
+  "full_plate_accuracy": null,
+  "trace_hash": "525253ba4ba6847c682659ac97cc97c378196400769366f979ae6a06561a1048",
+  "total_ms": 558.8393267244101
+}
