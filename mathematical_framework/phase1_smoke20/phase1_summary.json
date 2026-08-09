@@ -1,0 +1,76 @@
+{
+  "source_reference_config": "/home/mszabo/ocr-segmentation/ips_single_image/config.yaml",
+  "sample_count": 20,
+  "perturbation_counts": {
+    "blur": 3,
+    "broken": 3,
+    "clean": 2,
+    "combo": 2,
+    "compression": 2,
+    "glare": 2,
+    "perspective": 2,
+    "threshold": 2,
+    "touch": 2
+  },
+  "reference": {
+    "plate_accuracy_mean": 0.25,
+    "char_accuracy_mean": 0.8583333333333334,
+    "total_ms_mean": 606.2735966406763,
+    "total_ms_p95": 683.1200403627008,
+    "search_ms_mean": 2.5599582120776176,
+    "trace_repeat_n": 10,
+    "trace_hash_mismatch_rate": 1.0
+  },
+  "finite_difference": {
+    "cut.min_rel_width_for_split": {
+      "step": 0.1,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    },
+    "cut.max_column_sum_quantile": {
+      "step": 0.025,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    },
+    "scoring.w_overlap": {
+      "step": 1.0,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    },
+    "scoring.w_prior": {
+      "step": 0.25,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    },
+    "scoring.rho_max": {
+      "step": 0.025,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    },
+    "scoring.blocking_gap_ratio": {
+      "step": 0.01,
+      "n": 20,
+      "mean_output_discrepancy": 0.0,
+      "step_normalized_sensitivity": 0.0
+    }
+  },
+  "W_construction": {
+    "coordinate_normalization": "one finite-difference step = 1 normalized unit",
+    "lambda": 0.1,
+    "median_nonzero_sensitivity": 1.0,
+    "W_diag": {
+      "cut.min_rel_width_for_split": 0.1,
+      "cut.max_column_sum_quantile": 0.1,
+      "scoring.w_overlap": 0.1,
+      "scoring.w_prior": 0.1,
+      "scoring.rho_max": 0.1,
+      "scoring.blocking_gap_ratio": 0.1
+    }
+  },
+  "note": "Phase-1 calibration only. Freeze reviewed steps/ranges/W before running B0-B3 final trajectories."
+}

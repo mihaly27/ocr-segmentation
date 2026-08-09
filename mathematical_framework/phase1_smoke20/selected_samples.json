@@ -1,0 +1,122 @@
+[
+  {
+    "id": "test_004042_blur_LNL512",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004042_blur_LNL512.png",
+    "gt": "LNL512",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004288_broken_ADC981",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004288_broken_ADC981.png",
+    "gt": "ADC981",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003888_clean_RKX870",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003888_clean_RKX870.png",
+    "gt": "RKX870",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001448_combo_VYK245",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001448_combo_VYK245.png",
+    "gt": "VYK245",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003508_compression_ASC226",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003508_compression_ASC226.png",
+    "gt": "ASC226",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001838_glare_OJE282",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001838_glare_OJE282.png",
+    "gt": "OJE282",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_002328_perspective_XBQ191",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_002328_perspective_XBQ191.png",
+    "gt": "XBQ191",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001400_threshold_FKO795",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001400_threshold_FKO795.png",
+    "gt": "FKO795",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "test_004782_touch_KHV656",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004782_touch_KHV656.png",
+    "gt": "KHV656",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001063_blur_KXW933",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001063_blur_KXW933.png",
+    "gt": "KXW933",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000373_broken_QJL262",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000373_broken_QJL262.png",
+    "gt": "QJL262",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004608_clean_BJG869",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004608_clean_BJG869.png",
+    "gt": "BJG869",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001853_combo_FTU228",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_001853_combo_FTU228.png",
+    "gt": "FTU228",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003877_compression_ZJN510",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003877_compression_ZJN510.png",
+    "gt": "ZJN510",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000353_glare_SJL297",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000353_glare_SJL297.png",
+    "gt": "SJL297",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003858_perspective_PFT839",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003858_perspective_PFT839.png",
+    "gt": "PFT839",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003308_threshold_NUN639",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003308_threshold_NUN639.png",
+    "gt": "NUN639",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "test_004935_touch_KVO394",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/test_004935_touch_KVO394.png",
+    "gt": "KVO394",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000091_blur_FFF170",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_000091_blur_FFF170.png",
+    "gt": "FFF170",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003478_broken_NZV577",
+    "image": "/home/mszabo/ocr-segmentation/synthetic-generator/data/synthetic_plates_sisy2026/images/train_003478_broken_NZV577.png",
+    "gt": "NZV577",
+    "perturbation": "broken"
+  }
+]
