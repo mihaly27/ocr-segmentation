@@ -1,0 +1,37 @@
+cd ~/ocr-segmentation
+
+python3 mathematical_framework/ips_phase1_calibration.py \
+  --repo ips_single_image \
+  --manifest synthetic-generator/data/synthetic_plates_sisy2026/manifest.csv \
+  --dataset-root . \
+  --output mathematical_framework/phase1_smoke20 \
+  --n 20 \
+  --repeat-n 10 \
+  --workers 4 \
+  --timeout 180
+
+cd ~/ocr-segmentation
+
+python3 mathematical_framework/ips_phase1_calibration.py \
+  --repo ips_single_image \
+  --manifest synthetic-generator/data/synthetic_plates_sisy2026/manifest.csv \
+  --dataset-root synthetic-generator/data/synthetic_plates_sisy2026 \
+  --output mathematical_framework/phase1_200 \
+  --n 200 \
+  --repeat-n 50 \
+  --workers 8 \
+  --timeout 180
+
+
+cd ~/ocr-segmentation
+
+python3 mathematical_framework/ips_phase1_calibration.py \
+  --repo ips_single_image \
+  --manifest synthetic-generator/data/synthetic_plates_sisy2026/manifest.csv \
+  --dataset-root synthetic-generator/data/synthetic_plates_sisy2026 \
+  --output mathematical_framework/phase1_switchscan200 \
+  --n 200 \
+  --repeat-n 0 \
+  --workers 8 \
+  --timeout 180 \
+  --scales 8,16
