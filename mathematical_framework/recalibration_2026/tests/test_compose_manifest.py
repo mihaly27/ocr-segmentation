@@ -63,7 +63,7 @@ class ComposeManifestTests(unittest.TestCase):
             ], check=True, capture_output=True, text=True)
             combined = [json.loads(line) for line in output_manifest.read_text().splitlines()]
             self.assertEqual([row["sample_id"] for row in combined], ["wdev:a", "traj-fixture:d"])
-            self.assertEqual(combined[0]["char_boxes"][0]["x"], 1)
+            self.assertEqual(json.loads(combined[0]["char_boxes"])[0]["x"], 1)
             report = json.loads(output_manifest.with_suffix(".composition.json").read_text())
             self.assertEqual(report["plate_identity_overlap_count"], 1)
 

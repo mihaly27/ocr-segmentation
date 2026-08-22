@@ -45,7 +45,13 @@ def normalized(row: dict[str, Any], root: Path, prefix: str) -> dict[str, Any]:
         "plate": str(plate),
         "perturbation": str(perturbation).lower(),
         "image_path": str(path),
-        "char_boxes": row.get("char_boxes", row.get("boxes", [])),
+        # Store canonical JSON text because the frozen historical runner
+        # stringifies this field before calling json.loads.
+        "char_boxes": json.dumps(
+            row.get("char_boxes", row.get("boxes", [])),
+            ensure_ascii=False,
+            separators=(",", ":"),
+        ),
     }
 
 
