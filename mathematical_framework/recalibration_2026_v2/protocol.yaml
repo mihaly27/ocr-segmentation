@@ -1,0 +1,140 @@
+protocol_version: "2.0"
+protocol_status: frozen_before_execution
+frozen_on: "2026-08-26"
+
+provenance:
+  base_git_commit: 5641bb3dce90696072bf54f7afb62aa29e492190
+  v1_role: inconclusive_pilot_only
+  v1_events_are_pooled: false
+  v1_expected_status: calibration_failure
+  v1_expected_informative_events_per_delta: 45
+  v1_failure_reason: fewer_than_60_informative_events
+  historical_delta_is_calibration_input: false
+  historical_delta_W_excluded: 7.530441831891154
+  W_policy: reuse_independently_recalibrated_v1_W_by_locked_sha256
+  input_lock_required_before_corpus_generation: true
+
+parameter_space:
+  active_set_policy: fixed_from_historical_screen_before_new_calibration
+  coordinates:
+    - cut.min_rel_width_for_split
+    - scoring.w_prior
+    - scoring.blocking_gap_ratio
+  reference_state: [1.6, 2.0, 0.05]
+  normalization_D_diag: [0.10, 0.25, 0.01]
+  hard_lower: [1.20, 0.00, 0.00]
+  hard_upper: [2.00, 4.00, 0.13]
+  raw_grid_levels:
+    - [1.20, 1.60, 2.00]
+    - [0.00, 2.00, 4.00]
+    - [0.00, 0.05, 0.13]
+
+delta_calibration:
+  design: independent_v2_fixed_sample_not_pooled_with_v1
+  trajectory_groups:
+    - {condition: touch, role: informative_target, first_seed: 86082601, count: 40}
+    - {condition: broken, role: informative_target, first_seed: 86082641, count: 40}
+    - {condition: combo, role: informative_target, first_seed: 86082681, count: 40}
+  expected_trajectory_count: 120
+  generator_n_each: 800
+  generator_perturbations: [clean, declared_condition]
+  plate_identity_collision_policy: exclude_trajectory_rows_before_partition_and_record
+  reference_clean_n: 100
+  partition:
+    proposal_n: 15
+    gate_n: 15
+    evaluation_n: 60
+    block_total_n: 90
+  stream_template: [clean, declared_condition, clean]
+  independence_policy: at_most_one_informative_drift_block_per_generator_seed
+  informativeness_is_reported_by_condition: true
+  negative_control_policy: evaluated_separately_not_counted_as_delta_information
+  delta_grid:
+    - 0.0
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 2.5
+    - 3.0
+    - 3.5
+    - 4.0
+    - 4.5
+    - 5.0
+    - 5.5
+    - 6.0
+    - 6.5
+    - 7.0
+    - 7.5
+    - 8.0
+    - 8.5
+    - 9.0
+    - 9.5
+    - 10.0
+    - 10.5
+    - 11.0
+    - 11.5
+    - 12.0
+  informative_event_definition: non_clean_block_and_trigger_and_nontrivial_raw_proposal
+  minimum_informative_events: 60
+  minimum_nonzero_commit_coverage: 0.20
+  harm_upper_bound: 0.05
+  one_sided_confidence: 0.95
+  selection_rule: largest_eligible_grid_value
+  if_no_positive_value_is_eligible: calibration_failure_or_delta_zero
+
+noninferiority_margins:
+  full_plate_accuracy_drop: 0.05
+  character_accuracy_drop: 0.02
+  mean_dseg_increase: 0.25
+  mean_dbox_increase: null
+  dbox_policy: measure_and_report_without_unapproved_threshold
+  semantic_repeat_mismatches: 0
+  latency_policy: evaluation_p95_must_not_exceed_frozen_L_max
+  committed_operational_gate_violations: 0
+
+confirmation:
+  trajectory_generator_seeds: [86082721, 86082722, 86082723, 86082724, 86082725]
+  generator_n_each: 10000
+  reference_clean_n: 100
+  partition:
+    proposal_n: 15
+    gate_n: 15
+    evaluation_n: 60
+    block_total_n: 90
+  plate_identity_collision_policy: exclude_trajectory_rows_before_partition_and_record
+  stream_conditions:
+    - clean
+    - blur
+    - clean
+    - glare
+    - clean
+    - threshold
+    - clean
+    - compression
+    - clean
+    - perspective
+    - clean
+    - touch
+    - clean
+    - broken
+    - clean
+    - combo
+    - clean
+  controllers: [B0, B1, B2, B3, B3-I, B3-R0]
+  radius_and_W_are_frozen_before_generation: true
+  statistical_unit: trajectory_or_drift_block
+
+gate_stress:
+  conditions: [touch, broken, combo]
+  states: full_27_state_raw_grid
+  thresholds_are_frozen: true
+  delayed_ground_truth_is_evaluation_only: true
+
+stop_rules:
+  - input_lock_or_clean_tree_verification_fails
+  - fewer_than_60_informative_delta_events
+  - only_delta_W_zero_qualifies
+  - dbox_unavailable
+  - committed_operational_gate_violation
+  - confirmation_contradicts_calibration
