@@ -1,0 +1,213 @@
+{
+  "version": "v2_input_lock_v1",
+  "status": "v2_inputs_locked_before_generation",
+  "protocol": {
+    "role": "v2_protocol",
+    "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/protocol.yaml",
+    "sha256": "b1c7210d21290278d50e10d541f266904844062fe3fce1d708dc64ca93d24633"
+  },
+  "git": {
+    "branch": "research/bounded-adaptation-recalibration-v2",
+    "commit_before_lock_file": "4466941ec83dad70a206224a61e0f585dbfd4485",
+    "working_tree_before_lock_file": "clean"
+  },
+  "environment": {
+    "python_executable": "/home/mszabo/ocr-segmentation/ips_single_image/.venv/bin/python",
+    "python_version": "3.12.3",
+    "tesseract_version": "tesseract 5.3.4"
+  },
+  "v1_evidence": {
+    "status": "calibration_failure",
+    "selected_delta_W": null,
+    "informative_events_per_delta": 45,
+    "verified_manifest_file_count": 58912,
+    "pooled_into_v2": false
+  },
+  "locked_files": [
+    {
+      "role": "v2_protocol",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/protocol.yaml",
+      "sha256": "b1c7210d21290278d50e10d541f266904844062fe3fce1d708dc64ca93d24633"
+    },
+    {
+      "role": "synthetic_generator",
+      "path": "/home/mszabo/ocr-segmentation/synthetic-generator/synthetic_plate_generator_fixed_v2.py",
+      "sha256": "3c62912a2eb329dbde1671c19e2e6f28e869571c07a92a410093992477ee1441"
+    },
+    {
+      "role": "historical_engine",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/ips_main_experiment.py",
+      "sha256": "3998f303efb2fac00cf96ef290f450c9aaec9fd945264f80c3fedfa0c6cacc32"
+    },
+    {
+      "role": "reference_pipeline_config",
+      "path": "/home/mszabo/ocr-segmentation/ips_single_image/config.yaml",
+      "sha256": "7093a9e482a1af098f424d6352a885ddccefddc4cd83e03076a8de684c329c72"
+    },
+    {
+      "role": "v1_independent_W",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_calibration.json",
+      "sha256": "167e96e395d353e0e4365440b4feb9bbd8d51a6e0af8caf3c1a6968d9238c6d1"
+    },
+    {
+      "role": "v1_phase1_selected",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_local/selected_samples.json",
+      "sha256": "83b2ccf062942d8731d57cfb7cab167533d5c19722bc5e532c282a5d3d2bd9b9"
+    },
+    {
+      "role": "v1_W_annotations",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/annotations.jsonl",
+      "sha256": "ab30b172c8b70c51516f78f846c7f6eef070cb4f61bb5d50e192a6f82f89913b"
+    },
+    {
+      "role": "v1_failed_selection",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/delta_selection/selected_delta.json",
+      "sha256": "28a4de2f0dfebf6ffc853a9d63a14ed1a3d28e905cca3ab9dcfee927dd0a5c63"
+    },
+    {
+      "role": "v1_delta_summary",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/delta_selection/delta_calibration_summary.csv",
+      "sha256": "cb954ade0bca63bf730f0f12bd3257c250cbc24c2e257e937a04558d3d67014e"
+    },
+    {
+      "role": "v1_freeze_manifest",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/MANIFEST.sha256",
+      "sha256": "0c06a1fc513e941d5c5f47cef4fa329bc5adc1e8e0116d44eae299101f0bdb9f"
+    },
+    {
+      "role": "v1_freeze_summary",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/freeze_summary.json",
+      "sha256": "b14cc0fcfb2bf4bc4d25e8422aecb45a6ebf74613d114e8addc5554089ca71f9"
+    },
+    {
+      "role": "v2_code:.gitignore",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/.gitignore",
+      "sha256": "40caf570cf6e78cf4cf4d903ee0087925a61facd77050431340745169053d60e"
+    },
+    {
+      "role": "v2_code:PACKAGE_CONTENTS.sha256",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/PACKAGE_CONTENTS.sha256",
+      "sha256": "cabe22956fdb069598d2b6223d0abf345b906802a90d84bfe3d7b00f32c7907d"
+    },
+    {
+      "role": "v2_code:RUNBOOK.md",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/RUNBOOK.md",
+      "sha256": "3e6361eaa8649d8b2c61fc2fbe6856fc76e9b6c0fb436d19daf18337db8b78c6"
+    },
+    {
+      "role": "v2_code:V2_DESIGN_RATIONALE_HU.md",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/V2_DESIGN_RATIONALE_HU.md",
+      "sha256": "7905c8558563b04e8444081b188c5205361ffc5feff573cc8a25b3deb8c7450b"
+    },
+    {
+      "role": "v2_code:scripts/check_v2_grid.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/check_v2_grid.py",
+      "sha256": "f5138fb09c19af1f3c5c29124d056942ca00b3e2f20aee25934bf0d666018f11"
+    },
+    {
+      "role": "v2_code:scripts/compose_manifest.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/compose_manifest.py",
+      "sha256": "218200eff53f64a0a81bdeedcabbcc085c5ace36ee0dc1e9526d828360e33473"
+    },
+    {
+      "role": "v2_code:scripts/evaluate_delta_harm.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/evaluate_delta_harm.py",
+      "sha256": "396e8affe438105cc49e9241ec042fce9d103ab823239511c92456e4df98a1c2"
+    },
+    {
+      "role": "v2_code:scripts/freeze_artifacts.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/freeze_artifacts.py",
+      "sha256": "70c5e7df0ed52e6292acd098d73947255843c50aa42f2f1acc958b8af44978b7"
+    },
+    {
+      "role": "v2_code:scripts/lock_v2_inputs.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/lock_v2_inputs.py",
+      "sha256": "6031b0a44314361e6e2fe5f5a3ec9b5c471b86d5c8aa25556867cb9286a5efa4"
+    },
+    {
+      "role": "v2_code:scripts/prepare_synthetic_corpora.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/prepare_synthetic_corpora.py",
+      "sha256": "1f36c157dcd9a934bfab8ed18beb439cd8fcd18ccfcd4be5377eecba7c47e72e"
+    },
+    {
+      "role": "v2_code:scripts/progress_v2.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/progress_v2.py",
+      "sha256": "252bccd6757a5fc79f2dab4dad4619f58fb720af217bdcd339b6774b7e128a63"
+    },
+    {
+      "role": "v2_code:scripts/recalib_common.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/recalib_common.py",
+      "sha256": "0133d137237163384584e116c055ff8d6b748241d9f5f657a41da685fa081eb1"
+    },
+    {
+      "role": "v2_code:scripts/run_confirmation.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/run_confirmation.py",
+      "sha256": "3f9b1617328403040354f55fe2505cfa84f4d60c8124596f6cc7d9ab29e8471f"
+    },
+    {
+      "role": "v2_code:scripts/run_delta_grid.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/run_delta_grid.py",
+      "sha256": "852ba19df1b457ca55fade93836863d9d34c2618023f929ae7bea1a199e010f1"
+    },
+    {
+      "role": "v2_code:scripts/run_gate_stress.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/run_gate_stress.py",
+      "sha256": "d8c409ee4c14df37368d0198ede266f4a3033da4549b6789f78dc6a9b5bfe448"
+    },
+    {
+      "role": "v2_code:scripts/run_parameterized_experiment.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/run_parameterized_experiment.py",
+      "sha256": "e5d4aa842ccd0e34edc49e4dc7673e478d6d8b4d324c22ed5c3f353982990384"
+    },
+    {
+      "role": "v2_code:scripts/run_safety_challenge.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/run_safety_challenge.py",
+      "sha256": "8a59db80cdb5d06890da03b8c71e463d8dffa4e0290fba61888abe147d75fba4"
+    },
+    {
+      "role": "v2_code:scripts/select_delta.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/select_delta.py",
+      "sha256": "b7e05ff166d2f7f871c39e4ded79cbb287330463f9409592e40db8cc1f57044f"
+    },
+    {
+      "role": "v2_code:scripts/show_v2_selection.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/show_v2_selection.py",
+      "sha256": "ec7764845794d5a3ef5099ee6fb768244832693e864df49235f3b2a6e0519e80"
+    },
+    {
+      "role": "v2_code:scripts/v2_partition.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/v2_partition.py",
+      "sha256": "f85f1a01ae43359e5677ec3d4afef5b2ea7b8b3e182280f99ffa4947c1c64d57"
+    },
+    {
+      "role": "v2_code:scripts/verify_v2_inputs.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/verify_v2_inputs.py",
+      "sha256": "5d0eee82f2e90e1d5ea10d3bd276b9b199acd5062092e420c893464c6c4b6277"
+    },
+    {
+      "role": "v2_code:tests/test_compose_manifest.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/tests/test_compose_manifest.py",
+      "sha256": "0144d11b12bee76b13a73e591b4ecad91722d65378cf3a50655ac927946d6d7a"
+    },
+    {
+      "role": "v2_code:tests/test_recalib_common.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/tests/test_recalib_common.py",
+      "sha256": "cc1267cc0adba0ee400e2ccdb1f1e8e0fa71ff559956a662788c03413592463e"
+    },
+    {
+      "role": "v2_code:tests/test_select_delta.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/tests/test_select_delta.py",
+      "sha256": "f48cd3548ad24275aad1a6b14ccd1c59a5f8ab25abdb4846783bf749baca5eb5"
+    },
+    {
+      "role": "v2_code:tests/test_v2_partition.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/tests/test_v2_partition.py",
+      "sha256": "e4213804d4e792d753a292e4e91577bcd7bc8b353031b233a8f4c09dcb07cf91"
+    },
+    {
+      "role": "v2_code:tests/test_v2_protocol.py",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/tests/test_v2_protocol.py",
+      "sha256": "034d0048c50d5b4a405a7efd19524bd67d5d672301f703bd38d92f0bc77953c6"
+    }
+  ]
+}
