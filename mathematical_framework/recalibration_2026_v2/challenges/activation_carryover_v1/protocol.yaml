@@ -1,0 +1,77 @@
+protocol_version: "2.1-activation-carryover-v1"
+protocol_status: frozen_before_execution
+frozen_on: "2026-08-30"
+
+scope:
+  role: targeted_post_v2_mechanism_challenge
+  not_a_delta_recalibration: true
+  v2_results_are_not_pooled: true
+  retuning_prohibited: true
+  natural_trigger_is_replaced_by_forced_challenge_opportunity: true
+  interpretation: mechanism_activation_and_cross_drift_carryover_not_deployment_prevalence
+
+frozen_inputs:
+  selected_delta_W: 12.0
+  selected_delta_I: 12.38111011278715
+  W_z_diag: [0.28330591245797343, 1.1, 2.66]
+  D_diag: [0.10, 0.25, 0.01]
+  reference_state: [1.60, 2.00, 0.05]
+  hard_lower: [1.20, 0.00, 0.00]
+  hard_upper: [2.00, 4.00, 0.13]
+  raw_grid_levels:
+    - [1.20, 1.60, 2.00]
+    - [0.00, 2.00, 4.00]
+    - [0.00, 0.05, 0.13]
+  gate_threshold_source_seed: 86082721
+  gate_repeat_n: 2
+
+design:
+  trajectory_seeds: [86082801, 86082802, 86082803, 86082804, 86082805, 86082806, 86082807, 86082808, 86082809, 86082810, 86082811, 86082812, 86082813, 86082814, 86082815, 86082816, 86082817, 86082818]
+  generator_n_each: 2400
+  generator_perturbations: [clean, touch, broken, combo]
+  sequences:
+    - {first_seed: 86082801, count: 3, order: [touch, broken, combo]}
+    - {first_seed: 86082804, count: 3, order: [touch, combo, broken]}
+    - {first_seed: 86082807, count: 3, order: [broken, touch, combo]}
+    - {first_seed: 86082810, count: 3, order: [broken, combo, touch]}
+    - {first_seed: 86082813, count: 3, order: [combo, touch, broken]}
+    - {first_seed: 86082816, count: 3, order: [combo, broken, touch]}
+  stream_rule: clean_before_between_and_after_three_nonclean_conditions
+  reference_clean_n: 100
+  partition: {proposal_n: 15, gate_n: 15, evaluation_n: 60, block_total_n: 90}
+  controllers: [B0, B1, B2, B3, B3-I, B3-R0]
+  statistical_unit: trajectory_or_ordered_drift_transition
+  expected_ordered_pair_replicates: 6
+
+challenge_layers:
+  sequential_controller:
+    forced_opportunity_on_each_nonclean_block: true
+    raw_candidate_rule: frozen_label_free_objective_over_full_27_state_grid
+    state_carries_across_clean_and_nonclean_blocks: true
+  projection_gate_stress:
+    controller_context: B3_state_entering_each_nonclean_block
+    candidates: full_27_state_raw_grid
+    apply_frozen_W_projection: true
+    apply_frozen_label_free_gate: true
+    delayed_ground_truth: evaluation_only
+  carryover:
+    endpoint_time: target_block_before_target_update
+    comparator: B0_reference_state_on_same_evaluation_samples
+    ordered_pairs: [touch_to_broken, touch_to_combo, broken_to_touch, broken_to_combo, combo_to_touch, combo_to_broken]
+
+noninferiority_margins:
+  full_plate_accuracy_drop: 0.05
+  character_accuracy_drop: 0.02
+  mean_dseg_increase: 0.25
+  mean_dbox_increase: null
+  latency_policy: evaluation_p95_must_not_exceed_frozen_L_max
+  semantic_repeat_mismatches: 0
+
+reporting_rules:
+  separate_decision_commit_labels_from_nonzero_state_changes: true
+  report_projection_selected_and_counterfactual_separately: true
+  report_gate_accept_reject_and_delayed_gt_enrichment: true
+  report_carryover_by_ordered_pair_and_controller: true
+  no_posthoc_success_threshold: true
+  technical_PASS_is_not_scientific_success: true
+
