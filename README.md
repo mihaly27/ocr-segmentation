@@ -30,8 +30,8 @@ The current parameter-governor study separates three evidence layers:
 
 The frozen protocols, input locks, tests, runbooks, and hash manifests are under
 `mathematical_framework/recalibration_2026_v2/`. Generated corpora and large raw
-outputs are not duplicated in Git. Compact calibration and audit artifacts must
-be attached to the tagged archival release as described in
+outputs are not duplicated in Git. Compact calibration and audit artifacts are
+attached to the tagged archival release as described in
 `REPRODUCIBILITY.md`.
 
 ## Quick start
