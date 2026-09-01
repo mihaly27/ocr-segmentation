@@ -1,0 +1,305 @@
+{
+  "version": "v21_activation_carryover_audit_v1",
+  "technical_ok": true,
+  "technical_errors": [],
+  "completed_trajectories": 18,
+  "expected_trajectories": 18,
+  "scientific_result": {
+    "selected_path": {
+      "projection_active_events": 0,
+      "nonzero_state_changes": 155,
+      "gate_events": 162,
+      "gate_rejections": 9
+    },
+    "counterfactual_stress": {
+      "rows": 1458,
+      "projection_active": 552,
+      "accepted": 1238,
+      "rejected": 220,
+      "accepted_harm_vs_current": 361,
+      "rejected_harm_vs_current": 104,
+      "accepted_harm_vs_reference": 60,
+      "rejected_harm_vs_reference": 16
+    },
+    "carryover_by_pair_and_controller": {
+      "broken_to_combo/B1": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_combo/B2": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_combo/B3": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_combo/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_combo/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_touch/B1": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_touch/B2": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_touch/B3": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_touch/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 5,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "broken_to_touch/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "combo_to_broken/B1": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 4,
+        "plate_harm": 0,
+        "char_harm": 2,
+        "dseg_harm": 3,
+        "latency_violation": 3
+      },
+      "combo_to_broken/B2": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 4,
+        "plate_harm": 0,
+        "char_harm": 2,
+        "dseg_harm": 3,
+        "latency_violation": 3
+      },
+      "combo_to_broken/B3": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 4,
+        "plate_harm": 0,
+        "char_harm": 2,
+        "dseg_harm": 3,
+        "latency_violation": 3
+      },
+      "combo_to_broken/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 4,
+        "plate_harm": 0,
+        "char_harm": 2,
+        "dseg_harm": 3,
+        "latency_violation": 3
+      },
+      "combo_to_broken/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 4,
+        "plate_harm": 0,
+        "char_harm": 2,
+        "dseg_harm": 3,
+        "latency_violation": 3
+      },
+      "combo_to_touch/B1": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "combo_to_touch/B2": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "combo_to_touch/B3": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "combo_to_touch/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "combo_to_touch/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "touch_to_broken/B1": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 5,
+        "plate_harm": 0,
+        "char_harm": 4,
+        "dseg_harm": 4,
+        "latency_violation": 2
+      },
+      "touch_to_broken/B2": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 5,
+        "plate_harm": 0,
+        "char_harm": 4,
+        "dseg_harm": 4,
+        "latency_violation": 2
+      },
+      "touch_to_broken/B3": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 5,
+        "plate_harm": 0,
+        "char_harm": 4,
+        "dseg_harm": 4,
+        "latency_violation": 2
+      },
+      "touch_to_broken/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 5,
+        "plate_harm": 0,
+        "char_harm": 4,
+        "dseg_harm": 4,
+        "latency_violation": 2
+      },
+      "touch_to_broken/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 5,
+        "plate_harm": 0,
+        "char_harm": 4,
+        "dseg_harm": 4,
+        "latency_violation": 2
+      },
+      "touch_to_combo/B1": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "touch_to_combo/B2": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "touch_to_combo/B3": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "touch_to_combo/B3-I": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      },
+      "touch_to_combo/B3-R0": {
+        "n": 6,
+        "state_differs_from_reference": 6,
+        "any_harm": 0,
+        "plate_harm": 0,
+        "char_harm": 0,
+        "dseg_harm": 0,
+        "latency_violation": 0
+      }
+    },
+    "carryover_total": {
+      "rows": 180,
+      "state_differs_from_reference": 173,
+      "any_harm": 45
+    }
+  },
+  "interpretation": "technical_ok covers completeness and provenance only; scientific results may be adverse",
+  "protocol_sha256": "dfe60de27ac16866dc633c6e9389a79d184312e01cc24726e4f26e3fa8836753",
+  "input_lock_sha256": "e950bd20abfcee4b73eb70a87eaf8d02ecae39d5d09b8cc5ccc7600c4b320e59"
+}

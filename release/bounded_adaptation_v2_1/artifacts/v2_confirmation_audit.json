@@ -1,0 +1,293 @@
+{
+  "version": "v2_confirmation_audit_v1",
+  "ok": true,
+  "errors": [],
+  "scope": "Integrity, frozen-design conformance, descriptive endpoints, and operational gate consistency. No post-hoc endpoint success threshold is imposed.",
+  "protocol_sha256": "b1c7210d21290278d50e10d541f266904844062fe3fce1d708dc64ca93d24633",
+  "input_lock_sha256": "ef931611d8d2d440de8fc8391f23826145a639cebe1705e1cc83219a230ed90b",
+  "selected_delta_W": 12.0,
+  "expected_trajectories": 5,
+  "completed_trajectories": 5,
+  "partition": {
+    "blocks_per_trajectory": 17,
+    "proposal_n": 15,
+    "gate_n": 15,
+    "evaluation_n": 60
+  },
+  "rows_missing_dbox": 0,
+  "committed_gate_violations": 0,
+  "trajectory_reports": [
+    {
+      "seed": 86082721,
+      "blocks": 17,
+      "event_rows": 102,
+      "window_rows": 102,
+      "sample_rows": 6120,
+      "summary_sha256": "b5b4dbf1e383fe3d05a6942148a408550e5af096722798f0fe9278bad36f43d8",
+      "partition_sha256": "670b5aa7e7a6b96843d20693ba820edc8dca00006f7e448054cc7e57f19fc454"
+    },
+    {
+      "seed": 86082722,
+      "blocks": 17,
+      "event_rows": 102,
+      "window_rows": 102,
+      "sample_rows": 6120,
+      "summary_sha256": "b168dc2b8aed5b0159615f767843a947a4544473d03822a0c01ccbca46c8d956",
+      "partition_sha256": "1b5f27f6ff2487774469be205c57d8716973c7f26ccd5adab0c732e5dfaa4779"
+    },
+    {
+      "seed": 86082723,
+      "blocks": 17,
+      "event_rows": 102,
+      "window_rows": 102,
+      "sample_rows": 6120,
+      "summary_sha256": "fbcb211886391c1f78e3d8853169b78ed27008fe56e849ce5f00fea95a11ddfc",
+      "partition_sha256": "38c7b5437f06122f2347a9b752f36166e6bbd4f5029cea420941cb000884a7aa"
+    },
+    {
+      "seed": 86082724,
+      "blocks": 17,
+      "event_rows": 102,
+      "window_rows": 102,
+      "sample_rows": 6120,
+      "summary_sha256": "c424d0d5604a15eddb738a58ed34e216b5993f31001de72cc31bb64c523d881c",
+      "partition_sha256": "e01aa34a2729d6e5fb87492cd2da74107be47e5f8bef7874c37614eae9360ee9"
+    },
+    {
+      "seed": 86082725,
+      "blocks": 17,
+      "event_rows": 102,
+      "window_rows": 102,
+      "sample_rows": 6120,
+      "summary_sha256": "6e3a6a1c00ff40de513cb226c5734cc338cea7fdcceee5a1e84f723d632e9290",
+      "partition_sha256": "558842ca400939a336f7d5c3859ab0ef9a247ae7e258899498fec589bc541232"
+    }
+  ],
+  "controller_summary": [
+    {
+      "controller": "B0",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.46372549019607845,
+      "char_accuracy": 0.867155695611578,
+      "mean_dseg": 0.19294117647058823,
+      "mean_dbox": 0.11075735416110484,
+      "outside_stable_region_windows": 1,
+      "outside_stable_region_rate": 0.011764705882352941,
+      "mean_total_ms": 716.8970835975864,
+      "p95_total_ms": 944.8599741794169,
+      "triggers": 0,
+      "commits": 0,
+      "rollbacks": 0,
+      "fail_safes": 0
+    },
+    {
+      "controller": "B1",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.47274509803921566,
+      "char_accuracy": 0.8714437441643325,
+      "mean_dseg": 0.1468627450980392,
+      "mean_dbox": 0.10271572723346871,
+      "outside_stable_region_windows": 2,
+      "outside_stable_region_rate": 0.023529411764705882,
+      "mean_total_ms": 729.515186447431,
+      "p95_total_ms": 955.0302960909904,
+      "triggers": 28,
+      "commits": 28,
+      "rollbacks": 0,
+      "fail_safes": 0
+    },
+    {
+      "controller": "B2",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.47274509803921566,
+      "char_accuracy": 0.8714437441643325,
+      "mean_dseg": 0.1468627450980392,
+      "mean_dbox": 0.10271572723346871,
+      "outside_stable_region_windows": 2,
+      "outside_stable_region_rate": 0.023529411764705882,
+      "mean_total_ms": 729.515186447431,
+      "p95_total_ms": 955.0302960909904,
+      "triggers": 28,
+      "commits": 28,
+      "rollbacks": 0,
+      "fail_safes": 0
+    },
+    {
+      "controller": "B3",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.47274509803921566,
+      "char_accuracy": 0.8714437441643325,
+      "mean_dseg": 0.1468627450980392,
+      "mean_dbox": 0.10271572723346871,
+      "outside_stable_region_windows": 2,
+      "outside_stable_region_rate": 0.023529411764705882,
+      "mean_total_ms": 729.515186447431,
+      "p95_total_ms": 955.0302960909904,
+      "triggers": 28,
+      "commits": 28,
+      "rollbacks": 0,
+      "fail_safes": 0
+    },
+    {
+      "controller": "B3-I",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.47274509803921566,
+      "char_accuracy": 0.8714437441643325,
+      "mean_dseg": 0.1468627450980392,
+      "mean_dbox": 0.10271572723346871,
+      "outside_stable_region_windows": 2,
+      "outside_stable_region_rate": 0.023529411764705882,
+      "mean_total_ms": 729.515186447431,
+      "p95_total_ms": 955.0302960909904,
+      "triggers": 28,
+      "commits": 28,
+      "rollbacks": 0,
+      "fail_safes": 0
+    },
+    {
+      "controller": "B3-R0",
+      "evaluation_samples": 5100,
+      "evaluation_windows": 85,
+      "plate_accuracy": 0.47274509803921566,
+      "char_accuracy": 0.8714437441643325,
+      "mean_dseg": 0.1468627450980392,
+      "mean_dbox": 0.10271572723346871,
+      "outside_stable_region_windows": 2,
+      "outside_stable_region_rate": 0.023529411764705882,
+      "mean_total_ms": 729.515186447431,
+      "p95_total_ms": 955.0302960909904,
+      "triggers": 28,
+      "commits": 28,
+      "rollbacks": 0,
+      "fail_safes": 0
+    }
+  ],
+  "B3_by_condition": [
+    {
+      "condition": "blur",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.21,
+      "char_accuracy": 0.7794444444444445,
+      "mean_dseg": 0.0,
+      "mean_dbox": 0.05757881239399464
+    },
+    {
+      "condition": "glare",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.5166666666666667,
+      "char_accuracy": 0.8977777777777777,
+      "mean_dseg": 0.0,
+      "mean_dbox": 0.08201793077303755
+    },
+    {
+      "condition": "threshold",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.56,
+      "char_accuracy": 0.9127777777777777,
+      "mean_dseg": 0.0,
+      "mean_dbox": 0.07351727010554056
+    },
+    {
+      "condition": "compression",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.52,
+      "char_accuracy": 0.9033333333333333,
+      "mean_dseg": 0.0,
+      "mean_dbox": 0.0661126173957827
+    },
+    {
+      "condition": "perspective",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.44666666666666666,
+      "char_accuracy": 0.8716666666666667,
+      "mean_dseg": 0.0,
+      "mean_dbox": 0.1801797981968834
+    },
+    {
+      "condition": "touch",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.49,
+      "char_accuracy": 0.8416666666666667,
+      "mean_dseg": 0.55,
+      "mean_dbox": 0.3046692354559985
+    },
+    {
+      "condition": "broken",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.14,
+      "char_accuracy": 0.705654761904762,
+      "mean_dseg": 1.4666666666666666,
+      "mean_dbox": 0.14790965779786408
+    },
+    {
+      "condition": "combo",
+      "evaluation_samples": 300,
+      "plate_accuracy": 0.35,
+      "char_accuracy": 0.81,
+      "mean_dseg": 0.48,
+      "mean_dbox": 0.22637123539741363
+    }
+  ],
+  "paired_B3_comparisons": [
+    {
+      "controller_a": "B3",
+      "controller_b": "B0",
+      "paired_samples": 5100,
+      "delta_plate_accuracy": 0.009019607843137255,
+      "delta_char_accuracy": 0.004288048552754434
+    },
+    {
+      "controller_a": "B3",
+      "controller_b": "B1",
+      "paired_samples": 5100,
+      "delta_plate_accuracy": 0.0,
+      "delta_char_accuracy": 0.0
+    },
+    {
+      "controller_a": "B3",
+      "controller_b": "B2",
+      "paired_samples": 5100,
+      "delta_plate_accuracy": 0.0,
+      "delta_char_accuracy": 0.0
+    },
+    {
+      "controller_a": "B3",
+      "controller_b": "B3-I",
+      "paired_samples": 5100,
+      "delta_plate_accuracy": 0.0,
+      "delta_char_accuracy": 0.0
+    },
+    {
+      "controller_a": "B3",
+      "controller_b": "B3-R0",
+      "paired_samples": 5100,
+      "delta_plate_accuracy": 0.0,
+      "delta_char_accuracy": 0.0
+    }
+  ],
+  "gate_stress": {
+    "state_environment_pairs": 81,
+    "accepted": 72,
+    "rejected": 9,
+    "selective": true,
+    "dbox_available": true,
+    "output": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/outputs/confirmation/trajectory_86082721/gate_stress.csv",
+    "output_sha256": "89be2009687f6c9be64cb1ed0c769475ef26f7cc126bb469c24085f3630b78b0",
+    "protocol_sha256": "b1c7210d21290278d50e10d541f266904844062fe3fce1d708dc64ca93d24633",
+    "input_lock_sha256": "ef931611d8d2d440de8fc8391f23826145a639cebe1705e1cc83219a230ed90b"
+  },
+  "safety_challenge": {
+    "ok": true,
+    "scenario_count": 5,
+    "failed_scenarios": [],
+    "reference_calibration": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/outputs/confirmation/trajectory_86082721/confirmatory_main/reference_calibration.json",
+    "reference_calibration_sha256": "49703e61046aa617cec60f0fc196df2ea3f2d237cf37acb07161f74f6f9fd763",
+    "output_sha256": "c6b8f52f2651c9bcf2f9553054712c6ff30af0374b8ea68113311c4dfe0f427d",
+    "scope_note": "Threshold-level branch challenge. Real-output selectivity is assessed separately by run_gate_stress.py."
+  }
+}

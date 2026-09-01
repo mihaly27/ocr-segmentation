@@ -1,0 +1,23 @@
+captured_at_utc=2026-09-01T19:04:23Z
+git_commit=9c7be2895d24f91aafad51cb78d8a8135dbdd64d
+git_branch=research/bounded-adaptation-recalibration-v2
+python=Python 3.12.3
+tesseract=tesseract 5.3.4
+kernel=Linux 6.8.0-111-generic #111-Ubuntu SMP PREEMPT_DYNAMIC Sat Apr 11 23:16:02 UTC 2026 x86_64 GNU/Linux
+
+python_packages:
+joblib==1.5.3
+narwhals==2.25.0
+numpy==2.4.4
+opencv-python==4.13.0.92
+packaging==26.1
+pandas==3.0.5
+pillow==12.2.0
+pip==24.0
+pytesseract==0.3.13
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+scikit-learn==1.9.0
+scipy==1.18.1
+six==1.17.0
+threadpoolctl==3.6.0

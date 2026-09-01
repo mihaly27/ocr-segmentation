@@ -1,0 +1,15 @@
+{
+  "version": "v2_grid_check_v1",
+  "ok": true,
+  "errors": [],
+  "counts": {
+    "expected_runs": 3000,
+    "harm_csv": 3000,
+    "harm_summary": 3000,
+    "experiment_summary": 3000,
+    "partition_map": 3000
+  },
+  "evaluation_n_per_block": 60,
+  "committed_gate_violations": 0,
+  "rows_missing_dbox": 0
+}

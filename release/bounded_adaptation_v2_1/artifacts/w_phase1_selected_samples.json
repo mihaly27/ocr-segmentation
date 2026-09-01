@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "train_003151_blur_EJN040",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003151_blur_EJN040.png",
+    "gt": "EJN040",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004450_broken_XZH469",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004450_broken_XZH469.png",
+    "gt": "XZH469",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003771_clean_ORC741",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003771_clean_ORC741.png",
+    "gt": "ORC741",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000692_combo_WXZ919",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000692_combo_WXZ919.png",
+    "gt": "WXZ919",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003310_compression_EZP240",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003310_compression_EZP240.png",
+    "gt": "EZP240",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004826_glare_URU241",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004826_glare_URU241.png",
+    "gt": "URU241",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003237_perspective_SCW356",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003237_perspective_SCW356.png",
+    "gt": "SCW356",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002597_threshold_GUH580",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002597_threshold_GUH580.png",
+    "gt": "GUH580",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002937_touch_CAK577",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002937_touch_CAK577.png",
+    "gt": "CAK577",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002926_blur_WDG336",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002926_blur_WDG336.png",
+    "gt": "WDG336",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001327_broken_YIB431",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001327_broken_YIB431.png",
+    "gt": "YIB431",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002988_clean_CSR227",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002988_clean_CSR227.png",
+    "gt": "CSR227",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002492_combo_YBI179",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002492_combo_YBI179.png",
+    "gt": "YBI179",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003238_compression_YLR102",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003238_compression_YLR102.png",
+    "gt": "YLR102",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001631_glare_ALH023",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001631_glare_ALH023.png",
+    "gt": "ALH023",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003975_perspective_XXS227",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003975_perspective_XXS227.png",
+    "gt": "XXS227",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002048_threshold_BJX086",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002048_threshold_BJX086.png",
+    "gt": "BJX086",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002514_touch_EQV562",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002514_touch_EQV562.png",
+    "gt": "EQV562",
+    "perturbation": "touch"
+  },
+  {
+    "id": "test_004807_blur_MDM725",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004807_blur_MDM725.png",
+    "gt": "MDM725",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004036_broken_PDI415",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004036_broken_PDI415.png",
+    "gt": "PDI415",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001575_clean_TJD525",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001575_clean_TJD525.png",
+    "gt": "TJD525",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003914_combo_ASJ312",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003914_combo_ASJ312.png",
+    "gt": "ASJ312",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000826_compression_GOX661",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000826_compression_GOX661.png",
+    "gt": "GOX661",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002792_glare_MAM676",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002792_glare_MAM676.png",
+    "gt": "MAM676",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001032_perspective_ABT714",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001032_perspective_ABT714.png",
+    "gt": "ABT714",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000527_threshold_BAO417",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000527_threshold_BAO417.png",
+    "gt": "BAO417",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002406_touch_NSW377",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002406_touch_NSW377.png",
+    "gt": "NSW377",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003412_blur_LLT197",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003412_blur_LLT197.png",
+    "gt": "LLT197",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004414_broken_QLO166",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004414_broken_QLO166.png",
+    "gt": "QLO166",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001521_clean_BTM356",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001521_clean_BTM356.png",
+    "gt": "BTM356",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000161_combo_TER261",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000161_combo_TER261.png",
+    "gt": "TER261",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004453_compression_VRD271",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004453_compression_VRD271.png",
+    "gt": "VRD271",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002810_glare_OJK468",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002810_glare_OJK468.png",
+    "gt": "OJK468",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004353_perspective_XGV741",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004353_perspective_XGV741.png",
+    "gt": "XGV741",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003353_threshold_UBF292",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003353_threshold_UBF292.png",
+    "gt": "UBF292",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003216_touch_KIH552",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003216_touch_KIH552.png",
+    "gt": "KIH552",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003925_blur_FII538",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003925_blur_FII538.png",
+    "gt": "FII538",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000832_broken_WGH218",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000832_broken_WGH218.png",
+    "gt": "WGH218",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_000423_clean_CPE998",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000423_clean_CPE998.png",
+    "gt": "CPE998",
+    "perturbation": "clean"
+  },
+  {
+    "id": "test_004337_combo_MIG833",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004337_combo_MIG833.png",
+    "gt": "MIG833",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003949_compression_OGQ723",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003949_compression_OGQ723.png",
+    "gt": "OGQ723",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003647_glare_WXK845",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003647_glare_WXK845.png",
+    "gt": "WXK845",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003183_perspective_FPH308",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003183_perspective_FPH308.png",
+    "gt": "FPH308",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000698_threshold_LKD643",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000698_threshold_LKD643.png",
+    "gt": "LKD643",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001713_touch_UNM131",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001713_touch_UNM131.png",
+    "gt": "UNM131",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003520_blur_WQJ541",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003520_blur_WQJ541.png",
+    "gt": "WQJ541",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003082_broken_JWK406",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003082_broken_JWK406.png",
+    "gt": "JWK406",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001440_clean_TJC131",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001440_clean_TJC131.png",
+    "gt": "TJC131",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000197_combo_HCO864",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000197_combo_HCO864.png",
+    "gt": "HCO864",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_002194_compression_GWY239",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002194_compression_GWY239.png",
+    "gt": "GWY239",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004943_glare_YHB521",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004943_glare_YHB521.png",
+    "gt": "YHB521",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_002256_perspective_BOI795",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002256_perspective_BOI795.png",
+    "gt": "BOI795",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001976_threshold_IYC524",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001976_threshold_IYC524.png",
+    "gt": "IYC524",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001164_touch_SYC854",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001164_touch_SYC854.png",
+    "gt": "SYC854",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003421_blur_BYQ372",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003421_blur_BYQ372.png",
+    "gt": "BYQ372",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001777_broken_IAH496",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001777_broken_IAH496.png",
+    "gt": "IAH496",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_000477_clean_SBQ316",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000477_clean_SBQ316.png",
+    "gt": "SBQ316",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002852_combo_PXA809",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002852_combo_PXA809.png",
+    "gt": "PXA809",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004057_compression_YTF193",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004057_compression_YTF193.png",
+    "gt": "YTF193",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002324_glare_NTJ001",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002324_glare_NTJ001.png",
+    "gt": "NTJ001",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004857_perspective_CSU007",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004857_perspective_CSU007.png",
+    "gt": "CSU007",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000221_threshold_VRC454",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000221_threshold_VRC454.png",
+    "gt": "VRC454",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_000156_touch_VQG614",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000156_touch_VQG614.png",
+    "gt": "VQG614",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001666_blur_YCQ236",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001666_blur_YCQ236.png",
+    "gt": "YCQ236",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001066_broken_ACN139",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001066_broken_ACN139.png",
+    "gt": "ACN139",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004752_clean_JWL860",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004752_clean_JWL860.png",
+    "gt": "JWL860",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001646_combo_IBU825",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001646_combo_IBU825.png",
+    "gt": "IBU825",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004273_compression_GJQ391",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004273_compression_GJQ391.png",
+    "gt": "GJQ391",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000461_glare_NAC002",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000461_glare_NAC002.png",
+    "gt": "NAC002",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004902_perspective_JNX049",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004902_perspective_JNX049.png",
+    "gt": "JNX049",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001580_threshold_ZDU525",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001580_threshold_ZDU525.png",
+    "gt": "ZDU525",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003513_touch_ZTO221",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003513_touch_ZTO221.png",
+    "gt": "ZTO221",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000424_blur_ZRV754",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000424_blur_ZRV754.png",
+    "gt": "ZRV754",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000445_broken_OEP869",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000445_broken_OEP869.png",
+    "gt": "OEP869",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001089_clean_RSY009",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001089_clean_RSY009.png",
+    "gt": "RSY009",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002843_combo_MUC085",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002843_combo_MUC085.png",
+    "gt": "MUC085",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_002698_compression_ZTR415",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002698_compression_ZTR415.png",
+    "gt": "ZTR415",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004340_glare_LWM736",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004340_glare_LWM736.png",
+    "gt": "LWM736",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003894_perspective_QDG494",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003894_perspective_QDG494.png",
+    "gt": "QDG494",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000401_threshold_VLY587",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000401_threshold_VLY587.png",
+    "gt": "VLY587",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001209_touch_WKW116",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001209_touch_WKW116.png",
+    "gt": "WKW116",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003007_blur_FKD735",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003007_blur_FKD735.png",
+    "gt": "FKD735",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000670_broken_QKA197",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000670_broken_QKA197.png",
+    "gt": "QKA197",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004527_clean_BCX262",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004527_clean_BCX262.png",
+    "gt": "BCX262",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002411_combo_UXZ426",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002411_combo_UXZ426.png",
+    "gt": "UXZ426",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_002356_compression_DEH050",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002356_compression_DEH050.png",
+    "gt": "DEH050",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003791_glare_RWI807",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003791_glare_RWI807.png",
+    "gt": "RWI807",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001491_perspective_KNH465",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001491_perspective_KNH465.png",
+    "gt": "KNH465",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "test_004775_threshold_LMC511",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004775_threshold_LMC511.png",
+    "gt": "LMC511",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001029_touch_WUT303",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001029_touch_WUT303.png",
+    "gt": "WUT303",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002503_blur_QDL390",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002503_blur_QDL390.png",
+    "gt": "QDL390",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000364_broken_ABL881",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000364_broken_ABL881.png",
+    "gt": "ABL881",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003060_clean_QDP077",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003060_clean_QDP077.png",
+    "gt": "QDP077",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000152_combo_CYW878",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000152_combo_CYW878.png",
+    "gt": "CYW878",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001753_compression_FHZ520",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001753_compression_FHZ520.png",
+    "gt": "FHZ520",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001982_glare_UQC465",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001982_glare_UQC465.png",
+    "gt": "UQC465",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003453_perspective_PUG441",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003453_perspective_PUG441.png",
+    "gt": "PUG441",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "test_004757_threshold_HBP831",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004757_threshold_HBP831.png",
+    "gt": "HBP831",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002190_touch_MMY280",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002190_touch_MMY280.png",
+    "gt": "MMY280",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000280_blur_RVH698",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000280_blur_RVH698.png",
+    "gt": "RVH698",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003397_broken_LYH279",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003397_broken_LYH279.png",
+    "gt": "LYH279",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004068_clean_HVU808",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004068_clean_HVU808.png",
+    "gt": "HVU808",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002933_combo_UDP978",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002933_combo_UDP978.png",
+    "gt": "UDP978",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001654_compression_FCW191",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001654_compression_FCW191.png",
+    "gt": "FCW191",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001388_glare_CTD425",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001388_glare_CTD425.png",
+    "gt": "CTD425",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_000033_perspective_HEW996",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000033_perspective_HEW996.png",
+    "gt": "HEW996",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000203_threshold_AHT239",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000203_threshold_AHT239.png",
+    "gt": "AHT239",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003540_touch_JSA107",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003540_touch_JSA107.png",
+    "gt": "JSA107",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002269_blur_WVF874",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002269_blur_WVF874.png",
+    "gt": "WVF874",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000256_broken_BAX441",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000256_broken_BAX441.png",
+    "gt": "BAX441",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003249_clean_KFQ065",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003249_clean_KFQ065.png",
+    "gt": "KFQ065",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003959_combo_THR998",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003959_combo_THR998.png",
+    "gt": "THR998",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004417_compression_EBY781",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004417_compression_EBY781.png",
+    "gt": "EBY781",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004655_glare_IGJ479",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004655_glare_IGJ479.png",
+    "gt": "IGJ479",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001788_perspective_ZZH709",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001788_perspective_ZZH709.png",
+    "gt": "ZZH709",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003785_threshold_QGA123",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003785_threshold_QGA123.png",
+    "gt": "QGA123",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003855_touch_JLD633",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003855_touch_JLD633.png",
+    "gt": "JLD633",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001342_blur_WHZ899",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001342_blur_WHZ899.png",
+    "gt": "WHZ899",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000940_broken_XNQ329",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000940_broken_XNQ329.png",
+    "gt": "XNQ329",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003312_clean_FEH582",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003312_clean_FEH582.png",
+    "gt": "FEH582",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001934_combo_POD037",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001934_combo_POD037.png",
+    "gt": "POD037",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_002464_compression_MGF179",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002464_compression_MGF179.png",
+    "gt": "MGF179",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001820_glare_MFB401",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001820_glare_MFB401.png",
+    "gt": "MFB401",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001680_perspective_WXI834",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001680_perspective_WXI834.png",
+    "gt": "WXI834",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002174_threshold_DZC569",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002174_threshold_DZC569.png",
+    "gt": "DZC569",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002649_touch_IQK216",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002649_touch_IQK216.png",
+    "gt": "IQK216",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001900_blur_SCO300",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001900_blur_SCO300.png",
+    "gt": "SCO300",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004126_broken_PBO263",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004126_broken_PBO263.png",
+    "gt": "PBO263",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004446_clean_OQS298",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004446_clean_OQS298.png",
+    "gt": "OQS298",
+    "perturbation": "clean"
+  },
+  {
+    "id": "test_004976_combo_WHT543",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004976_combo_WHT543.png",
+    "gt": "WHT543",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000520_compression_GTJ427",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000520_compression_GTJ427.png",
+    "gt": "GTJ427",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002945_glare_RFV732",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002945_glare_RFV732.png",
+    "gt": "RFV732",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004965_perspective_QWV509",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004965_perspective_QWV509.png",
+    "gt": "QWV509",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002399_threshold_WAT079",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002399_threshold_WAT079.png",
+    "gt": "WAT079",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003693_touch_RFO375",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003693_touch_RFO375.png",
+    "gt": "RFO375",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001054_blur_CCY275",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001054_blur_CCY275.png",
+    "gt": "CCY275",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003712_broken_JWL733",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003712_broken_JWL733.png",
+    "gt": "JWL733",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002898_clean_FAA579",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002898_clean_FAA579.png",
+    "gt": "FAA579",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002240_combo_LDV977",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002240_combo_LDV977.png",
+    "gt": "LDV977",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001915_compression_EZN180",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001915_compression_EZN180.png",
+    "gt": "EZN180",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000398_glare_HIU099",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000398_glare_HIU099.png",
+    "gt": "HIU099",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003786_perspective_XNK210",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003786_perspective_XNK210.png",
+    "gt": "XNK210",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003911_threshold_DPC966",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003911_threshold_DPC966.png",
+    "gt": "DPC966",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002496_touch_GIS961",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002496_touch_GIS961.png",
+    "gt": "GIS961",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003583_blur_QKA172",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003583_blur_QKA172.png",
+    "gt": "QKA172",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004972_broken_KCA090",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004972_broken_KCA090.png",
+    "gt": "KCA090",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002763_clean_CDA130",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002763_clean_CDA130.png",
+    "gt": "CDA130",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001295_combo_GXV830",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001295_combo_GXV830.png",
+    "gt": "GXV830",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000484_compression_CNK652",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000484_compression_CNK652.png",
+    "gt": "CNK652",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003341_glare_CKJ591",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003341_glare_CKJ591.png",
+    "gt": "CKJ591",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001077_perspective_GUR062",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001077_perspective_GUR062.png",
+    "gt": "GUR062",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003587_threshold_LAM113",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003587_threshold_LAM113.png",
+    "gt": "LAM113",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003081_touch_PIE474",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003081_touch_PIE474.png",
+    "gt": "PIE474",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003898_blur_TSB537",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003898_blur_TSB537.png",
+    "gt": "TSB537",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_002902_broken_SSV396",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002902_broken_SSV396.png",
+    "gt": "SSV396",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_000072_clean_GPT581",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000072_clean_GPT581.png",
+    "gt": "GPT581",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000647_combo_UZR884",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000647_combo_UZR884.png",
+    "gt": "UZR884",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004750_compression_NXA686",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004750_compression_NXA686.png",
+    "gt": "NXA686",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004448_glare_ISC875",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004448_glare_ISC875.png",
+    "gt": "ISC875",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_002787_perspective_VQB509",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002787_perspective_VQB509.png",
+    "gt": "VQB509",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002660_threshold_OKT041",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002660_threshold_OKT041.png",
+    "gt": "OKT041",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "test_004557_touch_QTN169",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004557_touch_QTN169.png",
+    "gt": "QTN169",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001000_blur_RWE783",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001000_blur_RWE783.png",
+    "gt": "RWE783",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001651_broken_LWF747",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001651_broken_LWF747.png",
+    "gt": "LWF747",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_000828_clean_WLI940",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000828_clean_WLI940.png",
+    "gt": "WLI940",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003131_combo_SRQ643",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003131_combo_SRQ643.png",
+    "gt": "SRQ643",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_002842_compression_EIQ142",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002842_compression_EIQ142.png",
+    "gt": "EIQ142",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000146_glare_KKJ817",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000146_glare_KKJ817.png",
+    "gt": "KKJ817",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_000357_perspective_IYD692",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000357_perspective_IYD692.png",
+    "gt": "IYD692",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003290_threshold_HZH453",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003290_threshold_HZH453.png",
+    "gt": "HZH453",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003360_touch_GUD247",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003360_touch_GUD247.png",
+    "gt": "GUD247",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000559_blur_GDT457",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000559_blur_GDT457.png",
+    "gt": "GDT457",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003694_broken_EQJ386",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003694_broken_EQJ386.png",
+    "gt": "EQJ386",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001890_clean_LAM962",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001890_clean_LAM962.png",
+    "gt": "LAM962",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000989_combo_MQI204",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000989_combo_MQI204.png",
+    "gt": "MQI204",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000790_compression_HQR184",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000790_compression_HQR184.png",
+    "gt": "HQR184",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002216_glare_BMH068",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002216_glare_BMH068.png",
+    "gt": "BMH068",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004443_perspective_MIH426",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004443_perspective_MIH426.png",
+    "gt": "MIH426",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000914_threshold_SXK677",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000914_threshold_SXK677.png",
+    "gt": "SXK677",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002280_touch_WKI780",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002280_touch_WKI780.png",
+    "gt": "WKI780",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000622_blur_DGH137",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000622_blur_DGH137.png",
+    "gt": "DGH137",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_002875_broken_BUS157",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002875_broken_BUS157.png",
+    "gt": "BUS157",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001926_clean_ONM534",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001926_clean_ONM534.png",
+    "gt": "ONM534",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002078_combo_LZD385",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002078_combo_LZD385.png",
+    "gt": "LZD385",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000322_compression_JQO164",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000322_compression_JQO164.png",
+    "gt": "JQO164",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000686_glare_DYF377",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000686_glare_DYF377.png",
+    "gt": "DYF377",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004956_perspective_RXC049",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004956_perspective_RXC049.png",
+    "gt": "RXC049",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003956_threshold_XET756",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003956_threshold_XET756.png",
+    "gt": "XET756",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "test_004836_touch_ENH921",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004836_touch_ENH921.png",
+    "gt": "ENH921",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002197_blur_JZN097",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002197_blur_JZN097.png",
+    "gt": "JZN097",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004045_broken_FCD714",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004045_broken_FCD714.png",
+    "gt": "FCD714",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004959_clean_CWC014",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004959_clean_CWC014.png",
+    "gt": "CWC014",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000422_combo_SSZ626",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000422_combo_SSZ626.png",
+    "gt": "SSZ626",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003526_compression_HID531",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003526_compression_HID531.png",
+    "gt": "HID531",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004133_glare_AIU156",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004133_glare_AIU156.png",
+    "gt": "AIU156",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003840_perspective_MFY524",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003840_perspective_MFY524.png",
+    "gt": "MFY524",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003839_threshold_OYT737",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003839_threshold_OYT737.png",
+    "gt": "OYT737",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002550_touch_LSU592",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002550_touch_LSU592.png",
+    "gt": "LSU592",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_000730_blur_DPH780",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000730_blur_DPH780.png",
+    "gt": "DPH780",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001093_broken_GMR949",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001093_broken_GMR949.png",
+    "gt": "GMR949",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001989_clean_FSM885",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001989_clean_FSM885.png",
+    "gt": "FSM885",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000404_combo_GCT901",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000404_combo_GCT901.png",
+    "gt": "GCT901",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000457_compression_GWM308",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000457_compression_GWM308.png",
+    "gt": "GWM308",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003611_glare_OUY077",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003611_glare_OUY077.png",
+    "gt": "OUY077",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_002067_perspective_JSJ673",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002067_perspective_JSJ673.png",
+    "gt": "JSJ673",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000788_threshold_QVC659",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000788_threshold_QVC659.png",
+    "gt": "QVC659",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003648_touch_WWG731",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003648_touch_WWG731.png",
+    "gt": "WWG731",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002557_blur_UJI270",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002557_blur_UJI270.png",
+    "gt": "UJI270",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001084_broken_GAY105",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001084_broken_GAY105.png",
+    "gt": "GAY105",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002160_clean_LZR478",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002160_clean_LZR478.png",
+    "gt": "LZR478",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_000773_combo_ISN809",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000773_combo_ISN809.png",
+    "gt": "ISN809",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003031_compression_NEO016",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003031_compression_NEO016.png",
+    "gt": "NEO016",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_001442_glare_PVF830",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001442_glare_PVF830.png",
+    "gt": "PVF830",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001167_perspective_QCA811",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001167_perspective_QCA811.png",
+    "gt": "QCA811",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002885_threshold_ZSK661",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002885_threshold_ZSK661.png",
+    "gt": "ZSK661",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003441_touch_CHD775",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003441_touch_CHD775.png",
+    "gt": "CHD775",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001612_blur_SOB886",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001612_blur_SOB886.png",
+    "gt": "SOB886",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001804_broken_JCT229",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001804_broken_JCT229.png",
+    "gt": "JCT229",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002934_clean_VIN954",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002934_clean_VIN954.png",
+    "gt": "VIN954",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003644_combo_WFL067",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003644_combo_WFL067.png",
+    "gt": "WFL067",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001627_compression_ZPB424",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001627_compression_ZPB424.png",
+    "gt": "ZPB424",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000623_glare_WBD157",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000623_glare_WBD157.png",
+    "gt": "WBD157",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001104_perspective_MBQ972",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001104_perspective_MBQ972.png",
+    "gt": "MBQ972",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001472_threshold_MNF699",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001472_threshold_MNF699.png",
+    "gt": "MNF699",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001830_touch_MBB364",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001830_touch_MBB364.png",
+    "gt": "MBB364",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002899_blur_YMM585",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002899_blur_YMM585.png",
+    "gt": "YMM585",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_001363_broken_HOD777",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001363_broken_HOD777.png",
+    "gt": "HOD777",
+    "perturbation": "broken"
+  },
+  {
+    "id": "test_004284_clean_TZS699",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004284_clean_TZS699.png",
+    "gt": "TZS699",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003905_combo_QST974",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003905_combo_QST974.png",
+    "gt": "QST974",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003157_compression_QUX552",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003157_compression_QUX552.png",
+    "gt": "QUX552",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002909_glare_DUB452",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002909_glare_DUB452.png",
+    "gt": "DUB452",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004245_perspective_LGW507",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004245_perspective_LGW507.png",
+    "gt": "LGW507",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001796_threshold_LRB029",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001796_threshold_LRB029.png",
+    "gt": "LRB029",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003189_touch_PSZ353",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003189_touch_PSZ353.png",
+    "gt": "PSZ353",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003223_blur_ZXT355",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003223_blur_ZXT355.png",
+    "gt": "ZXT355",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000562_broken_MQC487",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000562_broken_MQC487.png",
+    "gt": "MQC487",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002430_clean_KLM265",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002430_clean_KLM265.png",
+    "gt": "KLM265",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002942_combo_EYX667",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002942_combo_EYX667.png",
+    "gt": "EYX667",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003742_compression_EXE381",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003742_compression_EXE381.png",
+    "gt": "EXE381",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003692_glare_IRS724",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003692_glare_IRS724.png",
+    "gt": "IRS724",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_000213_perspective_HOE556",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000213_perspective_HOE556.png",
+    "gt": "HOE556",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_000779_threshold_WPW215",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000779_threshold_WPW215.png",
+    "gt": "WPW215",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_003477_touch_HIE462",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003477_touch_HIE462.png",
+    "gt": "HIE462",
+    "perturbation": "touch"
+  },
+  {
+    "id": "test_004366_blur_VOJ677",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004366_blur_VOJ677.png",
+    "gt": "VOJ677",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_003388_broken_LIF072",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003388_broken_LIF072.png",
+    "gt": "LIF072",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_000729_clean_RPX690",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000729_clean_RPX690.png",
+    "gt": "RPX690",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_002384_combo_UMZ977",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002384_combo_UMZ977.png",
+    "gt": "UMZ977",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_000673_compression_VTI977",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000673_compression_VTI977.png",
+    "gt": "VTI977",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002072_glare_CMO102",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002072_glare_CMO102.png",
+    "gt": "CMO102",
+    "perturbation": "glare"
+  },
+  {
+    "id": "test_004713_perspective_IPU754",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004713_perspective_IPU754.png",
+    "gt": "IPU754",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_002147_threshold_CCL297",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002147_threshold_CCL297.png",
+    "gt": "CCL297",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002784_touch_QDV952",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002784_touch_QDV952.png",
+    "gt": "QDV952",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002449_blur_FKK294",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002449_blur_FKK294.png",
+    "gt": "FKK294",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004855_broken_IVC721",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004855_broken_IVC721.png",
+    "gt": "IVC721",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003222_clean_MJT822",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003222_clean_MJT822.png",
+    "gt": "MJT822",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003797_combo_EMS599",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003797_combo_EMS599.png",
+    "gt": "EMS599",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_003166_compression_QVC915",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003166_compression_QVC915.png",
+    "gt": "QVC915",
+    "perturbation": "compression"
+  },
+  {
+    "id": "test_004070_glare_GAQ014",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004070_glare_GAQ014.png",
+    "gt": "GAQ014",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001671_perspective_GLA423",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001671_perspective_GLA423.png",
+    "gt": "GLA423",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_001949_threshold_XMR755",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001949_threshold_XMR755.png",
+    "gt": "XMR755",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_001848_touch_LPK188",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001848_touch_LPK188.png",
+    "gt": "LPK188",
+    "perturbation": "touch"
+  },
+  {
+    "id": "test_004789_blur_WKM036",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004789_blur_WKM036.png",
+    "gt": "WKM036",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004927_broken_IUE896",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004927_broken_IUE896.png",
+    "gt": "IUE896",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002907_clean_GXZ071",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002907_clean_GXZ071.png",
+    "gt": "GXZ071",
+    "perturbation": "clean"
+  },
+  {
+    "id": "test_004220_combo_QBK180",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004220_combo_QBK180.png",
+    "gt": "QBK180",
+    "perturbation": "combo"
+  },
+  {
+    "id": "test_004426_compression_UUB500",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004426_compression_UUB500.png",
+    "gt": "UUB500",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000353_glare_DGW262",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000353_glare_DGW262.png",
+    "gt": "DGW262",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_003129_perspective_AWC294",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003129_perspective_AWC294.png",
+    "gt": "AWC294",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003569_threshold_JEE429",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003569_threshold_JEE429.png",
+    "gt": "JEE429",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_002451_touch_REG171",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002451_touch_REG171.png",
+    "gt": "REG171",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002413_blur_FWN516",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002413_blur_FWN516.png",
+    "gt": "FWN516",
+    "perturbation": "blur"
+  },
+  {
+    "id": "test_004369_broken_XYR137",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004369_broken_XYR137.png",
+    "gt": "XYR137",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003303_clean_ASW014",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003303_clean_ASW014.png",
+    "gt": "ASW014",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_003734_combo_WUE987",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003734_combo_WUE987.png",
+    "gt": "WUE987",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001591_compression_GPZ792",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001591_compression_GPZ792.png",
+    "gt": "GPZ792",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_003494_glare_QSB803",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003494_glare_QSB803.png",
+    "gt": "QSB803",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_001338_perspective_PVO276",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001338_perspective_PVO276.png",
+    "gt": "PVO276",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003740_threshold_YOX855",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003740_threshold_YOX855.png",
+    "gt": "YOX855",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_000894_touch_XFU210",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000894_touch_XFU210.png",
+    "gt": "XFU210",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_002152_blur_ZUM980",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002152_blur_ZUM980.png",
+    "gt": "ZUM980",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000337_broken_SAA576",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000337_broken_SAA576.png",
+    "gt": "SAA576",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_003339_clean_DJG501",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003339_clean_DJG501.png",
+    "gt": "DJG501",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001268_combo_GBN691",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001268_combo_GBN691.png",
+    "gt": "GBN691",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001546_compression_DCA907",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001546_compression_DCA907.png",
+    "gt": "DCA907",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_000425_glare_EKC207",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000425_glare_EKC207.png",
+    "gt": "EKC207",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_002742_perspective_WTA637",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002742_perspective_WTA637.png",
+    "gt": "WTA637",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "test_004289_threshold_HPC730",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/test_004289_threshold_HPC730.png",
+    "gt": "HPC730",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_000723_touch_XSX548",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000723_touch_XSX548.png",
+    "gt": "XSX548",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_003142_blur_YAO496",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003142_blur_YAO496.png",
+    "gt": "YAO496",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000355_broken_UVQ283",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000355_broken_UVQ283.png",
+    "gt": "UVQ283",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_001197_clean_LWC121",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001197_clean_LWC121.png",
+    "gt": "LWC121",
+    "perturbation": "clean"
+  },
+  {
+    "id": "train_001997_combo_IPY532",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001997_combo_IPY532.png",
+    "gt": "IPY532",
+    "perturbation": "combo"
+  },
+  {
+    "id": "train_001735_compression_ZKM776",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001735_compression_ZKM776.png",
+    "gt": "ZKM776",
+    "perturbation": "compression"
+  },
+  {
+    "id": "train_002369_glare_EHI530",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002369_glare_EHI530.png",
+    "gt": "EHI530",
+    "perturbation": "glare"
+  },
+  {
+    "id": "train_000852_perspective_GLT552",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000852_perspective_GLT552.png",
+    "gt": "GLT552",
+    "perturbation": "perspective"
+  },
+  {
+    "id": "train_003641_threshold_KCA063",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_003641_threshold_KCA063.png",
+    "gt": "KCA063",
+    "perturbation": "threshold"
+  },
+  {
+    "id": "train_000597_touch_SWB922",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000597_touch_SWB922.png",
+    "gt": "SWB922",
+    "perturbation": "touch"
+  },
+  {
+    "id": "train_001297_blur_QGG504",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_001297_blur_QGG504.png",
+    "gt": "QGG504",
+    "perturbation": "blur"
+  },
+  {
+    "id": "train_000382_broken_CML605",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_000382_broken_CML605.png",
+    "gt": "CML605",
+    "perturbation": "broken"
+  },
+  {
+    "id": "train_002079_clean_OCS204",
+    "image": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/images/train_002079_clean_OCS204.png",
+    "gt": "OCS204",
+    "perturbation": "clean"
+  }
+]
