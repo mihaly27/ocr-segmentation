@@ -16,3 +16,5 @@ sisy_run_pack/
 
 # Optional: generated packages
 *.zip
+
+**/.venv/

@@ -1,0 +1,194 @@
+protocol_version: "1.0"
+protocol_status: frozen_before_execution
+frozen_on: "2026-08-22"
+
+provenance:
+  base_git_commit: 5641bb3dce90696072bf54f7afb62aa29e492190
+  environment_lock: environment_lock.json
+  requirements_lock: ../../requirements-node01.lock
+  historical_delta_is_calibration_input: false
+  historical_delta_W_excluded: 7.530441831891154
+
+parameter_space:
+  active_set_policy: fixed_from_historical_screen_before_new_calibration
+  coordinates:
+    - cut.min_rel_width_for_split
+    - scoring.w_prior
+    - scoring.blocking_gap_ratio
+  reference_state: [1.6, 2.0, 0.05]
+  normalization_D_diag: [0.10, 0.25, 0.01]
+  hard_lower: [1.20, 0.00, 0.00]
+  hard_upper: [2.00, 4.00, 0.13]
+  raw_grid_levels:
+    - [1.20, 1.60, 2.00]
+    - [0.00, 2.00, 4.00]
+    - [0.00, 0.05, 0.13]
+
+w_calibration:
+  generator_seed: 86082301
+  generator_n: 5000
+  sample_n: 300
+  repeat_n: 60
+  local_scales: [1, 2, 4]
+  switching_scales: [8, 16]
+  activity_eps: 1.0e-12
+  aggregation: coordinatewise_max_of_local_and_switching_selected_response_sensitivity
+  regularization_lambda: 0.10
+  scale_reference: median_of_positive_active_coordinate_sensitivities
+  inactive_diagnostic_coordinates_are_not_promoted: true
+
+delta_calibration:
+  trajectory_specs:
+    - {seed: 86082311, condition: touch, role: informative_target}
+    - {seed: 86082312, condition: touch, role: informative_target}
+    - {seed: 86082313, condition: touch, role: informative_target}
+    - {seed: 86082314, condition: touch, role: informative_target}
+    - {seed: 86082315, condition: touch, role: informative_target}
+    - {seed: 86082316, condition: touch, role: informative_target}
+    - {seed: 86082317, condition: touch, role: informative_target}
+    - {seed: 86082318, condition: touch, role: informative_target}
+    - {seed: 86082319, condition: touch, role: informative_target}
+    - {seed: 86082320, condition: touch, role: informative_target}
+    - {seed: 86082321, condition: touch, role: informative_target}
+    - {seed: 86082322, condition: touch, role: informative_target}
+    - {seed: 86082323, condition: touch, role: informative_target}
+    - {seed: 86082324, condition: touch, role: informative_target}
+    - {seed: 86082325, condition: touch, role: informative_target}
+    - {seed: 86082326, condition: touch, role: informative_target}
+    - {seed: 86082327, condition: touch, role: informative_target}
+    - {seed: 86082328, condition: touch, role: informative_target}
+    - {seed: 86082329, condition: touch, role: informative_target}
+    - {seed: 86082330, condition: touch, role: informative_target}
+    - {seed: 86082331, condition: broken, role: informative_target}
+    - {seed: 86082332, condition: broken, role: informative_target}
+    - {seed: 86082333, condition: broken, role: informative_target}
+    - {seed: 86082334, condition: broken, role: informative_target}
+    - {seed: 86082335, condition: broken, role: informative_target}
+    - {seed: 86082336, condition: broken, role: informative_target}
+    - {seed: 86082337, condition: broken, role: informative_target}
+    - {seed: 86082338, condition: broken, role: informative_target}
+    - {seed: 86082339, condition: broken, role: informative_target}
+    - {seed: 86082340, condition: broken, role: informative_target}
+    - {seed: 86082341, condition: broken, role: informative_target}
+    - {seed: 86082342, condition: broken, role: informative_target}
+    - {seed: 86082343, condition: broken, role: informative_target}
+    - {seed: 86082344, condition: broken, role: informative_target}
+    - {seed: 86082345, condition: broken, role: informative_target}
+    - {seed: 86082346, condition: broken, role: informative_target}
+    - {seed: 86082347, condition: broken, role: informative_target}
+    - {seed: 86082348, condition: broken, role: informative_target}
+    - {seed: 86082349, condition: broken, role: informative_target}
+    - {seed: 86082350, condition: broken, role: informative_target}
+    - {seed: 86082351, condition: combo, role: informative_target}
+    - {seed: 86082352, condition: combo, role: informative_target}
+    - {seed: 86082353, condition: combo, role: informative_target}
+    - {seed: 86082354, condition: combo, role: informative_target}
+    - {seed: 86082355, condition: combo, role: informative_target}
+    - {seed: 86082356, condition: combo, role: informative_target}
+    - {seed: 86082357, condition: combo, role: informative_target}
+    - {seed: 86082358, condition: combo, role: informative_target}
+    - {seed: 86082359, condition: combo, role: informative_target}
+    - {seed: 86082360, condition: combo, role: informative_target}
+    - {seed: 86082361, condition: combo, role: informative_target}
+    - {seed: 86082362, condition: combo, role: informative_target}
+    - {seed: 86082363, condition: combo, role: informative_target}
+    - {seed: 86082364, condition: combo, role: informative_target}
+    - {seed: 86082365, condition: combo, role: informative_target}
+    - {seed: 86082366, condition: combo, role: informative_target}
+    - {seed: 86082367, condition: combo, role: informative_target}
+    - {seed: 86082368, condition: combo, role: informative_target}
+    - {seed: 86082369, condition: combo, role: informative_target}
+    - {seed: 86082370, condition: combo, role: informative_target}
+    - {seed: 86082371, condition: blur, role: negative_control}
+    - {seed: 86082372, condition: glare, role: negative_control}
+    - {seed: 86082373, condition: threshold, role: negative_control}
+    - {seed: 86082374, condition: compression, role: negative_control}
+    - {seed: 86082375, condition: perspective, role: negative_control}
+  generator_n_each: 400
+  generator_perturbations: [clean, declared_condition]
+  plate_identity_collision_policy: exclude_trajectory_rows_before_partition_and_record
+  reference_clean_n: 100
+  block_size: 45
+  proposal_gate_evaluation_each: 15
+  stream_template: [clean, declared_condition, clean]
+  independence_policy: at_most_one_informative_drift_block_per_generator_seed
+  delta_grid:
+    - 0.0
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 2.5
+    - 3.0
+    - 3.5
+    - 4.0
+    - 4.5
+    - 5.0
+    - 5.5
+    - 6.0
+    - 6.5
+    - 7.0
+    - 7.5
+    - 8.0
+    - 8.5
+    - 9.0
+    - 9.5
+    - 10.0
+    - 10.5
+    - 11.0
+    - 11.5
+    - 12.0
+  informative_event_definition: non_clean_block_and_trigger_and_nontrivial_raw_proposal
+  minimum_informative_events: 60
+  minimum_nonzero_commit_coverage: 0.20
+  harm_upper_bound: 0.05
+  one_sided_confidence: 0.95
+  selection_rule: largest_eligible_grid_value
+  if_no_positive_value_is_eligible: calibration_failure_or_delta_zero
+
+noninferiority_margins:
+  full_plate_accuracy_drop: 0.05
+  character_accuracy_drop: 0.02
+  mean_dseg_increase: 0.25
+  mean_dbox_increase: null
+  dbox_policy: measure_and_report_without_unapproved_threshold
+  semantic_repeat_mismatches: 0
+  latency_policy: evaluation_p95_must_not_exceed_frozen_L_max
+  committed_operational_gate_violations: 0
+
+confirmation:
+  trajectory_generator_seeds:
+    - 86082421
+    - 86082422
+    - 86082423
+    - 86082424
+    - 86082425
+  generator_n_each: 5000
+  plate_identity_collision_policy: exclude_trajectory_rows_before_partition_and_record
+  stream_conditions:
+    - clean
+    - blur
+    - clean
+    - glare
+    - clean
+    - threshold
+    - clean
+    - compression
+    - clean
+    - perspective
+    - clean
+    - touch
+    - clean
+    - broken
+    - clean
+    - combo
+    - clean
+  controllers: [B0, B1, B2, B3, B3-I, B3-R0]
+  radius_and_W_are_frozen_before_generation: true
+  statistical_unit: trajectory_or_drift_block
+
+gate_stress:
+  conditions: [touch, broken, combo]
+  states: full_27_state_raw_grid
+  thresholds_are_frozen: true
+  delayed_ground_truth_is_evaluation_only: true

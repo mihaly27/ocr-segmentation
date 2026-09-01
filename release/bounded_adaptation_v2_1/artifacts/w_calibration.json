@@ -1,0 +1,95 @@
+{
+  "version": "recalibration_W_v1",
+  "active_set_policy": "fixed_from_historical_screen_before_new_calibration",
+  "coordinates": [
+    "cut.min_rel_width_for_split",
+    "scoring.w_prior",
+    "scoring.blocking_gap_ratio"
+  ],
+  "D_diag": [
+    0.1,
+    0.25,
+    0.01
+  ],
+  "aggregation_rule": "coordinatewise_max_of_local_and_switching_selected_response_sensitivity",
+  "regularization_lambda": 0.1,
+  "scale_reference": 4.650365357285288e-05,
+  "W_z_diag": [
+    0.28330591245797343,
+    1.1,
+    2.66
+  ],
+  "W_theta_diag": [
+    28.330591245797336,
+    17.6,
+    26600.0
+  ],
+  "coordinate_diagnostics": [
+    {
+      "coordinate": "cut.max_column_sum_quantile",
+      "in_frozen_active_set": false,
+      "local_selected_response_sensitivity": 0.0,
+      "switching_selected_response_sensitivity": 0.0,
+      "combined_sensitivity": 0.0
+    },
+    {
+      "coordinate": "cut.min_rel_width_for_split",
+      "in_frozen_active_set": true,
+      "local_selected_response_sensitivity": 1.9882889546351083e-06,
+      "switching_selected_response_sensitivity": 8.524394650801291e-06,
+      "combined_sensitivity": 8.524394650801291e-06
+    },
+    {
+      "coordinate": "scoring.blocking_gap_ratio",
+      "in_frozen_active_set": true,
+      "local_selected_response_sensitivity": 0.0,
+      "switching_selected_response_sensitivity": 0.00011904935314650336,
+      "combined_sensitivity": 0.00011904935314650336
+    },
+    {
+      "coordinate": "scoring.rho_max",
+      "in_frozen_active_set": false,
+      "local_selected_response_sensitivity": 0.0,
+      "switching_selected_response_sensitivity": 0.0,
+      "combined_sensitivity": 0.0
+    },
+    {
+      "coordinate": "scoring.w_overlap",
+      "in_frozen_active_set": false,
+      "local_selected_response_sensitivity": 0.0,
+      "switching_selected_response_sensitivity": 0.0,
+      "combined_sensitivity": 0.0
+    },
+    {
+      "coordinate": "scoring.w_prior",
+      "in_frozen_active_set": true,
+      "local_selected_response_sensitivity": 0.0,
+      "switching_selected_response_sensitivity": 4.650365357285288e-05,
+      "combined_sensitivity": 4.650365357285288e-05
+    }
+  ],
+  "sample_count": 300,
+  "sample_ids_sha256": "2fd2636fe55d40c37ad1754f9d5fa8322cdfdaaec8a208ad7c240edcf4bdaa67",
+  "inputs": {
+    "protocol": {
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/protocol.yaml",
+      "sha256": "f216659517220419d9d6c73a51f3186bf09b7216ea0efc6782fc40213c0ccdcf"
+    },
+    "local_summary": {
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_local/phase1_summary.json",
+      "sha256": "31bc26626ec52c751d9341b234b3705c9c6854948524419936ee97d281677246"
+    },
+    "switch_summary": {
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_switch/phase1_summary.json",
+      "sha256": "bcc7ad78346eec2170038554fd31fa39f4b7038225d309d139cf7d33497f8ad1"
+    },
+    "local_selected": {
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_local/selected_samples.json",
+      "sha256": "83b2ccf062942d8731d57cfb7cab167533d5c19722bc5e532c282a5d3d2bd9b9"
+    },
+    "switch_selected": {
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_switch/selected_samples.json",
+      "sha256": "83b2ccf062942d8731d57cfb7cab167533d5c19722bc5e532c282a5d3d2bd9b9"
+    }
+  }
+}

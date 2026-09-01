@@ -1,0 +1,58 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "OCR Segmentation Research Module",
+  "description": "Deterministic inverse-packing OCR segmentation, synthetic data generation, batch evaluation, and reproducibility workflows for calibrated bounded adaptation in multi-stage computer-vision pipelines.",
+  "codeRepository": "https://github.com/mihaly27/ocr-segmentation",
+  "issueTracker": "https://github.com/mihaly27/ocr-segmentation/issues",
+  "license": "https://github.com/mihaly27/ocr-segmentation/blob/main/LICENSE",
+  "version": "2.1.0",
+  "dateModified": "2026-09-01",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.12.3",
+  "operatingSystem": "Ubuntu 24.04.4 LTS",
+  "applicationCategory": "Scientific software",
+  "keywords": [
+    "inverse-packing segmentation",
+    "optical character recognition",
+    "multi-stage computer vision",
+    "bounded adaptation",
+    "parameter governor",
+    "test-time adaptation",
+    "distribution shift",
+    "reproducibility"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Mihály",
+      "familyName": "Szabó",
+      "email": "mihaly.szabo@stud.uni-obuda.hu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Óbuda University"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3521-4757",
+      "givenName": "Attila",
+      "familyName": "Kővári"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8845-8301",
+      "givenName": "Gábor",
+      "familyName": "Kertész"
+    }
+  ],
+  "softwareRequirements": [
+    "Python 3.12.3",
+    "NumPy 2.4.4",
+    "OpenCV 4.13.0.92",
+    "Pillow 12.2.0",
+    "pytesseract 0.3.13",
+    "PyYAML 6.0.3",
+    "Tesseract OCR 5.3.4"
+  ]
+}

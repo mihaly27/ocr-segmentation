@@ -1,0 +1,15 @@
+{
+  "version": "v21_challenge_freeze_v1",
+  "ok": true,
+  "root": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/outputs",
+  "file_count": 167,
+  "manifest": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/outputs/MANIFEST.sha256",
+  "manifest_sha256": "89e19413c0ba1fb5cd6af25eb1780228a3ac88734b59a39fb16a1c6a7d00bab8",
+  "excluded_directory_names": [
+    "__pycache__",
+    "_tmp_runs",
+    "cache",
+    "configs",
+    "logs"
+  ]
+}

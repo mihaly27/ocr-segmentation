@@ -1,0 +1,5 @@
+outputs/
+corpora/
+__pycache__/
+*.pyc
+

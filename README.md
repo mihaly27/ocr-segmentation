@@ -1,15 +1,76 @@
-## OCR Segmentation And Research Repository
+# OCR Segmentation Research Module
 
-This repository serves as the general research environment for our work on OCR, image segmentation, geometric image processing, inverse-lens methods, and related computer-vision pipelines. It consolidates the source code, experimental implementations, configuration files, generated images, batch-processing tools, evaluation scripts, and supporting assets used across multiple research activities and publications.
+This public research repository contains deterministic OCR-segmentation code,
+synthetic data generation, batch evaluation, and the bounded-adaptation
+experiments used in related publications. The visual inputs are synthetic and
+provide controlled ground truth without using real vehicle identifiers or
+personal data.
 
-The repository contains material associated with, among others, the **CANDO-EPE 2026**, **SISY Pula 2026** and research workflows, together with earlier and parallel experiments related to OCR segmentation, geometric priors, detection stability, inverse-lens transformations, and multi-stage image-processing pipelines. Its purpose is to provide a common and traceable experimental basis for the algorithms, assumptions, and results referenced in the corresponding scientific publications.
+## Repository map
 
-Where applicable, the repository also contains the experimental evidence supporting reported results, including reproducible test configurations, batch-run outputs, intermediate processing results, evaluation artifacts, and synthetic datasets. These resources make it possible to reproduce and compare algorithmic behaviour under controlled conditions and across different versions of the research pipeline.
+| Path | Purpose |
+|---|---|
+| `ips_single_image/` | Minimal inverse-packing segmentation and OCR reference implementation |
+| `synthetic-generator/` | Seeded synthetic plate, mask, box, and perturbation generation |
+| `batch-runner/` | Batch and ablation runners used by the SISY workflow |
+| `mathematical_framework/` | Pilot, calibration, confirmation, gate-stress, and carryover experiments |
+| `docs/hardware/` | Experimental compute-platform specification |
+| `requirements-node01.lock` | Exact Python package versions used on Node01 |
+| `REPRODUCIBILITY.md` | Commit, seed, environment, artifact, and release map |
 
-The datasets, license-plate fragments, and other visual test inputs included in the repository are **synthetically generated** and designed specifically for research and validation purposes. They provide controlled ground-truth conditions without relying on real personal data, real vehicle identifiers, or legally sensitive image material. This makes the environment suitable for reproducible experimentation while avoiding unnecessary privacy, data-protection, and personality-rights concerns.
+## Bounded-adaptation evidence
 
-Overall, the repository is intended to function as the central technical and experimental reference point for the related OCR and computer-vision research, linking the published methodological work with its underlying implementations, synthetic data, experimental evidence, and reproducible evaluation procedures.
+The current parameter-governor study separates three evidence layers:
 
-Copyright © 2025–2026 Mihály Szabó. All rights reserved.
+1. **V2 calibration:** 120 disjoint trajectories and 25 radii, giving 3,000
+   stateful runs.
+2. **V2 confirmation:** five new trajectories and six frozen controllers.
+3. **V2.1 challenge:** 18 new trajectories testing mechanism activation and
+   directed carryover across `touch`, `broken`, and `combo` drift.
 
-The materials contained in this repository are the result of both academic research and decades of accumulated industrial experience, engineering practice, and proprietary know-how. They may be referenced for academic purposes with appropriate attribution. Reuse, redistribution, adaptation, or modification of repository contents requires prior written permission unless otherwise stated.
+The frozen protocols, input locks, tests, runbooks, and hash manifests are under
+`mathematical_framework/recalibration_2026_v2/`. Generated corpora and large raw
+outputs are not duplicated in Git. Compact calibration and audit artifacts must
+be attached to the tagged archival release as described in
+`REPRODUCIBILITY.md`.
+
+## Quick start
+
+```bash
+git clone https://github.com/mihaly27/ocr-segmentation.git
+cd ocr-segmentation
+
+python3.12 -m venv ips_single_image/.venv
+source ips_single_image/.venv/bin/activate
+python -m pip install -r requirements-node01.lock
+
+python ips_single_image/main.py \
+  --image ips_single_image/test-plates/plate-CJU-784.png \
+  --outdir /tmp/ips-example \
+  --gt CJU784
+```
+
+For the complete V2 and V2.1 procedures, use:
+
+- `mathematical_framework/recalibration_2026_v2/RUNBOOK.md`
+- `mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/RUNBOOK_NODE01.md`
+
+## Execution platform
+
+Unless an experiment directory states otherwise, the experiments were executed
+on an AMD Ryzen Threadripper PRO 3945WX workstation with 128 GB RAM and Ubuntu
+24.04.4 LTS. Four NVIDIA RTX 4000 Ada Generation GPUs were installed, but the
+bounded-adaptation V2/V2.1 OpenCV-NumPy-Tesseract workflow used eight CPU
+workers and did not use the GPUs. Full details are in
+`docs/hardware/HARDWARE.md`.
+
+## Citation and license
+
+Machine-readable citation metadata are provided in `CITATION.cff` and
+`codemeta.json`. When the associated journal article receives a DOI, its record
+should be added as the preferred citation without changing the software title
+or release identity.
+
+Copyright (c) 2025-2026 Mihály Szabó. The repository is publicly readable, but
+reuse is governed by the research-use terms in `LICENSE`; public availability
+does not by itself grant an open-source license.

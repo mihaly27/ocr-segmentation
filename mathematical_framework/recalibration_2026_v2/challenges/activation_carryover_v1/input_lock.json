@@ -1,0 +1,77 @@
+{
+  "version": "v21_activation_carryover_input_lock_v1",
+  "status": "v21_inputs_locked_before_generation",
+  "created_at_utc": "2026-08-30T16:44:12.076246+00:00",
+  "repo_root": "/home/mszabo/ocr-segmentation",
+  "protocol": {
+    "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/protocol.yaml",
+    "sha256": "dfe60de27ac16866dc633c6e9389a79d184312e01cc24726e4f26e3fa8836753"
+  },
+  "locked_files": [
+    {
+      "role": "v2_protocol",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/protocol.yaml",
+      "sha256": "b1c7210d21290278d50e10d541f266904844062fe3fce1d708dc64ca93d24633"
+    },
+    {
+      "role": "v2_input_lock",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/v2_input_lock.json",
+      "sha256": "ef931611d8d2d440de8fc8391f23826145a639cebe1705e1cc83219a230ed90b"
+    },
+    {
+      "role": "v2_selected_delta",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/outputs/delta_selection/selected_delta.json",
+      "sha256": "ffbbe36735ff8bb80316c2049b0555355616aa442de3370886c423c46435c49e"
+    },
+    {
+      "role": "v1_independent_W",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_calibration.json",
+      "sha256": "167e96e395d353e0e4365440b4feb9bbd8d51a6e0af8caf3c1a6968d9238c6d1"
+    },
+    {
+      "role": "v1_phase1_selected",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/outputs/w_phase1_local/selected_samples.json",
+      "sha256": "83b2ccf062942d8731d57cfb7cab167533d5c19722bc5e532c282a5d3d2bd9b9"
+    },
+    {
+      "role": "v1_W_annotations",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026/corpora/w_calibration/annotations.jsonl",
+      "sha256": "ab30b172c8b70c51516f78f846c7f6eef070cb4f61bb5d50e192a6f82f89913b"
+    },
+    {
+      "role": "frozen_gate_thresholds",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/outputs/confirmation/trajectory_86082721/confirmatory_main/reference_calibration.json",
+      "sha256": "49703e61046aa617cec60f0fc196df2ea3f2d237cf37acb07161f74f6f9fd763"
+    },
+    {
+      "role": "historical_engine",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/ips_main_experiment.py",
+      "sha256": "3998f303efb2fac00cf96ef290f450c9aaec9fd945264f80c3fedfa0c6cacc32"
+    },
+    {
+      "role": "base_pipeline_config",
+      "path": "/home/mszabo/ocr-segmentation/ips_single_image/config.yaml",
+      "sha256": "7093a9e482a1af098f424d6352a885ddccefddc4cd83e03076a8de684c329c72"
+    },
+    {
+      "role": "synthetic_generator",
+      "path": "/home/mszabo/ocr-segmentation/synthetic-generator/synthetic_plate_generator_fixed_v2.py",
+      "sha256": "3c62912a2eb329dbde1671c19e2e6f28e869571c07a92a410093992477ee1441"
+    },
+    {
+      "role": "v2_compose_manifest",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/compose_manifest.py",
+      "sha256": "218200eff53f64a0a81bdeedcabbcc085c5ace36ee0dc1e9526d828360e33473"
+    },
+    {
+      "role": "v2_partition_adapter",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/scripts/v2_partition.py",
+      "sha256": "f85f1a01ae43359e5677ec3d4afef5b2ea7b8b3e182280f99ffa4947c1c64d57"
+    },
+    {
+      "role": "challenge_package_manifest",
+      "path": "/home/mszabo/ocr-segmentation/mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/PACKAGE_CONTENTS.sha256",
+      "sha256": "1ff3d2ac09318f4ff6b0d5dd8af052b4f6b1407bf9b5128df016198d054a1899"
+    }
+  ]
+}

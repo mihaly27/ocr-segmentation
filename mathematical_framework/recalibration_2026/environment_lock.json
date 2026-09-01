@@ -1,0 +1,22 @@
+{
+  "captured_at_utc": "2026-08-22T12:59:14.679669+00:00",
+  "host": "r27node01",
+  "base_git_commit": "5641bb3dce90696072bf54f7afb62aa29e492190",
+  "python_executable_at_capture": "/home/mszabo/ocr-segmentation/ips_single_image/.venv/bin/python3",
+  "python_version": "3.12.3",
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.39",
+  "tesseract_version": "5.3.4",
+  "tesseract_languages": ["eng", "osd"],
+  "core_packages": {
+    "numpy": "2.4.4",
+    "opencv-python": "4.13.0.92",
+    "pillow": "12.2.0",
+    "pytesseract": "0.3.13",
+    "PyYAML": "6.0.3"
+  },
+  "snapshot_archive": "node01_recalibration_snapshot_20260822T125914Z.zip",
+  "snapshot_archive_sha256": "465b2090827eae5ccdb38bfb56ecb60e178df852e0c206971d840bbfb5ecb89e",
+  "snapshot_integrity": "221 payload entries verified against MANIFEST.sha256",
+  "working_tree_at_capture": "clean",
+  "privacy_note": "Git remotes, environment-variable values, credentials and image bytes were excluded from the snapshot."
+}
