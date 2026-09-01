@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its experimental artifacts, cite this repository
+  release. After the associated journal article receives a DOI, also cite the
+  preferred publication recorded in this file.
+type: software
+title: OCR Segmentation Research Module
+abstract: >-
+  Deterministic inverse-packing OCR segmentation, synthetic data generation,
+  batch evaluation, and reproducibility workflows for calibrated bounded
+  adaptation in multi-stage computer-vision pipelines.
+authors:
+  - family-names: Szabó
+    given-names: Mihály
+    affiliation: Óbuda University
+    email: mihaly.szabo@stud.uni-obuda.hu
+  - family-names: Kővári
+    given-names: Attila
+    affiliation: Óbuda University; Eszterházy Károly Catholic University
+    orcid: https://orcid.org/0000-0003-3521-4757
+  - family-names: Kertész
+    given-names: Gábor
+    affiliation: Óbuda University
+    orcid: https://orcid.org/0000-0002-8845-8301
+contact:
+  - family-names: Szabó
+    given-names: Mihály
+    email: mihaly.szabo@stud.uni-obuda.hu
+repository-code: https://github.com/mihaly27/ocr-segmentation
+url: https://github.com/mihaly27/ocr-segmentation
+version: 2.1.0
+date-released: "2026-09-01"
+license-url: https://github.com/mihaly27/ocr-segmentation/blob/main/LICENSE
+keywords:
+  - inverse-packing segmentation
+  - optical character recognition
+  - multi-stage computer vision
+  - bounded adaptation
+  - parameter governor
+  - test-time adaptation
+  - distribution shift
+  - reproducibility

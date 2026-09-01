@@ -1,17 +1,76 @@
-## OCR Segmentation Research Module
+# OCR Segmentation Research Module
 
-This module contains the complete experimental environment used for testing and validating the OCR segmentation pipeline, including the relevant source code, generated images, configuration files, batch execution scripts, and auxiliary test assets. The included datasets and license-plate fragments are synthetic, and the generated visual inputs are designed to provide controlled ground-truth conditions for algorithmic research without relying on real personal data, real vehicle identifiers, or legally sensitive image material.
+This public research repository contains deterministic OCR-segmentation code,
+synthetic data generation, batch evaluation, and the bounded-adaptation
+experiments used in related publications. The visual inputs are synthetic and
+provide controlled ground truth without using real vehicle identifiers or
+personal data.
 
-The synthetic test setup supports reproducible evaluation of segmentation behaviour, geometric priors, detection stability, and batch-level performance across multiple input variants. Because the data are artificially generated and fully controlled, the environment is suitable for validating algorithmic assumptions while avoiding privacy, data protection, and personality-rights concerns.
+## Repository map
 
-The batch-runner environment was prepared for the SISY 2026 research workflow as an extension of the earlier CANDO-EPE implementation, where the pipeline was still primarily evaluated through a single-image IPS execution mode. The current structure enables systematic batch testing, result packaging, and comparative validation across multiple synthetic scenarios.
+| Path | Purpose |
+|---|---|
+| `ips_single_image/` | Minimal inverse-packing segmentation and OCR reference implementation |
+| `synthetic-generator/` | Seeded synthetic plate, mask, box, and perturbation generation |
+| `batch-runner/` | Batch and ablation runners used by the SISY workflow |
+| `mathematical_framework/` | Pilot, calibration, confirmation, gate-stress, and carryover experiments |
+| `docs/hardware/` | Experimental compute-platform specification |
+| `requirements-node01.lock` | Exact Python package versions used on Node01 |
+| `REPRODUCIBILITY.md` | Commit, seed, environment, artifact, and release map |
 
-Unless an experiment directory states otherwise, the computational experiments
-in this repository were executed on a dedicated workstation with an AMD Ryzen
-Threadripper PRO 3945WX CPU (12 cores / 24 threads), 128 GB DDR4 RAM, a 4 TB
-Kingston NVMe SSD, and four NVIDIA RTX 4000 Ada Generation GPUs with 20,475 MiB
-VRAM each, under Ubuntu 24.04.4 LTS. The bounded-adaptation V2/V2.1 experiments
-used the CPU-only OpenCV-NumPy-Tesseract path with eight CPU workers; the GPUs
-were available but unused in those runs.
+## Bounded-adaptation evidence
 
-Full configuration and workload-specific scope: docs/hardware/HARDWARE.md.
+The current parameter-governor study separates three evidence layers:
+
+1. **V2 calibration:** 120 disjoint trajectories and 25 radii, giving 3,000
+   stateful runs.
+2. **V2 confirmation:** five new trajectories and six frozen controllers.
+3. **V2.1 challenge:** 18 new trajectories testing mechanism activation and
+   directed carryover across `touch`, `broken`, and `combo` drift.
+
+The frozen protocols, input locks, tests, runbooks, and hash manifests are under
+`mathematical_framework/recalibration_2026_v2/`. Generated corpora and large raw
+outputs are not duplicated in Git. Compact calibration and audit artifacts must
+be attached to the tagged archival release as described in
+`REPRODUCIBILITY.md`.
+
+## Quick start
+
+```bash
+git clone https://github.com/mihaly27/ocr-segmentation.git
+cd ocr-segmentation
+
+python3.12 -m venv ips_single_image/.venv
+source ips_single_image/.venv/bin/activate
+python -m pip install -r requirements-node01.lock
+
+python ips_single_image/main.py \
+  --image ips_single_image/test-plates/plate-CJU-784.png \
+  --outdir /tmp/ips-example \
+  --gt CJU784
+```
+
+For the complete V2 and V2.1 procedures, use:
+
+- `mathematical_framework/recalibration_2026_v2/RUNBOOK.md`
+- `mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/RUNBOOK_NODE01.md`
+
+## Execution platform
+
+Unless an experiment directory states otherwise, the experiments were executed
+on an AMD Ryzen Threadripper PRO 3945WX workstation with 128 GB RAM and Ubuntu
+24.04.4 LTS. Four NVIDIA RTX 4000 Ada Generation GPUs were installed, but the
+bounded-adaptation V2/V2.1 OpenCV-NumPy-Tesseract workflow used eight CPU
+workers and did not use the GPUs. Full details are in
+`docs/hardware/HARDWARE.md`.
+
+## Citation and license
+
+Machine-readable citation metadata are provided in `CITATION.cff` and
+`codemeta.json`. When the associated journal article receives a DOI, its record
+should be added as the preferred citation without changing the software title
+or release identity.
+
+Copyright (c) 2025-2026 Mihály Szabó. The repository is publicly readable, but
+reuse is governed by the research-use terms in `LICENSE`; public availability
+does not by itself grant an open-source license.
