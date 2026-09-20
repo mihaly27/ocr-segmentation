@@ -1,0 +1,74 @@
+[
+  {
+    "figure": "replay_plate_crop.png",
+    "source_run": 18,
+    "frame_index_zero_based": 79,
+    "car_id": "2",
+    "logged_bbox_xyxy": [
+      1537.6243286132812,
+      533.3446960449219,
+      1605.4613037109375,
+      569.4636688232422
+    ],
+    "crop_xyxy": [
+      1529,
+      525,
+      1614,
+      578
+    ],
+    "margin_pixels": 8,
+    "raw_text": "NWL-335",
+    "ocr_confidence": 0.8454362154006958,
+    "source_video_sha256": "2aadfa26b06393a5edadc328f6691119408d0d8a6a7bffcaa9d958b95a94be9e",
+    "figure_sha256": "b270be43fe01d44c64daafc81a1811a882e0aa5a257ca8eb83e6182cdc513900",
+    "processing": "FFmpeg decode; pixel crop with 8-pixel margin; no enhancement"
+  },
+  {
+    "figure": "replay_nonplate_crop.png",
+    "source_run": 18,
+    "frame_index_zero_based": 745,
+    "car_id": "36",
+    "logged_bbox_xyxy": [
+      862.4223823547363,
+      585.6002655029297,
+      899.955005645752,
+      615.4472045898438
+    ],
+    "crop_xyxy": [
+      854,
+      577,
+      908,
+      624
+    ],
+    "margin_pixels": 8,
+    "raw_text": "NTE-446",
+    "ocr_confidence": 0.6903579831123352,
+    "source_video_sha256": "2aadfa26b06393a5edadc328f6691119408d0d8a6a7bffcaa9d958b95a94be9e",
+    "figure_sha256": "2e828110a4996b41ea7fa36819a133147df157a92ea3aaa73ef5a9e0b7019c71",
+    "processing": "FFmpeg decode; pixel crop with 8-pixel margin; no enhancement"
+  },
+  {
+    "figure": "replay_format_crop.png",
+    "source_run": 19,
+    "frame_index_zero_based": 19,
+    "car_id": "1",
+    "logged_bbox_xyxy": [
+      1179.9616088867188,
+      624.8705444335938,
+      1254.600830078125,
+      655.7150268554688
+    ],
+    "crop_xyxy": [
+      1171,
+      616,
+      1263,
+      664
+    ],
+    "margin_pixels": 8,
+    "raw_text": "KP-4",
+    "ocr_confidence": 0.615550696849823,
+    "source_video_sha256": "b9d375a8e4b7561de65c85ed43e3f169893b2152136ead1746a7638ad9ed3abc",
+    "figure_sha256": "a27f84936b19c8768614272e86962aac6b6f02f30769458856754c2d7c9b68eb",
+    "processing": "FFmpeg decode; pixel crop with 8-pixel margin; no enhancement"
+  }
+]

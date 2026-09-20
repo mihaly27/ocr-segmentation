@@ -1,0 +1,569 @@
+[
+  {
+    "origin": "fd5a48177d8ec23fae38c428676635348964b9cb/main.py",
+    "status": "STATIC CANDIDATES ONLY; review precedence and runtime overrides",
+    "items": [
+      {
+        "line": 56,
+        "kind": "assignment",
+        "name": "classes",
+        "expression_NOT_resolved": "{int(part) for part in value.split(',') if part.strip()}"
+      },
+      {
+        "line": 150,
+        "kind": "assignment",
+        "name": "fps",
+        "expression_NOT_resolved": "capture.get(cv2.CAP_PROP_FPS)"
+      },
+      {
+        "line": 167,
+        "kind": "argument_definition",
+        "flags": [
+          "--vehicle-model"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "Path"
+        }
+      },
+      {
+        "line": 168,
+        "kind": "argument_definition",
+        "flags": [
+          "--plate-model"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "Path"
+        }
+      },
+      {
+        "line": 169,
+        "kind": "argument_definition",
+        "flags": [
+          "--ocr-model"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "Path"
+        }
+      },
+      {
+        "line": 170,
+        "kind": "argument_definition",
+        "flags": [
+          "--tracker"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "Path"
+        }
+      },
+      {
+        "line": 171,
+        "kind": "argument_definition",
+        "flags": [
+          "--ocr-threshold"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "float",
+          "default": "0.3"
+        }
+      },
+      {
+        "line": 172,
+        "kind": "argument_definition",
+        "flags": [
+          "--device"
+        ],
+        "expressions_NOT_resolved": {}
+      },
+      {
+        "line": 173,
+        "kind": "argument_definition",
+        "flags": [
+          "--vehicle-conf"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "unit_interval"
+        }
+      },
+      {
+        "line": 174,
+        "kind": "argument_definition",
+        "flags": [
+          "--vehicle-iou"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "unit_interval"
+        }
+      },
+      {
+        "line": 175,
+        "kind": "argument_definition",
+        "flags": [
+          "--vehicle-imgsz"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "positive_int"
+        }
+      },
+      {
+        "line": 176,
+        "kind": "argument_definition",
+        "flags": [
+          "--classes"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "class_list"
+        }
+      },
+      {
+        "line": 177,
+        "kind": "argument_definition",
+        "flags": [
+          "--plate-conf"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "unit_interval"
+        }
+      },
+      {
+        "line": 178,
+        "kind": "argument_definition",
+        "flags": [
+          "--plate-iou"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "unit_interval"
+        }
+      },
+      {
+        "line": 179,
+        "kind": "argument_definition",
+        "flags": [
+          "--plate-imgsz"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "positive_int"
+        }
+      },
+      {
+        "line": 180,
+        "kind": "argument_definition",
+        "flags": [
+          "--roi"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "roi_box"
+        }
+      },
+      {
+        "line": 181,
+        "kind": "argument_definition",
+        "flags": [
+          "--reference-size"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "image_size"
+        }
+      },
+      {
+        "line": 182,
+        "kind": "argument_definition",
+        "flags": [
+          "--fallback-fps"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "positive_fps",
+          "default": "25.0"
+        }
+      },
+      {
+        "line": 186,
+        "kind": "argument_definition",
+        "flags": [
+          "--extract-fps"
+        ],
+        "expressions_NOT_resolved": {
+          "type": "positive_fps"
+        }
+      }
+    ]
+  },
+  {
+    "origin": "fd5a48177d8ec23fae38c428676635348964b9cb/cv_config.py",
+    "status": "STATIC CANDIDATES ONLY; review precedence and runtime overrides",
+    "items": [
+      {
+        "line": 10,
+        "kind": "assignment",
+        "name": "VEHICLE_CLASSES",
+        "expression_NOT_resolved": "{2, 3, 5, 7}"
+      },
+      {
+        "line": 11,
+        "kind": "assignment",
+        "name": "REFERENCE_SIZE",
+        "expression_NOT_resolved": "(1920, 1080)"
+      },
+      {
+        "line": 12,
+        "kind": "assignment",
+        "name": "ROAD_ROI",
+        "expression_NOT_resolved": "(850, 330, 1750, 800)"
+      },
+      {
+        "line": 13,
+        "kind": "assignment",
+        "name": "PLATE_IMAGE_SIZE",
+        "expression_NOT_resolved": "1280"
+      },
+      {
+        "line": 21,
+        "kind": "assignment",
+        "name": "configured",
+        "expression_NOT_resolved": "Path(os.environ.get(variable, default)).expanduser()"
+      },
+      {
+        "line": 35,
+        "kind": "assignment",
+        "name": "ocr_threshold",
+        "expression_NOT_resolved": "0.3"
+      },
+      {
+        "line": 36,
+        "kind": "assignment",
+        "name": "ocr_device",
+        "expression_NOT_resolved": "'gpu:0'"
+      },
+      {
+        "line": 37,
+        "kind": "assignment",
+        "name": "ocr_engine",
+        "expression_NOT_resolved": "'paddle_static'"
+      },
+      {
+        "line": 38,
+        "kind": "assignment",
+        "name": "device",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 39,
+        "kind": "assignment",
+        "name": "fallback_fps",
+        "expression_NOT_resolved": "25.0"
+      },
+      {
+        "line": 43,
+        "kind": "assignment",
+        "name": "vehicle_conf",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 44,
+        "kind": "assignment",
+        "name": "vehicle_iou",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 45,
+        "kind": "assignment",
+        "name": "vehicle_imgsz",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 46,
+        "kind": "assignment",
+        "name": "vehicle_classes",
+        "expression_NOT_resolved": "frozenset(VEHICLE_CLASSES)"
+      },
+      {
+        "line": 47,
+        "kind": "assignment",
+        "name": "plate_conf",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 48,
+        "kind": "assignment",
+        "name": "plate_iou",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 49,
+        "kind": "assignment",
+        "name": "plate_imgsz",
+        "expression_NOT_resolved": "PLATE_IMAGE_SIZE"
+      },
+      {
+        "line": 50,
+        "kind": "assignment",
+        "name": "road_roi",
+        "expression_NOT_resolved": "ROAD_ROI"
+      },
+      {
+        "line": 51,
+        "kind": "assignment",
+        "name": "reference_size",
+        "expression_NOT_resolved": "REFERENCE_SIZE"
+      },
+      {
+        "line": 98,
+        "kind": "call_arguments",
+        "call": "TextRecognition",
+        "expressions_NOT_resolved": {
+          "device": "config.ocr_device"
+        }
+      }
+    ]
+  },
+  {
+    "origin": "fd5a48177d8ec23fae38c428676635348964b9cb/cv_core.py",
+    "status": "STATIC CANDIDATES ONLY; review precedence and runtime overrides",
+    "items": [
+      {
+        "line": 22,
+        "kind": "assignment",
+        "name": "confidence",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 31,
+        "kind": "assignment",
+        "name": "confidence",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 39,
+        "kind": "assignment",
+        "name": "tracks",
+        "expression_NOT_resolved": "field(default_factory=list)"
+      },
+      {
+        "line": 148,
+        "kind": "assignment",
+        "name": "confidence",
+        "expression_NOT_resolved": "result['rec_score']"
+      },
+      {
+        "line": 47,
+        "kind": "assignment",
+        "name": "(self.detector, self.tracker, self.classes)",
+        "expression_NOT_resolved": "(detector, tracker, classes)"
+      },
+      {
+        "line": 48,
+        "kind": "assignment",
+        "name": "(self.device, self.conf, self.iou, self.imgsz)",
+        "expression_NOT_resolved": "(device, conf, iou, imgsz)"
+      },
+      {
+        "line": 84,
+        "kind": "assignment",
+        "name": "tracker",
+        "expression_NOT_resolved": "self.detector.predictor.trackers[0]"
+      },
+      {
+        "line": 96,
+        "kind": "assignment",
+        "name": "(self.roi, self.reference_size)",
+        "expression_NOT_resolved": "(roi, reference_size)"
+      },
+      {
+        "line": 97,
+        "kind": "assignment",
+        "name": "self.image_size",
+        "expression_NOT_resolved": "image_size"
+      },
+      {
+        "line": 98,
+        "kind": "assignment",
+        "name": "(self.device, self.conf, self.iou)",
+        "expression_NOT_resolved": "(device, conf, iou)"
+      },
+      {
+        "line": 109,
+        "kind": "assignment",
+        "name": "context.metadata['road_roi']",
+        "expression_NOT_resolved": "[rx1, ry1, rx2, ry2]"
+      },
+      {
+        "line": 116,
+        "kind": "assignment",
+        "name": "context.metadata['plate_candidates']",
+        "expression_NOT_resolved": "len(candidates)"
+      },
+      {
+        "line": 117,
+        "kind": "assignment",
+        "name": "tracks",
+        "expression_NOT_resolved": "[[*t.bbox_xyxy, int(t.track_id)] for t in context.tracks]"
+      },
+      {
+        "line": 71,
+        "kind": "assignment",
+        "name": "classes",
+        "expression_NOT_resolved": "result.boxes.cls.int().cpu().tolist()"
+      },
+      {
+        "line": 120,
+        "kind": "assignment",
+        "name": "plate_crop",
+        "expression_NOT_resolved": "frame[max(0, int(y1)):min(height, int(y2)), max(0, int(x1)):min(width, int(x2))]"
+      },
+      {
+        "line": 124,
+        "kind": "assignment",
+        "name": "(raw_text, confidence, _valid)",
+        "expression_NOT_resolved": "self.recognize(self.recognizer, plate_crop)"
+      },
+      {
+        "line": 61,
+        "kind": "call_arguments",
+        "call": "self.detector.track",
+        "expressions_NOT_resolved": {
+          "tracker": "self.tracker",
+          "classes": "sorted(self.classes)"
+        }
+      },
+      {
+        "line": 144,
+        "kind": "call_arguments",
+        "call": "recognizer.predict",
+        "expressions_NOT_resolved": {
+          "batch_size": "1"
+        }
+      }
+    ]
+  },
+  {
+    "origin": "fd5a48177d8ec23fae38c428676635348964b9cb/consensus.py",
+    "status": "STATIC CANDIDATES ONLY; review precedence and runtime overrides",
+    "items": [
+      {
+        "line": 8,
+        "kind": "assignment",
+        "name": "OCR_THRESHOLD",
+        "expression_NOT_resolved": "0.3"
+      },
+      {
+        "line": 27,
+        "kind": "assignment",
+        "name": "plate_bbox",
+        "expression_NOT_resolved": "()"
+      },
+      {
+        "line": 28,
+        "kind": "assignment",
+        "name": "plate_detection_confidence",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 29,
+        "kind": "assignment",
+        "name": "normalized_text",
+        "expression_NOT_resolved": "field(init=False)"
+      },
+      {
+        "line": 48,
+        "kind": "assignment",
+        "name": "plate_text",
+        "expression_NOT_resolved": "''"
+      },
+      {
+        "line": 52,
+        "kind": "assignment",
+        "name": "mean_ocr_confidence",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 53,
+        "kind": "assignment",
+        "name": "max_ocr_confidence",
+        "expression_NOT_resolved": "None"
+      },
+      {
+        "line": 62,
+        "kind": "assignment",
+        "name": "confidence",
+        "expression_NOT_resolved": "observation.ocr_confidence"
+      },
+      {
+        "line": 90,
+        "kind": "assignment",
+        "name": "confidences",
+        "expression_NOT_resolved": "[o.ocr_confidence for o in group]"
+      }
+    ]
+  },
+  {
+    "origin": "fd5a48177d8ec23fae38c428676635348964b9cb/lifecycle.py",
+    "status": "STATIC CANDIDATES ONLY; review precedence and runtime overrides",
+    "items": [
+      {
+        "line": 39,
+        "kind": "assignment",
+        "name": "plate_observations",
+        "expression_NOT_resolved": "field(default_factory=list)"
+      },
+      {
+        "line": 44,
+        "kind": "assignment",
+        "name": "(self.run_id, self.threshold, self.emit, self.debug)",
+        "expression_NOT_resolved": "(run_id, threshold, emit, debug)"
+      },
+      {
+        "line": 45,
+        "kind": "assignment",
+        "name": "self.car_tracks",
+        "expression_NOT_resolved": "{}"
+      },
+      {
+        "line": 102,
+        "kind": "assignment",
+        "name": "car.vehicle_class",
+        "expression_NOT_resolved": "track.label"
+      },
+      {
+        "line": 103,
+        "kind": "assignment",
+        "name": "car.vehicle_class_id",
+        "expression_NOT_resolved": "track.attributes['class_id']"
+      },
+      {
+        "line": 104,
+        "kind": "assignment",
+        "name": "car.vehicle_confidence",
+        "expression_NOT_resolved": "track.confidence"
+      },
+      {
+        "line": 105,
+        "kind": "assignment",
+        "name": "car.vehicle_bbox",
+        "expression_NOT_resolved": "track.bbox_xyxy"
+      },
+      {
+        "line": 171,
+        "kind": "assignment",
+        "name": "row['plate_bbox_frame_number']",
+        "expression_NOT_resolved": "best.frame_number"
+      },
+      {
+        "line": 172,
+        "kind": "assignment",
+        "name": "row['plate_mean_detection_confidence']",
+        "expression_NOT_resolved": "result.candidates[0].mean_plate_detection_confidence"
+      },
+      {
+        "line": 173,
+        "kind": "assignment",
+        "name": "row['plate_max_detection_confidence']",
+        "expression_NOT_resolved": "result.candidates[0].max_plate_detection_confidence"
+      },
+      {
+        "line": 99,
+        "kind": "assignment",
+        "name": "self.car_tracks[track.track_id]",
+        "expression_NOT_resolved": "car"
+      }
+    ]
+  }
+]

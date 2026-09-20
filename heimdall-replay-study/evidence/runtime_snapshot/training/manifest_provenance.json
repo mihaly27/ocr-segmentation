@@ -1,0 +1,9 @@
+{
+  "candidate_directories": [
+    "/ocr-dataset",
+    "/home/heimdall/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset"
+  ],
+  "selected": null,
+  "historical_training_provenance": "Current lists; association with the deployed checkpoint must be confirmed",
+  "files": []
+}

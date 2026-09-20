@@ -1,0 +1,3 @@
+# Preserve recorded evidence bytes and checksums on every operating system.
+# In particular, do not rewrite LF/CRLF when Git for Windows checks files out.
+* -text

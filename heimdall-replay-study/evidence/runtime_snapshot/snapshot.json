@@ -1,0 +1,11 @@
+{
+  "collected_at_utc": "2026-09-19T11:57:42.512821+00:00",
+  "scope": "cv",
+  "project": "/home/heimdall/capture-from-rtsp",
+  "recorded_R20_R23_revision": "fd5a48177d8ec23fae38c428676635348964b9cb",
+  "historical_identity": "NOT established by this current snapshot",
+  "python_executable": "/home/heimdall/capture-from-rtsp/.venv/bin/python",
+  "python_version": "3.12.14 (main, Sep  1 2026, 00:10:07) [GCC 14.2.0]",
+  "python_prefix": "/home/heimdall/capture-from-rtsp/.venv",
+  "warning": "VM inventory, visible GPU, source defaults and CLI overrides are distinct evidence sources."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/home/heimdall/capture-from-rtsp/main.py",
+    "exists": true,
+    "sha256": "f99e0cc998b13bf64e2d0682f4f7299b1d787df16cbb939b76a8db77399acbc7",
+    "size_bytes": 13255,
+    "mtime_utc": "2026-09-16T13:06:57.278309+00:00",
+    "stable_during_read": true
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/cv_config.py",
+    "exists": true,
+    "sha256": "7e31d6038e0dae3118ef440abbfa50a23b455a9f2376d9d39f47d94e8181d53f",
+    "size_bytes": 4550,
+    "mtime_utc": "2026-09-16T13:06:57.278309+00:00",
+    "stable_during_read": true
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/cv_core.py",
+    "exists": true,
+    "sha256": "3b5cc15c90ece2990e864717d86c607dd9a54e2b5590023c9cf03c1bdc5bf1a6",
+    "size_bytes": 6971,
+    "mtime_utc": "2026-09-18T11:53:47.668929+00:00",
+    "stable_during_read": true
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/consensus.py",
+    "exists": true,
+    "sha256": "06798d4ee698446f92e6b86b545d49789d0442fe38c7f1659326b0a853a6887b",
+    "size_bytes": 4058,
+    "mtime_utc": "2026-09-18T11:53:47.668929+00:00",
+    "stable_during_read": true
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/lifecycle.py",
+    "exists": true,
+    "sha256": "a5fb69d9c5c6891338bb6ba882ac8d9e126cdbf4226c9e6898d7548abe549751",
+    "size_bytes": 10300,
+    "mtime_utc": "2026-09-18T11:53:47.668929+00:00",
+    "stable_during_read": true
+  }
+]

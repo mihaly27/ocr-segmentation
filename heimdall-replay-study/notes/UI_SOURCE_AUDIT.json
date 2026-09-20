@@ -1,0 +1,113 @@
+{
+  "source_archive": {
+    "name": "HeimdallCV-tools-main.zip",
+    "sha256": "75eb6cf2f839ea5c17aef0fe861301bd9107eb75e9b700a34064e473319594b7",
+    "regular_files": 156,
+    "scope": "proprietary UI/orchestration source; inspected internally, not redistributed with paper",
+    "git_revision": "not present in the supplied archive; separate from capture code revision logged in the runs"
+  },
+  "inspected_files": [
+    {
+      "path": "frontend/src/components/ModelParamsFields.tsx",
+      "sha256": "8212707a7c547fedd636d0091b844167c648f1063bf8374095b4babaff7e7e9a"
+    },
+    {
+      "path": "frontend/src/pages/NewRunPage.tsx",
+      "sha256": "08c32ad4801f854a4b796934802d8f53f95e832eaa18c5ad2ab9ff147ac735fb"
+    },
+    {
+      "path": "backend/presets/models.py",
+      "sha256": "2fc4f461a612f6704726f9b9d751f06bf1a10316c6d7f77be8a9dea9435f4772"
+    },
+    {
+      "path": "backend/runs/serializers.py",
+      "sha256": "9b7361a857b0199a665ee8f0a89ecf50c672340ce6b69dce2ad19bd73cd38d07"
+    },
+    {
+      "path": "backend/runs/services/runner.py",
+      "sha256": "14cbbb1bbf738e86afe94e8f1f2c4327fad3e0614758210d82642074944fd9f8"
+    },
+    {
+      "path": "backend/runs/services/export.py",
+      "sha256": "50623191ac1bcbf10cb551d9130798c6843560f41ca11ed71538b7f8535ddb2f"
+    },
+    {
+      "path": "backend/runs/services/transcode.py",
+      "sha256": "997cb4accf23d1ca6abb86affafbe37e5dabecf0dcf366f1d3bc64b691e9b6cb"
+    },
+    {
+      "path": "backend/runs/services/frames.py",
+      "sha256": "139600615ff6e7e2c90869e3bac6c5d0796b5385481868871c932ad2c0473cd7"
+    },
+    {
+      "path": "backend/runs/services/observations_import.py",
+      "sha256": "c0d20d7f27dbb8eaa9251632731bf320c94db1f5b314adc2a1939093c31a2dc2"
+    },
+    {
+      "path": "backend/runs/tasks.py",
+      "sha256": "fc23c072342b5f8b5b92c5da98eb9d1615563604ee3bd88ac57237baa12e6800"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "sha256": "48062da362c00ff196e5381e3731aa9018c70092d4070c35e5c4e8a083365c47"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "sha256": "103af744f414d6ea2d0702a2c22187e4dac419898c7bcf8b71c9e8a6d9be6d11"
+    },
+    {
+      "path": "backend/ocr_evaluation/dataset.py",
+      "sha256": "b232046066d07ba445c29c337577102d5c5fc45a8199ee93019ea7270ce4d2d1"
+    },
+    {
+      "path": "backend/ocr_evaluation/views.py",
+      "sha256": "d058e1a99da0b1548d7d5567ef103c2138c70669ff2d04bf9262012879776add"
+    },
+    {
+      "path": "docs/ocr-evaluation.md",
+      "sha256": "bd2a911d16fdc46b0081e4aa1318b250b8692efcdd52ef4609eb83a5035cf0ec"
+    }
+  ],
+  "screenshots": [
+    {
+      "original_filename": "db4d3329-48bc-4d8a-98dc-387815485433.png",
+      "included_path": "evidence/ui/01_runs.png",
+      "sha256": "34ae5455db13d78a48823eb40840246188943047f0eb06433fd68df38534554c",
+      "description": "Run list: R20 analyze and R21–R23 replay, pilot/succeeded; source relationship is in the run exports.",
+      "pixels": "unchanged original PNG bytes"
+    },
+    {
+      "original_filename": "c37dcb0f-ed61-4875-b0cb-2a1530a50675.png",
+      "included_path": "evidence/ui/02_new_run.png",
+      "sha256": "ce3f190da88f2c437ebc778ddfa245c63c8ada00ce3dc46216b786682c916459",
+      "description": "New-run form, 30 s initial duration; not a submitted run snapshot.",
+      "pixels": "unchanged original PNG bytes"
+    },
+    {
+      "original_filename": "eedd7840-38a4-4d89-aa16-a4d8ff7cb4c3.png",
+      "included_path": "evidence/ui/03_models_and_ocr.png",
+      "sha256": "fdbbcaeb55bb171480136bf3d21762341d6b95bfa55dbdb89ba8f381279d71c9",
+      "description": "Model/OCR override controls, empty inputs and placeholder text.",
+      "pixels": "unchanged original PNG bytes"
+    },
+    {
+      "original_filename": "e0e5e05b-841d-4c74-a1d6-eaf611b3dec8.png",
+      "included_path": "evidence/ui/04_detector_controls.png",
+      "sha256": "44a3ed30923e5f529e4d3efe3180dc4cd9ba5c3a38eca0f0dac9b726408aa74b",
+      "description": "Optional detector confidence, IoU and size controls.",
+      "pixels": "unchanged original PNG bytes"
+    },
+    {
+      "original_filename": "0f079775-9521-4c8b-90f7-e260adbe786f.png",
+      "included_path": "evidence/ui/05_roi_controls.png",
+      "sha256": "440e03986cfa9374e20af4fa9dd1eb292ba5dae173153d79fca6198b9c9ab839",
+      "description": "ROI/reference-size placeholders; not saved effective settings.",
+      "pixels": "unchanged original PNG bytes"
+    }
+  ],
+  "funding": "The first author states that this work is self-funded.",
+  "access": "The user confirms unrestricted access to research material selected for publication; the commercial application source remains proprietary. No public repository/deposit URL was supplied in this iteration.",
+  "capture_engine_in_archive": false,
+  "models_or_runtime_snapshot_in_archive": false,
+  "scope_of_checks": "Static inspection, no application deployment or inference rerun."
+}

@@ -1,0 +1,99 @@
+variant,excel_row,case_id,category,primary,human_verbatim,comparison_key,in_hungarian_grammar,linked_ids,outputs,nonempty_outputs,exact_outputs,at_least_one_exact,mixed_exact_and_different
+R20,6,white_opel,confident_plate,True,PCS-889,PCS889,True,2,PCS-889,1,1,True,False
+R20,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,,,0,0,False,False
+R20,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,15,AAKT-740,1,1,True,False
+R20,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,11,HEV-508,1,0,False,False
+R20,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,58,SDS-197,1,1,True,False
+R20,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,67;71,AIEY-881;AIEY-881,2,2,True,False
+R20,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,73,KTM-724,1,1,True,False
+R20,19,black_renault,confident_plate,True,KDK-366,KDK366,True,81,KDK-356,1,0,False,False
+R20,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,34,RHH-757,1,,,
+R20,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,87,KGU-710,1,,,
+R20,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,95;98,AELM-653;AELM-653,2,,,
+R20,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,106,HLE-072,1,,,
+R20,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,4,AUBE-567,1,,,
+R20,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,59,LAKM-128,1,,,
+R21,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+R21,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+R21,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+R21,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+R21,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+R21,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+R21,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+R21,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+R21,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+R21,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+R21,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+R21,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+R21,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+R21,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,LHM-181,1,,,
+R22,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+R22,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+R22,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+R22,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+R22,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+R22,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+R22,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+R22,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+R22,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+R22,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+R22,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+R22,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+R22,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+R22,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,LHM-181,1,,,
+R23,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+R23,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+R23,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+R23,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+R23,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+R23,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+R23,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+R23,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+R23,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+R23,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+R23,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+R23,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+R23,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+R23,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,,0,,,
+F,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+F,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+F,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+F,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+F,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+F,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+F,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+F,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+F,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+F,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+F,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+F,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+F,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+F,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,LHM-181,1,,,
+A,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+A,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+A,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+A,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+A,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+A,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+A,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+A,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+A,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+A,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+A,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+A,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+A,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+A,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,,0,,,
+G,6,white_opel,confident_plate,True,PCS-889,PCS889,True,1;15,PCS-889;PCS-889,2,2,True,False
+G,7,silver_dacia_van,confident_plate,True,NNP-726,NNP726,True,18,NHP-726,1,0,False,False
+G,12,silver_dacia_duster,confident_plate,True,AA-KT 740,AAKT740,True,21;50,AAKT-740;AAKI-740,2,1,True,True
+G,13,white_tesla,confident_plate,True,TR EV 850 E,TREV850E,False,12,IEV-508,1,0,False,False
+G,15,brown_peugeot,confident_plate,True,SDS-197,SDS197,True,64;77;78,SDS-197;SDS-197;SDS-197,3,3,True,False
+G,16,white_suzuki,confident_plate,True,AI-EY 881,AIEY881,True,74;82,AIEY-881;AIEY-881,2,2,True,False
+G,17,silver_opel,confident_plate,True,KTM-724,KTM724,True,84,KTM-724,1,1,True,False
+G,19,black_renault,confident_plate,True,KDK-366,KDK366,True,97,KDK-366,1,1,True,False
+G,18,silver_ford_uncertain,uncertain,False,RHH-757,RHH757,True,48,RHH-757,1,,,
+G,20,black_ford_uncertain,uncertain,False,KDU-710,KDU710,True,102,KGU-710,1,,,
+G,21,black_honda_uncertain,uncertain,False,AE LM 653,AELM653,True,110;113,AELM-653;AELM-653,2,,,
+G,22,black_passat_uncertain,uncertain,False,HLE 072,HLE072,True,116,HLE-072,1,,,
+G,4,black_fiat_no_reference,no_plate_string_recorded,False,nincs,NINCS,False,3,AUBE-567,1,,,
+G,14,silver_peugeot_unreadable,plate_present_unreadable,False,rendszám,RENDSZÁM,False,65,,0,,,

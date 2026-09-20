@@ -1,0 +1,22 @@
+excel_row,color,vehicle,text,certainty,category
+2,fehér,tesla,TEAM,"rendszám nincs, felirat felismerhetö",nonplate_lettering
+3,ezüst,dacia,nincs,-,no_plate_string_recorded
+4,fekete,fiat,nincs,-,no_plate_string_recorded
+5,kék,skoda,nincs,-,no_plate_string_recorded
+6,fehér,opel,PCS-889,"rendszám van, felismerhetö",confident_plate
+7,ezüst,dacia,NNP-726,"rendszám van, felismerhetö",confident_plate
+8,ezüst,opel,nincs,-,no_plate_string_recorded
+9,fekete,mercedes,rendszám,"rendszám van, nem felismerhetö szemmel",plate_present_unreadable
+10,ezüst,honda,rendszám,"rendszám van, nem felismerhetö szemmel",plate_present_unreadable
+11,ezüst,skoda,rendszám,"rendszám van, nem felismerhetö szemmel",plate_present_unreadable
+12,ezüst ,dacia,AA-KT 740,"rendszám van, felismerhetö",confident_plate
+13,fehér,tesla,TR EV 850 E,"rendszám van, német, szemmel felismerhetö",confident_plate
+14,ezüst,peugeot,rendszám,"rendszám van, szemmel nem felismerhetö",plate_present_unreadable
+15,barna,peugeot,SDS-197,"rendszám van, felismerhetö",confident_plate
+16,fehér,suzuki,AI-EY 881,"rendszám van, felismerhetö",confident_plate
+17,ezüst,opel,KTM-724,"rendszám van, felismerhetö",confident_plate
+18,ezüst ,ford,RHH-757,"rendszám van, felismerhetö, de nem biztos, hogy ez",uncertain
+19,fekete,renault,KDK-366,"rendszám van, felismerhetö",confident_plate
+20,fekete,ford,KDU-710,"rendszám van, felismerhetö, de nem biztos, hogy ez",uncertain
+21,fekete,honda,AE LM 653,"rendszám van, felismerhetö, de nem biztos, hogy ez",uncertain
+22,fekete,passat,HLE 072,"rendszám van, felismerhetö, de nem biztos, hogy ez",uncertain

@@ -1,0 +1,307 @@
+{
+  "worksheet_original_name": "#20-as manual script.xlsx",
+  "worksheet_sha256": "d35061ef895e4739a4f75e84f73bca1db91bdcd10d340db57db6241fb62c87cd",
+  "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d",
+  "source_geometry": "1920x1080; 765 frames; 25.52 fps; zero-based source frame interpretation",
+  "reference_provenance": "User reports two people jointly reviewing high-resolution video and producing the supplied worksheet. Separate independent sheets and blindness to predictions are not documented.",
+  "matching_provenance": "Assistant inspected raw source frames, temporal montages and logged winning plate regions. User-provided plate transcriptions are unchanged. This mapping is an assisted analysis artifact, not an additional human annotation session.",
+  "cases": [
+    {
+      "excel_row": 6,
+      "case_id": "white_opel",
+      "primary": true,
+      "R20_ids": [
+        2
+      ],
+      "replay_ids": [
+        1,
+        15
+      ],
+      "source_frame_anchors": [
+        102,
+        116,
+        120
+      ],
+      "visual_basis": "White Opel estate crosses left to right in foreground; both winning boxes are on its rear plate before and after the window bar."
+    },
+    {
+      "excel_row": 7,
+      "case_id": "silver_dacia_van",
+      "primary": true,
+      "R20_ids": [],
+      "replay_ids": [
+        18
+      ],
+      "source_frame_anchors": [
+        167,
+        173,
+        176
+      ],
+      "visual_basis": "Silver Dacia van crosses foreground left to right at approximately 6.5-6.9 s. R20 has rejected candidate readings here but no linked nonempty final output."
+    },
+    {
+      "excel_row": 12,
+      "case_id": "silver_dacia_duster",
+      "primary": true,
+      "R20_ids": [
+        15
+      ],
+      "replay_ids": [
+        21,
+        50
+      ],
+      "source_frame_anchors": [
+        0,
+        306,
+        332,
+        343,
+        356,
+        357
+      ],
+      "visual_basis": "Initially stopped silver Dacia SUV moves right after approximately 12 s; both replay output regions are on the same rear plate. Earlier worksheet row 3 describes this vehicle from the side."
+    },
+    {
+      "excel_row": 13,
+      "case_id": "white_tesla",
+      "primary": true,
+      "R20_ids": [
+        11
+      ],
+      "replay_ids": [
+        12
+      ],
+      "source_frame_anchors": [
+        0,
+        357,
+        383,
+        400,
+        407,
+        417
+      ],
+      "visual_basis": "Initially stopped white Tesla with door lettering moves right, towing a trailer. Rear plate becomes visible at approximately 15.5-16.7 s. Worksheet row 2 is an earlier side view of this same car."
+    },
+    {
+      "excel_row": 15,
+      "case_id": "brown_peugeot",
+      "primary": true,
+      "R20_ids": [
+        58
+      ],
+      "replay_ids": [
+        64,
+        77,
+        78
+      ],
+      "source_frame_anchors": [
+        459,
+        487,
+        489,
+        503,
+        509
+      ],
+      "visual_basis": "Brown Peugeot van crosses foreground left to right; all three replay winning regions follow the same rear plate."
+    },
+    {
+      "excel_row": 16,
+      "case_id": "white_suzuki",
+      "primary": true,
+      "R20_ids": [
+        67,
+        71
+      ],
+      "replay_ids": [
+        74,
+        82
+      ],
+      "source_frame_anchors": [
+        510,
+        516,
+        517,
+        523,
+        524
+      ],
+      "visual_basis": "White Suzuki MPV crosses foreground left to right. Two successive lifetime output regions follow the same rear plate."
+    },
+    {
+      "excel_row": 17,
+      "case_id": "silver_opel",
+      "primary": true,
+      "R20_ids": [
+        73
+      ],
+      "replay_ids": [
+        84
+      ],
+      "source_frame_anchors": [
+        536,
+        559,
+        562
+      ],
+      "visual_basis": "Silver Opel estate crosses foreground left to right, later than the white Opel; matched by body and time, not plate text."
+    },
+    {
+      "excel_row": 19,
+      "case_id": "black_renault",
+      "primary": true,
+      "R20_ids": [
+        81
+      ],
+      "replay_ids": [
+        97
+      ],
+      "source_frame_anchors": [
+        575,
+        587,
+        594,
+        614
+      ],
+      "visual_basis": "Dark Renault estate follows silver Opel left to right; R20 and replay winning regions belong to its rear plate."
+    },
+    {
+      "excel_row": 18,
+      "case_id": "silver_ford_uncertain",
+      "primary": false,
+      "R20_ids": [
+        34
+      ],
+      "replay_ids": [
+        48
+      ],
+      "source_frame_anchors": [
+        575,
+        600,
+        609
+      ],
+      "visual_basis": "Ford SUV approaches on the far side and turns across the frame right to left; winning front-plate region is visible behind the Renault. Only the final winning region is linked; this long lifetime has candidate observations on other vehicles."
+    },
+    {
+      "excel_row": 20,
+      "case_id": "black_ford_uncertain",
+      "primary": false,
+      "R20_ids": [
+        87
+      ],
+      "replay_ids": [
+        102
+      ],
+      "source_frame_anchors": [
+        638,
+        655
+      ],
+      "visual_basis": "Dark Ford saloon crosses foreground left to right, after the Renault. Human second-character uncertainty is retained."
+    },
+    {
+      "excel_row": 21,
+      "case_id": "black_honda_uncertain",
+      "primary": false,
+      "R20_ids": [
+        95,
+        98
+      ],
+      "replay_ids": [
+        110,
+        113
+      ],
+      "source_frame_anchors": [
+        664,
+        689,
+        692,
+        699,
+        702
+      ],
+      "visual_basis": "Dark Honda fastback crosses foreground left to right; two replay and two capture winning regions follow its rear plate."
+    },
+    {
+      "excel_row": 22,
+      "case_id": "black_passat_uncertain",
+      "primary": false,
+      "R20_ids": [
+        106
+      ],
+      "replay_ids": [
+        116
+      ],
+      "source_frame_anchors": [
+        715,
+        732,
+        740
+      ],
+      "visual_basis": "Dark Volkswagen saloon crosses foreground at the end of the clip; human uncertainty retained."
+    },
+    {
+      "excel_row": 4,
+      "case_id": "black_fiat_no_reference",
+      "primary": false,
+      "R20_ids": [
+        4
+      ],
+      "replay_ids": [
+        3
+      ],
+      "source_frame_anchors": [
+        0,
+        7,
+        10
+      ],
+      "visual_basis": "Black Fiat is already leaving at clip start. Worksheet says nincs and supplies no plate string; a model output cannot become a human reference."
+    },
+    {
+      "excel_row": 14,
+      "case_id": "silver_peugeot_unreadable",
+      "primary": false,
+      "R20_ids": [
+        59
+      ],
+      "replay_ids": [
+        65
+      ],
+      "source_frame_anchors": [
+        444,
+        450,
+        469
+      ],
+      "visual_basis": "Silver Peugeot approaches on the far side and turns; the small front-plate region is visible. Worksheet explicitly marks plate unreadable. R23 abstains for lifetime 65."
+    }
+  ],
+  "unscored_rows": [
+    {
+      "excel_row": 2,
+      "reason": "Nonplate lettering TEAM; early side view of white_tesla (row 13).",
+      "source_frame_anchor": 0
+    },
+    {
+      "excel_row": 3,
+      "reason": "No plate string recorded; early side view of silver_dacia_duster (row 12).",
+      "source_frame_anchor": 0
+    },
+    {
+      "excel_row": 5,
+      "reason": "No plate string recorded; blue vehicle on far lane. Not needed for the restricted readable-reference denominator."
+    },
+    {
+      "excel_row": 8,
+      "reason": "No plate string recorded; silver vehicle on far lane. Not needed for the restricted readable-reference denominator."
+    },
+    {
+      "excel_row": 9,
+      "reason": "Plate explicitly unreadable; no exact string to score."
+    },
+    {
+      "excel_row": 10,
+      "reason": "Plate explicitly unreadable; no exact string to score."
+    },
+    {
+      "excel_row": 11,
+      "reason": "Plate explicitly unreadable; no exact string to score."
+    }
+  ],
+  "limitations": [
+    "The 21 worksheet rows are descriptions, not 21 independently established passages. At least two vehicles appear in both early side-view and later rear-view rows.",
+    "All eight confidently transcribed plate cases enter the primary comparison, including the German plate; four uncertain strings do not.",
+    "A case is covered if at least one linked lifetime string equals the human reference after separator-only normalization. Multiple outputs count once for this coverage, and discordant extra outputs remain visible.",
+    "This conditional, retrospective coverage is not overall traffic accuracy, output precision, physical recall, independently held-out performance, or proof of correct production event association.",
+    "Winning candidate plate boxes locate output evidence on the source vehicle; last-known vehicle boxes can refer to a different time. Full per-frame trajectories and purity of every observation history were not validated.",
+    "No character read from model output or assistant inspection replaces a human worksheet character. Foreign text is not forced into Hungarian syntax.",
+    "The two humans reviewed jointly; no inter-rater agreement statistic or blinded annotation is claimed."
+  ]
+}

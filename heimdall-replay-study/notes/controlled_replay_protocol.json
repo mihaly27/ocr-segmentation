@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "status": "exploratory retrospective protocol amendment; not preregistered or a live-controller run",
+  "reference": "19 September action plan",
+  "deviation": "source clip is 29.976489 s, so the 30 s proposal period cannot produce a transition; set proposal half-period to 10 s without selecting by recognition outcome",
+  "base_run": 21,
+  "threshold_grid": [
+    "0.30",
+    "0.50",
+    "0.80"
+  ],
+  "initial_threshold": "0.30",
+  "radius": "0.30",
+  "weight": "1",
+  "update_seconds": "5",
+  "proposal_half_period_seconds": "10",
+  "normalization": "reuse recorded normalized_text; nonempty and score >= active threshold required",
+  "history": "retain prior admitted votes; no resets; group by original application lifetime",
+  "controls": "validate constant-gate replay against actual runs 21/22/23 at 0.30/0.46/0.77; the 0.50 and 0.80 constant controls are reconstructions",
+  "timebase": "use source-video presentation timestamps indexed by frame_id; preserve export convention; check index-offset sensitivity",
+  "uncertainty": "no manual passage ground truth; no accuracy or independent-session inference"
+}

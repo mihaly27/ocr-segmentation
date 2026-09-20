@@ -1,0 +1,23 @@
+% Editable vector figure. Coordinates are in cm; no raster or external tool.
+\begin{tikzpicture}[x=1cm,y=1cm,font=\scriptsize,
+  box/.style={draw=inkblue,rounded corners=1.5pt,fill=pale,align=center,
+    minimum height=.69cm,inner sep=3pt},
+  arr/.style={-{Latex[length=1.6mm]},draw=inkblue,line width=.55pt}]
+\node[box,text width=3.05cm] (frame) at (1.65,0) {Source video + inference exports\\Frame index and source time};
+\node[box,text width=3.05cm] (context) at (5.55,0) {Prescribed proposal $q_k$\\Source-time schedule};
+\node[box,text width=3.05cm] (chain) at (1.65,-1.3) {Frozen OCR observation stream\\Format check + confidence gate};
+\node[box,text width=3.05cm] (gov) at (5.55,-1.3) {F / A / G threshold rule\\Fixed / direct / bounded selection};
+\node[box,text width=3.05cm] (vote) at (1.65,-2.6) {Per-lifetime evidence $H_v$\\Weighted consensus; retained votes};
+\node[box,text width=3.05cm] (cal) at (5.55,-2.6) {Experimental settings\\Candidate grid, $\delta=0.30$};
+\node[box,text width=3.05cm] (event) at (1.65,-3.9) {Final plate event / abstention\\One output per application lifetime};
+\node[box,text width=3.05cm] (audit) at (5.55,-3.9) {Persistent audit records\\Frames, decisions, evidence, events};
+\draw[arr] (frame)--(chain);
+\draw[arr] (frame)--(context);
+\draw[arr] (context)--(gov);
+\draw[arr] (gov.west)--node[above,font=\tiny]{$\tau_t$}(chain.east);
+\draw[arr] (cal)--(gov);
+\draw[arr] (chain)--(vote);
+\draw[arr] (vote)--(event);
+\draw[arr] (event)--(audit);
+\draw[arr,dashed] (gov.east)--++(.45,0)|-(audit.east);
+\end{tikzpicture}

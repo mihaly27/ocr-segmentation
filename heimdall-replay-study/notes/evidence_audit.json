@@ -1,0 +1,50 @@
+{
+  "scope": "Descriptive file audit; no independent ground truth or accuracy estimate",
+  "legacy_observations": {
+    "name": "test.csv",
+    "size_bytes": 725309,
+    "sha256": "b522e3086d57a8ebfd20a01ad2ace03764c536fbadbc0fbac24ba18ac9cd2ced",
+    "columns": 7,
+    "rows": 3557,
+    "distinct_frames": 2269,
+    "min_frame": 0,
+    "max_frame": 2734,
+    "distinct_ids": 60,
+    "ids_with_multiple_strings": 43,
+    "frame_id_pairs_with_two_rows": 36
+  },
+  "lifetime_records": {
+    "name": "test.csv",
+    "size_bytes": 29672,
+    "sha256": "022e43a96a269a183ed53949675eddeb31a657ecf8abbea26d9a58683823b617",
+    "columns": 28,
+    "rows": 111,
+    "distinct_car_ids": 111,
+    "run_ids": [
+      "20260914_121101_565612_41b1356b602b40469d7c765998389625"
+    ],
+    "status_counts": {
+      "no_readable_plate": 90,
+      "plate_consensus": 11,
+      "single_observation": 10
+    },
+    "termination_counts": {
+      "track_disappeared": 103,
+      "capture_ended": 8
+    },
+    "rows_with_plate_text": 21,
+    "representative_indices_present": 21,
+    "representative_indices_in_range": true,
+    "video_name_matches_all_run_ids": true
+  },
+  "video": {
+    "name": "capture_20260914_121101_565612_41b1356b602b40469d7c765998389625.mp4",
+    "size_bytes": 61807503,
+    "sha256": "966a07a592c875f21c2656c025f283642408ba97e37ae8cc07fe127821f38580",
+    "width": 1920,
+    "height": 1080,
+    "avg_frame_rate": "25083/1000",
+    "duration": "30.937288",
+    "nb_frames": "776"
+  }
+}

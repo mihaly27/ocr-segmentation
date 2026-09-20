@@ -1,0 +1,162 @@
+[
+  {
+    "exists": true,
+    "sha256": "9b76e23e146024a4465d7222ca72e17170d968267b92fb3050caf1762bfc2c30",
+    "size_bytes": 490,
+    "mtime_utc": "2026-09-19T11:57:46.089152+00:00",
+    "stable_during_read": true,
+    "archive_path": "collection_status.json"
+  },
+  {
+    "exists": true,
+    "sha256": "ecb4b539b3f9bbb05415c99e63a2f69b76d1b8f524b67a49b2914a77f1255567",
+    "size_bytes": 908,
+    "mtime_utc": "2026-09-19T11:57:46.037151+00:00",
+    "stable_during_read": true,
+    "archive_path": "configuration/bytetrack.yaml"
+  },
+  {
+    "exists": true,
+    "sha256": "a4092b75680bddb49cc1a7e2de9b51a57f0f57c5cab816127eabe6c276e0c638",
+    "size_bytes": 14193,
+    "mtime_utc": "2026-09-19T11:57:46.088152+00:00",
+    "stable_during_read": true,
+    "archive_path": "configuration/current_static_candidates.json"
+  },
+  {
+    "exists": true,
+    "sha256": "37ab10fe64f4dbcf62894ef59c40f6f094ea5b4c34bd2f55998e843bb6afb137",
+    "size_bytes": 715,
+    "mtime_utc": "2026-09-19T11:57:46.038151+00:00",
+    "stable_during_read": true,
+    "archive_path": "configuration/file_provenance.json"
+  },
+  {
+    "exists": true,
+    "sha256": "d88d3d83e8f6d8cf02afba5673cb92046235d04289dea53225d8a0f4c62bab4d",
+    "size_bytes": 982,
+    "mtime_utc": "2026-09-19T11:57:46.038151+00:00",
+    "stable_during_read": true,
+    "archive_path": "configuration/ocr_inference.yml"
+  },
+  {
+    "exists": true,
+    "sha256": "57f83a3b2501ba2d0bfc031c9fb3f9cd54af6a247047320ee6cc9eb8166b24de",
+    "size_bytes": 14333,
+    "mtime_utc": "2026-09-19T11:57:46.088152+00:00",
+    "stable_during_read": true,
+    "archive_path": "configuration/recorded_revision_static_candidates.json"
+  },
+  {
+    "exists": true,
+    "sha256": "54b8ff0a6489609e65e793aa1897f3dc1561bf3e7a332439968648927dc53161",
+    "size_bytes": 306,
+    "mtime_utc": "2026-09-19T11:57:45.931149+00:00",
+    "stable_during_read": true,
+    "archive_path": "hardware/gpu_inventory.json"
+  },
+  {
+    "exists": true,
+    "sha256": "e590e53d71d092b2b4c59a5d71c85d647f9a13d95a26fc116c2b90cc7526f8ec",
+    "size_bytes": 5376,
+    "mtime_utc": "2026-09-19T11:57:42.527091+00:00",
+    "stable_during_read": true,
+    "archive_path": "hardware/lscpu.json"
+  },
+  {
+    "exists": true,
+    "sha256": "9f1c9d41c01acf4a9e7f63096222944862a8bb1a819178e326ef784097e24782",
+    "size_bytes": 1099,
+    "mtime_utc": "2026-09-19T11:57:42.512090+00:00",
+    "stable_during_read": true,
+    "archive_path": "hardware/runtime_visible.json"
+  },
+  {
+    "exists": true,
+    "sha256": "6168bac2c6c0bd0537b75693e1ca5777aba27653f948929d4f972786f724f05c",
+    "size_bytes": 25,
+    "mtime_utc": "2026-09-19T11:57:42.527091+00:00",
+    "stable_during_read": true,
+    "archive_path": "hardware/virtualization.json"
+  },
+  {
+    "exists": true,
+    "sha256": "6168bac2c6c0bd0537b75693e1ca5777aba27653f948929d4f972786f724f05c",
+    "size_bytes": 25,
+    "mtime_utc": "2026-09-19T11:57:42.527091+00:00",
+    "stable_during_read": true,
+    "archive_path": "hardware/vm_detection.json"
+  },
+  {
+    "exists": true,
+    "sha256": "ff0627389843a3bb84cbc3e594d919571ad11f8d4fd70819c9c3e28675473194",
+    "size_bytes": 2180,
+    "mtime_utc": "2026-09-19T11:57:46.037151+00:00",
+    "stable_during_read": true,
+    "archive_path": "models/model_hashes.json"
+  },
+  {
+    "exists": true,
+    "sha256": "f925a3170d537a6968adf7a32d4ce47b427fdcc8cfc1ada83e29f30cb60c3d71",
+    "size_bytes": 381,
+    "mtime_utc": "2026-09-19T11:57:46.019151+00:00",
+    "stable_during_read": true,
+    "archive_path": "runtime/environment_allowlist.json"
+  },
+  {
+    "exists": true,
+    "sha256": "7fc97066c35abe043e80dc6b6e82a80159d830ed232706101e708c6c8b1ca5d9",
+    "size_bytes": 7150,
+    "mtime_utc": "2026-09-19T11:57:46.019151+00:00",
+    "stable_during_read": true,
+    "archive_path": "runtime/packages.json"
+  },
+  {
+    "exists": true,
+    "sha256": "f080e554f3da9202ff90e0b58a3f9ebe2bcff6bfed6c84cb13036afdb821141a",
+    "size_bytes": 146,
+    "mtime_utc": "2026-09-19T11:57:46.019151+00:00",
+    "stable_during_read": true,
+    "archive_path": "runtime/project_dotenv_allowlist.json"
+  },
+  {
+    "exists": true,
+    "sha256": "4cc20b66500cdf4c43f997185c083b042c3b33b9015ca833abab5e2634019edc",
+    "size_bytes": 590,
+    "mtime_utc": "2026-09-19T11:57:42.512090+00:00",
+    "stable_during_read": true,
+    "archive_path": "snapshot.json"
+  },
+  {
+    "exists": true,
+    "sha256": "7012c5cca19d407e408253ce32b34d87491ede69ddba29793e6e984389c9638a",
+    "size_bytes": 116,
+    "mtime_utc": "2026-09-19T11:57:46.040151+00:00",
+    "stable_during_read": true,
+    "archive_path": "source/current_revision.json"
+  },
+  {
+    "exists": true,
+    "sha256": "08cd7aac4d2fe770b0803a728f2c2962f034db47438b10ee95264b6bc24f96b9",
+    "size_bytes": 1398,
+    "mtime_utc": "2026-09-19T11:57:46.038151+00:00",
+    "stable_during_read": true,
+    "archive_path": "source/source_hashes.json"
+  },
+  {
+    "exists": true,
+    "sha256": "150ae5bc5d415c7daf3d13a013f7cf5e7c6a9da7551888747eb4336a827ad1e9",
+    "size_bytes": 74,
+    "mtime_utc": "2026-09-19T11:57:46.044151+00:00",
+    "stable_during_read": true,
+    "archive_path": "source/working_tree_status.json"
+  },
+  {
+    "exists": true,
+    "sha256": "22a13e47d1e74a371db11e2901c5c1f3e2f4d0d5e475c4781f03c537dbfa9638",
+    "size_bytes": 287,
+    "mtime_utc": "2026-09-19T11:57:46.089152+00:00",
+    "stable_during_read": true,
+    "archive_path": "training/manifest_provenance.json"
+  }
+]

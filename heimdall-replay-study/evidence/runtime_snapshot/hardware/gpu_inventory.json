@@ -1,0 +1,6 @@
+{
+  "available": true,
+  "exit_code": 0,
+  "stdout": "0, NVIDIA RTX 4000 Ada Generation, 580.126.09, 20475 MiB\n1, NVIDIA RTX 4000 Ada Generation, 580.126.09, 20475 MiB\n2, NVIDIA RTX 4000 Ada Generation, 580.126.09, 20475 MiB\n3, NVIDIA RTX 4000 Ada Generation, 580.126.09, 20475 MiB\n",
+  "stderr": ""
+}

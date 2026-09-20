@@ -1,0 +1,74 @@
+{
+  "sami_crossref": {
+    "title": [
+      "Formalized Modeling and Deterministic Traceability in Computer Vision Pipelines - A Case Study"
+    ],
+    "container-title": [
+      "2026 IEEE 24th World Symposium on Applied Machine Intelligence and Informatics (SAMI)"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/sami68106.2026.11420330",
+    "page": "000727-000732",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          29
+        ]
+      ]
+    }
+  },
+  "cando_crossref": {
+    "title": [
+      "Inverse Packing as OCR Segmentation: Geometric Bounds, Practical Heuristics, and Traceable Computer Vision Pipelines"
+    ],
+    "container-title": [
+      "2026 IEEE 8th International Conference and Workshop Óbuda on Electrical and Power Engineering (CANDO-EPE)"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/cando-epe71091.2026.11569438",
+    "page": "000335-000340",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          26
+        ]
+      ]
+    }
+  },
+  "rdumb_crossref": {
+    "title": [
+      "RDumb: A simple approach that questions our progress in continual test-time adaptation"
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems 36"
+    ],
+    "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+    "DOI": "10.52202/075280-1735",
+    "page": "39915-39935",
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    }
+  },
+  "cotta_cvf": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.html",
+    "title": "Continual Test-Time Domain Adaptation",
+    "year": 2022,
+    "pages": "7201-7211",
+    "doi": "10.1109/CVPR52688.2022.00706",
+    "note": "CVF page range; IEEE Crossref deposited record instead lists 7191-7201."
+  },
+  "rdumb_neurips": {
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/7d640f377893fc5f22b5610e175ef7c3-Abstract-Conference.html",
+    "volume": 36,
+    "year": 2023,
+    "doi": "10.52202/075280-1735"
+  }
+}

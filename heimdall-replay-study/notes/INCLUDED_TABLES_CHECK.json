@@ -1,0 +1,91 @@
+{
+  "scope": "Recompute gate and reference summaries from the included derived tables.\n\nPython standard library only. This checks internal numerical consistency, not\nthe original exports, neural inference, source-video linkage, or human labels.\nRun from any directory: python3 scripts/verify_included_tables.py",
+  "constant_gates": {
+    "0.3": {
+      "accepted": 193,
+      "nonempty_lifetimes": 20
+    },
+    "0.46": {
+      "accepted": 192,
+      "nonempty_lifetimes": 20
+    },
+    "0.77": {
+      "accepted": 160,
+      "nonempty_lifetimes": 19
+    },
+    "0.5": {
+      "accepted": 191,
+      "nonempty_lifetimes": 20
+    },
+    "0.8": {
+      "accepted": 156,
+      "nonempty_lifetimes": 19
+    }
+  },
+  "variants": {
+    "F": {
+      "accepted": 193,
+      "nonempty_lifetimes": 20
+    },
+    "A": {
+      "accepted": 164,
+      "nonempty_lifetimes": 19
+    },
+    "G": {
+      "accepted": 166,
+      "nonempty_lifetimes": 19
+    }
+  },
+  "human_reference": {
+    "R20": {
+      "cases": 8,
+      "covered": 5,
+      "matching_outputs": 6,
+      "linked_outputs": 8,
+      "mixed_cases": 0
+    },
+    "R21": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    },
+    "R22": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    },
+    "R23": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    },
+    "F": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    },
+    "A": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    },
+    "G": {
+      "cases": 8,
+      "covered": 6,
+      "matching_outputs": 10,
+      "linked_outputs": 13,
+      "mixed_cases": 1
+    }
+  },
+  "result": "PASS"
+}

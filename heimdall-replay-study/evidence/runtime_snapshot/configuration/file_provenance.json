@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/home/heimdall/capture-from-rtsp/config/bytetrack.yaml",
+    "exists": true,
+    "sha256": "ecb4b539b3f9bbb05415c99e63a2f69b76d1b8f524b67a49b2914a77f1255567",
+    "size_bytes": 908,
+    "mtime_utc": "2026-09-16T13:06:57.277308+00:00",
+    "stable_during_read": true,
+    "included_as": "configuration/bytetrack.yaml"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/hungarian_plate_recognizer/v1.0/inference.yml",
+    "exists": true,
+    "sha256": "d88d3d83e8f6d8cf02afba5673cb92046235d04289dea53225d8a0f4c62bab4d",
+    "size_bytes": 982,
+    "mtime_utc": "2026-09-16T13:06:57.318309+00:00",
+    "stable_during_read": true,
+    "included_as": "configuration/ocr_inference.yml"
+  }
+]

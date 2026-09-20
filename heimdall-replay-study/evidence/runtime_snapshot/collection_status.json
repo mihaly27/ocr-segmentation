@@ -1,0 +1,14 @@
+{
+  "missing_or_unavailable_files": [
+    "OCR train_list.txt / val_list.txt: supply the actual dataset directory"
+  ],
+  "scope": "cv",
+  "full_environment_dump": false,
+  "model_weight_files_included": false,
+  "full_source_files_included": false,
+  "follow_up": [
+    "Confirm historical changes since R20–R23.",
+    "Provide hypervisor allocation screenshot or short VM specification.",
+    "Locate OCR/plate training configuration and existing logs; no new training required."
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/yolo26n.pt",
+    "exists": true,
+    "sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+    "size_bytes": 5544453,
+    "mtime_utc": "2026-09-16T13:06:57.371310+00:00",
+    "stable_during_read": true,
+    "role": "vehicle"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/plate_detector/license_plate_detector.pt",
+    "exists": true,
+    "sha256": "8ec3b254a6c87610f037a90957462cafa11a9c03224e33a28c6a1d1ac2ac51b0",
+    "size_bytes": 6241454,
+    "mtime_utc": "2026-09-16T13:06:57.348310+00:00",
+    "stable_during_read": true,
+    "role": "plate"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/hungarian_plate_recognizer/v1.0/inference.json",
+    "exists": true,
+    "sha256": "81917fec0da4ee2bf35c2501173f4f62c09c282ef5e2306d76b87ce7bdded071",
+    "size_bytes": 1806116,
+    "mtime_utc": "2026-09-16T13:06:57.281309+00:00",
+    "stable_during_read": true,
+    "role": "ocr",
+    "relative_name": "inference.json"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/hungarian_plate_recognizer/v1.0/inference.pdiparams",
+    "exists": true,
+    "sha256": "464c97b7fbd6958a96aa11d9affc6992c88b40a48e1844c46105f8b951d57a57",
+    "size_bytes": 7578713,
+    "mtime_utc": "2026-09-16T13:06:57.317309+00:00",
+    "stable_during_read": true,
+    "role": "ocr",
+    "relative_name": "inference.pdiparams"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/hungarian_plate_recognizer/v1.0/inference.yml",
+    "exists": true,
+    "sha256": "d88d3d83e8f6d8cf02afba5673cb92046235d04289dea53225d8a0f4c62bab4d",
+    "size_bytes": 982,
+    "mtime_utc": "2026-09-16T13:06:57.318309+00:00",
+    "stable_during_read": true,
+    "role": "ocr",
+    "relative_name": "inference.yml"
+  },
+  {
+    "path": "/home/heimdall/capture-from-rtsp/models/hungarian_plate_recognizer/v1.0/ppocr_keys.txt",
+    "exists": true,
+    "sha256": "4fdbe25e3c19611ae691e23189b05d01d2440a9ea882b39695c0395a8e6e165e",
+    "size_bytes": 74,
+    "mtime_utc": "2026-09-16T13:06:57.318309+00:00",
+    "stable_during_read": true,
+    "role": "ocr",
+    "relative_name": "ppocr_keys.txt"
+  }
+]

@@ -1,0 +1,49 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated local outputs and distribution archives
+/build/
+/dist/
+/output/
+/tmp/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Large original inputs are managed separately from this research repository
+/external-inputs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.pth
+*.onnx
+*.pdiparams
+
+# LaTeX temporary files; retain actual figures and configuration files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Training logs are evidence: do not ignore all *.log, *.json, *.csv or *.txt.

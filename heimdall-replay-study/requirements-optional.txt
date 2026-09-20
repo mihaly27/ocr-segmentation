@@ -1,0 +1,4 @@
+# No third-party packages are required by scripts/verify_included_tables.py.
+# These packages support optional chart regeneration and image extraction.
+matplotlib
+Pillow

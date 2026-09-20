@@ -1,0 +1,12 @@
+{
+  "CV_DEVICE": "0",
+  "OCR_DEVICE": "gpu:0",
+  "CUDA_VISIBLE_DEVICES": null,
+  "NVIDIA_VISIBLE_DEVICES": null,
+  "OMP_NUM_THREADS": null,
+  "MKL_NUM_THREADS": null,
+  "OPENBLAS_NUM_THREADS": null,
+  "CAPTURE_PROJECT_DIR": "/home/heimdall/capture-from-rtsp",
+  "CAPTURE_PROJECT_PYTHON": "/home/heimdall/capture-from-rtsp/.venv/bin/python",
+  "OCR_EVALUATION_DATASET_ROOT": null
+}

@@ -1,0 +1,48 @@
+{
+  "os_release": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.6\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"\n",
+  "kernel": "6.8.0-111-generic",
+  "architecture": "x86_64",
+  "logical_cpus_visible": 24,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "proc_limits": [
+    "Cpus_allowed_list:\t0-23",
+    "Mems_allowed_list:\t0"
+  ],
+  "memory": {
+    "MemTotal": "131745504 kB",
+    "MemAvailable": "109457648 kB",
+    "SwapTotal": "8388604 kB"
+  },
+  "cgroup_v2": {
+    "cpu.max": "max 100000\n",
+    "memory.max": "max\n",
+    "memory.high": "max\n",
+    "cpuset.cpus.effective": "0-23\n"
+  },
+  "note": "These are current environment observations. /proc memory can show guest totals rather than container limits."
+}

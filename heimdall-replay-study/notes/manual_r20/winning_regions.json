@@ -1,0 +1,597 @@
+[
+  {
+    "run": "R20",
+    "car_id": 2,
+    "case_id": "white_opel",
+    "excel_row": 6,
+    "primary": true,
+    "source_frame_zero_based_assumption": 116,
+    "source_seconds": 4.545454545454546,
+    "plate_box": [
+      1246.3153991699219,
+      612.8838195800781,
+      1316.2028503417969,
+      654.4856262207031
+    ],
+    "output": "PCS-889",
+    "human_verbatim": "PCS-889"
+  },
+  {
+    "run": "R20",
+    "car_id": 15,
+    "case_id": "silver_dacia_duster",
+    "excel_row": 12,
+    "primary": true,
+    "source_frame_zero_based_assumption": 356,
+    "source_seconds": 13.949843260188088,
+    "plate_box": [
+      1443.7236328125,
+      528.6417846679688,
+      1490.4766845703125,
+      554.6737976074219
+    ],
+    "output": "AAKT-740",
+    "human_verbatim": "AA-KT 740"
+  },
+  {
+    "run": "R20",
+    "car_id": 11,
+    "case_id": "white_tesla",
+    "excel_row": 13,
+    "primary": true,
+    "source_frame_zero_based_assumption": 417,
+    "source_seconds": 16.34012539184953,
+    "plate_box": [
+      1420.6239624023438,
+      483.2286834716797,
+      1461.2551879882812,
+      507.2120056152344
+    ],
+    "output": "HEV-508",
+    "human_verbatim": "TR EV 850 E"
+  },
+  {
+    "run": "R20",
+    "car_id": 58,
+    "case_id": "brown_peugeot",
+    "excel_row": 15,
+    "primary": true,
+    "source_frame_zero_based_assumption": 487,
+    "source_seconds": 19.08307210031348,
+    "plate_box": [
+      1073.1640167236328,
+      543.4878234863281,
+      1111.3085021972656,
+      571.65380859375
+    ],
+    "output": "SDS-197",
+    "human_verbatim": "SDS-197"
+  },
+  {
+    "run": "R20",
+    "car_id": 67,
+    "case_id": "white_suzuki",
+    "excel_row": 16,
+    "primary": true,
+    "source_frame_zero_based_assumption": 517,
+    "source_seconds": 20.258620689655174,
+    "plate_box": [
+      1265.1469116210938,
+      570.1070098876953,
+      1339.865966796875,
+      614.3367614746094
+    ],
+    "output": "AIEY-881",
+    "human_verbatim": "AI-EY 881"
+  },
+  {
+    "run": "R20",
+    "car_id": 71,
+    "case_id": "white_suzuki",
+    "excel_row": 16,
+    "primary": true,
+    "source_frame_zero_based_assumption": 523,
+    "source_seconds": 20.49373040752351,
+    "plate_box": [
+      1522.5003662109375,
+      536.837158203125,
+      1590.6756591796875,
+      569.0153350830078
+    ],
+    "output": "AIEY-881",
+    "human_verbatim": "AI-EY 881"
+  },
+  {
+    "run": "R20",
+    "car_id": 73,
+    "case_id": "silver_opel",
+    "excel_row": 17,
+    "primary": true,
+    "source_frame_zero_based_assumption": 559,
+    "source_seconds": 21.904388714733543,
+    "plate_box": [
+      1210.0751953125,
+      538.4273376464844,
+      1253.53076171875,
+      567.0454406738281
+    ],
+    "output": "KTM-724",
+    "human_verbatim": "KTM-724"
+  },
+  {
+    "run": "R20",
+    "car_id": 81,
+    "case_id": "black_renault",
+    "excel_row": 19,
+    "primary": true,
+    "source_frame_zero_based_assumption": 594,
+    "source_seconds": 23.275862068965516,
+    "plate_box": [
+      927.5701141357422,
+      575.9500274658203,
+      962.9196548461914,
+      607.5804748535156
+    ],
+    "output": "KDK-356",
+    "human_verbatim": "KDK-366"
+  },
+  {
+    "run": "R20",
+    "car_id": 34,
+    "case_id": "silver_ford_uncertain",
+    "excel_row": 18,
+    "primary": false,
+    "source_frame_zero_based_assumption": 600,
+    "source_seconds": 23.510971786833856,
+    "plate_box": [
+      1080.8154602050781,
+      510.07643127441406,
+      1114.7511596679688,
+      527.0199279785156
+    ],
+    "output": "RHH-757",
+    "human_verbatim": "RHH-757"
+  },
+  {
+    "run": "R20",
+    "car_id": 87,
+    "case_id": "black_ford_uncertain",
+    "excel_row": 20,
+    "primary": false,
+    "source_frame_zero_based_assumption": 638,
+    "source_seconds": 25.0,
+    "plate_box": [
+      1045.1527252197266,
+      524.6516418457031,
+      1086.0916900634766,
+      554.5807189941406
+    ],
+    "output": "KGU-710",
+    "human_verbatim": "KDU-710"
+  },
+  {
+    "run": "R20",
+    "car_id": 95,
+    "case_id": "black_honda_uncertain",
+    "excel_row": 21,
+    "primary": false,
+    "source_frame_zero_based_assumption": 692,
+    "source_seconds": 27.11598746081505,
+    "plate_box": [
+      1305.3554077148438,
+      508.4856719970703,
+      1351.9003601074219,
+      535.4634094238281
+    ],
+    "output": "AELM-653",
+    "human_verbatim": "AE LM 653"
+  },
+  {
+    "run": "R20",
+    "car_id": 98,
+    "case_id": "black_honda_uncertain",
+    "excel_row": 21,
+    "primary": false,
+    "source_frame_zero_based_assumption": 702,
+    "source_seconds": 27.50783699059561,
+    "plate_box": [
+      1546.6759033203125,
+      479.9526062011719,
+      1593.434326171875,
+      504.3065948486328
+    ],
+    "output": "AELM-653",
+    "human_verbatim": "AE LM 653"
+  },
+  {
+    "run": "R20",
+    "car_id": 106,
+    "case_id": "black_passat_uncertain",
+    "excel_row": 22,
+    "primary": false,
+    "source_frame_zero_based_assumption": 732,
+    "source_seconds": 28.683385579937305,
+    "plate_box": [
+      1106.9374084472656,
+      535.1707153320312,
+      1155.361572265625,
+      568.2052307128906
+    ],
+    "output": "HLE-072",
+    "human_verbatim": "HLE 072"
+  },
+  {
+    "run": "R20",
+    "car_id": 4,
+    "case_id": "black_fiat_no_reference",
+    "excel_row": 4,
+    "primary": false,
+    "source_frame_zero_based_assumption": 7,
+    "source_seconds": 0.274294670846395,
+    "plate_box": [
+      1483.4329223632812,
+      511.10154724121094,
+      1547.5170288085938,
+      543.5641784667969
+    ],
+    "output": "AUBE-567",
+    "human_verbatim": "nincs"
+  },
+  {
+    "run": "R20",
+    "car_id": 59,
+    "case_id": "silver_peugeot_unreadable",
+    "excel_row": 14,
+    "primary": false,
+    "source_frame_zero_based_assumption": 469,
+    "source_seconds": 18.377742946708466,
+    "plate_box": [
+      1251.47802734375,
+      496.46490478515625,
+      1281.4931030273438,
+      511.00291442871094
+    ],
+    "output": "LAKM-128",
+    "human_verbatim": "rendszám"
+  },
+  {
+    "run": "R21",
+    "car_id": 1,
+    "case_id": "white_opel",
+    "excel_row": 6,
+    "primary": true,
+    "source_frame_zero_based_assumption": 116,
+    "source_seconds": 4.545454545454546,
+    "plate_box": [
+      1246.317138671875,
+      613.2201232910156,
+      1316.2972412109375,
+      654.3851928710938
+    ],
+    "output": "PCS-889",
+    "human_verbatim": "PCS-889"
+  },
+  {
+    "run": "R21",
+    "car_id": 15,
+    "case_id": "white_opel",
+    "excel_row": 6,
+    "primary": true,
+    "source_frame_zero_based_assumption": 120,
+    "source_seconds": 4.702194357366771,
+    "plate_box": [
+      1455.6135864257812,
+      581.6330871582031,
+      1522.5474853515625,
+      614.525634765625
+    ],
+    "output": "PCS-889",
+    "human_verbatim": "PCS-889"
+  },
+  {
+    "run": "R21",
+    "car_id": 18,
+    "case_id": "silver_dacia_van",
+    "excel_row": 7,
+    "primary": true,
+    "source_frame_zero_based_assumption": 173,
+    "source_seconds": 6.778996865203762,
+    "plate_box": [
+      1246.0162658691406,
+      573.5359802246094,
+      1300.9700622558594,
+      610.3234252929688
+    ],
+    "output": "NHP-726",
+    "human_verbatim": "NNP-726"
+  },
+  {
+    "run": "R21",
+    "car_id": 21,
+    "case_id": "silver_dacia_duster",
+    "excel_row": 12,
+    "primary": true,
+    "source_frame_zero_based_assumption": 343,
+    "source_seconds": 13.440438871473354,
+    "plate_box": [
+      1244.8920288085938,
+      555.4068298339844,
+      1293.6131286621094,
+      585.0803070068359
+    ],
+    "output": "AAKT-740",
+    "human_verbatim": "AA-KT 740"
+  },
+  {
+    "run": "R21",
+    "car_id": 50,
+    "case_id": "silver_dacia_duster",
+    "excel_row": 12,
+    "primary": true,
+    "source_frame_zero_based_assumption": 357,
+    "source_seconds": 13.989028213166144,
+    "plate_box": [
+      1455.455322265625,
+      527.1310729980469,
+      1504.3423461914062,
+      553.3203430175781
+    ],
+    "output": "AAKI-740",
+    "human_verbatim": "AA-KT 740"
+  },
+  {
+    "run": "R21",
+    "car_id": 12,
+    "case_id": "white_tesla",
+    "excel_row": 13,
+    "primary": true,
+    "source_frame_zero_based_assumption": 407,
+    "source_seconds": 15.948275862068966,
+    "plate_box": [
+      1195.4321594238281,
+      505.2710266113281,
+      1251.6467590332031,
+      538.0565032958984
+    ],
+    "output": "IEV-508",
+    "human_verbatim": "TR EV 850 E"
+  },
+  {
+    "run": "R21",
+    "car_id": 64,
+    "case_id": "brown_peugeot",
+    "excel_row": 15,
+    "primary": true,
+    "source_frame_zero_based_assumption": 489,
+    "source_seconds": 19.161442006269592,
+    "plate_box": [
+      1133.0598754882812,
+      538.2505340576172,
+      1171.9977111816406,
+      563.5793304443359
+    ],
+    "output": "SDS-197",
+    "human_verbatim": "SDS-197"
+  },
+  {
+    "run": "R21",
+    "car_id": 77,
+    "case_id": "brown_peugeot",
+    "excel_row": 15,
+    "primary": true,
+    "source_frame_zero_based_assumption": 503,
+    "source_seconds": 19.71003134796238,
+    "plate_box": [
+      1469.815185546875,
+      497.3594207763672,
+      1513.7098999023438,
+      521.4632873535156
+    ],
+    "output": "SDS-197",
+    "human_verbatim": "SDS-197"
+  },
+  {
+    "run": "R21",
+    "car_id": 78,
+    "case_id": "brown_peugeot",
+    "excel_row": 15,
+    "primary": true,
+    "source_frame_zero_based_assumption": 509,
+    "source_seconds": 19.94514106583072,
+    "plate_box": [
+      1575.5037841796875,
+      484.42356872558594,
+      1615.9386596679688,
+      504.5334014892578
+    ],
+    "output": "SDS-197",
+    "human_verbatim": "SDS-197"
+  },
+  {
+    "run": "R21",
+    "car_id": 74,
+    "case_id": "white_suzuki",
+    "excel_row": 16,
+    "primary": true,
+    "source_frame_zero_based_assumption": 516,
+    "source_seconds": 20.219435736677116,
+    "plate_box": [
+      1211.8594360351562,
+      579.6724243164062,
+      1284.5595703125,
+      621.0420227050781
+    ],
+    "output": "AIEY-881",
+    "human_verbatim": "AI-EY 881"
+  },
+  {
+    "run": "R21",
+    "car_id": 82,
+    "case_id": "white_suzuki",
+    "excel_row": 16,
+    "primary": true,
+    "source_frame_zero_based_assumption": 524,
+    "source_seconds": 20.53291536050157,
+    "plate_box": [
+      1555.7127685546875,
+      532.2647399902344,
+      1622.2092895507812,
+      563.9924011230469
+    ],
+    "output": "AIEY-881",
+    "human_verbatim": "AI-EY 881"
+  },
+  {
+    "run": "R21",
+    "car_id": 84,
+    "case_id": "silver_opel",
+    "excel_row": 17,
+    "primary": true,
+    "source_frame_zero_based_assumption": 562,
+    "source_seconds": 22.021943573667713,
+    "plate_box": [
+      1299.8357238769531,
+      529.0164794921875,
+      1342.5431823730469,
+      555.0798187255859
+    ],
+    "output": "KTM-724",
+    "human_verbatim": "KTM-724"
+  },
+  {
+    "run": "R21",
+    "car_id": 97,
+    "case_id": "black_renault",
+    "excel_row": 19,
+    "primary": true,
+    "source_frame_zero_based_assumption": 614,
+    "source_seconds": 24.059561128526646,
+    "plate_box": [
+      1507.84423828125,
+      504.29530334472656,
+      1553.9929809570312,
+      529.2677459716797
+    ],
+    "output": "KDK-366",
+    "human_verbatim": "KDK-366"
+  },
+  {
+    "run": "R21",
+    "car_id": 48,
+    "case_id": "silver_ford_uncertain",
+    "excel_row": 18,
+    "primary": false,
+    "source_frame_zero_based_assumption": 600,
+    "source_seconds": 23.510971786833856,
+    "plate_box": [
+      1080.8903045654297,
+      510.0831756591797,
+      1114.6619262695312,
+      527.0047760009766
+    ],
+    "output": "RHH-757",
+    "human_verbatim": "RHH-757"
+  },
+  {
+    "run": "R21",
+    "car_id": 102,
+    "case_id": "black_ford_uncertain",
+    "excel_row": 20,
+    "primary": false,
+    "source_frame_zero_based_assumption": 655,
+    "source_seconds": 25.66614420062696,
+    "plate_box": [
+      1507.412841796875,
+      477.3635711669922,
+      1550.0760498046875,
+      500.20985412597656
+    ],
+    "output": "KGU-710",
+    "human_verbatim": "KDU-710"
+  },
+  {
+    "run": "R21",
+    "car_id": 110,
+    "case_id": "black_honda_uncertain",
+    "excel_row": 21,
+    "primary": false,
+    "source_frame_zero_based_assumption": 692,
+    "source_seconds": 27.11598746081505,
+    "plate_box": [
+      1304.9550476074219,
+      508.1778564453125,
+      1351.9888916015625,
+      535.8397521972656
+    ],
+    "output": "AELM-653",
+    "human_verbatim": "AE LM 653"
+  },
+  {
+    "run": "R21",
+    "car_id": 113,
+    "case_id": "black_honda_uncertain",
+    "excel_row": 21,
+    "primary": false,
+    "source_frame_zero_based_assumption": 699,
+    "source_seconds": 27.390282131661444,
+    "plate_box": [
+      1485.965576171875,
+      486.8237609863281,
+      1530.7686767578125,
+      512.039794921875
+    ],
+    "output": "AELM-653",
+    "human_verbatim": "AE LM 653"
+  },
+  {
+    "run": "R21",
+    "car_id": 116,
+    "case_id": "black_passat_uncertain",
+    "excel_row": 22,
+    "primary": false,
+    "source_frame_zero_based_assumption": 732,
+    "source_seconds": 28.683385579937305,
+    "plate_box": [
+      1106.9378356933594,
+      535.2575225830078,
+      1155.4289245605469,
+      568.0624389648438
+    ],
+    "output": "HLE-072",
+    "human_verbatim": "HLE 072"
+  },
+  {
+    "run": "R21",
+    "car_id": 3,
+    "case_id": "black_fiat_no_reference",
+    "excel_row": 4,
+    "primary": false,
+    "source_frame_zero_based_assumption": 10,
+    "source_seconds": 0.39184952978056425,
+    "plate_box": [
+      1533.892578125,
+      506.486328125,
+      1595.9463500976562,
+      537.3193664550781
+    ],
+    "output": "AUBE-567",
+    "human_verbatim": "nincs"
+  },
+  {
+    "run": "R21",
+    "car_id": 65,
+    "case_id": "silver_peugeot_unreadable",
+    "excel_row": 14,
+    "primary": false,
+    "source_frame_zero_based_assumption": 469,
+    "source_seconds": 18.377742946708466,
+    "plate_box": [
+      1251.3785095214844,
+      496.43775939941406,
+      1281.2239074707031,
+      511.12916564941406
+    ],
+    "output": "LHM-181",
+    "human_verbatim": "rendszám"
+  }
+]

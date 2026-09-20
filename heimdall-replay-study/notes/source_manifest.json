@@ -1,0 +1,308 @@
+[
+  {
+    "role": "legacy_observation_csv",
+    "name": "test.csv",
+    "size_bytes": 725309,
+    "sha256": "b522e3086d57a8ebfd20a01ad2ace03764c536fbadbc0fbac24ba18ac9cd2ced"
+  },
+  {
+    "role": "new_finalization_csv",
+    "name": "test.csv",
+    "size_bytes": 29672,
+    "sha256": "022e43a96a269a183ed53949675eddeb31a657ecf8abbea26d9a58683823b617"
+  },
+  {
+    "role": "new_camera_video",
+    "name": "capture_20260914_121101_565612_41b1356b602b40469d7c765998389625.mp4",
+    "size_bytes": 61807503,
+    "sha256": "966a07a592c875f21c2656c025f283642408ba97e37ae8cc07fe127821f38580"
+  },
+  {
+    "role": "technical_presentation",
+    "name": "capture-from-rtsp-muszaki-prezentacio-hu-v2.pptx másolata",
+    "size_bytes": 70677,
+    "sha256": "0356488b41965d49eca4b435540d26d9b51ee2556929c81b2a5e83c34704f8e7"
+  },
+  {
+    "role": "conference_bst_archive",
+    "name": "IEEEtranBST2.zip",
+    "size_bytes": 316101,
+    "sha256": "c77fec4cb5e0f3a8e4ce3ad36580341f5acae97d7131918095c6ca891c5f805c"
+  },
+  {
+    "role": "conference_cls_archive",
+    "name": "conference-latex-template-1.zip",
+    "size_bytes": 852939,
+    "sha256": "ccdd0a6d3ec324ed9f4678aa229590565045eabf97efc4dcf91171dd9061d779"
+  },
+  {
+    "role": "included_bst",
+    "name": "IEEEtran.bst",
+    "size_bytes": 59215,
+    "sha256": "b445bc94cfde36bb836a4c6f5ce7149f1488d76dfe8acd39a8771f084ba8f348",
+    "upstream_crlf_record": {
+      "size_bytes": 61632,
+      "sha256": "d83aa3c9b47fc120bb3d9d8e476216cb889c738f72ec950beeac3661c45ded24"
+    },
+    "line_endings": "LF; content matches recorded upstream CRLF version after normalization"
+  },
+  {
+    "role": "included_cls",
+    "name": "IEEEtran.cls",
+    "size_bytes": 281957,
+    "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+    "upstream_crlf_record": {
+      "size_bytes": 288304,
+      "sha256": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55"
+    },
+    "line_endings": "LF; content matches recorded upstream CRLF version after normalization"
+  },
+  {
+    "role": "included_daylight_figure",
+    "name": "camera_daylight.png",
+    "size_bytes": 849671,
+    "sha256": "0137b7636c1c8de28b93e23e0f49ae519901f54f49a74f435fac25dd4660acca"
+  },
+  {
+    "role": "included_wet_road_figure",
+    "name": "camera_rain_frame000375.png",
+    "size_bytes": 3030729,
+    "sha256": "b447fad5a08678cffa62441e518382a6260de495eee1d90a6075c89a7bfbb30e"
+  },
+  {
+    "role": "current_input_overleaf_archive",
+    "name": "Informatics2026_Heimdall_Overleaf (2).zip",
+    "size_bytes": 8298899,
+    "sha256": "ee749aa7a6cfcfc102d4eea769386ffe8aa40a1198a5e4eae586920d26584525"
+  },
+  {
+    "role": "replay_archive_17",
+    "name": "prediction-run-17.zip",
+    "size_bytes": 40701624,
+    "sha256": "9ee45671e82941ea08e1d2a0801ab2ba71828a9cfadb7ec4a075190bb407f21d"
+  },
+  {
+    "role": "replay_archive_18",
+    "name": "prediction-run-18.zip",
+    "size_bytes": 40700058,
+    "sha256": "486383ab78627eb2f12c2c29d726c689019aa2ec02bbae2edf58c8ffeb7a7224"
+  },
+  {
+    "role": "replay_archive_19",
+    "name": "prediction-run-19.zip",
+    "size_bytes": 43951914,
+    "sha256": "ba840c57dc265caa96f962179750b4b5624ebc838c2925c726c8b98205caa396"
+  },
+  {
+    "role": "included_replay_format_crop",
+    "name": "replay_format_crop.png",
+    "size_bytes": 7435,
+    "sha256": "a27f84936b19c8768614272e86962aac6b6f02f30769458856754c2d7c9b68eb"
+  },
+  {
+    "role": "included_replay_nonplate_crop",
+    "name": "replay_nonplate_crop.png",
+    "size_bytes": 4224,
+    "sha256": "2e828110a4996b41ea7fa36819a133147df157a92ea3aaa73ef5a9e0b7019c71"
+  },
+  {
+    "role": "included_replay_plate_crop",
+    "name": "replay_plate_crop.png",
+    "size_bytes": 6913,
+    "sha256": "b270be43fe01d44c64daafc81a1811a882e0aa5a257ca8eb83e6182cdc513900"
+  },
+  {
+    "role": "capture_archive_20",
+    "name": "prediction-run-20.zip",
+    "size_bytes": 78031336,
+    "sha256": "a4bd82f5d74d96c977b907eb70adf3652bbb863b606b216e04bad4d6070ef002",
+    "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d",
+    "mode": "analyze",
+    "actual_ocr_threshold": 0.3
+  },
+  {
+    "role": "replay_archive_21",
+    "name": "prediction-run-21.zip",
+    "size_bytes": 78046757,
+    "sha256": "a2006fa454cdd8b29b3719446011a04225c7e77d2a0ddc90370eea2ec2deb81e",
+    "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d",
+    "mode": "replay",
+    "actual_ocr_threshold": 0.3
+  },
+  {
+    "role": "replay_archive_22",
+    "name": "prediction-run-22.zip",
+    "size_bytes": 78046740,
+    "sha256": "1600237d1cdf528f6fa55b3b8b39551c667ad08b2e23a0946ac544e6a5418351",
+    "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d",
+    "mode": "replay",
+    "actual_ocr_threshold": 0.46
+  },
+  {
+    "role": "replay_archive_23",
+    "name": "prediction-run-23.zip",
+    "size_bytes": 78046171,
+    "sha256": "8d538df138b7e057d21f1dfff2ff5359e8764a93e219ea6b2e58a2eaa81a2cb5",
+    "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d",
+    "mode": "replay",
+    "actual_ocr_threshold": 0.77
+  },
+  {
+    "role": "exploratory_protocol",
+    "name": "notes/controlled_replay_protocol.json",
+    "size_bytes": 1138,
+    "sha256": "39bd18a8305c689d5bf7915fc27b6817edb9d18a160c1a2ab54866910f8e9dfa"
+  },
+  {
+    "role": "replay_analysis_script",
+    "name": "scripts/audit_runs20_23.py",
+    "size_bytes": 12171,
+    "sha256": "9cec646ccec8912ec5d975f532f2be3099892f36f69cdce576cbecb4137effc6"
+  },
+  {
+    "role": "figure_generation_script",
+    "name": "scripts/plot_controlled_replay.py",
+    "size_bytes": 2907,
+    "sha256": "762c747fcf9ec036cc2e28b5b951ea24b2a69afcc8abfd5975e7a91a2fdd64a6"
+  },
+  {
+    "role": "new_data_figure",
+    "name": "figures/controlled_replay.pdf",
+    "size_bytes": 18088,
+    "sha256": "323980cb5d40d3b23ade406acfbc89f66628ae64769ba42a90928f2f11951801"
+  },
+  {
+    "role": "current_manuscript",
+    "name": "main.tex",
+    "size_bytes": 33968,
+    "sha256": "42383b616809a3dd136a1e69bc73a9294666617f4e0974dd7851199a383df9cc"
+  },
+  {
+    "role": "current_bibliography",
+    "name": "references.bib",
+    "size_bytes": 6260,
+    "sha256": "a75662c202a3d19207f106ab4c420fd9fb43342dbab3345c58a66991f7952a61"
+  },
+  {
+    "role": "internally_inspected_proprietary_ui_source",
+    "name": "HeimdallCV-tools-main.zip",
+    "size_bytes": 200628,
+    "sha256": "75eb6cf2f839ea5c17aef0fe861301bd9107eb75e9b700a34064e473319594b7",
+    "included_in_paper_archive": false
+  },
+  {
+    "role": "included_ui_screenshot",
+    "name": "evidence/ui/01_runs.png",
+    "sha256": "34ae5455db13d78a48823eb40840246188943047f0eb06433fd68df38534554c",
+    "size_bytes": 318834,
+    "modification": "none"
+  },
+  {
+    "role": "included_ui_screenshot",
+    "name": "evidence/ui/02_new_run.png",
+    "sha256": "ce3f190da88f2c437ebc778ddfa245c63c8ada00ce3dc46216b786682c916459",
+    "size_bytes": 57727,
+    "modification": "none"
+  },
+  {
+    "role": "included_ui_screenshot",
+    "name": "evidence/ui/03_models_and_ocr.png",
+    "sha256": "fdbbcaeb55bb171480136bf3d21762341d6b95bfa55dbdb89ba8f381279d71c9",
+    "size_bytes": 91911,
+    "modification": "none"
+  },
+  {
+    "role": "included_ui_screenshot",
+    "name": "evidence/ui/04_detector_controls.png",
+    "sha256": "44a3ed30923e5f529e4d3efe3180dc4cd9ba5c3a38eca0f0dac9b726408aa74b",
+    "size_bytes": 79012,
+    "modification": "none"
+  },
+  {
+    "role": "included_ui_screenshot",
+    "name": "evidence/ui/05_roi_controls.png",
+    "sha256": "440e03986cfa9374e20af4fa9dd1eb292ba5dae173153d79fca6198b9c9ab839",
+    "size_bytes": 61506,
+    "modification": "none"
+  },
+  {
+    "role": "original_joint_human_reference",
+    "name": "evidence/manual_r20/R20_manual_reference.xlsx",
+    "size_bytes": 5859,
+    "sha256": "d35061ef895e4739a4f75e84f73bca1db91bdcd10d340db57db6241fb62c87cd",
+    "original_uploaded_name": "#20-as manual script.xlsx",
+    "modification": "none; byte-identical renamed copy"
+  },
+  {
+    "role": "assisted_visual_correspondence",
+    "name": "evidence/manual_r20/visual_mapping.json",
+    "size_bytes": 9255,
+    "sha256": "6dc85a969df2e8cd6a4e3bc792eb08de0da99fef04c051129d08f029f93bcdc1"
+  },
+  {
+    "role": "human_reference_audit_script",
+    "name": "scripts/audit_manual_r20.py",
+    "size_bytes": 9362,
+    "sha256": "cc7fbddbc15c635cebd1c829dcb495431ce3e8cf4e020b6aa593b5492e593fa2"
+  },
+  {
+    "role": "human_reference_crop_script",
+    "name": "scripts/render_manual_regions.py",
+    "size_bytes": 2923,
+    "sha256": "7f1c8b52d3cd5f0364678b46aaaf97c45b4824a1a9a4e53386b8ac8f0d402950"
+  },
+  {
+    "role": "human_reference_audit",
+    "name": "notes/manual_r20/audit.json",
+    "size_bytes": 4969,
+    "sha256": "2586588334cc8ddc57de662f7c06981145d33403929f8d94c5faeb103667a764"
+  },
+  {
+    "role": "human_reference_case_results",
+    "name": "notes/manual_r20/case_results.csv",
+    "size_bytes": 9369,
+    "sha256": "003f81cde0e9d02f5cfaa3d320e4792966538ca66a366d7ebbc3cc31baa395a9"
+  },
+  {
+    "role": "human_reference_original_rows",
+    "name": "notes/manual_r20/reference_rows.csv",
+    "size_bytes": 1669,
+    "sha256": "022f359d131480b7d6a39e6252ffe8d2ecf028e9a7b55d7fd6023cb31a494ccc"
+  },
+  {
+    "role": "human_reference_winning_regions",
+    "name": "notes/manual_r20/winning_regions.json",
+    "size_bytes": 13840,
+    "sha256": "a453bd05392fbc2ac8b74dc069107fbaccd71627284ba5e9c0d6a730182b88c8"
+  },
+  {
+    "role": "new_source_frame_figure",
+    "name": "figures/manual_dacia_343.png",
+    "size_bytes": 160838,
+    "sha256": "581c2646bc0772769381f0112b5ba9d5ac9ea3106876a99a99fdff621dc5ef4e"
+  },
+  {
+    "role": "new_source_frame_figure",
+    "name": "figures/manual_dacia_357.png",
+    "size_bytes": 136892,
+    "sha256": "76d34e7001850f078e3a7954f51be2d06fe87771f6fcfe4ba001791091416abd"
+  },
+  {
+    "role": "new_source_frame_figure",
+    "name": "figures/manual_tesla_407.png",
+    "size_bytes": 192640,
+    "sha256": "ac305df97e4817e73e68ff6ff0964893bc3d272a47797d9f4bdf28d65718e5c8"
+  },
+  {
+    "role": "new_reference_contact_sheet",
+    "name": "evidence/manual_r20/R20_reference_regions.jpg",
+    "size_bytes": 600169,
+    "sha256": "add558225bf70985fca38fd6a26b14e9c6ffe1326b1bf2263510d3b3c1bd75a3"
+  },
+  {
+    "role": "new_reference_contact_sheet",
+    "name": "evidence/manual_r20/R21_reference_regions.jpg",
+    "size_bytes": 929533,
+    "sha256": "66a67e70a32ab372b8ccc17f8e7bc3d9164c18a50cd0ab9f65034cf5077514e5"
+  }
+]

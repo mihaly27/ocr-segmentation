@@ -1,0 +1,114 @@
+{
+  "scope": "Retrospective agreement on eight confidently transcribed reference cases; not overall accuracy or recall.",
+  "worksheet_sha256": "d35061ef895e4739a4f75e84f73bca1db91bdcd10d340db57db6241fb62c87cd",
+  "mapping_sha256": "6dc85a969df2e8cd6a4e3bc792eb08de0da99fef04c051129d08f029f93bcdc1",
+  "categories": {
+    "nonplate_lettering": 1,
+    "no_plate_string_recorded": 4,
+    "confident_plate": 8,
+    "plate_present_unreadable": 4,
+    "uncertain": 4
+  },
+  "summaries": {
+    "R20": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 5,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 5,
+      "linked_nonempty_outputs": 8,
+      "exact_outputs": 6,
+      "mixed_cases": 0,
+      "cases_without_nonempty_output": 1
+    },
+    "R21": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    },
+    "R22": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    },
+    "R23": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    },
+    "F": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    },
+    "A": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    },
+    "G": {
+      "reference_cases": 8,
+      "with_at_least_one_exact": 6,
+      "hungarian_format_cases": 7,
+      "hungarian_with_at_least_one_exact": 6,
+      "linked_nonempty_outputs": 13,
+      "exact_outputs": 10,
+      "mixed_cases": 1,
+      "cases_without_nonempty_output": 0
+    }
+  },
+  "input_hashes": {
+    "20": {
+      "archive_sha256": "a4bd82f5d74d96c977b907eb70adf3652bbb863b606b216e04bad4d6070ef002",
+      "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d"
+    },
+    "21": {
+      "archive_sha256": "a2006fa454cdd8b29b3719446011a04225c7e77d2a0ddc90370eea2ec2deb81e",
+      "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d"
+    },
+    "22": {
+      "archive_sha256": "1600237d1cdf528f6fa55b3b8b39551c667ad08b2e23a0946ac544e6a5418351",
+      "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d"
+    },
+    "23": {
+      "archive_sha256": "8d538df138b7e057d21f1dfff2ff5359e8764a93e219ea6b2e58a2eaa81a2cb5",
+      "source_video_sha256": "43de07ae5f762b247fa9455e89afedb48c244cc114091e49be782f3ddaa18f7d"
+    }
+  },
+  "normalization": "Upper case; remove whitespace and ASCII hyphens only; no character correction.",
+  "excluded": "Four uncertain strings and all entries lacking an explicit confident plate reference.",
+  "matching": "Assistant-assisted source-frame/appearance/position audit, stored separately; not selected by string equality.",
+  "limitations": [
+    "The 21 worksheet rows are descriptions, not 21 independently established passages. At least two vehicles appear in both early side-view and later rear-view rows.",
+    "All eight confidently transcribed plate cases enter the primary comparison, including the German plate; four uncertain strings do not.",
+    "A case is covered if at least one linked lifetime string equals the human reference after separator-only normalization. Multiple outputs count once for this coverage, and discordant extra outputs remain visible.",
+    "This conditional, retrospective coverage is not overall traffic accuracy, output precision, physical recall, independently held-out performance, or proof of correct production event association.",
+    "Winning candidate plate boxes locate output evidence on the source vehicle; last-known vehicle boxes can refer to a different time. Full per-frame trajectories and purity of every observation history were not validated.",
+    "No character read from model output or assistant inspection replaces a human worksheet character. Foreign text is not forced into Hungarian syntax.",
+    "The two humans reviewed jointly; no inter-rater agreement statistic or blinded annotation is claimed."
+  ]
+}

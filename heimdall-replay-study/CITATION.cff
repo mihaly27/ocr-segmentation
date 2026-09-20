@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+type: dataset
+message: >-
+  If you use this research package, please cite it using this metadata and
+  identify the specific version or Git commit used. The version-specific
+  Zenodo DOI will be added when the first archived release is published.
+title: "Heimdall Camera-Replay Study: Supplementary Data and Analysis Code"
+authors:
+  - family-names: "Szabó"
+    given-names: "Mihály"
+  - family-names: "Kovari"
+    given-names: "Attila"
+  - family-names: "Kertész"
+    given-names: "Gábor"
+abstract: >-
+  Derived evidence and analysis scripts for a one-camera through-glass
+  license plate recognition replay study. The package reconstructs fixed
+  OCR gates and fixed, directly switched, and step-bounded threshold
+  trajectories over 319 observations and 121 tracking lifetimes, and
+  checks outcomes against eight jointly transcribed human-reference cases.
+  It does not contain the full proprietary recognition engine, model
+  weights, original run archives, or complete source videos.
+keywords:
+  - computer vision
+  - license plate recognition
+  - camera replay
+  - bounded adaptation
+  - reproducibility
