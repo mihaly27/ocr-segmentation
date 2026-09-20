@@ -1,10 +1,13 @@
 # OCR Segmentation Research Module
 
 This public research repository contains deterministic OCR-segmentation code,
-synthetic data generation, batch evaluation, and the bounded-adaptation
-experiments used in related publications. The visual inputs are synthetic and
-provide controlled ground truth without using real vehicle identifiers or
-personal data.
+synthetic data generation, batch evaluation, bounded-adaptation experiments,
+and supplementary data and analysis code for the Heimdall camera-replay study.
+
+The segmentation and V2/V2.1 experiments use synthetic visual inputs with
+controlled ground truth. The Heimdall module contains real-camera images and
+derived replay data for through-glass license plate recognition, with its own
+evidence, runtime records, and reproduction instructions.
 
 ## Repository map
 
@@ -14,11 +17,12 @@ personal data.
 | `synthetic-generator/` | Seeded synthetic plate, mask, box, and perturbation generation |
 | `batch-runner/` | Batch and ablation runners used by the SISY workflow |
 | `mathematical_framework/` | Pilot, calibration, confirmation, gate-stress, and carryover experiments |
-| `docs/hardware/` | Experimental compute-platform specification |
+| [heimdall-replay-study/](heimdall-replay-study/) | Through-glass camera-replay study: supplementary data, reference annotations, runtime records, and analysis code |
+| `docs/hardware/` | Node01 experimental compute-platform specification |
 | `requirements-node01.lock` | Exact Python package versions used on Node01 |
-| `REPRODUCIBILITY.md` | Commit, seed, environment, artifact, and release map |
+| `REPRODUCIBILITY.md` | V2/V2.1 commit, seed, environment, artifact, and release map |
 
-## Bounded-adaptation evidence
+## Synthetic bounded-adaptation evidence
 
 The current parameter-governor study separates three evidence layers:
 
@@ -34,7 +38,29 @@ outputs are not duplicated in Git. Compact calibration and audit artifacts are
 attached to the tagged archival release as described in
 `REPRODUCIBILITY.md`.
 
+## Heimdall camera-replay study
+
+The [Heimdall module](heimdall-replay-study/README.md) provides supplementary
+materials for **Bounded Threshold Updates for Through-Glass License Plate
+Recognition: A Camera-Replay Study**, by Mihály Szabó, Attila Kovari, and
+Gábor Kertész.
+
+It includes frozen observation and decision tables, a small joint human
+reference, camera images and crops, model/source digests, and analysis scripts.
+The included check reconstructs fixed OCR confidence gates and the fixed (F),
+direct-switching (A), and step-bounded (G) threshold variants from the recorded
+tables. Its scope is derived-data consistency; full neural inference requires
+external source videos, run archives, model weights, and the CV engine.
+See the [reproduction instructions](heimdall-replay-study/docs/REPRODUCTION.md)
+for details.
+
+The first Heimdall archival release is being prepared. Training logs and their
+links to the evaluated checkpoints are still being assembled; the supplement
+has no assigned archive DOI yet.
+
 ## Quick start
+
+### Synthetic segmentation example
 
 ```bash
 git clone https://github.com/mihaly27/ocr-segmentation.git
@@ -55,21 +81,40 @@ For the complete V2 and V2.1 procedures, use:
 - `mathematical_framework/recalibration_2026_v2/RUNBOOK.md`
 - `mathematical_framework/recalibration_2026_v2/challenges/activation_carryover_v1/RUNBOOK_NODE01.md`
 
+### Heimdall included-table check
+
+From the repository root, run:
+
+```bash
+python3 heimdall-replay-study/scripts/verify_included_tables.py
+```
+
+This check uses only the Python standard library and should end with
+`"result": "PASS"`. For the module-relative commands in the Heimdall documentation,
+first change into `heimdall-replay-study/`.
+
 ## Execution platform
 
-Unless an experiment directory states otherwise, the experiments were executed
-on an AMD Ryzen Threadripper PRO 3945WX workstation with 128 GB RAM and Ubuntu
-24.04.4 LTS. Four NVIDIA RTX 4000 Ada Generation GPUs were installed, but the
-bounded-adaptation V2/V2.1 OpenCV-NumPy-Tesseract workflow used eight CPU
-workers and did not use the GPUs. Full details are in
-`docs/hardware/HARDWARE.md`.
+The synthetic bounded-adaptation V2/V2.1 experiments were executed on an AMD
+Ryzen Threadripper PRO 3945WX workstation with 128 GB RAM and Ubuntu 24.04.4 LTS.
+Four NVIDIA RTX 4000 Ada Generation GPUs were installed, but the
+OpenCV-NumPy-Tesseract workflow used eight CPU workers and did not use the GPUs.
+Full details are in `docs/hardware/HARDWARE.md`.
+
+The Heimdall environment and model/source digests are recorded separately in
+its [runtime snapshot](heimdall-replay-study/evidence/runtime_snapshot/).
+The included-table check above does not require the original inference environment.
 
 ## Citation and license
 
-Machine-readable citation metadata are provided in `CITATION.cff` and
-`codemeta.json`. When the associated journal article receives a DOI, its record
-should be added as the preferred citation without changing the software title
-or release identity.
+Machine-readable citation metadata for the OCR segmentation and synthetic
+bounded-adaptation software are provided in `CITATION.cff` and `codemeta.json`.
+When the associated journal article receives a DOI, its record should be added
+as the preferred citation without changing the software title or release identity.
+
+For the Heimdall supplement, use its
+[own citation metadata](heimdall-replay-study/CITATION.cff) and identify the
+specific Git commit until its archive DOI is available.
 
 Copyright (c) 2025-2026 Mihály Szabó. The repository is publicly readable, but
 reuse is governed by the research-use terms in `LICENSE`; public availability
