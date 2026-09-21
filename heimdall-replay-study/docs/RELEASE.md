@@ -1,19 +1,57 @@
-# Completing the first release
+# Completing the first Heimdall release
 
-The repository currently has no release tag, assigned version, publication date, or Zenodo DOI. An initial Git commit can precede the first citable release.
+This module lives inside `mihaly27/ocr-segmentation`. The parent repository
+already has releases for other studies; the Heimdall supplement has no assigned
+release version or Zenodo DOI yet. The intended first supplement version is
+`1.0.0`, to be assigned when the archive is finalized.
 
-1. Add the recovered training logs and configuration. Document their hashes and links to the train/validation manifests, selected checkpoints and deployed model exports. Preserve any unresolved historical identities as limitations.
-2. Finalize the materials intended for public distribution and their reuse licenses. Add the appropriate license file(s); do not apply one blanket license to third-party or proprietary components.
-3. Add the actual repository URL and the intended release version/date to `CITATION.cff`. Do not insert a guessed DOI.
-4. Run `python3 scripts/verify_included_tables.py`. If the numerical evidence changes, document the changes and update dependent tables and figures.
-5. Refresh `SHA256SUMS.json` after the files are finalized. It covers every distributed repository file except itself, Git internals and ignored local outputs.
-6. Commit the completed snapshot, connect the repository to Zenodo, and publish the planned `v1.0.0` GitHub release. An ordinary commit or push is sufficient for the current working state; the release is the separate archival step.
-7. Record the actual version-specific Zenodo DOI in the manuscript and repository. GitHub automatically provides source ZIP and tar archives for release tags. A separate curated supplement ZIP may also be attached as a release asset if needed by the submission process.
+## Current evidence
+
+The original OCR training log, logged configuration, metrics and file digest
+are now included under [`training/`](../training/README.md). The remaining
+provenance questions concern the exact dataset lists, the missing-image error
+during validation, and the mapping from the selected training checkpoint to
+the deployed OCR export. Resolve these where evidence exists, and explicitly
+document anything that remains unknown. Archiving this scoped supplement does
+not require claiming a complete neural-pipeline reproduction.
+
+## Archive preparation
+
+1. Finalize the included materials, authors/contributors, access and reuse
+   terms. The parent repository has a research-use `LICENSE`; confirm the
+   intended archive terms and include the applicable license text in the
+   standalone package. Preserve third-party terms.
+2. Complete the module's `CITATION.cff` with the actual version and publication
+   date. Its repository and module URLs are already present. Do not reuse the
+   DOI of another study or insert a guessed DOI.
+3. From `heimdall-replay-study/`, run
+   `python3 scripts/verify_included_tables.py`. Verify the original log against
+   `training/manifest.json` and refresh `SHA256SUMS.json` for every distributed
+   module file except that checksum manifest itself.
+4. Commit the finalized module. An optional identifying Git tag can be named
+   `heimdall-replay-v1.0.0`; a tag identifies a commit of the entire repository,
+   while the curated archive below contains only this module.
+5. Create a **separate manual Zenodo upload** for the Heimdall supplement. Upload
+   a ZIP containing this finalized module, describe it as supplementary data
+   and analysis code, and record the full source commit plus the module URL.
+   The automatic GitHub–Zenodo integration archives repository releases and
+   does not create an independent record for this subdirectory.
+6. Reserve the new record's DOI in the Zenodo draft if it is needed in files
+   before publication. A reserved DOI is not registered until publication.
+   If citation files change after reservation, refresh their checksums and
+   the final commit/archive reference before publishing.
+7. Publish the completed record and put its actual version-specific DOI in
+   the manuscript and module citation metadata. Subsequent metadata-only
+   updates should be distinguishable from changes to experimental evidence.
+
+The bibliographic starting point is the title and author order already in
+[`CITATION.cff`](../CITATION.cff), with resource type **Dataset** for the
+supplementary evidence and accompanying analysis code. Record the exact
+archive version and the actual publication date when assigned.
 
 Official references:
 
-- [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
-- [GitHub citation files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
+- [Zenodo manual upload and DOI reservation](https://help.zenodo.org/docs/deposit/create-new-upload/)
+- [Zenodo license fields, including custom licenses](https://help.zenodo.org/docs/deposit/describe-records/licenses/)
 - [Zenodo GitHub integration](https://help.zenodo.org/docs/github/enable-repository/)
-
-Publishing a release through GitHub–Zenodo creates an archive of that tagged repository state. If citation metadata is updated afterward with the newly assigned DOI, document that as a metadata update rather than silently changing the recorded experimental evidence.
+- [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)

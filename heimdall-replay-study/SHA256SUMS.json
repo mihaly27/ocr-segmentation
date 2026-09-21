@@ -1,11 +1,11 @@
 {
   ".gitattributes": "935d7323636be2755f33829236ddb1d537ac09e8c92914a1d5ffa8b7c1e37676",
   ".gitignore": "eb461b97d0ab4247a653de9974bf45017730b206f21d2d4aaefb0a93dfea0c7c",
-  "CITATION.cff": "b5cfb103f1c5e0e33e8ed34e3d2190fb7c18eca36da0593e25a280f6e2905d69",
-  "README.md": "eaf0b472d80247b172fd6aeae6c640a07f9fbd0ca650aff5349f605c3809c7a7",
-  "docs/PROVENANCE.md": "031a4c790c9fc8ca2682c37ba0a552c92dab83a53b42ef29e577a1cf9e1cd7dd",
-  "docs/RELEASE.md": "0dbb82f57253c546a12cd9764ae9b6665a17dd26e87026c52072f9618b214181",
-  "docs/REPRODUCTION.md": "294bb9288330def1c350f0612190dfc3fe82de19e42677cb6e32ead1a68bf962",
+  "CITATION.cff": "5030be27faee5f579869ed0a6067f65562555625925944bdd5aac260eb5dc7bd",
+  "README.md": "1e5b1e53d74c6c8faab5e4df7a940087eeb094dbfd99c2e6797bcac740421457",
+  "docs/PROVENANCE.md": "70872925f64467ebd68e8710c141057a433055b2273837cf4ee11bf5ec2968b7",
+  "docs/RELEASE.md": "293244a26c8bd2f1d022620587edf4ddcb8bedeacb08156cc23cf83d7a684d8e",
+  "docs/REPRODUCTION.md": "15235d242d298e5dcda9b4de4904ec6ba75274eb77a4771bbc6aea547337ad4a",
   "docs/source_package_manifest.json": "dd7afa412309d6c788df073c61079e2a930fd7aaf9d74ebe2fd23729d9481f28",
   "evidence/manual_r20/R20_manual_reference.xlsx": "d35061ef895e4739a4f75e84f73bca1db91bdcd10d340db57db6241fb62c87cd",
   "evidence/manual_r20/R20_reference_regions.jpg": "add558225bf70985fca38fd6a26b14e9c6ffe1326b1bf2263510d3b3c1bd75a3",
@@ -76,5 +76,8 @@
   "scripts/extract_replay_crops.py": "e48c061300c991a850aad6946ae2747fd7a0a4957744433bf17fc92d2c761131",
   "scripts/plot_controlled_replay.py": "4ad6d3e13213ecfe35e3a096f9851ba6b0c24af1b676f85f72d44e3f64d73c9a",
   "scripts/render_manual_regions.py": "7f1c8b52d3cd5f0364678b46aaaf97c45b4824a1a9a4e53386b8ac8f0d402950",
-  "scripts/verify_included_tables.py": "4046bc27a0cc83b38952d62edeef350394b6b31d17a238256de0da3cbdef51af"
+  "scripts/verify_included_tables.py": "4046bc27a0cc83b38952d62edeef350394b6b31d17a238256de0da3cbdef51af",
+  "training/README.md": "8a0243588cbd2d433f7135843bb63ea04d6da87bc36fa20156cba543bceb66a0",
+  "training/manifest.json": "28c734be263e0bef18f8da6a5bf8a5270e563f19b708c51e274068a3d53c5213",
+  "training/train.log": "d6082dbfb2ec769c6239730975b102c757591339a3d2bf3cf3ee7ecdc1e551fd"
 }

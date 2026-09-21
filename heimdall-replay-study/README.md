@@ -2,13 +2,13 @@
 
 Supplementary data and analysis code for **Bounded Threshold Updates for Through-Glass License Plate Recognition: A Camera-Replay Study**, by Mihály Szabó, Attila Kovari, and Gábor Kertész.
 
-This repository contains the evidence and calculations supporting a one-camera replay case study. It reconstructs fixed OCR confidence gates and fixed/direct/step-bounded threshold trajectories over a frozen observation stream, including weighted consensus and comparison with a small joint human reference.
+This module contains the evidence and calculations supporting a one-camera replay case study. It reconstructs fixed OCR confidence gates and fixed/direct/step-bounded threshold trajectories over a frozen observation stream, including weighted consensus and comparison with a small joint human reference.
 
-**Current status:** preparation for the first release. Training logs and their links to the evaluated checkpoints are still being assembled. No release version, Zenodo DOI, or reuse license has been assigned to this working snapshot.
+**Current status:** preparation for the first Heimdall release. The original PaddleOCR training log and its provenance summary are included under [`training/`](training/README.md). The exact dataset-split and checkpoint-to-export links still need confirmation. No Heimdall release version or Zenodo DOI has been assigned; archive-specific access and reuse terms remain to be finalized.
 
 ## Run the included check
 
-From the repository root:
+From the `heimdall-replay-study/` directory:
 
 ```bash
 python3 scripts/verify_included_tables.py
@@ -46,6 +46,7 @@ The calculation uses 319 logged observations and 121 application lifetimes. A an
 | `evidence/manual_r20/` | Original joint-reference worksheet and visual mappings |
 | `evidence/runtime_snapshot/` | Model/source digests, configurations and the 19 September environment snapshot |
 | `evidence/ui/` | Interface screenshots underlying the source-path audit |
+| [`training/`](training/README.md) | Original PaddleOCR log, logged training configuration and metrics, file digest, and checkpoint/split linkage status |
 | `figures/` | Camera images, crops, vector chart and manuscript diagram fragment |
 | `docs/REPRODUCTION.md` | Scope, dependencies and extended reproduction commands |
 | `docs/PROVENANCE.md` | Evidence preservation and limitations |
@@ -55,6 +56,12 @@ The calculation uses 319 logged observations and 121 application lifetimes. A an
 
 The existing `notes/` paths are retained because the audit scripts use them. This directory now contains machine-readable research evidence, without internal reviewer correspondence or editorial task histories.
 
+## Training evidence
+
+The unmodified [`train.log`](training/train.log) records four initialization sequences on 28 August 2026. The final session completed 50 epochs with PaddlePaddle 3.3.0 on `gpu:0`, using `PP-OCRv5_mobile_rec` (`SVTR_LCNet`, `PPLCNetV3`). Its best logged validation accuracy is 61.570245% at epoch 49. These are training-time component metrics.
+
+The authors report approximately two hours for the training work. The complete log spans 1 h 47 min 13 s; the final completed session spans 1 h 23 min 55 s. The log contains repeated missing-image errors during validation, and does not establish which checkpoint was exported for the camera replays. See the [training summary](training/README.md) and [manifest](training/manifest.json) for the recorded settings, metrics and remaining provenance questions.
+
 ## Reproduction scope
 
 The included check recomputes the constant gates and F/A/G variants, their admissions and weighted winners, all 121 lifetime outcomes, the step bound, the human-reference summaries, and the original worksheet checksum.
@@ -63,6 +70,6 @@ Full source videos, original prediction-run archives, model weights, the proprie
 
 ## Citation and release status
 
-Citation metadata is in `CITATION.cff`. The first completed release will receive its version and archive DOI after the training evidence is integrated. Until then, refer to a specific Git commit when identifying this working snapshot. Add the actual repository URL and version-specific DOI when they are available; no placeholder identifier has been inserted.
+Citation metadata is in `CITATION.cff`. The original training log has been integrated. The first completed Heimdall release will receive its version and separate Zenodo DOI after its scope, provenance limitations and access/reuse terms are finalized. Until then, refer to a specific Git commit and this module path. The planned Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md).
 
 The authors still need to select the reuse license and finalize the access arrangements for vehicle identifiers/images before the public archived release. This packaging step neither anonymizes those materials nor assigns new permissions.

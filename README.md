@@ -54,9 +54,13 @@ external source videos, run archives, model weights, and the CV engine.
 See the [reproduction instructions](heimdall-replay-study/docs/REPRODUCTION.md)
 for details.
 
-The first Heimdall archival release is being prepared. Training logs and their
-links to the evaluated checkpoints are still being assembled; the supplement
-has no assigned archive DOI yet.
+The [original PaddleOCR training log](heimdall-replay-study/training/train.log)
+and its [provenance summary](heimdall-replay-study/training/README.md) are now
+included. The completed 50-epoch session used PaddlePaddle 3.3.0 and reports
+a best validation accuracy of 61.57% at epoch 49. The log also records a
+repeated missing-image error during validation; the exact split and
+checkpoint-to-deployed-export links remain to be verified. The first Heimdall
+archival release is being prepared and has no assigned archive DOI yet.
 
 ## Quick start
 

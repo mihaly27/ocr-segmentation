@@ -1,0 +1,1163 @@
+[2026/08/28 16:08:35] ppocr INFO: Architecture : 
+[2026/08/28 16:08:35] ppocr INFO:     Backbone : 
+[2026/08/28 16:08:35] ppocr INFO:         name : PPLCNetV3
+[2026/08/28 16:08:35] ppocr INFO:         scale : 0.95
+[2026/08/28 16:08:35] ppocr INFO:     Head : 
+[2026/08/28 16:08:35] ppocr INFO:         head_list : 
+[2026/08/28 16:08:35] ppocr INFO:             CTCHead : 
+[2026/08/28 16:08:35] ppocr INFO:                 Head : 
+[2026/08/28 16:08:35] ppocr INFO:                     fc_decay : 1e-05
+[2026/08/28 16:08:35] ppocr INFO:                 Neck : 
+[2026/08/28 16:08:35] ppocr INFO:                     depth : 2
+[2026/08/28 16:08:35] ppocr INFO:                     dims : 120
+[2026/08/28 16:08:35] ppocr INFO:                     hidden_dims : 120
+[2026/08/28 16:08:35] ppocr INFO:                     kernel_size : [1, 3]
+[2026/08/28 16:08:35] ppocr INFO:                     name : svtr
+[2026/08/28 16:08:35] ppocr INFO:                     use_guide : True
+[2026/08/28 16:08:35] ppocr INFO:             NRTRHead : 
+[2026/08/28 16:08:35] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:08:35] ppocr INFO:                 nrtr_dim : 384
+[2026/08/28 16:08:35] ppocr INFO:         name : MultiHead
+[2026/08/28 16:08:35] ppocr INFO:     Transform : None
+[2026/08/28 16:08:35] ppocr INFO:     algorithm : SVTR_LCNet
+[2026/08/28 16:08:35] ppocr INFO:     model_type : rec
+[2026/08/28 16:08:35] ppocr INFO: Eval : 
+[2026/08/28 16:08:35] ppocr INFO:     dataset : 
+[2026/08/28 16:08:35] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:08:35] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:08:35] ppocr INFO:         name : SimpleDataSet
+[2026/08/28 16:08:35] ppocr INFO:         transforms : 
+[2026/08/28 16:08:35] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:08:35] ppocr INFO:                 channel_first : False
+[2026/08/28 16:08:35] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:08:35] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:08:35] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:08:35] ppocr INFO:             RecResizeImg : 
+[2026/08/28 16:08:35] ppocr INFO:                 image_shape : [3, 48, 320]
+[2026/08/28 16:08:35] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:08:35] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:08:35] ppocr INFO:     loader : 
+[2026/08/28 16:08:35] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:08:35] ppocr INFO:         drop_last : False
+[2026/08/28 16:08:35] ppocr INFO:         num_workers : 4
+[2026/08/28 16:08:35] ppocr INFO:         shuffle : False
+[2026/08/28 16:08:35] ppocr INFO: Global : 
+[2026/08/28 16:08:35] ppocr INFO:     cal_metric_during_train : True
+[2026/08/28 16:08:35] ppocr INFO:     character_dict_path : ./ppocr/utils/dict/ppocrv5_dict.txt
+[2026/08/28 16:08:35] ppocr INFO:     checkpoints : None
+[2026/08/28 16:08:35] ppocr INFO:     d2s_train_image_shape : [3, 48, 320]
+[2026/08/28 16:08:35] ppocr INFO:     debug : False
+[2026/08/28 16:08:35] ppocr INFO:     distributed : False
+[2026/08/28 16:08:35] ppocr INFO:     epoch_num : 50
+[2026/08/28 16:08:35] ppocr INFO:     eval_batch_step : [0, 2000]
+[2026/08/28 16:08:35] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/08/28 16:08:35] ppocr INFO:     infer_mode : False
+[2026/08/28 16:08:35] ppocr INFO:     log_smooth_window : 20
+[2026/08/28 16:08:35] ppocr INFO:     max_text_length : 25
+[2026/08/28 16:08:35] ppocr INFO:     model_name : PP-OCRv5_mobile_rec
+[2026/08/28 16:08:35] ppocr INFO:     pretrained_model : ./PP-OCRv5_mobile_rec_pretrained.pdparams
+[2026/08/28 16:08:35] ppocr INFO:     print_batch_step : 10
+[2026/08/28 16:08:35] ppocr INFO:     save_epoch_step : 10
+[2026/08/28 16:08:35] ppocr INFO:     save_inference_dir : None
+[2026/08/28 16:08:35] ppocr INFO:     save_model_dir : ./output/hungarian_plate_rec
+[2026/08/28 16:08:35] ppocr INFO:     save_res_path : ./output/rec/predicts_ppocrv5.txt
+[2026/08/28 16:08:35] ppocr INFO:     use_gpu : True
+[2026/08/28 16:08:35] ppocr INFO:     use_space_char : True
+[2026/08/28 16:08:35] ppocr INFO:     use_visualdl : False
+[2026/08/28 16:08:35] ppocr INFO: Loss : 
+[2026/08/28 16:08:35] ppocr INFO:     loss_config_list : 
+[2026/08/28 16:08:35] ppocr INFO:         CTCLoss : None
+[2026/08/28 16:08:35] ppocr INFO:         NRTRLoss : None
+[2026/08/28 16:08:35] ppocr INFO:     name : MultiLoss
+[2026/08/28 16:08:35] ppocr INFO: Metric : 
+[2026/08/28 16:08:35] ppocr INFO:     main_indicator : acc
+[2026/08/28 16:08:35] ppocr INFO:     name : RecMetric
+[2026/08/28 16:08:35] ppocr INFO: Optimizer : 
+[2026/08/28 16:08:35] ppocr INFO:     beta1 : 0.9
+[2026/08/28 16:08:35] ppocr INFO:     beta2 : 0.999
+[2026/08/28 16:08:35] ppocr INFO:     lr : 
+[2026/08/28 16:08:35] ppocr INFO:         learning_rate : 0.0005
+[2026/08/28 16:08:35] ppocr INFO:         name : Cosine
+[2026/08/28 16:08:35] ppocr INFO:         warmup_epoch : 5
+[2026/08/28 16:08:35] ppocr INFO:     name : Adam
+[2026/08/28 16:08:35] ppocr INFO:     regularizer : 
+[2026/08/28 16:08:35] ppocr INFO:         factor : 3e-05
+[2026/08/28 16:08:35] ppocr INFO:         name : L2
+[2026/08/28 16:08:35] ppocr INFO: PostProcess : 
+[2026/08/28 16:08:35] ppocr INFO:     name : CTCLabelDecode
+[2026/08/28 16:08:35] ppocr INFO: Train : 
+[2026/08/28 16:08:35] ppocr INFO:     dataset : 
+[2026/08/28 16:08:35] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:08:35] ppocr INFO:         ds_width : False
+[2026/08/28 16:08:35] ppocr INFO:         ext_op_transform_idx : 1
+[2026/08/28 16:08:35] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:08:35] ppocr INFO:         name : MultiScaleDataSet
+[2026/08/28 16:08:35] ppocr INFO:         transforms : 
+[2026/08/28 16:08:35] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:08:35] ppocr INFO:                 channel_first : False
+[2026/08/28 16:08:35] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:08:35] ppocr INFO:             RecConAug : 
+[2026/08/28 16:08:35] ppocr INFO:                 ext_data_num : 2
+[2026/08/28 16:08:35] ppocr INFO:                 image_shape : [48, 320, 3]
+[2026/08/28 16:08:35] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:08:35] ppocr INFO:                 prob : 0.5
+[2026/08/28 16:08:35] ppocr INFO:             RecAug : None
+[2026/08/28 16:08:35] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:08:35] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:08:35] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:08:35] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:08:35] ppocr INFO:     loader : 
+[2026/08/28 16:08:35] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:08:35] ppocr INFO:         drop_last : True
+[2026/08/28 16:08:35] ppocr INFO:         num_workers : 8
+[2026/08/28 16:08:35] ppocr INFO:         shuffle : True
+[2026/08/28 16:08:35] ppocr INFO:     sampler : 
+[2026/08/28 16:08:35] ppocr INFO:         divided_factor : [8, 16]
+[2026/08/28 16:08:35] ppocr INFO:         first_bs : 128
+[2026/08/28 16:08:35] ppocr INFO:         fix_bs : False
+[2026/08/28 16:08:35] ppocr INFO:         is_training : True
+[2026/08/28 16:08:35] ppocr INFO:         name : MultiScaleSampler
+[2026/08/28 16:08:35] ppocr INFO:         scales : [[320, 32], [320, 48], [320, 64]]
+[2026/08/28 16:08:35] ppocr INFO: profiler_options : None
+[2026/08/28 16:08:35] ppocr INFO: train with paddle 3.3.0 and device Place(gpu:0)
+[2026/08/28 16:08:35] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:08:35] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:08:36] ppocr INFO: train dataloader has 15 iters
+[2026/08/28 16:08:36] ppocr INFO: valid dataloader has 2 iters
+[2026/08/28 16:15:38] ppocr INFO: Architecture : 
+[2026/08/28 16:15:38] ppocr INFO:     Backbone : 
+[2026/08/28 16:15:38] ppocr INFO:         name : PPLCNetV3
+[2026/08/28 16:15:38] ppocr INFO:         scale : 0.95
+[2026/08/28 16:15:38] ppocr INFO:     Head : 
+[2026/08/28 16:15:38] ppocr INFO:         head_list : 
+[2026/08/28 16:15:38] ppocr INFO:             CTCHead : 
+[2026/08/28 16:15:38] ppocr INFO:                 Head : 
+[2026/08/28 16:15:38] ppocr INFO:                     fc_decay : 1e-05
+[2026/08/28 16:15:38] ppocr INFO:                 Neck : 
+[2026/08/28 16:15:38] ppocr INFO:                     depth : 2
+[2026/08/28 16:15:38] ppocr INFO:                     dims : 120
+[2026/08/28 16:15:38] ppocr INFO:                     hidden_dims : 120
+[2026/08/28 16:15:38] ppocr INFO:                     kernel_size : [1, 3]
+[2026/08/28 16:15:38] ppocr INFO:                     name : svtr
+[2026/08/28 16:15:38] ppocr INFO:                     use_guide : True
+[2026/08/28 16:15:38] ppocr INFO:             NRTRHead : 
+[2026/08/28 16:15:38] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:15:38] ppocr INFO:                 nrtr_dim : 384
+[2026/08/28 16:15:38] ppocr INFO:         name : MultiHead
+[2026/08/28 16:15:38] ppocr INFO:     Transform : None
+[2026/08/28 16:15:38] ppocr INFO:     algorithm : SVTR_LCNet
+[2026/08/28 16:15:38] ppocr INFO:     model_type : rec
+[2026/08/28 16:15:38] ppocr INFO: Eval : 
+[2026/08/28 16:15:38] ppocr INFO:     dataset : 
+[2026/08/28 16:15:38] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:15:38] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:15:38] ppocr INFO:         name : SimpleDataSet
+[2026/08/28 16:15:38] ppocr INFO:         transforms : 
+[2026/08/28 16:15:38] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:15:38] ppocr INFO:                 channel_first : False
+[2026/08/28 16:15:38] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:15:38] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:15:38] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:15:38] ppocr INFO:             RecResizeImg : 
+[2026/08/28 16:15:38] ppocr INFO:                 image_shape : [3, 48, 320]
+[2026/08/28 16:15:38] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:15:38] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:15:38] ppocr INFO:     loader : 
+[2026/08/28 16:15:38] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:15:38] ppocr INFO:         drop_last : False
+[2026/08/28 16:15:38] ppocr INFO:         num_workers : 4
+[2026/08/28 16:15:38] ppocr INFO:         shuffle : False
+[2026/08/28 16:15:38] ppocr INFO: Global : 
+[2026/08/28 16:15:38] ppocr INFO:     cal_metric_during_train : True
+[2026/08/28 16:15:38] ppocr INFO:     character_dict_path : ./ppocr/utils/dict/ppocrv5_dict.txt
+[2026/08/28 16:15:38] ppocr INFO:     checkpoints : None
+[2026/08/28 16:15:38] ppocr INFO:     d2s_train_image_shape : [3, 48, 320]
+[2026/08/28 16:15:38] ppocr INFO:     debug : False
+[2026/08/28 16:15:38] ppocr INFO:     distributed : False
+[2026/08/28 16:15:38] ppocr INFO:     epoch_num : 50
+[2026/08/28 16:15:38] ppocr INFO:     eval_batch_step : [0, 2000]
+[2026/08/28 16:15:38] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/08/28 16:15:38] ppocr INFO:     infer_mode : False
+[2026/08/28 16:15:38] ppocr INFO:     log_smooth_window : 20
+[2026/08/28 16:15:38] ppocr INFO:     max_text_length : 25
+[2026/08/28 16:15:38] ppocr INFO:     model_name : PP-OCRv5_mobile_rec
+[2026/08/28 16:15:38] ppocr INFO:     pretrained_model : ./PP-OCRv5_mobile_rec_pretrained.pdparams
+[2026/08/28 16:15:38] ppocr INFO:     print_batch_step : 10
+[2026/08/28 16:15:38] ppocr INFO:     save_epoch_step : 10
+[2026/08/28 16:15:38] ppocr INFO:     save_inference_dir : None
+[2026/08/28 16:15:38] ppocr INFO:     save_model_dir : ./output/hungarian_plate_rec
+[2026/08/28 16:15:38] ppocr INFO:     save_res_path : ./output/rec/predicts_ppocrv5.txt
+[2026/08/28 16:15:38] ppocr INFO:     use_gpu : True
+[2026/08/28 16:15:38] ppocr INFO:     use_space_char : False
+[2026/08/28 16:15:38] ppocr INFO:     use_visualdl : False
+[2026/08/28 16:15:38] ppocr INFO: Loss : 
+[2026/08/28 16:15:38] ppocr INFO:     loss_config_list : 
+[2026/08/28 16:15:38] ppocr INFO:         CTCLoss : None
+[2026/08/28 16:15:38] ppocr INFO:         NRTRLoss : None
+[2026/08/28 16:15:38] ppocr INFO:     name : MultiLoss
+[2026/08/28 16:15:38] ppocr INFO: Metric : 
+[2026/08/28 16:15:38] ppocr INFO:     main_indicator : acc
+[2026/08/28 16:15:38] ppocr INFO:     name : RecMetric
+[2026/08/28 16:15:38] ppocr INFO: Optimizer : 
+[2026/08/28 16:15:38] ppocr INFO:     beta1 : 0.9
+[2026/08/28 16:15:38] ppocr INFO:     beta2 : 0.999
+[2026/08/28 16:15:38] ppocr INFO:     lr : 
+[2026/08/28 16:15:38] ppocr INFO:         learning_rate : 0.0005
+[2026/08/28 16:15:38] ppocr INFO:         name : Cosine
+[2026/08/28 16:15:38] ppocr INFO:         warmup_epoch : 5
+[2026/08/28 16:15:38] ppocr INFO:     name : Adam
+[2026/08/28 16:15:38] ppocr INFO:     regularizer : 
+[2026/08/28 16:15:38] ppocr INFO:         factor : 3e-05
+[2026/08/28 16:15:38] ppocr INFO:         name : L2
+[2026/08/28 16:15:38] ppocr INFO: PostProcess : 
+[2026/08/28 16:15:38] ppocr INFO:     name : CTCLabelDecode
+[2026/08/28 16:15:38] ppocr INFO: Train : 
+[2026/08/28 16:15:38] ppocr INFO:     dataset : 
+[2026/08/28 16:15:38] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:15:38] ppocr INFO:         ds_width : False
+[2026/08/28 16:15:38] ppocr INFO:         ext_op_transform_idx : 1
+[2026/08/28 16:15:38] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:15:38] ppocr INFO:         name : MultiScaleDataSet
+[2026/08/28 16:15:38] ppocr INFO:         transforms : 
+[2026/08/28 16:15:38] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:15:38] ppocr INFO:                 channel_first : False
+[2026/08/28 16:15:38] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:15:38] ppocr INFO:             RecConAug : 
+[2026/08/28 16:15:38] ppocr INFO:                 ext_data_num : 2
+[2026/08/28 16:15:38] ppocr INFO:                 image_shape : [48, 320, 3]
+[2026/08/28 16:15:38] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:15:38] ppocr INFO:                 prob : 0.5
+[2026/08/28 16:15:38] ppocr INFO:             RecAug : None
+[2026/08/28 16:15:38] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:15:38] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:15:38] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:15:38] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:15:38] ppocr INFO:     loader : 
+[2026/08/28 16:15:38] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:15:38] ppocr INFO:         drop_last : True
+[2026/08/28 16:15:38] ppocr INFO:         num_workers : 8
+[2026/08/28 16:15:38] ppocr INFO:         shuffle : True
+[2026/08/28 16:15:38] ppocr INFO:     sampler : 
+[2026/08/28 16:15:38] ppocr INFO:         divided_factor : [8, 16]
+[2026/08/28 16:15:38] ppocr INFO:         first_bs : 128
+[2026/08/28 16:15:38] ppocr INFO:         fix_bs : False
+[2026/08/28 16:15:38] ppocr INFO:         is_training : True
+[2026/08/28 16:15:38] ppocr INFO:         name : MultiScaleSampler
+[2026/08/28 16:15:38] ppocr INFO:         scales : [[320, 32], [320, 48], [320, 64]]
+[2026/08/28 16:15:38] ppocr INFO: profiler_options : None
+[2026/08/28 16:15:38] ppocr INFO: train with paddle 3.3.0 and device Place(gpu:0)
+[2026/08/28 16:15:38] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:15:38] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:15:39] ppocr INFO: train dataloader has 15 iters
+[2026/08/28 16:15:39] ppocr INFO: valid dataloader has 2 iters
+[2026/08/28 16:15:39] ppocr WARNING: The shape of model params head.ctc_head.fc.weight paddle.Size([120, 38]) not matched with loaded params head.ctc_head.fc.weight paddle.Size([120, 18385]) !
+[2026/08/28 16:15:39] ppocr WARNING: The shape of model params head.ctc_head.fc.bias paddle.Size([38]) not matched with loaded params head.ctc_head.fc.bias paddle.Size([18385]) !
+[2026/08/28 16:15:39] ppocr WARNING: The shape of model params head.gtc_head.embedding.embedding.weight paddle.Size([42, 384]) not matched with loaded params head.gtc_head.embedding.embedding.weight paddle.Size([18389, 384]) !
+[2026/08/28 16:15:39] ppocr WARNING: The shape of model params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 42]) not matched with loaded params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 18389]) !
+[2026/08/28 16:15:39] ppocr INFO: load pretrain successful from ./PP-OCRv5_mobile_rec_pretrained
+[2026/08/28 16:15:39] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 2000 iterations
+[2026/08/28 16:16:27] ppocr INFO: epoch: [1/50], global_step: 10, lr: 0.000030, acc: 0.000000, norm_edit_dis: 0.065565, CTCLoss: 98.642353, NRTRLoss: 5.040622, loss: 104.117966, avg_reader_cost: 0.03408 s, avg_batch_cost: 4.85660 s, avg_samples: 83.1, ips: 17.11075 samples/s, eta: 0:59:53, max_mem_reserved: 16145 MB, max_mem_allocated: 15866 MB
+[2026/08/28 16:16:51] ppocr INFO: epoch: [1/50], global_step: 15, lr: 0.000047, acc: 0.000000, norm_edit_dis: 0.069103, CTCLoss: 97.906410, NRTRLoss: 4.163219, loss: 102.307281, avg_reader_cost: 0.00081 s, avg_batch_cost: 2.41980 s, avg_samples: 55.4, ips: 22.89442 samples/s, eta: 0:59:25, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:16:52] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:17:15] ppocr INFO: epoch: [2/50], global_step: 20, lr: 0.000063, acc: 0.000000, norm_edit_dis: 0.072058, CTCLoss: 93.919102, NRTRLoss: 3.874539, loss: 97.731853, avg_reader_cost: 0.08393 s, avg_batch_cost: 2.36221 s, avg_samples: 49.0, ips: 20.74332 samples/s, eta: 0:58:38, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:18:02] ppocr INFO: epoch: [2/50], global_step: 30, lr: 0.000130, acc: 0.000000, norm_edit_dis: 0.083354, CTCLoss: 79.744949, NRTRLoss: 3.559881, loss: 83.317596, avg_reader_cost: 0.00157 s, avg_batch_cost: 4.66967 s, avg_samples: 89.5, ips: 19.16623 samples/s, eta: 0:57:13, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:18:02] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:18:49] ppocr INFO: epoch: [3/50], global_step: 40, lr: 0.000197, acc: 0.000000, norm_edit_dis: 0.159267, CTCLoss: 61.406586, NRTRLoss: 3.481144, loss: 64.887730, avg_reader_cost: 0.07569 s, avg_batch_cost: 4.61616 s, avg_samples: 93.8, ips: 20.31993 samples/s, eta: 0:55:59, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:19:12] ppocr INFO: epoch: [3/50], global_step: 45, lr: 0.000230, acc: 0.000000, norm_edit_dis: 0.163234, CTCLoss: 56.358522, NRTRLoss: 3.454750, loss: 59.809023, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.33453 s, avg_samples: 44.7, ips: 19.14728 samples/s, eta: 0:55:30, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:19:12] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:19:36] ppocr INFO: epoch: [4/50], global_step: 50, lr: 0.000263, acc: 0.000000, norm_edit_dis: 0.166191, CTCLoss: 53.073315, NRTRLoss: 3.387362, loss: 56.332237, avg_reader_cost: 0.09274 s, avg_batch_cost: 2.40526 s, avg_samples: 49.0, ips: 20.37201 samples/s, eta: 0:55:12, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:20:23] ppocr INFO: epoch: [4/50], global_step: 60, lr: 0.000330, acc: 0.000000, norm_edit_dis: 0.169145, CTCLoss: 50.567072, NRTRLoss: 3.053932, loss: 53.611422, avg_reader_cost: 0.00159 s, avg_batch_cost: 4.64628 s, avg_samples: 89.5, ips: 19.26273 samples/s, eta: 0:54:15, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:20:23] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:21:09] ppocr INFO: epoch: [5/50], global_step: 70, lr: 0.000397, acc: 0.000000, norm_edit_dis: 0.173549, CTCLoss: 47.593769, NRTRLoss: 2.864957, loss: 50.467213, avg_reader_cost: 0.08007 s, avg_batch_cost: 4.63668 s, avg_samples: 102.3, ips: 22.06321 samples/s, eta: 0:53:20, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:21:33] ppocr INFO: epoch: [5/50], global_step: 75, lr: 0.000430, acc: 0.000000, norm_edit_dis: 0.176464, CTCLoss: 48.065163, NRTRLoss: 2.775605, loss: 50.801239, avg_reader_cost: 0.00079 s, avg_batch_cost: 2.33911 s, avg_samples: 36.2, ips: 15.47598 samples/s, eta: 0:52:55, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:21:33] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:21:58] ppocr INFO: epoch: [6/50], global_step: 80, lr: 0.000463, acc: 0.000000, norm_edit_dis: 0.185226, CTCLoss: 46.571577, NRTRLoss: 2.685890, loss: 49.374067, avg_reader_cost: 0.06997 s, avg_batch_cost: 2.49728 s, avg_samples: 40.4, ips: 16.17760 samples/s, eta: 0:52:44, max_mem_reserved: 16145 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:23:40] ppocr INFO: Architecture : 
+[2026/08/28 16:23:40] ppocr INFO:     Backbone : 
+[2026/08/28 16:23:40] ppocr INFO:         name : PPLCNetV3
+[2026/08/28 16:23:40] ppocr INFO:         scale : 0.95
+[2026/08/28 16:23:40] ppocr INFO:     Head : 
+[2026/08/28 16:23:40] ppocr INFO:         head_list : 
+[2026/08/28 16:23:40] ppocr INFO:             CTCHead : 
+[2026/08/28 16:23:40] ppocr INFO:                 Head : 
+[2026/08/28 16:23:40] ppocr INFO:                     fc_decay : 1e-05
+[2026/08/28 16:23:40] ppocr INFO:                 Neck : 
+[2026/08/28 16:23:40] ppocr INFO:                     depth : 2
+[2026/08/28 16:23:40] ppocr INFO:                     dims : 120
+[2026/08/28 16:23:40] ppocr INFO:                     hidden_dims : 120
+[2026/08/28 16:23:40] ppocr INFO:                     kernel_size : [1, 3]
+[2026/08/28 16:23:40] ppocr INFO:                     name : svtr
+[2026/08/28 16:23:40] ppocr INFO:                     use_guide : True
+[2026/08/28 16:23:40] ppocr INFO:             NRTRHead : 
+[2026/08/28 16:23:40] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:23:40] ppocr INFO:                 nrtr_dim : 384
+[2026/08/28 16:23:40] ppocr INFO:         name : MultiHead
+[2026/08/28 16:23:40] ppocr INFO:     Transform : None
+[2026/08/28 16:23:40] ppocr INFO:     algorithm : SVTR_LCNet
+[2026/08/28 16:23:40] ppocr INFO:     model_type : rec
+[2026/08/28 16:23:40] ppocr INFO: Eval : 
+[2026/08/28 16:23:40] ppocr INFO:     dataset : 
+[2026/08/28 16:23:40] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:23:40] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:23:40] ppocr INFO:         name : SimpleDataSet
+[2026/08/28 16:23:40] ppocr INFO:         transforms : 
+[2026/08/28 16:23:40] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:23:40] ppocr INFO:                 channel_first : False
+[2026/08/28 16:23:40] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:23:40] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:23:40] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:23:40] ppocr INFO:             RecResizeImg : 
+[2026/08/28 16:23:40] ppocr INFO:                 image_shape : [3, 48, 320]
+[2026/08/28 16:23:40] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:23:40] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:23:40] ppocr INFO:     loader : 
+[2026/08/28 16:23:40] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:23:40] ppocr INFO:         drop_last : False
+[2026/08/28 16:23:40] ppocr INFO:         num_workers : 4
+[2026/08/28 16:23:40] ppocr INFO:         shuffle : False
+[2026/08/28 16:23:40] ppocr INFO: Global : 
+[2026/08/28 16:23:40] ppocr INFO:     cal_metric_during_train : True
+[2026/08/28 16:23:40] ppocr INFO:     character_dict_path : ./ppocr/utils/dict/ppocrv5_dict.txt
+[2026/08/28 16:23:40] ppocr INFO:     checkpoints : None
+[2026/08/28 16:23:40] ppocr INFO:     d2s_train_image_shape : [3, 48, 320]
+[2026/08/28 16:23:40] ppocr INFO:     debug : False
+[2026/08/28 16:23:40] ppocr INFO:     distributed : False
+[2026/08/28 16:23:40] ppocr INFO:     epoch_num : 50
+[2026/08/28 16:23:40] ppocr INFO:     eval_batch_step : [0, 15]
+[2026/08/28 16:23:40] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/08/28 16:23:40] ppocr INFO:     infer_mode : False
+[2026/08/28 16:23:40] ppocr INFO:     log_smooth_window : 20
+[2026/08/28 16:23:40] ppocr INFO:     max_text_length : 25
+[2026/08/28 16:23:40] ppocr INFO:     model_name : PP-OCRv5_mobile_rec
+[2026/08/28 16:23:40] ppocr INFO:     pretrained_model : ./PP-OCRv5_mobile_rec_pretrained.pdparams
+[2026/08/28 16:23:40] ppocr INFO:     print_batch_step : 10
+[2026/08/28 16:23:40] ppocr INFO:     save_epoch_step : 10
+[2026/08/28 16:23:40] ppocr INFO:     save_inference_dir : None
+[2026/08/28 16:23:40] ppocr INFO:     save_model_dir : ./output/hungarian_plate_rec
+[2026/08/28 16:23:40] ppocr INFO:     save_res_path : ./output/rec/predicts_ppocrv5.txt
+[2026/08/28 16:23:40] ppocr INFO:     use_gpu : True
+[2026/08/28 16:23:40] ppocr INFO:     use_space_char : False
+[2026/08/28 16:23:40] ppocr INFO:     use_visualdl : False
+[2026/08/28 16:23:40] ppocr INFO: Loss : 
+[2026/08/28 16:23:40] ppocr INFO:     loss_config_list : 
+[2026/08/28 16:23:40] ppocr INFO:         CTCLoss : None
+[2026/08/28 16:23:40] ppocr INFO:         NRTRLoss : None
+[2026/08/28 16:23:40] ppocr INFO:     name : MultiLoss
+[2026/08/28 16:23:40] ppocr INFO: Metric : 
+[2026/08/28 16:23:40] ppocr INFO:     main_indicator : acc
+[2026/08/28 16:23:40] ppocr INFO:     name : RecMetric
+[2026/08/28 16:23:40] ppocr INFO: Optimizer : 
+[2026/08/28 16:23:40] ppocr INFO:     beta1 : 0.9
+[2026/08/28 16:23:40] ppocr INFO:     beta2 : 0.999
+[2026/08/28 16:23:40] ppocr INFO:     lr : 
+[2026/08/28 16:23:40] ppocr INFO:         learning_rate : 0.0005
+[2026/08/28 16:23:40] ppocr INFO:         name : Cosine
+[2026/08/28 16:23:40] ppocr INFO:         warmup_epoch : 5
+[2026/08/28 16:23:40] ppocr INFO:     name : Adam
+[2026/08/28 16:23:40] ppocr INFO:     regularizer : 
+[2026/08/28 16:23:40] ppocr INFO:         factor : 3e-05
+[2026/08/28 16:23:40] ppocr INFO:         name : L2
+[2026/08/28 16:23:40] ppocr INFO: PostProcess : 
+[2026/08/28 16:23:40] ppocr INFO:     name : CTCLabelDecode
+[2026/08/28 16:23:40] ppocr INFO: Train : 
+[2026/08/28 16:23:40] ppocr INFO:     dataset : 
+[2026/08/28 16:23:40] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:23:40] ppocr INFO:         ds_width : False
+[2026/08/28 16:23:40] ppocr INFO:         ext_op_transform_idx : 1
+[2026/08/28 16:23:40] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:23:40] ppocr INFO:         name : MultiScaleDataSet
+[2026/08/28 16:23:40] ppocr INFO:         transforms : 
+[2026/08/28 16:23:40] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:23:40] ppocr INFO:                 channel_first : False
+[2026/08/28 16:23:40] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:23:40] ppocr INFO:             RecConAug : 
+[2026/08/28 16:23:40] ppocr INFO:                 ext_data_num : 2
+[2026/08/28 16:23:40] ppocr INFO:                 image_shape : [48, 320, 3]
+[2026/08/28 16:23:40] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:23:40] ppocr INFO:                 prob : 0.5
+[2026/08/28 16:23:40] ppocr INFO:             RecAug : None
+[2026/08/28 16:23:40] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:23:40] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:23:40] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:23:40] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:23:40] ppocr INFO:     loader : 
+[2026/08/28 16:23:40] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:23:40] ppocr INFO:         drop_last : True
+[2026/08/28 16:23:40] ppocr INFO:         num_workers : 8
+[2026/08/28 16:23:40] ppocr INFO:         shuffle : True
+[2026/08/28 16:23:40] ppocr INFO:     sampler : 
+[2026/08/28 16:23:40] ppocr INFO:         divided_factor : [8, 16]
+[2026/08/28 16:23:40] ppocr INFO:         first_bs : 128
+[2026/08/28 16:23:40] ppocr INFO:         fix_bs : False
+[2026/08/28 16:23:40] ppocr INFO:         is_training : True
+[2026/08/28 16:23:40] ppocr INFO:         name : MultiScaleSampler
+[2026/08/28 16:23:40] ppocr INFO:         scales : [[320, 32], [320, 48], [320, 64]]
+[2026/08/28 16:23:40] ppocr INFO: profiler_options : None
+[2026/08/28 16:23:40] ppocr INFO: train with paddle 3.3.0 and device Place(gpu:0)
+[2026/08/28 16:23:40] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:23:40] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:23:40] ppocr INFO: train dataloader has 15 iters
+[2026/08/28 16:23:40] ppocr INFO: valid dataloader has 2 iters
+[2026/08/28 16:23:40] ppocr WARNING: The shape of model params head.ctc_head.fc.weight paddle.Size([120, 38]) not matched with loaded params head.ctc_head.fc.weight paddle.Size([120, 18385]) !
+[2026/08/28 16:23:40] ppocr WARNING: The shape of model params head.ctc_head.fc.bias paddle.Size([38]) not matched with loaded params head.ctc_head.fc.bias paddle.Size([18385]) !
+[2026/08/28 16:23:40] ppocr WARNING: The shape of model params head.gtc_head.embedding.embedding.weight paddle.Size([42, 384]) not matched with loaded params head.gtc_head.embedding.embedding.weight paddle.Size([18389, 384]) !
+[2026/08/28 16:23:40] ppocr WARNING: The shape of model params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 42]) not matched with loaded params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 18389]) !
+[2026/08/28 16:23:40] ppocr INFO: load pretrain successful from ./PP-OCRv5_mobile_rec_pretrained
+[2026/08/28 16:23:40] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 15 iterations
+[2026/08/28 16:24:29] ppocr INFO: epoch: [1/50], global_step: 10, lr: 0.000030, acc: 0.000000, norm_edit_dis: 0.068631, CTCLoss: 98.983833, NRTRLoss: 5.026987, loss: 104.129963, avg_reader_cost: 0.04108 s, avg_batch_cost: 4.81980 s, avg_samples: 93.7, ips: 19.44066 samples/s, eta: 0:59:26, max_mem_reserved: 16560 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:24:53] ppocr INFO: epoch: [1/50], global_step: 15, lr: 0.000047, acc: 0.000000, norm_edit_dis: 0.068843, CTCLoss: 96.933258, NRTRLoss: 4.191398, loss: 101.124657, avg_reader_cost: 0.00081 s, avg_batch_cost: 2.39847 s, avg_samples: 44.8, ips: 18.67861 samples/s, eta: 0:58:56, max_mem_reserved: 16560 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:24:53] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:24:58] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.07661230779276762, fps: 43.46009916741639
+[2026/08/28 16:24:59] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:24:59] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.07661230779276762, fps: 43.46009916741639, best_epoch: 1
+[2026/08/28 16:24:59] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:25:24] ppocr INFO: epoch: [2/50], global_step: 20, lr: 0.000063, acc: 0.000000, norm_edit_dis: 0.072258, CTCLoss: 94.558640, NRTRLoss: 3.897937, loss: 98.523396, avg_reader_cost: 0.07157 s, avg_batch_cost: 2.47366 s, avg_samples: 46.9, ips: 18.95979 samples/s, eta: 0:58:57, max_mem_reserved: 17625 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:26:11] ppocr INFO: epoch: [2/50], global_step: 30, lr: 0.000130, acc: 0.000000, norm_edit_dis: 0.083232, CTCLoss: 77.862930, NRTRLoss: 3.532476, loss: 81.385700, avg_reader_cost: 0.00156 s, avg_batch_cost: 4.68265 s, avg_samples: 91.6, ips: 19.56155 samples/s, eta: 0:57:29, max_mem_reserved: 17625 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:26:11] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:26:18] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.14898337505840686, fps: 35.31575539108776
+[2026/08/28 16:26:18] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:26:18] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.14898337505840686, fps: 35.31575539108776, best_epoch: 2
+[2026/08/28 16:26:19] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:27:07] ppocr INFO: epoch: [3/50], global_step: 40, lr: 0.000197, acc: 0.000000, norm_edit_dis: 0.139120, CTCLoss: 62.185444, NRTRLoss: 3.484991, loss: 65.665333, avg_reader_cost: 0.08867 s, avg_batch_cost: 4.80034 s, avg_samples: 91.6, ips: 19.08199 samples/s, eta: 0:56:43, max_mem_reserved: 17625 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:27:31] ppocr INFO: epoch: [3/50], global_step: 45, lr: 0.000230, acc: 0.000000, norm_edit_dis: 0.153054, CTCLoss: 56.152327, NRTRLoss: 3.452886, loss: 59.589321, avg_reader_cost: 0.00077 s, avg_batch_cost: 2.46254 s, avg_samples: 46.9, ips: 19.04541 samples/s, eta: 0:56:29, max_mem_reserved: 17625 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:27:31] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:27:37] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.14949990396268253, fps: 40.137213682426086
+[2026/08/28 16:27:38] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:27:38] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.14949990396268253, fps: 40.137213682426086, best_epoch: 3
+[2026/08/28 16:27:38] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:31:53] ppocr INFO: Architecture : 
+[2026/08/28 16:31:53] ppocr INFO:     Backbone : 
+[2026/08/28 16:31:53] ppocr INFO:         name : PPLCNetV3
+[2026/08/28 16:31:53] ppocr INFO:         scale : 0.95
+[2026/08/28 16:31:53] ppocr INFO:     Head : 
+[2026/08/28 16:31:53] ppocr INFO:         head_list : 
+[2026/08/28 16:31:53] ppocr INFO:             CTCHead : 
+[2026/08/28 16:31:53] ppocr INFO:                 Head : 
+[2026/08/28 16:31:53] ppocr INFO:                     fc_decay : 1e-05
+[2026/08/28 16:31:53] ppocr INFO:                 Neck : 
+[2026/08/28 16:31:53] ppocr INFO:                     depth : 2
+[2026/08/28 16:31:53] ppocr INFO:                     dims : 120
+[2026/08/28 16:31:53] ppocr INFO:                     hidden_dims : 120
+[2026/08/28 16:31:53] ppocr INFO:                     kernel_size : [1, 3]
+[2026/08/28 16:31:53] ppocr INFO:                     name : svtr
+[2026/08/28 16:31:53] ppocr INFO:                     use_guide : True
+[2026/08/28 16:31:53] ppocr INFO:             NRTRHead : 
+[2026/08/28 16:31:53] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:31:53] ppocr INFO:                 nrtr_dim : 384
+[2026/08/28 16:31:53] ppocr INFO:         name : MultiHead
+[2026/08/28 16:31:53] ppocr INFO:     Transform : None
+[2026/08/28 16:31:53] ppocr INFO:     algorithm : SVTR_LCNet
+[2026/08/28 16:31:53] ppocr INFO:     model_type : rec
+[2026/08/28 16:31:53] ppocr INFO: Eval : 
+[2026/08/28 16:31:53] ppocr INFO:     dataset : 
+[2026/08/28 16:31:53] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:31:53] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:31:53] ppocr INFO:         name : SimpleDataSet
+[2026/08/28 16:31:53] ppocr INFO:         transforms : 
+[2026/08/28 16:31:53] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:31:53] ppocr INFO:                 channel_first : False
+[2026/08/28 16:31:53] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:31:53] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:31:53] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:31:53] ppocr INFO:             RecResizeImg : 
+[2026/08/28 16:31:53] ppocr INFO:                 image_shape : [3, 48, 320]
+[2026/08/28 16:31:53] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:31:53] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:31:53] ppocr INFO:     loader : 
+[2026/08/28 16:31:53] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:31:53] ppocr INFO:         drop_last : False
+[2026/08/28 16:31:53] ppocr INFO:         num_workers : 4
+[2026/08/28 16:31:53] ppocr INFO:         shuffle : False
+[2026/08/28 16:31:53] ppocr INFO: Global : 
+[2026/08/28 16:31:53] ppocr INFO:     cal_metric_during_train : True
+[2026/08/28 16:31:53] ppocr INFO:     character_dict_path : ./ppocr/utils/dict/ppocrv5_dict.txt
+[2026/08/28 16:31:53] ppocr INFO:     checkpoints : None
+[2026/08/28 16:31:53] ppocr INFO:     d2s_train_image_shape : [3, 48, 320]
+[2026/08/28 16:31:53] ppocr INFO:     debug : False
+[2026/08/28 16:31:53] ppocr INFO:     distributed : False
+[2026/08/28 16:31:53] ppocr INFO:     epoch_num : 50
+[2026/08/28 16:31:53] ppocr INFO:     eval_batch_step : [0, 15]
+[2026/08/28 16:31:53] ppocr INFO:     infer_img : doc/imgs_words/ch/word_1.jpg
+[2026/08/28 16:31:53] ppocr INFO:     infer_mode : False
+[2026/08/28 16:31:53] ppocr INFO:     log_smooth_window : 20
+[2026/08/28 16:31:53] ppocr INFO:     max_text_length : 25
+[2026/08/28 16:31:53] ppocr INFO:     model_name : PP-OCRv5_mobile_rec
+[2026/08/28 16:31:53] ppocr INFO:     pretrained_model : ./PP-OCRv5_mobile_rec_pretrained.pdparams
+[2026/08/28 16:31:53] ppocr INFO:     print_batch_step : 10
+[2026/08/28 16:31:53] ppocr INFO:     save_epoch_step : 10
+[2026/08/28 16:31:53] ppocr INFO:     save_inference_dir : None
+[2026/08/28 16:31:53] ppocr INFO:     save_model_dir : ./output/hungarian_plate_rec
+[2026/08/28 16:31:53] ppocr INFO:     save_res_path : ./output/rec/predicts_ppocrv5.txt
+[2026/08/28 16:31:53] ppocr INFO:     use_gpu : True
+[2026/08/28 16:31:53] ppocr INFO:     use_space_char : False
+[2026/08/28 16:31:53] ppocr INFO:     use_visualdl : False
+[2026/08/28 16:31:53] ppocr INFO: Loss : 
+[2026/08/28 16:31:53] ppocr INFO:     loss_config_list : 
+[2026/08/28 16:31:53] ppocr INFO:         CTCLoss : None
+[2026/08/28 16:31:53] ppocr INFO:         NRTRLoss : None
+[2026/08/28 16:31:53] ppocr INFO:     name : MultiLoss
+[2026/08/28 16:31:53] ppocr INFO: Metric : 
+[2026/08/28 16:31:53] ppocr INFO:     main_indicator : acc
+[2026/08/28 16:31:53] ppocr INFO:     name : RecMetric
+[2026/08/28 16:31:53] ppocr INFO: Optimizer : 
+[2026/08/28 16:31:53] ppocr INFO:     beta1 : 0.9
+[2026/08/28 16:31:53] ppocr INFO:     beta2 : 0.999
+[2026/08/28 16:31:53] ppocr INFO:     lr : 
+[2026/08/28 16:31:53] ppocr INFO:         learning_rate : 0.0005
+[2026/08/28 16:31:53] ppocr INFO:         name : Cosine
+[2026/08/28 16:31:53] ppocr INFO:         warmup_epoch : 5
+[2026/08/28 16:31:53] ppocr INFO:     name : Adam
+[2026/08/28 16:31:53] ppocr INFO:     regularizer : 
+[2026/08/28 16:31:53] ppocr INFO:         factor : 3e-05
+[2026/08/28 16:31:53] ppocr INFO:         name : L2
+[2026/08/28 16:31:53] ppocr INFO: PostProcess : 
+[2026/08/28 16:31:53] ppocr INFO:     name : CTCLabelDecode
+[2026/08/28 16:31:53] ppocr INFO: Train : 
+[2026/08/28 16:31:53] ppocr INFO:     dataset : 
+[2026/08/28 16:31:53] ppocr INFO:         data_dir : /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8
+[2026/08/28 16:31:53] ppocr INFO:         ds_width : False
+[2026/08/28 16:31:53] ppocr INFO:         ext_op_transform_idx : 1
+[2026/08/28 16:31:53] ppocr INFO:         label_file_list : ['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:31:53] ppocr INFO:         name : MultiScaleDataSet
+[2026/08/28 16:31:53] ppocr INFO:         transforms : 
+[2026/08/28 16:31:53] ppocr INFO:             DecodeImage : 
+[2026/08/28 16:31:53] ppocr INFO:                 channel_first : False
+[2026/08/28 16:31:53] ppocr INFO:                 img_mode : BGR
+[2026/08/28 16:31:53] ppocr INFO:             RecConAug : 
+[2026/08/28 16:31:53] ppocr INFO:                 ext_data_num : 2
+[2026/08/28 16:31:53] ppocr INFO:                 image_shape : [48, 320, 3]
+[2026/08/28 16:31:53] ppocr INFO:                 max_text_length : 25
+[2026/08/28 16:31:53] ppocr INFO:                 prob : 0.5
+[2026/08/28 16:31:53] ppocr INFO:             RecAug : None
+[2026/08/28 16:31:53] ppocr INFO:             MultiLabelEncode : 
+[2026/08/28 16:31:53] ppocr INFO:                 gtc_encode : NRTRLabelEncode
+[2026/08/28 16:31:53] ppocr INFO:             KeepKeys : 
+[2026/08/28 16:31:53] ppocr INFO:                 keep_keys : ['image', 'label_ctc', 'label_gtc', 'length', 'valid_ratio']
+[2026/08/28 16:31:53] ppocr INFO:     loader : 
+[2026/08/28 16:31:53] ppocr INFO:         batch_size_per_card : 128
+[2026/08/28 16:31:53] ppocr INFO:         drop_last : True
+[2026/08/28 16:31:53] ppocr INFO:         num_workers : 8
+[2026/08/28 16:31:53] ppocr INFO:         shuffle : True
+[2026/08/28 16:31:53] ppocr INFO:     sampler : 
+[2026/08/28 16:31:53] ppocr INFO:         divided_factor : [8, 16]
+[2026/08/28 16:31:53] ppocr INFO:         first_bs : 128
+[2026/08/28 16:31:53] ppocr INFO:         fix_bs : False
+[2026/08/28 16:31:53] ppocr INFO:         is_training : True
+[2026/08/28 16:31:53] ppocr INFO:         name : MultiScaleSampler
+[2026/08/28 16:31:53] ppocr INFO:         scales : [[320, 32], [320, 48], [320, 64]]
+[2026/08/28 16:31:53] ppocr INFO: profiler_options : None
+[2026/08/28 16:31:53] ppocr INFO: train with paddle 3.3.0 and device Place(gpu:0)
+[2026/08/28 16:31:53] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']
+[2026/08/28 16:31:53] ppocr INFO: Initialize indexs of datasets:['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']
+[2026/08/28 16:31:53] ppocr INFO: train dataloader has 15 iters
+[2026/08/28 16:31:53] ppocr INFO: valid dataloader has 2 iters
+[2026/08/28 16:31:53] ppocr WARNING: The shape of model params head.ctc_head.fc.weight paddle.Size([120, 38]) not matched with loaded params head.ctc_head.fc.weight paddle.Size([120, 18385]) !
+[2026/08/28 16:31:53] ppocr WARNING: The shape of model params head.ctc_head.fc.bias paddle.Size([38]) not matched with loaded params head.ctc_head.fc.bias paddle.Size([18385]) !
+[2026/08/28 16:31:53] ppocr WARNING: The shape of model params head.gtc_head.embedding.embedding.weight paddle.Size([42, 384]) not matched with loaded params head.gtc_head.embedding.embedding.weight paddle.Size([18389, 384]) !
+[2026/08/28 16:31:53] ppocr WARNING: The shape of model params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 42]) not matched with loaded params head.gtc_head.tgt_word_prj.weight paddle.Size([384, 18389]) !
+[2026/08/28 16:31:53] ppocr INFO: load pretrain successful from ./PP-OCRv5_mobile_rec_pretrained
+[2026/08/28 16:31:53] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 15 iterations
+[2026/08/28 16:32:55] ppocr INFO: epoch: [1/50], global_step: 10, lr: 0.000030, acc: 0.000000, norm_edit_dis: 0.065805, CTCLoss: 99.606255, NRTRLoss: 4.986899, loss: 104.458538, avg_reader_cost: 0.03849 s, avg_batch_cost: 6.15697 s, avg_samples: 87.3, ips: 14.17906 samples/s, eta: 1:15:56, max_mem_reserved: 24279 MB, max_mem_allocated: 15866 MB
+[2026/08/28 16:33:31] ppocr INFO: epoch: [1/50], global_step: 15, lr: 0.000047, acc: 0.000000, norm_edit_dis: 0.066032, CTCLoss: 98.455063, NRTRLoss: 4.175879, loss: 102.471947, avg_reader_cost: 0.00085 s, avg_batch_cost: 3.57341 s, avg_samples: 51.2, ips: 14.32807 samples/s, eta: 1:19:27, max_mem_reserved: 24279 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:33:31] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:33:36] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.07648530755289962, fps: 44.62542643854809
+[2026/08/28 16:33:37] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:33:37] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.07648530755289962, fps: 44.62542643854809, best_epoch: 1
+[2026/08/28 16:33:37] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:34:10] ppocr INFO: epoch: [2/50], global_step: 20, lr: 0.000063, acc: 0.000000, norm_edit_dis: 0.068419, CTCLoss: 95.935318, NRTRLoss: 3.878449, loss: 99.976707, avg_reader_cost: 0.06947 s, avg_batch_cost: 3.32302 s, avg_samples: 46.9, ips: 14.11365 samples/s, eta: 1:19:24, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:35:12] ppocr INFO: epoch: [2/50], global_step: 30, lr: 0.000130, acc: 0.000000, norm_edit_dis: 0.080181, CTCLoss: 77.948826, NRTRLoss: 3.558755, loss: 81.490860, avg_reader_cost: 0.00158 s, avg_batch_cost: 6.11817 s, avg_samples: 91.6, ips: 14.97179 samples/s, eta: 1:16:41, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:35:12] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:35:17] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.15952056470563047, fps: 45.62824478480244
+[2026/08/28 16:35:18] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:35:18] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.15952056470563047, fps: 45.62824478480244, best_epoch: 2
+[2026/08/28 16:35:18] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:36:22] ppocr INFO: epoch: [3/50], global_step: 40, lr: 0.000197, acc: 0.000000, norm_edit_dis: 0.137048, CTCLoss: 61.277142, NRTRLoss: 3.484189, loss: 64.767281, avg_reader_cost: 0.08943 s, avg_batch_cost: 6.40483 s, avg_samples: 89.5, ips: 13.97382 samples/s, eta: 1:15:39, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:36:53] ppocr INFO: epoch: [3/50], global_step: 45, lr: 0.000230, acc: 0.000000, norm_edit_dis: 0.147593, CTCLoss: 54.431551, NRTRLoss: 3.442677, loss: 57.808136, avg_reader_cost: 0.00078 s, avg_batch_cost: 3.07760 s, avg_samples: 49.0, ips: 15.92149 samples/s, eta: 1:14:49, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:36:53] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:36:58] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.12544933431502803, fps: 43.91839883929816
+[2026/08/28 16:36:59] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:36:59] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.12544933431502803, fps: 43.91839883929816, best_epoch: 3
+[2026/08/28 16:36:59] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:37:30] ppocr INFO: epoch: [4/50], global_step: 50, lr: 0.000263, acc: 0.000000, norm_edit_dis: 0.147593, CTCLoss: 52.968668, NRTRLoss: 3.316255, loss: 56.264761, avg_reader_cost: 0.07559 s, avg_batch_cost: 3.09449 s, avg_samples: 42.6, ips: 13.76640 samples/s, eta: 1:14:04, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:38:34] ppocr INFO: epoch: [4/50], global_step: 60, lr: 0.000330, acc: 0.000000, norm_edit_dis: 0.147216, CTCLoss: 51.459583, NRTRLoss: 3.038243, loss: 54.549637, avg_reader_cost: 0.00153 s, avg_batch_cost: 6.40229 s, avg_samples: 95.9, ips: 14.97900 samples/s, eta: 1:13:07, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:38:34] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:38:40] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.06320022236546374, fps: 41.388272957485235
+[2026/08/28 16:38:41] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:38:41] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.06320022236546374, fps: 41.388272957485235, best_epoch: 4
+[2026/08/28 16:38:41] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:39:47] ppocr INFO: epoch: [5/50], global_step: 70, lr: 0.000397, acc: 0.000000, norm_edit_dis: 0.148737, CTCLoss: 50.562828, NRTRLoss: 2.810765, loss: 53.380545, avg_reader_cost: 0.08642 s, avg_batch_cost: 6.58733 s, avg_samples: 93.8, ips: 14.23946 samples/s, eta: 1:12:25, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:40:15] ppocr INFO: epoch: [5/50], global_step: 75, lr: 0.000430, acc: 0.000000, norm_edit_dis: 0.151163, CTCLoss: 48.771788, NRTRLoss: 2.732605, loss: 51.512197, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.80032 s, avg_samples: 44.7, ips: 15.96244 samples/s, eta: 1:11:18, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:40:15] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:40:21] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.1477879795942263, fps: 41.54363911025812
+[2026/08/28 16:40:22] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:40:22] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.1477879795942263, fps: 41.54363911025812, best_epoch: 5
+[2026/08/28 16:40:22] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:40:53] ppocr INFO: epoch: [6/50], global_step: 80, lr: 0.000463, acc: 0.000000, norm_edit_dis: 0.154278, CTCLoss: 48.255398, NRTRLoss: 2.704456, loss: 51.014153, avg_reader_cost: 0.07911 s, avg_batch_cost: 3.14332 s, avg_samples: 55.4, ips: 17.62467 samples/s, eta: 1:10:44, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:41:55] ppocr INFO: epoch: [6/50], global_step: 90, lr: 0.000500, acc: 0.000000, norm_edit_dis: 0.164823, CTCLoss: 46.185804, NRTRLoss: 2.522305, loss: 48.726326, avg_reader_cost: 0.00152 s, avg_batch_cost: 6.19622 s, avg_samples: 83.1, ips: 13.41141 samples/s, eta: 1:09:31, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:41:55] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:42:01] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.17459828938758226, fps: 42.80114458370615
+[2026/08/28 16:42:02] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:42:02] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.17459828938758226, fps: 42.80114458370615, best_epoch: 6
+[2026/08/28 16:42:02] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:43:06] ppocr INFO: epoch: [7/50], global_step: 100, lr: 0.000500, acc: 0.000000, norm_edit_dis: 0.168121, CTCLoss: 44.379017, NRTRLoss: 2.385381, loss: 46.627802, avg_reader_cost: 0.07603 s, avg_batch_cost: 6.38615 s, avg_samples: 89.5, ips: 14.01471 samples/s, eta: 1:08:32, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:43:37] ppocr INFO: epoch: [7/50], global_step: 105, lr: 0.000499, acc: 0.000000, norm_edit_dis: 0.166048, CTCLoss: 44.410671, NRTRLoss: 2.226449, loss: 46.758633, avg_reader_cost: 0.00076 s, avg_batch_cost: 3.08512 s, avg_samples: 49.0, ips: 15.88270 samples/s, eta: 1:07:55, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:43:37] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:43:42] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.1631329874869617, fps: 42.96881571654968
+[2026/08/28 16:43:43] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:43:43] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.1631329874869617, fps: 42.96881571654968, best_epoch: 7
+[2026/08/28 16:43:43] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:44:10] ppocr INFO: epoch: [8/50], global_step: 110, lr: 0.000499, acc: 0.000000, norm_edit_dis: 0.177383, CTCLoss: 43.505058, NRTRLoss: 2.131484, loss: 45.577084, avg_reader_cost: 0.07293 s, avg_batch_cost: 2.69544 s, avg_samples: 46.8, ips: 17.36264 samples/s, eta: 1:06:57, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:45:17] ppocr INFO: epoch: [8/50], global_step: 120, lr: 0.000497, acc: 0.000000, norm_edit_dis: 0.193477, CTCLoss: 40.663637, NRTRLoss: 1.895498, loss: 42.482716, avg_reader_cost: 0.00155 s, avg_batch_cost: 6.72295 s, avg_samples: 91.7, ips: 13.63984 samples/s, eta: 1:06:17, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:45:17] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:45:23] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.19204384815770592, fps: 43.34356182648365
+[2026/08/28 16:45:24] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:45:24] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.19204384815770592, fps: 43.34356182648365, best_epoch: 8
+[2026/08/28 16:45:24] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:46:31] ppocr INFO: epoch: [9/50], global_step: 130, lr: 0.000496, acc: 0.000000, norm_edit_dis: 0.220366, CTCLoss: 38.682234, NRTRLoss: 1.621462, loss: 40.224257, avg_reader_cost: 0.07242 s, avg_batch_cost: 6.68415 s, avg_samples: 100.2, ips: 14.99068 samples/s, eta: 1:05:32, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:46:58] ppocr INFO: epoch: [9/50], global_step: 135, lr: 0.000495, acc: 0.000000, norm_edit_dis: 0.266210, CTCLoss: 37.579046, NRTRLoss: 1.470842, loss: 38.967613, avg_reader_cost: 0.00077 s, avg_batch_cost: 2.75675 s, avg_samples: 38.3, ips: 13.89317 samples/s, eta: 1:04:41, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:46:58] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:47:04] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.3395136702155577, fps: 42.78046585125038
+[2026/08/28 16:47:05] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:47:05] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.3395136702155577, fps: 42.78046585125038, best_epoch: 9
+[2026/08/28 16:47:05] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:47:36] ppocr INFO: epoch: [10/50], global_step: 140, lr: 0.000494, acc: 0.000000, norm_edit_dis: 0.306616, CTCLoss: 37.579046, NRTRLoss: 1.344106, loss: 38.967613, avg_reader_cost: 0.07242 s, avg_batch_cost: 3.14203 s, avg_samples: 55.4, ips: 17.63193 samples/s, eta: 1:04:09, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:48:39] ppocr INFO: epoch: [10/50], global_step: 150, lr: 0.000491, acc: 0.000000, norm_edit_dis: 0.396294, CTCLoss: 31.660559, NRTRLoss: 1.172238, loss: 32.832796, avg_reader_cost: 0.00156 s, avg_batch_cost: 6.28428 s, avg_samples: 83.1, ips: 13.22347 samples/s, eta: 1:03:05, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:48:39] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:48:45] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.3445199011512836, fps: 42.87270447944773
+[2026/08/28 16:48:46] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:48:46] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.3445199011512836, fps: 42.87270447944773, best_epoch: 10
+[2026/08/28 16:48:46] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:48:47] ppocr INFO: save model in ./output/hungarian_plate_rec/iter_epoch_10
+[2026/08/28 16:49:51] ppocr INFO: epoch: [11/50], global_step: 160, lr: 0.000488, acc: 0.000000, norm_edit_dis: 0.468308, CTCLoss: 27.614522, NRTRLoss: 1.077732, loss: 28.641098, avg_reader_cost: 0.08142 s, avg_batch_cost: 6.40280 s, avg_samples: 95.9, ips: 14.97783 samples/s, eta: 1:02:05, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:50:22] ppocr INFO: epoch: [11/50], global_step: 165, lr: 0.000486, acc: 0.000000, norm_edit_dis: 0.499304, CTCLoss: 25.326822, NRTRLoss: 1.039820, loss: 26.372194, avg_reader_cost: 0.00078 s, avg_batch_cost: 3.04223 s, avg_samples: 42.6, ips: 14.00287 samples/s, eta: 1:01:30, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:50:22] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:50:28] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.4082054553870239, fps: 36.770139310946576
+[2026/08/28 16:50:29] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:50:29] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.4082054553870239, fps: 36.770139310946576, best_epoch: 11
+[2026/08/28 16:50:29] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:51:03] ppocr INFO: epoch: [12/50], global_step: 170, lr: 0.000485, acc: 0.000000, norm_edit_dis: 0.522223, CTCLoss: 24.018085, NRTRLoss: 1.033845, loss: 25.012023, avg_reader_cost: 0.08210 s, avg_batch_cost: 3.34121 s, avg_samples: 46.9, ips: 14.03681 samples/s, eta: 1:01:04, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:52:02] ppocr INFO: epoch: [12/50], global_step: 180, lr: 0.000481, acc: 0.000000, norm_edit_dis: 0.563613, CTCLoss: 21.616919, NRTRLoss: 0.967619, loss: 22.547268, avg_reader_cost: 0.00161 s, avg_batch_cost: 5.96102 s, avg_samples: 91.6, ips: 15.36650 samples/s, eta: 0:59:50, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:52:02] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:52:09] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.5617522809980364, fps: 36.443347345472716
+[2026/08/28 16:52:10] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:52:10] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.5617522809980364, fps: 36.443347345472716, best_epoch: 12
+[2026/08/28 16:52:10] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:53:13] ppocr INFO: epoch: [13/50], global_step: 190, lr: 0.000476, acc: 0.000000, norm_edit_dis: 0.616828, CTCLoss: 19.670902, NRTRLoss: 0.914764, loss: 20.572658, avg_reader_cost: 0.06869 s, avg_batch_cost: 6.32832 s, avg_samples: 89.5, ips: 14.14278 samples/s, eta: 0:58:48, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:53:43] ppocr INFO: epoch: [13/50], global_step: 195, lr: 0.000474, acc: 0.000000, norm_edit_dis: 0.642735, CTCLoss: 17.795216, NRTRLoss: 0.894654, loss: 18.715791, avg_reader_cost: 0.00082 s, avg_batch_cost: 2.96861 s, avg_samples: 49.0, ips: 16.50606 samples/s, eta: 0:58:11, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:53:43] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:53:50] ppocr INFO: cur metric, acc: 0.0, norm_edit_dis: 0.5570608867277738, fps: 36.10868390414732
+[2026/08/28 16:53:50] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:53:50] ppocr INFO: best metric, acc: 0.0, is_float16: False, norm_edit_dis: 0.5570608867277738, fps: 36.10868390414732, best_epoch: 13
+[2026/08/28 16:53:51] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:54:22] ppocr INFO: epoch: [14/50], global_step: 200, lr: 0.000472, acc: 0.000000, norm_edit_dis: 0.669454, CTCLoss: 16.992335, NRTRLoss: 0.876993, loss: 17.879067, avg_reader_cost: 0.07095 s, avg_batch_cost: 3.10417 s, avg_samples: 42.6, ips: 13.72350 samples/s, eta: 0:57:39, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:55:23] ppocr INFO: epoch: [14/50], global_step: 210, lr: 0.000467, acc: 0.000000, norm_edit_dis: 0.714213, CTCLoss: 15.992430, NRTRLoss: 0.869349, loss: 16.860683, avg_reader_cost: 0.00163 s, avg_batch_cost: 6.15642 s, avg_samples: 95.9, ips: 15.57724 samples/s, eta: 0:56:32, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:55:23] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:55:30] ppocr INFO: cur metric, acc: 0.004132231234205321, norm_edit_dis: 0.6390955153725453, fps: 35.40469295801668
+[2026/08/28 16:55:31] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:55:31] ppocr INFO: best metric, acc: 0.004132231234205321, is_float16: False, norm_edit_dis: 0.6390955153725453, fps: 35.40469295801668, best_epoch: 14
+[2026/08/28 16:55:31] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:56:37] ppocr INFO: epoch: [15/50], global_step: 220, lr: 0.000461, acc: 0.007812, norm_edit_dis: 0.723520, CTCLoss: 15.048264, NRTRLoss: 0.857533, loss: 15.893125, avg_reader_cost: 0.08454 s, avg_batch_cost: 6.59065 s, avg_samples: 93.8, ips: 14.23229 samples/s, eta: 0:55:37, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:57:04] ppocr INFO: epoch: [15/50], global_step: 225, lr: 0.000459, acc: 0.003906, norm_edit_dis: 0.745374, CTCLoss: 13.340367, NRTRLoss: 0.839004, loss: 14.161752, avg_reader_cost: 0.00080 s, avg_batch_cost: 2.65285 s, avg_samples: 44.7, ips: 16.84982 samples/s, eta: 0:54:54, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:57:04] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:57:11] ppocr INFO: cur metric, acc: 0.004132231234205321, norm_edit_dis: 0.6910009310422024, fps: 35.33337823884014
+[2026/08/28 16:57:11] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:57:11] ppocr INFO: best metric, acc: 0.004132231234205321, is_float16: False, norm_edit_dis: 0.6910009310422024, fps: 35.33337823884014, best_epoch: 15
+[2026/08/28 16:57:11] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:57:42] ppocr INFO: epoch: [16/50], global_step: 230, lr: 0.000456, acc: 0.011765, norm_edit_dis: 0.762892, CTCLoss: 12.669148, NRTRLoss: 0.827231, loss: 13.501690, avg_reader_cost: 0.07584 s, avg_batch_cost: 3.02149 s, avg_samples: 36.2, ips: 11.98084 samples/s, eta: 0:54:20, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:58:45] ppocr INFO: epoch: [16/50], global_step: 240, lr: 0.000449, acc: 0.011765, norm_edit_dis: 0.756602, CTCLoss: 13.029250, NRTRLoss: 0.835167, loss: 13.853093, avg_reader_cost: 0.00158 s, avg_batch_cost: 6.29747 s, avg_samples: 102.3, ips: 16.24461 samples/s, eta: 0:53:18, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 16:58:45] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 16:58:52] ppocr INFO: cur metric, acc: 0.020661156171026603, norm_edit_dis: 0.7270595678835416, fps: 35.51978329403261
+[2026/08/28 16:58:52] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 16:58:52] ppocr INFO: best metric, acc: 0.020661156171026603, is_float16: False, norm_edit_dis: 0.7270595678835416, fps: 35.51978329403261, best_epoch: 16
+[2026/08/28 16:58:52] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 16:59:52] ppocr INFO: epoch: [17/50], global_step: 250, lr: 0.000443, acc: 0.011765, norm_edit_dis: 0.770094, CTCLoss: 11.445402, NRTRLoss: 0.823679, loss: 12.269080, avg_reader_cost: 0.07603 s, avg_batch_cost: 5.97493 s, avg_samples: 85.2, ips: 14.25957 samples/s, eta: 0:52:09, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:00:25] ppocr INFO: epoch: [17/50], global_step: 255, lr: 0.000440, acc: 0.011765, norm_edit_dis: 0.777318, CTCLoss: 11.445402, NRTRLoss: 0.818404, loss: 12.269080, avg_reader_cost: 0.00082 s, avg_batch_cost: 3.31061 s, avg_samples: 53.3, ips: 16.09977 samples/s, eta: 0:51:41, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:00:25] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:00:32] ppocr INFO: cur metric, acc: 0.028925618639437246, norm_edit_dis: 0.7352945144145651, fps: 36.131176092846964
+[2026/08/28 17:00:33] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:00:33] ppocr INFO: best metric, acc: 0.028925618639437246, is_float16: False, norm_edit_dis: 0.7352945144145651, fps: 36.131176092846964, best_epoch: 17
+[2026/08/28 17:00:33] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:01:07] ppocr INFO: epoch: [18/50], global_step: 260, lr: 0.000436, acc: 0.011765, norm_edit_dis: 0.784536, CTCLoss: 11.271204, NRTRLoss: 0.812208, loss: 12.081536, avg_reader_cost: 0.08389 s, avg_batch_cost: 3.40671 s, avg_samples: 53.3, ips: 15.64561 samples/s, eta: 0:51:15, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:02:08] ppocr INFO: epoch: [18/50], global_step: 270, lr: 0.000429, acc: 0.023529, norm_edit_dis: 0.789108, CTCLoss: 11.677467, NRTRLoss: 0.814754, loss: 12.492221, avg_reader_cost: 0.00163 s, avg_batch_cost: 6.06329 s, avg_samples: 85.2, ips: 14.05178 samples/s, eta: 0:50:09, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:02:08] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:02:13] ppocr INFO: cur metric, acc: 0.0991735496209277, norm_edit_dis: 0.7693608254822697, fps: 43.391073641209616
+[2026/08/28 17:02:14] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:02:14] ppocr INFO: best metric, acc: 0.0991735496209277, is_float16: False, norm_edit_dis: 0.7693608254822697, fps: 43.391073641209616, best_epoch: 18
+[2026/08/28 17:02:14] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:03:20] ppocr INFO: epoch: [19/50], global_step: 280, lr: 0.000422, acc: 0.054779, norm_edit_dis: 0.821594, CTCLoss: 9.517408, NRTRLoss: 0.808013, loss: 10.299953, avg_reader_cost: 0.08557 s, avg_batch_cost: 6.55878 s, avg_samples: 87.4, ips: 13.32564 samples/s, eta: 0:49:11, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:03:48] ppocr INFO: epoch: [19/50], global_step: 285, lr: 0.000418, acc: 0.082169, norm_edit_dis: 0.832391, CTCLoss: 9.043861, NRTRLoss: 0.804127, loss: 9.835345, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.80814 s, avg_samples: 51.1, ips: 18.19711 samples/s, eta: 0:48:34, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:03:48] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:03:54] ppocr INFO: cur metric, acc: 0.061983468513079815, norm_edit_dis: 0.7145070956224933, fps: 43.30473594847708
+[2026/08/28 17:03:54] ppocr INFO: best metric, acc: 0.0991735496209277, is_float16: False, norm_edit_dis: 0.7693608254822697, fps: 43.391073641209616, best_epoch: 18
+[2026/08/28 17:03:54] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:04:25] ppocr INFO: epoch: [20/50], global_step: 290, lr: 0.000414, acc: 0.093934, norm_edit_dis: 0.834090, CTCLoss: 9.043861, NRTRLoss: 0.794908, loss: 9.835345, avg_reader_cost: 0.08159 s, avg_batch_cost: 3.08983 s, avg_samples: 42.6, ips: 13.78716 samples/s, eta: 0:48:02, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:05:28] ppocr INFO: epoch: [20/50], global_step: 300, lr: 0.000406, acc: 0.105882, norm_edit_dis: 0.839372, CTCLoss: 8.982922, NRTRLoss: 0.791483, loss: 9.768295, avg_reader_cost: 0.00161 s, avg_batch_cost: 6.33263 s, avg_samples: 95.9, ips: 15.14378 samples/s, eta: 0:47:00, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:05:28] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:05:34] ppocr INFO: cur metric, acc: 0.20247933047606073, norm_edit_dis: 0.7974403205832743, fps: 43.224028744773626
+[2026/08/28 17:05:34] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:05:34] ppocr INFO: best metric, acc: 0.20247933047606073, is_float16: False, norm_edit_dis: 0.7974403205832743, fps: 43.224028744773626, best_epoch: 20
+[2026/08/28 17:05:35] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:05:35] ppocr INFO: save model in ./output/hungarian_plate_rec/iter_epoch_20
+[2026/08/28 17:06:39] ppocr INFO: epoch: [21/50], global_step: 310, lr: 0.000397, acc: 0.164430, norm_edit_dis: 0.848612, CTCLoss: 8.862685, NRTRLoss: 0.794564, loss: 9.656810, avg_reader_cost: 0.08134 s, avg_batch_cost: 6.43866 s, avg_samples: 102.3, ips: 15.88840 samples/s, eta: 0:46:00, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:07:09] ppocr INFO: epoch: [21/50], global_step: 315, lr: 0.000393, acc: 0.205882, norm_edit_dis: 0.858848, CTCLoss: 7.801167, NRTRLoss: 0.784377, loss: 8.584478, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.99250 s, avg_samples: 36.2, ips: 12.09692 samples/s, eta: 0:45:27, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:07:09] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:07:15] ppocr INFO: cur metric, acc: 0.3181818050338097, norm_edit_dis: 0.8489062767407218, fps: 43.32765580934256
+[2026/08/28 17:07:16] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:07:16] ppocr INFO: best metric, acc: 0.3181818050338097, is_float16: False, norm_edit_dis: 0.8489062767407218, fps: 43.32765580934256, best_epoch: 21
+[2026/08/28 17:07:16] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:07:48] ppocr INFO: epoch: [22/50], global_step: 320, lr: 0.000389, acc: 0.205882, norm_edit_dis: 0.858177, CTCLoss: 7.846703, NRTRLoss: 0.780140, loss: 8.617246, avg_reader_cost: 0.07849 s, avg_batch_cost: 3.20556 s, avg_samples: 49.0, ips: 15.28593 samples/s, eta: 0:44:56, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:08:50] ppocr INFO: epoch: [22/50], global_step: 330, lr: 0.000380, acc: 0.270037, norm_edit_dis: 0.884414, CTCLoss: 7.591627, NRTRLoss: 0.771092, loss: 8.358860, avg_reader_cost: 0.00160 s, avg_batch_cost: 6.24636 s, avg_samples: 89.5, ips: 14.32835 samples/s, eta: 0:43:53, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:08:51] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:08:56] ppocr INFO: cur metric, acc: 0.3801652735468895, norm_edit_dis: 0.8606880550811049, fps: 43.37006940858241
+[2026/08/28 17:08:57] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:08:57] ppocr INFO: best metric, acc: 0.3801652735468895, is_float16: False, norm_edit_dis: 0.8606880550811049, fps: 43.37006940858241, best_epoch: 22
+[2026/08/28 17:08:57] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:10:01] ppocr INFO: epoch: [23/50], global_step: 340, lr: 0.000371, acc: 0.294118, norm_edit_dis: 0.895799, CTCLoss: 6.696202, NRTRLoss: 0.769708, loss: 7.458114, avg_reader_cost: 0.07192 s, avg_batch_cost: 6.38012 s, avg_samples: 83.1, ips: 13.02484 samples/s, eta: 0:42:52, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:10:32] ppocr INFO: epoch: [23/50], global_step: 345, lr: 0.000366, acc: 0.287684, norm_edit_dis: 0.894091, CTCLoss: 7.387588, NRTRLoss: 0.776284, loss: 8.152952, avg_reader_cost: 0.00080 s, avg_batch_cost: 3.14312 s, avg_samples: 55.4, ips: 17.62582 samples/s, eta: 0:42:20, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:10:32] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:10:38] ppocr INFO: cur metric, acc: 0.42148758588894275, norm_edit_dis: 0.8814180817727016, fps: 43.372997545439624
+[2026/08/28 17:10:39] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:10:39] ppocr INFO: best metric, acc: 0.42148758588894275, is_float16: False, norm_edit_dis: 0.8814180817727016, fps: 43.372997545439624, best_epoch: 23
+[2026/08/28 17:10:39] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:11:08] ppocr INFO: epoch: [24/50], global_step: 350, lr: 0.000362, acc: 0.303309, norm_edit_dis: 0.894674, CTCLoss: 6.772800, NRTRLoss: 0.767020, loss: 7.522691, avg_reader_cost: 0.06970 s, avg_batch_cost: 2.88210 s, avg_samples: 44.7, ips: 15.50951 samples/s, eta: 0:41:46, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:12:13] ppocr INFO: epoch: [24/50], global_step: 360, lr: 0.000352, acc: 0.317004, norm_edit_dis: 0.891111, CTCLoss: 7.226668, NRTRLoss: 0.771329, loss: 7.985102, avg_reader_cost: 0.00153 s, avg_batch_cost: 6.57390 s, avg_samples: 93.8, ips: 14.26854 samples/s, eta: 0:40:47, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:12:14] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:12:19] ppocr INFO: cur metric, acc: 0.5041322105730491, norm_edit_dis: 0.8968696749948908, fps: 43.2143563641516
+[2026/08/28 17:12:20] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:12:20] ppocr INFO: best metric, acc: 0.5041322105730491, is_float16: False, norm_edit_dis: 0.8968696749948908, fps: 43.2143563641516, best_epoch: 24
+[2026/08/28 17:12:20] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:13:20] ppocr INFO: epoch: [25/50], global_step: 370, lr: 0.000343, acc: 0.328768, norm_edit_dis: 0.906651, CTCLoss: 6.680127, NRTRLoss: 0.771329, loss: 7.449632, avg_reader_cost: 0.06758 s, avg_batch_cost: 5.97819 s, avg_samples: 93.7, ips: 15.67365 samples/s, eta: 0:39:41, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:13:54] ppocr INFO: epoch: [25/50], global_step: 375, lr: 0.000338, acc: 0.335294, norm_edit_dis: 0.906651, CTCLoss: 6.472051, NRTRLoss: 0.772150, loss: 7.239787, avg_reader_cost: 0.00078 s, avg_batch_cost: 3.45034 s, avg_samples: 44.8, ips: 12.98424 samples/s, eta: 0:39:13, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:13:54] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:14:00] ppocr INFO: cur metric, acc: 0.5165289042756651, norm_edit_dis: 0.8955578555554605, fps: 43.27853696241098
+[2026/08/28 17:14:01] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:14:01] ppocr INFO: best metric, acc: 0.5165289042756651, is_float16: False, norm_edit_dis: 0.8955578555554605, fps: 43.27853696241098, best_epoch: 25
+[2026/08/28 17:14:01] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:14:34] ppocr INFO: epoch: [26/50], global_step: 380, lr: 0.000333, acc: 0.342463, norm_edit_dis: 0.907287, CTCLoss: 6.144535, NRTRLoss: 0.770113, loss: 6.908948, avg_reader_cost: 0.07330 s, avg_batch_cost: 3.31509 s, avg_samples: 46.9, ips: 14.14743 samples/s, eta: 0:38:43, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:15:35] ppocr INFO: epoch: [26/50], global_step: 390, lr: 0.000323, acc: 0.382353, norm_edit_dis: 0.905282, CTCLoss: 6.061591, NRTRLoss: 0.767335, loss: 6.817592, avg_reader_cost: 0.00166 s, avg_batch_cost: 6.13058 s, avg_samples: 91.6, ips: 14.94150 samples/s, eta: 0:37:39, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:15:36] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:15:41] ppocr INFO: cur metric, acc: 0.4752065919336119, norm_edit_dis: 0.8907533168585472, fps: 44.76252213768386
+[2026/08/28 17:15:41] ppocr INFO: best metric, acc: 0.5165289042756651, is_float16: False, norm_edit_dis: 0.8955578555554605, fps: 43.27853696241098, best_epoch: 25
+[2026/08/28 17:15:41] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:16:45] ppocr INFO: epoch: [27/50], global_step: 400, lr: 0.000313, acc: 0.382353, norm_edit_dis: 0.905078, CTCLoss: 6.014344, NRTRLoss: 0.766242, loss: 6.766168, avg_reader_cost: 0.07802 s, avg_batch_cost: 6.36541 s, avg_samples: 95.9, ips: 15.06579 samples/s, eta: 0:36:37, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:17:15] ppocr INFO: epoch: [27/50], global_step: 405, lr: 0.000308, acc: 0.394118, norm_edit_dis: 0.907117, CTCLoss: 6.014344, NRTRLoss: 0.764634, loss: 6.766168, avg_reader_cost: 0.00079 s, avg_batch_cost: 3.00120 s, avg_samples: 42.6, ips: 14.19432 samples/s, eta: 0:36:04, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:17:15] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:17:21] ppocr INFO: cur metric, acc: 0.4958677481046385, norm_edit_dis: 0.8956644408849141, fps: 44.58691117755615
+[2026/08/28 17:17:21] ppocr INFO: best metric, acc: 0.5165289042756651, is_float16: False, norm_edit_dis: 0.8955578555554605, fps: 43.27853696241098, best_epoch: 25
+[2026/08/28 17:17:21] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:17:55] ppocr INFO: epoch: [28/50], global_step: 410, lr: 0.000302, acc: 0.414062, norm_edit_dis: 0.907117, CTCLoss: 6.353622, NRTRLoss: 0.766017, loss: 7.099509, avg_reader_cost: 0.08247 s, avg_batch_cost: 3.41321 s, avg_samples: 53.3, ips: 15.61578 samples/s, eta: 0:35:35, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:18:55] ppocr INFO: epoch: [28/50], global_step: 420, lr: 0.000292, acc: 0.406250, norm_edit_dis: 0.913272, CTCLoss: 5.412008, NRTRLoss: 0.754371, loss: 6.166412, avg_reader_cost: 0.00156 s, avg_batch_cost: 6.02907 s, avg_samples: 85.2, ips: 14.13152 samples/s, eta: 0:34:31, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:18:55] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:19:01] ppocr INFO: cur metric, acc: 0.5082644418072545, norm_edit_dis: 0.8997540379873381, fps: 44.717500352776135
+[2026/08/28 17:19:01] ppocr INFO: best metric, acc: 0.5165289042756651, is_float16: False, norm_edit_dis: 0.8955578555554605, fps: 43.27853696241098, best_epoch: 25
+[2026/08/28 17:19:01] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:20:02] ppocr INFO: epoch: [29/50], global_step: 430, lr: 0.000282, acc: 0.403125, norm_edit_dis: 0.914446, CTCLoss: 4.974541, NRTRLoss: 0.751313, loss: 5.718994, avg_reader_cost: 0.08037 s, avg_batch_cost: 6.13330 s, avg_samples: 91.6, ips: 14.93486 samples/s, eta: 0:33:27, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:20:35] ppocr INFO: epoch: [29/50], global_step: 435, lr: 0.000277, acc: 0.394118, norm_edit_dis: 0.914446, CTCLoss: 5.184391, NRTRLoss: 0.757149, loss: 5.932338, avg_reader_cost: 0.00082 s, avg_batch_cost: 3.24427 s, avg_samples: 46.9, ips: 14.45624 samples/s, eta: 0:32:56, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:20:35] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:20:41] ppocr INFO: cur metric, acc: 0.5247933667440757, norm_edit_dis: 0.9017398046637756, fps: 43.907454051176835
+[2026/08/28 17:20:41] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:20:41] ppocr INFO: best metric, acc: 0.5247933667440757, is_float16: False, norm_edit_dis: 0.9017398046637756, fps: 43.907454051176835, best_epoch: 29
+[2026/08/28 17:20:41] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:21:13] ppocr INFO: epoch: [30/50], global_step: 440, lr: 0.000271, acc: 0.388235, norm_edit_dis: 0.912216, CTCLoss: 5.427792, NRTRLoss: 0.759957, loss: 6.174744, avg_reader_cost: 0.07739 s, avg_batch_cost: 3.19962 s, avg_samples: 55.4, ips: 17.31456 samples/s, eta: 0:32:25, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:22:16] ppocr INFO: epoch: [30/50], global_step: 450, lr: 0.000261, acc: 0.400000, norm_edit_dis: 0.919588, CTCLoss: 5.144165, NRTRLoss: 0.744498, loss: 5.891907, avg_reader_cost: 0.00159 s, avg_batch_cost: 6.21849 s, avg_samples: 83.1, ips: 13.36336 samples/s, eta: 0:31:22, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:22:16] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:22:21] ppocr INFO: cur metric, acc: 0.5330578292124863, norm_edit_dis: 0.9030516241032058, fps: 43.9259252399235
+[2026/08/28 17:22:22] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:22:22] ppocr INFO: best metric, acc: 0.5330578292124863, is_float16: False, norm_edit_dis: 0.9030516241032058, fps: 43.9259252399235, best_epoch: 30
+[2026/08/28 17:22:22] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:22:22] ppocr INFO: save model in ./output/hungarian_plate_rec/iter_epoch_30
+[2026/08/28 17:23:23] ppocr INFO: epoch: [31/50], global_step: 460, lr: 0.000251, acc: 0.463787, norm_edit_dis: 0.928777, CTCLoss: 4.646057, NRTRLoss: 0.741456, loss: 5.387109, avg_reader_cost: 0.07538 s, avg_batch_cost: 6.11197 s, avg_samples: 85.2, ips: 13.93985 samples/s, eta: 0:30:18, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:23:56] ppocr INFO: epoch: [31/50], global_step: 465, lr: 0.000245, acc: 0.376471, norm_edit_dis: 0.922107, CTCLoss: 5.052943, NRTRLoss: 0.745225, loss: 5.788565, avg_reader_cost: 0.00080 s, avg_batch_cost: 3.29837 s, avg_samples: 53.3, ips: 16.15951 samples/s, eta: 0:29:48, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:23:56] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:24:02] ppocr INFO: cur metric, acc: 0.5371900604466917, norm_edit_dis: 0.8989243121918984, fps: 43.85438062685113
+[2026/08/28 17:24:03] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:24:03] ppocr INFO: best metric, acc: 0.5371900604466917, is_float16: False, norm_edit_dis: 0.8989243121918984, fps: 43.85438062685113, best_epoch: 31
+[2026/08/28 17:24:03] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:24:35] ppocr INFO: epoch: [32/50], global_step: 470, lr: 0.000240, acc: 0.370588, norm_edit_dis: 0.918197, CTCLoss: 5.140469, NRTRLoss: 0.751020, loss: 5.878470, avg_reader_cost: 0.07738 s, avg_batch_cost: 3.16208 s, avg_samples: 49.0, ips: 15.49614 samples/s, eta: 0:29:17, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:25:37] ppocr INFO: epoch: [32/50], global_step: 480, lr: 0.000230, acc: 0.382353, norm_edit_dis: 0.917672, CTCLoss: 5.229454, NRTRLoss: 0.753109, loss: 5.966401, avg_reader_cost: 0.00158 s, avg_batch_cost: 6.28485 s, avg_samples: 89.5, ips: 14.24060 samples/s, eta: 0:28:14, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:25:37] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:25:43] ppocr INFO: cur metric, acc: 0.5619834478519237, norm_edit_dis: 0.9102584321485758, fps: 42.78488566456477
+[2026/08/28 17:25:44] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:25:44] ppocr INFO: best metric, acc: 0.5619834478519237, is_float16: False, norm_edit_dis: 0.9102584321485758, fps: 42.78488566456477, best_epoch: 32
+[2026/08/28 17:25:44] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:26:48] ppocr INFO: epoch: [33/50], global_step: 490, lr: 0.000219, acc: 0.432445, norm_edit_dis: 0.925805, CTCLoss: 5.112785, NRTRLoss: 0.738405, loss: 5.857354, avg_reader_cost: 0.07141 s, avg_batch_cost: 6.36894 s, avg_samples: 95.9, ips: 15.05745 samples/s, eta: 0:27:12, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:27:18] ppocr INFO: epoch: [33/50], global_step: 495, lr: 0.000214, acc: 0.460937, norm_edit_dis: 0.926841, CTCLoss: 4.589254, NRTRLoss: 0.738796, loss: 5.327626, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.99727 s, avg_samples: 42.6, ips: 14.21295 samples/s, eta: 0:26:40, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:27:18] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:27:23] ppocr INFO: cur metric, acc: 0.5991735289597715, norm_edit_dis: 0.9142512825673418, fps: 43.90708178495668
+[2026/08/28 17:27:24] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:27:24] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9142512825673418, fps: 43.90708178495668, best_epoch: 33
+[2026/08/28 17:27:24] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:27:55] ppocr INFO: epoch: [34/50], global_step: 500, lr: 0.000209, acc: 0.423529, norm_edit_dis: 0.926004, CTCLoss: 4.731063, NRTRLoss: 0.739800, loss: 5.469532, avg_reader_cost: 0.07602 s, avg_batch_cost: 3.11475 s, avg_samples: 49.0, ips: 15.73159 samples/s, eta: 0:26:08, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:28:59] ppocr INFO: epoch: [34/50], global_step: 510, lr: 0.000199, acc: 0.458823, norm_edit_dis: 0.927629, CTCLoss: 4.702157, NRTRLoss: 0.739800, loss: 5.437949, avg_reader_cost: 0.00159 s, avg_batch_cost: 6.31979 s, avg_samples: 89.5, ips: 14.16187 samples/s, eta: 0:25:06, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:28:59] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:29:04] ppocr INFO: cur metric, acc: 0.5991735289597715, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259
+[2026/08/28 17:29:05] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:29:05] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:29:05] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:30:06] ppocr INFO: epoch: [35/50], global_step: 520, lr: 0.000188, acc: 0.475551, norm_edit_dis: 0.932530, CTCLoss: 4.342421, NRTRLoss: 0.735571, loss: 5.078822, avg_reader_cost: 0.07504 s, avg_batch_cost: 6.10652 s, avg_samples: 85.2, ips: 13.95231 samples/s, eta: 0:24:02, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:30:39] ppocr INFO: epoch: [35/50], global_step: 525, lr: 0.000183, acc: 0.458823, norm_edit_dis: 0.930721, CTCLoss: 4.365532, NRTRLoss: 0.735571, loss: 5.101721, avg_reader_cost: 0.00078 s, avg_batch_cost: 3.29156 s, avg_samples: 53.3, ips: 16.19293 samples/s, eta: 0:23:31, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:30:39] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:30:45] ppocr INFO: cur metric, acc: 0.5702479103203343, norm_edit_dis: 0.9116686380459634, fps: 43.95923008798545
+[2026/08/28 17:30:45] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:30:45] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:31:17] ppocr INFO: epoch: [36/50], global_step: 530, lr: 0.000178, acc: 0.442279, norm_edit_dis: 0.924490, CTCLoss: 4.390135, NRTRLoss: 0.736189, loss: 5.121540, avg_reader_cost: 0.08664 s, avg_batch_cost: 3.14097 s, avg_samples: 49.0, ips: 15.60027 samples/s, eta: 0:23:00, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:32:19] ppocr INFO: epoch: [36/50], global_step: 540, lr: 0.000168, acc: 0.430515, norm_edit_dis: 0.922074, CTCLoss: 4.693325, NRTRLoss: 0.734596, loss: 5.418591, avg_reader_cost: 0.00155 s, avg_batch_cost: 6.27891 s, avg_samples: 89.5, ips: 14.25407 samples/s, eta: 0:21:57, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:32:19] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:32:25] ppocr INFO: cur metric, acc: 0.5785123727887449, norm_edit_dis: 0.9147104193711423, fps: 43.69109733390537
+[2026/08/28 17:32:25] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:32:25] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:33:27] ppocr INFO: epoch: [37/50], global_step: 550, lr: 0.000158, acc: 0.452941, norm_edit_dis: 0.926751, CTCLoss: 4.344091, NRTRLoss: 0.729446, loss: 5.076588, avg_reader_cost: 0.06933 s, avg_batch_cost: 6.18531 s, avg_samples: 91.6, ips: 14.80927 samples/s, eta: 0:20:54, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:33:58] ppocr INFO: epoch: [37/50], global_step: 555, lr: 0.000154, acc: 0.471599, norm_edit_dis: 0.928797, CTCLoss: 3.750702, NRTRLoss: 0.729446, loss: 4.482005, avg_reader_cost: 0.00079 s, avg_batch_cost: 3.11393 s, avg_samples: 46.9, ips: 15.06137 samples/s, eta: 0:20:23, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:33:58] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:34:04] ppocr INFO: cur metric, acc: 0.5867768352571555, norm_edit_dis: 0.9183179228295755, fps: 43.20059504043873
+[2026/08/28 17:34:04] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:34:04] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:34:36] ppocr INFO: epoch: [38/50], global_step: 560, lr: 0.000149, acc: 0.452941, norm_edit_dis: 0.929462, CTCLoss: 4.091503, NRTRLoss: 0.729053, loss: 4.820213, avg_reader_cost: 0.08073 s, avg_batch_cost: 3.20254 s, avg_samples: 49.0, ips: 15.30035 samples/s, eta: 0:19:52, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:35:40] ppocr INFO: epoch: [38/50], global_step: 570, lr: 0.000139, acc: 0.476471, norm_edit_dis: 0.936046, CTCLoss: 3.896423, NRTRLoss: 0.728434, loss: 4.624514, avg_reader_cost: 0.00164 s, avg_batch_cost: 6.32715 s, avg_samples: 89.5, ips: 14.14538 samples/s, eta: 0:18:49, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:35:40] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:35:45] ppocr INFO: cur metric, acc: 0.5867768352571555, norm_edit_dis: 0.9152187494039216, fps: 43.92521430288834
+[2026/08/28 17:35:45] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:35:46] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:36:45] ppocr INFO: epoch: [39/50], global_step: 580, lr: 0.000130, acc: 0.482353, norm_edit_dis: 0.935921, CTCLoss: 4.053796, NRTRLoss: 0.728270, loss: 4.781526, avg_reader_cost: 0.06871 s, avg_batch_cost: 5.95261 s, avg_samples: 87.3, ips: 14.66583 samples/s, eta: 0:17:45, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:37:19] ppocr INFO: epoch: [39/50], global_step: 585, lr: 0.000125, acc: 0.432445, norm_edit_dis: 0.931077, CTCLoss: 4.331694, NRTRLoss: 0.729612, loss: 5.063047, avg_reader_cost: 0.00081 s, avg_batch_cost: 3.38593 s, avg_samples: 51.2, ips: 15.12142 samples/s, eta: 0:17:15, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:37:19] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:37:25] ppocr INFO: cur metric, acc: 0.5909090664913609, norm_edit_dis: 0.9182851273435898, fps: 43.50105360313071
+[2026/08/28 17:37:25] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:37:25] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:37:56] ppocr INFO: epoch: [40/50], global_step: 590, lr: 0.000121, acc: 0.491176, norm_edit_dis: 0.935389, CTCLoss: 4.185297, NRTRLoss: 0.727730, loss: 4.910891, avg_reader_cost: 0.06980 s, avg_batch_cost: 3.04787 s, avg_samples: 36.2, ips: 11.87716 samples/s, eta: 0:16:43, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:38:59] ppocr INFO: epoch: [40/50], global_step: 600, lr: 0.000112, acc: 0.482353, norm_edit_dis: 0.932362, CTCLoss: 4.458782, NRTRLoss: 0.730075, loss: 5.182954, avg_reader_cost: 0.00162 s, avg_batch_cost: 6.36532 s, avg_samples: 102.3, ips: 16.07146 samples/s, eta: 0:15:41, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:38:59] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:39:05] ppocr INFO: cur metric, acc: 0.5743801415545396, norm_edit_dis: 0.9133248100882441, fps: 43.81773848549342
+[2026/08/28 17:39:05] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:39:05] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:39:05] ppocr INFO: save model in ./output/hungarian_plate_rec/iter_epoch_40
+[2026/08/28 17:40:07] ppocr INFO: epoch: [41/50], global_step: 610, lr: 0.000103, acc: 0.488235, norm_edit_dis: 0.936839, CTCLoss: 4.084827, NRTRLoss: 0.729160, loss: 4.808822, avg_reader_cost: 0.07511 s, avg_batch_cost: 6.17041 s, avg_samples: 91.6, ips: 14.84505 samples/s, eta: 0:14:38, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:40:40] ppocr INFO: epoch: [41/50], global_step: 615, lr: 0.000099, acc: 0.517647, norm_edit_dis: 0.941113, CTCLoss: 3.914257, NRTRLoss: 0.726807, loss: 4.631939, avg_reader_cost: 0.00080 s, avg_batch_cost: 3.26024 s, avg_samples: 46.9, ips: 14.38545 samples/s, eta: 0:14:07, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:40:40] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:40:45] ppocr INFO: cur metric, acc: 0.5785123727887449, norm_edit_dis: 0.9146366295276744, fps: 43.96507748344566
+[2026/08/28 17:40:45] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9157598749226865, fps: 43.93935182305259, best_epoch: 34
+[2026/08/28 17:40:46] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:41:16] ppocr INFO: epoch: [42/50], global_step: 620, lr: 0.000095, acc: 0.517647, norm_edit_dis: 0.942139, CTCLoss: 3.820825, NRTRLoss: 0.727183, loss: 4.541669, avg_reader_cost: 0.07538 s, avg_batch_cost: 3.00981 s, avg_samples: 36.2, ips: 12.02734 samples/s, eta: 0:13:35, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:42:20] ppocr INFO: epoch: [42/50], global_step: 630, lr: 0.000087, acc: 0.511765, norm_edit_dis: 0.938102, CTCLoss: 4.231321, NRTRLoss: 0.729372, loss: 4.956060, avg_reader_cost: 0.00162 s, avg_batch_cost: 6.39006 s, avg_samples: 102.3, ips: 16.00923 samples/s, eta: 0:12:32, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:42:20] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:42:25] ppocr INFO: cur metric, acc: 0.5991735289597715, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607
+[2026/08/28 17:42:26] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:42:26] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:42:26] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:43:28] ppocr INFO: epoch: [43/50], global_step: 640, lr: 0.000079, acc: 0.417647, norm_edit_dis: 0.932794, CTCLoss: 4.530631, NRTRLoss: 0.727796, loss: 5.250109, avg_reader_cost: 0.07727 s, avg_batch_cost: 6.18518 s, avg_samples: 98.0, ips: 15.84431 samples/s, eta: 0:11:30, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:44:00] ppocr INFO: epoch: [43/50], global_step: 645, lr: 0.000075, acc: 0.488235, norm_edit_dis: 0.935914, CTCLoss: 4.268490, NRTRLoss: 0.725555, loss: 4.990593, avg_reader_cost: 0.00080 s, avg_batch_cost: 3.23963 s, avg_samples: 40.5, ips: 12.50142 samples/s, eta: 0:10:58, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:44:00] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:44:06] ppocr INFO: cur metric, acc: 0.5743801415545396, norm_edit_dis: 0.9151121640744678, fps: 43.979149213489706
+[2026/08/28 17:44:06] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:44:06] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:44:37] ppocr INFO: epoch: [44/50], global_step: 650, lr: 0.000072, acc: 0.511765, norm_edit_dis: 0.939528, CTCLoss: 4.144992, NRTRLoss: 0.725555, loss: 4.869612, avg_reader_cost: 0.07127 s, avg_batch_cost: 3.07105 s, avg_samples: 42.6, ips: 13.87149 samples/s, eta: 0:10:27, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:45:41] ppocr INFO: epoch: [44/50], global_step: 660, lr: 0.000065, acc: 0.553768, norm_edit_dis: 0.944356, CTCLoss: 3.707833, NRTRLoss: 0.721844, loss: 4.429448, avg_reader_cost: 0.00159 s, avg_batch_cost: 6.43383 s, avg_samples: 95.9, ips: 14.90559 samples/s, eta: 0:09:24, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:45:41] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:45:47] ppocr INFO: cur metric, acc: 0.5743801415545396, norm_edit_dis: 0.9172520695350385, fps: 43.98348665333208
+[2026/08/28 17:45:47] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:45:47] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:46:50] ppocr INFO: epoch: [45/50], global_step: 670, lr: 0.000058, acc: 0.467739, norm_edit_dis: 0.936017, CTCLoss: 4.008136, NRTRLoss: 0.723651, loss: 4.728227, avg_reader_cost: 0.07321 s, avg_batch_cost: 6.27649 s, avg_samples: 89.5, ips: 14.25956 samples/s, eta: 0:08:22, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:47:21] ppocr INFO: epoch: [45/50], global_step: 675, lr: 0.000054, acc: 0.461857, norm_edit_dis: 0.936017, CTCLoss: 4.064911, NRTRLoss: 0.723651, loss: 4.784315, avg_reader_cost: 0.00081 s, avg_batch_cost: 3.06431 s, avg_samples: 49.0, ips: 15.99054 samples/s, eta: 0:07:50, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:47:21] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:47:26] ppocr INFO: cur metric, acc: 0.5950412977255662, norm_edit_dis: 0.9199249016428775, fps: 43.909070443533615
+[2026/08/28 17:47:26] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:47:27] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:47:53] ppocr INFO: epoch: [46/50], global_step: 680, lr: 0.000051, acc: 0.483364, norm_edit_dis: 0.944225, CTCLoss: 3.731685, NRTRLoss: 0.721494, loss: 4.452239, avg_reader_cost: 0.07192 s, avg_batch_cost: 2.62515 s, avg_samples: 40.4, ips: 15.38958 samples/s, eta: 0:07:18, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:49:01] ppocr INFO: epoch: [46/50], global_step: 690, lr: 0.000045, acc: 0.495129, norm_edit_dis: 0.941455, CTCLoss: 3.731685, NRTRLoss: 0.720555, loss: 4.452239, avg_reader_cost: 0.00161 s, avg_batch_cost: 6.78810 s, avg_samples: 98.1, ips: 14.45177 samples/s, eta: 0:06:16, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:49:01] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:49:07] ppocr INFO: cur metric, acc: 0.5950412977255662, norm_edit_dis: 0.9213105109257758, fps: 43.98070419020613
+[2026/08/28 17:49:07] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:49:07] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:50:10] ppocr INFO: epoch: [47/50], global_step: 700, lr: 0.000039, acc: 0.479412, norm_edit_dis: 0.931101, CTCLoss: 3.914127, NRTRLoss: 0.725440, loss: 4.641122, avg_reader_cost: 0.07360 s, avg_batch_cost: 6.36145 s, avg_samples: 89.5, ips: 14.06912 samples/s, eta: 0:05:13, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:50:41] ppocr INFO: epoch: [47/50], global_step: 705, lr: 0.000036, acc: 0.485294, norm_edit_dis: 0.933474, CTCLoss: 3.882944, NRTRLoss: 0.722806, loss: 4.611700, avg_reader_cost: 0.00081 s, avg_batch_cost: 3.03934 s, avg_samples: 49.0, ips: 16.12194 samples/s, eta: 0:04:42, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:50:41] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:50:46] ppocr INFO: cur metric, acc: 0.5950412977255662, norm_edit_dis: 0.9200560835868206, fps: 43.95285894064862
+[2026/08/28 17:50:46] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9181375476566539, fps: 43.73640615202607, best_epoch: 42
+[2026/08/28 17:50:47] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:51:20] ppocr INFO: epoch: [48/50], global_step: 710, lr: 0.000034, acc: 0.491176, norm_edit_dis: 0.938099, CTCLoss: 3.739358, NRTRLoss: 0.722806, loss: 4.465675, avg_reader_cost: 0.06292 s, avg_batch_cost: 3.30029 s, avg_samples: 40.5, ips: 12.27163 samples/s, eta: 0:04:11, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:52:21] ppocr INFO: epoch: [48/50], global_step: 720, lr: 0.000029, acc: 0.482353, norm_edit_dis: 0.937045, CTCLoss: 3.676219, NRTRLoss: 0.722121, loss: 4.392964, avg_reader_cost: 0.00158 s, avg_batch_cost: 6.08849 s, avg_samples: 98.0, ips: 16.09595 samples/s, eta: 0:03:08, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:52:21] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:52:26] ppocr INFO: cur metric, acc: 0.5991735289597715, norm_edit_dis: 0.9208513741219753, fps: 44.02406863965482
+[2026/08/28 17:52:27] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:52:27] ppocr INFO: best metric, acc: 0.5991735289597715, is_float16: False, norm_edit_dis: 0.9208513741219753, fps: 44.02406863965482, best_epoch: 48
+[2026/08/28 17:52:27] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:53:33] ppocr INFO: epoch: [49/50], global_step: 730, lr: 0.000024, acc: 0.491176, norm_edit_dis: 0.937720, CTCLoss: 3.677016, NRTRLoss: 0.722180, loss: 4.392813, avg_reader_cost: 0.07857 s, avg_batch_cost: 6.55090 s, avg_samples: 87.4, ips: 13.34167 samples/s, eta: 0:02:05, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:54:01] ppocr INFO: epoch: [49/50], global_step: 735, lr: 0.000022, acc: 0.470588, norm_edit_dis: 0.938459, CTCLoss: 3.835153, NRTRLoss: 0.719784, loss: 4.553499, avg_reader_cost: 0.00078 s, avg_batch_cost: 2.86308 s, avg_samples: 51.1, ips: 17.84794 samples/s, eta: 0:01:34, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:54:01] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:54:07] ppocr INFO: cur metric, acc: 0.6157024538965928, norm_edit_dis: 0.9233930242858713, fps: 44.092076895990694
+[2026/08/28 17:54:08] ppocr INFO: save best model is to ./output/hungarian_plate_rec/best_accuracy
+[2026/08/28 17:54:08] ppocr INFO: best metric, acc: 0.6157024538965928, is_float16: False, norm_edit_dis: 0.9233930242858713, fps: 44.092076895990694, best_epoch: 49
+[2026/08/28 17:54:08] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:54:40] ppocr INFO: epoch: [50/50], global_step: 740, lr: 0.000020, acc: 0.435294, norm_edit_dis: 0.938459, CTCLoss: 4.060447, NRTRLoss: 0.720598, loss: 4.779884, avg_reader_cost: 0.08410 s, avg_batch_cost: 3.19186 s, avg_samples: 49.0, ips: 15.35157 samples/s, eta: 0:01:02, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:55:42] ppocr INFO: epoch: [50/50], global_step: 750, lr: 0.000016, acc: 0.435294, norm_edit_dis: 0.937761, CTCLoss: 4.333460, NRTRLoss: 0.719748, loss: 5.053631, avg_reader_cost: 0.00155 s, avg_batch_cost: 6.23766 s, avg_samples: 89.5, ips: 14.34833 samples/s, eta: 0:00:00, max_mem_reserved: 25344 MB, max_mem_allocated: 15867 MB
+[2026/08/28 17:55:42] ppocr ERROR: When parsing line ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg	HXN-658
+, error happened with msg: Traceback (most recent call last):
+  File "/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/PaddleOCR/ppocr/data/simple_dataset.py", line 417, in __getitem__
+    raise Exception("{} does not exist!".format(img_path))
+Exception: /home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg does not exist!
+
+[2026/08/28 17:55:48] ppocr INFO: cur metric, acc: 0.6074379914281821, norm_edit_dis: 0.9228027055381277, fps: 43.99960136774731
+[2026/08/28 17:55:48] ppocr INFO: best metric, acc: 0.6157024538965928, is_float16: False, norm_edit_dis: 0.9233930242858713, fps: 44.092076895990694, best_epoch: 49
+[2026/08/28 17:55:48] ppocr INFO: save model in ./output/hungarian_plate_rec/latest
+[2026/08/28 17:55:48] ppocr INFO: save model in ./output/hungarian_plate_rec/iter_epoch_50
+[2026/08/28 17:55:48] ppocr INFO: best metric, acc: 0.6157024538965928, is_float16: False, norm_edit_dis: 0.9233930242858713, fps: 44.092076895990694, best_epoch: 49

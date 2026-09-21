@@ -11,3 +11,9 @@ The eight confident human-reference cases come from a joint review. No independe
 Recorded strings and images remain unchanged. This repository organization does not anonymize them, establish public-redistribution rights, or extend permissions over the proprietary recognition engine. Access and reuse terms are to be finalized by the authors with the first release.
 
 Git line-ending conversion is disabled for this snapshot so that Windows checkouts do not invalidate recorded file digests. Later training files should also be retained in their original form and described through a separate manifest.
+
+## Training log added on 21 September 2026
+
+`training/train.log` preserves the supplied file byte-for-byte. Its SHA-256, logged configuration, session boundaries, validation metrics and source-line references are recorded in `training/manifest.json`. The approximately two-hour duration is an author report; the precise timestamp spans are calculated from the log, whose timezone is unspecified.
+
+This addition supplies the source for the previously reported 61.57% OCR component validation figure. It does not establish the original validation membership or its error handling: the completed session logs the same missing-image error 50 times. It also does not prove that the best checkpoint was exported into the files captured by the September runtime snapshot. Those historical snapshot files and their recorded hashes remain unchanged.

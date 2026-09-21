@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "scope": "Source-log provenance and descriptive extraction; no training or validation rerun.",
+  "received_date": "2026-09-21",
+  "source": {
+    "path": "train.log",
+    "size_bytes": 132338,
+    "sha256": "d6082dbfb2ec769c6239730975b102c757591339a3d2bf3cf3ee7ecdc1e551fd",
+    "line_count": 1163,
+    "preservation": "Unmodified bytes of the supplied train.log"
+  },
+  "timing": {
+    "timestamp_timezone": "Not recorded in the log",
+    "author_reported_duration": "Approximately two hours; reported on 2026-09-21",
+    "whole_log_span_seconds": 6433,
+    "completed_session_span_seconds": 5035,
+    "interpretation": "Timestamp spans include logged initialization/evaluation/checkpoint activity; they are not measured GPU kernel time."
+  },
+  "sessions": [
+    {
+      "session": 1,
+      "first_line": 1,
+      "last_line": 126,
+      "first_timestamp": "2026-08-28T16:08:35",
+      "last_timestamp": "2026-08-28T16:08:36",
+      "logged_span_seconds": 1,
+      "maximum_logged_epoch": null,
+      "validation_metric_rows": 0,
+      "error_rows": 0,
+      "warning_rows": 0
+    },
+    {
+      "session": 2,
+      "first_line": 127,
+      "last_line": 274,
+      "first_timestamp": "2026-08-28T16:15:38",
+      "last_timestamp": "2026-08-28T16:21:58",
+      "logged_span_seconds": 380,
+      "maximum_logged_epoch": 6,
+      "validation_metric_rows": 0,
+      "error_rows": 0,
+      "warning_rows": 4
+    },
+    {
+      "session": 3,
+      "first_line": 275,
+      "last_line": 442,
+      "first_timestamp": "2026-08-28T16:23:40",
+      "last_timestamp": "2026-08-28T16:27:38",
+      "logged_span_seconds": 238,
+      "maximum_logged_epoch": 3,
+      "validation_metric_rows": 3,
+      "error_rows": 3,
+      "warning_rows": 4
+    },
+    {
+      "session": 4,
+      "first_line": 443,
+      "last_line": 1163,
+      "first_timestamp": "2026-08-28T16:31:53",
+      "last_timestamp": "2026-08-28T17:55:48",
+      "logged_span_seconds": 5035,
+      "maximum_logged_epoch": 50,
+      "validation_metric_rows": 50,
+      "error_rows": 50,
+      "warning_rows": 4
+    }
+  ],
+  "completed_session_configuration": {
+    "configuration_line_range": [
+      443,
+      563
+    ],
+    "framework_runtime_line": 564,
+    "framework": "PaddlePaddle",
+    "framework_version": "3.3.0",
+    "device": "gpu:0",
+    "model_name": "PP-OCRv5_mobile_rec",
+    "algorithm": "SVTR_LCNet",
+    "backbone": "PPLCNetV3",
+    "backbone_scale": 0.95,
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "learning_rate_schedule": "Cosine",
+    "warmup_epochs": 5,
+    "epochs": 50,
+    "final_global_step": 750,
+    "configured_batch_size_per_card": 128,
+    "batch_size_note": "Training uses MultiScaleSampler with fix_bs=False; 128 is the configured value, not a constant observed batch size.",
+    "image_shape": [
+      3,
+      48,
+      320
+    ],
+    "pretrained_model_path": "./PP-OCRv5_mobile_rec_pretrained.pdparams",
+    "character_dictionary_path": "./ppocr/utils/dict/ppocrv5_dict.txt",
+    "output_directory": "./output/hungarian_plate_rec",
+    "dataset_manifest_paths": [
+      "['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']",
+      "['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']"
+    ],
+    "separate_training_yaml_included": false,
+    "paddleocr_training_source_revision": null,
+    "training_gpu_model": null
+  },
+  "best_logged_validation": {
+    "acc": 0.6157024538965928,
+    "norm_edit_dis": 0.9233930242858713,
+    "fps": 44.092076895990694,
+    "epoch": 49,
+    "summary_line": 1163,
+    "first_matching_validation_line": 1147
+  },
+  "last_logged_validation": {
+    "acc": 0.6074379914281821,
+    "norm_edit_dis": 0.9228027055381277,
+    "fps": 43.99960136774731,
+    "line": 1159
+  },
+  "logged_best_checkpoint_prefix": "./output/hungarian_plate_rec/best_accuracy",
+  "observations_requiring_clarification": {
+    "missing_image_error_count": 53,
+    "missing_image_error_count_in_completed_session": 50,
+    "missing_image_paths_and_counts": {
+      "ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg": 53
+    },
+    "missing_image_first_error_line": 409,
+    "missing_image_last_error_line": 1153,
+    "validation_interpretation": "A missing-image error precedes each validation result in the completed session. The log does not establish the loader fallback behavior, effective validation membership, or the effect on the metric.",
+    "pretrained_head_shape_warnings": {
+      "count_whole_log": 12,
+      "count_completed_session": 4,
+      "description": "CTC output size 38 versus pretrained 18385; NRTR output size 42 versus pretrained 18389. The log subsequently reports successful pretrained loading."
+    }
+  },
+  "checkpoint_and_split_linkage": {
+    "status": "Not yet verified",
+    "training_checkpoint_sha256": null,
+    "exact_training_manifest_sha256": null,
+    "exact_validation_manifest_sha256": null,
+    "export_command_or_mapping": null,
+    "runtime_reference": "../evidence/runtime_snapshot/models/model_hashes.json",
+    "runtime_ocr_file_sha256": {
+      "inference.json": "81917fec0da4ee2bf35c2501173f4f62c09c282ef5e2306d76b87ce7bdded071",
+      "inference.pdiparams": "464c97b7fbd6958a96aa11d9affc6992c88b40a48e1844c46105f8b951d57a57",
+      "inference.yml": "d88d3d83e8f6d8cf02afba5673cb92046235d04289dea53225d8a0f4c62bab4d",
+      "ppocr_keys.txt": "4fdbe25e3c19611ae691e23189b05d01d2440a9ea882b39695c0395a8e6e165e"
+    },
+    "interpretation": "The 19 September runtime hashes identify deployed files. No export record in this log links them to the epoch-49 checkpoint, and no manifest contents or digests identify the exact training/validation lists."
+  }
+}

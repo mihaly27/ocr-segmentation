@@ -2,7 +2,7 @@
 
 ## Included evidence check
 
-Run `python3 scripts/verify_included_tables.py` from the repository root, or use `py -3` on Windows. The script uses only the standard library. The recorded expected output is `notes/INCLUDED_TABLES_CHECK.json`.
+Run `python3 scripts/verify_included_tables.py` from the `heimdall-replay-study/` directory, or use `py -3` on Windows. All relative commands below use that module directory as their working directory. The script uses only the standard library. The recorded expected output is `notes/INCLUDED_TABLES_CHECK.json`.
 
 The check reconstructs five constant gates and F/A/G, verifies their memberships and weighted winners, compares all recorded lifetime summaries and human-reference counters, and checks the original worksheet and protocol digests. R21–R23/F/A/G reference outcomes are linked back to reconstructed winners. R20 reference checks use its recorded case-output table, because its full observation stream is not included in that table.
 
@@ -40,9 +40,11 @@ python3 scripts/render_manual_regions.py --source external-inputs/R20/video/sour
 
 The earlier replay scripts (`audit_replays.py`, `audit_evidence.py`, `extract_replay_crops.py`) require their corresponding original recordings and exports. Run each script with `--help` for its documented arguments. These inputs are external; the scripts were not rerun from raw source archives when this Git-ready package was assembled.
 
-## Training evidence to add
+## Included training evidence
 
-When the training logs are obtained, place the selected logs and configuration under `training/`, alongside a short manifest recording their SHA-256 digests and relationships to dataset splits, checkpoints and deployed exports. Keep actual raw training images and large model weights outside Git. State explicitly which relationships are verified and which remain unknown.
+The original PaddleOCR `training/train.log` is included with a [descriptive summary](../training/README.md) and [manifest](../training/manifest.json). The log prints the model, optimizer, dataset-path and loader configuration; a separate training YAML and the exact dataset lists are not included. The completed session reaches 50 epochs and reports its best validation accuracy at epoch 49.
+
+The log records a missing-image error before each validation result in that session. The effective validation membership and loader error handling must be checked against the original lists and training code before treating that metric as an independently verified result. The training checkpoint hash and the export record linking it to the runtime OCR model remain unverified. Keep raw training images and large weights outside Git; add their identifiers, hashes and access locations when available. The existing table-verification script does not reproduce training or validate this checkpoint linkage.
 
 ## Recorded protocol
 

@@ -5,6 +5,8 @@ message: >-
   identify the specific version or Git commit used. The version-specific
   Zenodo DOI will be added when the first archived release is published.
 title: "Heimdall Camera-Replay Study: Supplementary Data and Analysis Code"
+repository-code: https://github.com/mihaly27/ocr-segmentation
+url: https://github.com/mihaly27/ocr-segmentation/tree/main/heimdall-replay-study
 authors:
   - family-names: "Szabó"
     given-names: "Mihály"
@@ -18,6 +20,8 @@ abstract: >-
   OCR gates and fixed, directly switched, and step-bounded threshold
   trajectories over 319 observations and 121 tracking lifetimes, and
   checks outcomes against eight jointly transcribed human-reference cases.
+  The original PaddleOCR training log and a provenance summary are included;
+  exact dataset-split and checkpoint-to-export links remain unverified.
   It does not contain the full proprietary recognition engine, model
   weights, original run archives, or complete source videos.
 keywords:
