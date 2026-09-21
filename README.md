@@ -62,8 +62,8 @@ session used PaddlePaddle 3.3.0 and reports a best validation accuracy of 61.57%
 at epoch 49. The author reports that the sample missing during validation was
 deleted as a duplicate. Historical validation membership and the mapping from
 checkpoint to deployed export remain unverified. Heimdall supplement version
-`1.0.0` is prepared for a separate Zenodo archive under the existing research-use
-license; no archive DOI has been assigned yet.
+`1.0.0` was published on Zenodo on 21 September 2026:
+[10.5281/zenodo.22871857](https://doi.org/10.5281/zenodo.22871857).
 
 ## Quick start
 
@@ -119,9 +119,11 @@ bounded-adaptation software are provided in `CITATION.cff` and `codemeta.json`.
 When the associated journal article receives a DOI, its record should be added
 as the preferred citation without changing the software title or release identity.
 
-For the Heimdall supplement, use its
-[own citation metadata](heimdall-replay-study/CITATION.cff) and identify the
-specific Git commit until its archive DOI is available.
+For the Heimdall supplement, cite
+[version 1.0.0 on Zenodo](https://doi.org/10.5281/zenodo.22871857).
+Its [CFF metadata](heimdall-replay-study/CITATION.cff) and
+[BibTeX entry](heimdall-replay-study/CITATION.bib) are provided separately from
+the repository's other studies.
 
 Copyright (c) 2025-2026 Mihály Szabó. The repository is publicly readable, but
 reuse is governed by the research-use terms in `LICENSE`; public availability

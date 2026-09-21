@@ -1,20 +1,25 @@
 cff-version: 1.2.0
 type: dataset
 version: 1.0.0
+doi: 10.5281/zenodo.22871857
+date-released: 2026-09-21
 message: >-
-  If you use this research package, please cite it using this metadata and
-  identify the specific version or Git commit used. The version-specific
-  Zenodo DOI will be added when the first archived release is published.
+  If you use this research package, cite version 1.0.0 through its
+  version-specific Zenodo DOI, 10.5281/zenodo.22871857. The archived source
+  commit is recorded in docs/RELEASE.md.
 title: "Heimdall Camera-Replay Study: Supplementary Data and Analysis Code"
 repository-code: https://github.com/mihaly27/ocr-segmentation
-url: https://github.com/mihaly27/ocr-segmentation/tree/main/heimdall-replay-study
+url: https://doi.org/10.5281/zenodo.22871857
 authors:
   - family-names: "Szabó"
     given-names: "Mihály"
+    orcid: "https://orcid.org/0009-0002-2338-0192"
   - family-names: "Kovari"
     given-names: "Attila"
+    orcid: "https://orcid.org/0000-0003-3521-4757"
   - family-names: "Kertész"
     given-names: "Gábor"
+    orcid: "https://orcid.org/0000-0002-8845-8301"
 abstract: >-
   Derived evidence and analysis scripts for a one-camera through-glass
   license plate recognition replay study. The package reconstructs fixed

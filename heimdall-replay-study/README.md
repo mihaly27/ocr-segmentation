@@ -4,7 +4,7 @@ Supplementary data and analysis code for **Bounded Threshold Updates for Through
 
 This module contains the evidence and calculations supporting a one-camera replay case study. It reconstructs fixed OCR confidence gates and fixed/direct/step-bounded threshold trajectories over a frozen observation stream, including weighted consensus and comparison with a small joint human reference.
 
-**Current status:** supplement version **1.0.0** is prepared for a separate Zenodo archive; no Zenodo DOI has been assigned yet. The original PaddleOCR log, recovered configuration and dictionary, current dataset lists and review tables, and hashes of the external checkpoint files are documented under [`training/`](training/README.md). The historical validation membership and checkpoint-to-export link remain unverified. The included [`LICENSE`](LICENSE) preserves the parent repository's research-use terms.
+**Current status:** supplement version **1.0.0** was published on Zenodo on **21 September 2026**, DOI [10.5281/zenodo.22871857](https://doi.org/10.5281/zenodo.22871857). The original PaddleOCR log, recovered configuration and dictionary, current dataset lists and review tables, and hashes of the external checkpoint files are documented under [`training/`](training/README.md). The historical validation membership and checkpoint-to-export link remain unverified. The included [`LICENSE`](LICENSE) preserves the parent repository's research-use terms.
 
 ## Run the included check
 
@@ -51,7 +51,8 @@ The calculation uses 319 logged observations and 121 application lifetimes. A an
 | `docs/REPRODUCTION.md` | Scope, dependencies and extended reproduction commands |
 | `docs/PROVENANCE.md` | Evidence preservation and limitations |
 | `docs/RELEASE.md` | Steps to complete the first citable release |
-| `CITATION.cff` | Citation metadata and version for this research package |
+| `CITATION.cff` | Citation metadata, DOI and version for this research package |
+| `CITATION.bib` | BibTeX entry for the version-specific Zenodo archive |
 | `LICENSE` | Parent repository's research-use terms, copied without changes |
 | `SHA256SUMS.json` | Checksums for the current repository files |
 
@@ -73,6 +74,8 @@ Full source videos, original prediction-run archives, model weights, the proprie
 
 ## Citation and release status
 
-Citation metadata for version `1.0.0` is in `CITATION.cff`. The recovered training evidence has been integrated. The first Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md). Until its actual DOI is available, cite the version, specific Git commit and module path.
+Cite **Mihály Szabó, Attila Kovari, and Gábor Kertész (2026), Heimdall Camera-Replay Study: Supplementary Data and Analysis Code, version 1.0.0, Zenodo**, [doi:10.5281/zenodo.22871857](https://doi.org/10.5281/zenodo.22871857). Machine-readable entries are in [`CITATION.cff`](CITATION.cff) and [`CITATION.bib`](CITATION.bib).
+
+The archived source commit is `e086ac1d953ea90e0c7915d0cbfbaf7ca92a2705`. This module is archived separately from the other studies in `ocr-segmentation`; see the [release record](docs/RELEASE.md). Later DOI/citation updates in Git do not change that archived snapshot.
 
 The module is distributed under the existing [OCR Segmentation Research-Use License](LICENSE), copied unchanged from the parent repository. Third-party materials remain subject to their respective terms. Recorded strings and images are retained as supplied; this release does not anonymize them or grant additional permissions.

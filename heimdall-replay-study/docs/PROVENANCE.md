@@ -51,3 +51,14 @@ do not change any experimental evidence or establish the missing historical
 validation/export links. No Zenodo DOI is inserted before one has actually
 been reserved or assigned. A standalone archive must identify its exact source
 commit and retain the module's checksum manifest.
+
+## Zenodo publication and subsequent citation update
+
+Version `1.0.0` was published on 21 September 2026 at
+[10.5281/zenodo.22871857](https://doi.org/10.5281/zenodo.22871857).
+The record identifies source commit
+`e086ac1d953ea90e0c7915d0cbfbaf7ca92a2705`. DOI registration metadata confirms
+the title, author order, version and publication date. The subsequent Git
+update supplies the actual DOI, author ORCID identifiers and a BibTeX entry,
+and updates publication status in the documentation. It leaves the original
+log, lists, snapshots, derived tables and the prepared Zenodo ZIP unchanged.
