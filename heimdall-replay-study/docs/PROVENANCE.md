@@ -17,3 +17,29 @@ Git line-ending conversion is disabled for this snapshot so that Windows checkou
 `training/train.log` preserves the supplied file byte-for-byte. Its SHA-256, logged configuration, session boundaries, validation metrics and source-line references are recorded in `training/manifest.json`. The approximately two-hour duration is an author report; the precise timestamp spans are calculated from the log, whose timezone is unspecified.
 
 This addition supplies the source for the previously reported 61.57% OCR component validation figure. It does not establish the original validation membership or its error handling: the completed session logs the same missing-image error 50 times. It also does not prove that the best checkpoint was exported into the files captured by the September runtime snapshot. Those historical snapshot files and their recorded hashes remain unchanged.
+
+## Configuration, checkpoint metadata and dataset files recovered on 21 September 2026
+
+The subsequent `ocr_extract.zip` contains a training YAML, character dictionary,
+model parameters and optimizer state. The YAML and dictionary are included
+unchanged under `training/`; the binary files remain outside Git with their
+sizes and hashes in the training manifest. The five separately supplied
+dataset text/TSV files were audited without modification. Their contents remain
+external to this module; their hashes and aggregate audit results are included.
+
+The recovered dictionary matches the runtime dictionary digest and character
+order. The configuration matches the final completed log sequence except for
+the stored/logged `distributed` flag. Static optimizer metadata is consistent
+with 49 epochs of 15 steps. These comparisons establish compatibility of
+specific artifacts, not an independently verified export/deployment history.
+
+The author reports that a colleague considered the missing sample a duplicate
+and it was deleted. This statement explains the reported removal; no duplicate
+counterpart or deletion timestamp was supplied. The current validation list
+omits the sample while the original label file retains it. The historical
+validation membership, loader fallback and metric impact remain unverified.
+The training summary records split overlap and review-label discrepancies.
+
+This recovery does not alter the original runtime snapshot, replay data,
+source-package manifest or training log. It does not assign a release version,
+DOI or new reuse license.

@@ -42,9 +42,11 @@ The earlier replay scripts (`audit_replays.py`, `audit_evidence.py`, `extract_re
 
 ## Included training evidence
 
-The original PaddleOCR `training/train.log` is included with a [descriptive summary](../training/README.md) and [manifest](../training/manifest.json). The log prints the model, optimizer, dataset-path and loader configuration; a separate training YAML and the exact dataset lists are not included. The completed session reaches 50 epochs and reports its best validation accuracy at epoch 49.
+The original PaddleOCR log, recovered `training/config.yml` and dictionary are included with a [descriptive summary](../training/README.md) and [manifest](../training/manifest.json). Five supplied dataset list/review files were audited and hashed; their contents remain external to this module. The completed session reaches 50 epochs and reports its best validation accuracy at epoch 49. The configuration agrees with the final logged settings except for `Global.distributed` (stored `true`, logged `False`). Original machine-specific paths are retained; the YAML is evidence, not a ready-to-run configuration for this repository.
 
-The log records a missing-image error before each validation result in that session. The effective validation membership and loader error handling must be checked against the original lists and training code before treating that metric as an independently verified result. The training checkpoint hash and the export record linking it to the runtime OCR model remain unverified. Keep raw training images and large weights outside Git; add their identifiers, hashes and access locations when available. The existing table-verification script does not reproduce training or validate this checkpoint linkage.
+The current lists contain 1,373 training and 241 validation entries. The author reports that the sample missing in the log was deleted as a duplicate. The supplied lists omit it, but do not establish the exact historical validation membership or loader fallback. Nine literal labels occur in both splits, although image paths do not overlap. The log's validation metric has not been independently reproduced.
+
+The supplied checkpoint and optimizer now have recorded hashes, and the dictionary matches the runtime snapshot. Large weights, raw training images and dataset list/review contents remain outside Git. The mapping from the supplied checkpoint to the deployed OCR export remains unverified; no public weight-download location or exact training-source revision has been supplied. The included table-verification script checks the derived replay evidence; it does not rerun training or establish model identity.
 
 ## Recorded protocol
 

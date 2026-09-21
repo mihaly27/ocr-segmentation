@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "scope": "Source-log provenance and descriptive extraction; no training or validation rerun.",
+  "schema_version": 2,
+  "scope": "Original-log provenance, recovered configuration/dictionary, current dataset-list audit, and hashes/static metadata of externally retained checkpoint files; no training, validation or model export was rerun.",
   "received_date": "2026-09-21",
   "source": {
     "path": "train.log",
@@ -99,9 +99,17 @@
       "['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/val_list.txt']",
       "['/home/veronika/heimdall2-ocr/Automatic-License-Plate-Recognition-using-YOLOv8/ocr_dataset/train_list.txt']"
     ],
-    "separate_training_yaml_included": false,
+    "separate_training_yaml_included": true,
     "paddleocr_training_source_revision": null,
-    "training_gpu_model": null
+    "training_gpu_model": null,
+    "separate_training_yaml_path": "config.yml",
+    "character_dictionary_included_path": "ppocrv5_dict.txt",
+    "distributed_logged": false,
+    "use_space_char": false,
+    "eval_batch_step": [
+      0,
+      15
+    ]
   },
   "best_logged_validation": {
     "acc": 0.6157024538965928,
@@ -134,8 +142,8 @@
     }
   },
   "checkpoint_and_split_linkage": {
-    "status": "Not yet verified",
-    "training_checkpoint_sha256": null,
+    "status": "Recovered files identified; historical split and checkpoint-to-export identity remain unverified",
+    "training_checkpoint_sha256": "8999b66925c0e1457fa6f755c9a1f39da162d937e9636db05aad8ad3e2885dec",
     "exact_training_manifest_sha256": null,
     "exact_validation_manifest_sha256": null,
     "export_command_or_mapping": null,
@@ -146,6 +154,235 @@
       "inference.yml": "d88d3d83e8f6d8cf02afba5673cb92046235d04289dea53225d8a0f4c62bab4d",
       "ppocr_keys.txt": "4fdbe25e3c19611ae691e23189b05d01d2440a9ea882b39695c0395a8e6e165e"
     },
-    "interpretation": "The 19 September runtime hashes identify deployed files. No export record in this log links them to the epoch-49 checkpoint, and no manifest contents or digests identify the exact training/validation lists."
+    "interpretation": "The recovered training checkpoint and current lists now have recorded hashes. The dictionary hash matches the September runtime snapshot. No supplied export record links the checkpoint to the deployed model; the historical lists and validation fallback remain unverified.",
+    "training_checkpoint_identity_note": "Hash of the supplied model.pdparams; association with the logged best_accuracy prefix is not independently verified.",
+    "current_training_manifest_sha256": "577a7eeee8df918d15838193c3c89c3322f34e3168d800ea7462ba917bc58616",
+    "current_validation_manifest_sha256": "c5de86b92286d61b1615191df46f43603eca162875bd1df41d51a24ac908879b",
+    "exact_historical_manifest_note": "The exact_training_manifest_sha256 and exact_validation_manifest_sha256 fields remain null because the historical list bytes have not been established."
+  },
+  "recovered_artifacts": {
+    "received_date": "2026-09-21",
+    "archive": {
+      "source_name": "ocr_extract.zip",
+      "size_bytes": 177375540,
+      "sha256": "367a941a08956045ea12d278febcf430a2c96c9f31b407ea5efd09776a57e55e",
+      "included_in_git": false
+    },
+    "included_text_files": [
+      {
+        "path": "config.yml",
+        "size_bytes": 3295,
+        "sha256": "913bcdb25b43f074ecafe21c83e589a59b4e9cf653e81415c69413933fd5a6d7"
+      },
+      {
+        "path": "ppocrv5_dict.txt",
+        "size_bytes": 74,
+        "sha256": "4fdbe25e3c19611ae691e23189b05d01d2440a9ea882b39695c0395a8e6e165e"
+      }
+    ],
+    "external_binary_files": [
+      {
+        "source_archive_path": "ocr_extract/best_model/model.pdparams",
+        "size_bytes": 68648052,
+        "sha256": "8999b66925c0e1457fa6f755c9a1f39da162d937e9636db05aad8ad3e2885dec",
+        "included_in_git": false,
+        "public_access_location": null
+      },
+      {
+        "source_archive_path": "ocr_extract/best_model/model.pdopt",
+        "size_bytes": 121453158,
+        "sha256": "b8285062adb76785ca65cb6dd17a2a5cf20b267df718a007a05bca47182d67cf",
+        "included_in_git": false,
+        "public_access_location": null
+      }
+    ],
+    "not_supplied": [
+      "Checkpoint .states file",
+      "Actual training-source revision, dataset loader and recognition metric source",
+      "Export command or equivalent checkpoint-to-deployed-export record"
+    ],
+    "configuration_comparison": {
+      "reference": "Final completed session; train.log lines 443-563",
+      "method": "Compare parsed fields after accounting for the log printer flattening lists of single-key mappings, None/null representation and scientific-notation scalars.",
+      "differences": [
+        {
+          "field": "Global.distributed",
+          "recovered_yaml": true,
+          "logged_value": false
+        }
+      ],
+      "interpretation": "All compared settings agree except this flag. Describe the completed run using its logged value; the reason for the stored/logged difference is unverified."
+    },
+    "dictionary": {
+      "entry_count": 37,
+      "entries_in_order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "-"
+      ],
+      "matches_runtime_dictionary_sha256": true,
+      "runtime_dictionary_name": "ppocr_keys.txt",
+      "matches_runtime_inference_yaml_character_order": true
+    },
+    "checkpoint_static_metadata": {
+      "method": "Read pickle opcodes with Python pickletools; no unpickling, model loading or execution.",
+      "parameter_file": "ocr_extract/best_model/model.pdparams",
+      "ctc_fc_weight_shape": [
+        120,
+        38
+      ],
+      "ctc_fc_bias_shape": [
+        38
+      ],
+      "optimizer_file": "ocr_extract/best_model/model.pdopt",
+      "lr_scheduler_last_epoch": 735,
+      "lr_scheduler_last_lr": 1.7555878527937163e-05,
+      "linear_warmup_lr_last_epoch": 660,
+      "interpretation": "The scheduler value 735 is consistent with 49 epochs times 15 logged training steps per epoch. The source directory is named best_model. Neither observation independently proves identity with the logged epoch-49 best_accuracy checkpoint or the deployed inference export."
+    }
+  },
+  "current_dataset_files": {
+    "received_date": "2026-09-21",
+    "preservation": "The five supplied text/TSV files were audited without modification. Their contents are not distributed in this Git module; hashes identify the externally retained source files.",
+    "files": [
+      {
+        "size_bytes": 100420,
+        "sha256": "577a7eeee8df918d15838193c3c89c3322f34e3168d800ea7462ba917bc58616",
+        "source_name": "train_list.txt",
+        "included_in_git": false,
+        "public_access_location": null
+      },
+      {
+        "size_bytes": 17633,
+        "sha256": "c5de86b92286d61b1615191df46f43603eca162875bd1df41d51a24ac908879b",
+        "source_name": "val_list.txt",
+        "included_in_git": false,
+        "public_access_location": null
+      },
+      {
+        "size_bytes": 118128,
+        "sha256": "b022e9037310fcf6f7fea94d92e644b99bb2094efa3c037e00687bb11e99dbc9",
+        "source_name": "labels.txt",
+        "included_in_git": false,
+        "public_access_location": null
+      },
+      {
+        "size_bytes": 214940,
+        "sha256": "1f657e5342d4541369281ec2b262f1356087aeca399b4bb0a4df4143456467a6",
+        "source_name": "labels_review.tsv",
+        "included_in_git": false,
+        "public_access_location": null
+      },
+      {
+        "size_bytes": 219794,
+        "sha256": "91c98ca36b9ce0965bd7fc31125fdaac658b1406e18a63354f5db46a3ef1caee",
+        "source_name": "labels_review_ocr_corrected.tsv",
+        "included_in_git": false,
+        "public_access_location": null
+      }
+    ],
+    "row_counts": {
+      "train_list.txt": 1373,
+      "val_list.txt": 241,
+      "labels.txt": 1615,
+      "labels_review.tsv": 2534,
+      "labels_review_ocr_corrected.tsv": 2533
+    },
+    "row_count_note": "TSV counts exclude the header; list counts are nonempty data lines.",
+    "duplicate_image_paths_within_either_split": 0,
+    "train_validation_image_path_overlap": 0,
+    "split_labels_match_labels_txt": true,
+    "labels_txt_rows_absent_from_both_splits": [
+      {
+        "path": "ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg"
+      }
+    ],
+    "review_status_counts": {
+      "labels_review.tsv": [
+        {
+          "status": "approved",
+          "count": 291
+        },
+        {
+          "status": "rejected",
+          "count": 32
+        },
+        {
+          "status": "review",
+          "count": 2210
+        },
+        {
+          "status": "0.1207",
+          "count": 1
+        }
+      ],
+      "labels_review_ocr_corrected.tsv": [
+        {
+          "status": "approved",
+          "count": 1614
+        },
+        {
+          "status": "review",
+          "count": 774
+        },
+        {
+          "status": "rejected",
+          "count": 142
+        },
+        {
+          "status": null,
+          "count": 3
+        }
+      ]
+    },
+    "interpretation": "These hashes identify the supplied current files, not independently established byte-identical copies of the lists used in the August training run. The current validation list omits the sample repeatedly referenced by that run. No repeated image paths does not establish vehicle/plate-level independence: nine literal labels occur in both splits. Original inconsistencies are retained for audit.",
+    "train_validation_shared_literal_label_count": 9,
+    "corrected_review_literal_label_difference_count": 1,
+    "corrected_review_literal_label_difference_summary": "One training entry has an internal space in the corrected review label that is absent from the split label. No validation label differs. Identifying label values are not included in this aggregate audit."
+  },
+  "missing_sample_author_report": {
+    "received_date": "2026-09-21",
+    "path": "ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg",
+    "reported_explanation": "The author reports that a colleague considered the sample a duplicate, so it was deleted.",
+    "evidence_status": "Author-reported reason; duplicate identity and image equivalence were not independently checked.",
+    "duplicate_counterpart": null,
+    "duplicate_criterion": null,
+    "deletion_timestamp": null,
+    "current_file_relation": "Present in labels.txt; absent from the supplied current train_list.txt and val_list.txt.",
+    "metric_limitation": "This explains the reported removal, but does not recover the historical validation membership or loader fallback and does not establish the effect on the logged accuracy."
   }
 }

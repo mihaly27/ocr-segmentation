@@ -4,7 +4,7 @@ Supplementary data and analysis code for **Bounded Threshold Updates for Through
 
 This module contains the evidence and calculations supporting a one-camera replay case study. It reconstructs fixed OCR confidence gates and fixed/direct/step-bounded threshold trajectories over a frozen observation stream, including weighted consensus and comparison with a small joint human reference.
 
-**Current status:** preparation for the first Heimdall release. The original PaddleOCR training log and its provenance summary are included under [`training/`](training/README.md). The exact dataset-split and checkpoint-to-export links still need confirmation. No Heimdall release version or Zenodo DOI has been assigned; archive-specific access and reuse terms remain to be finalized.
+**Current status:** preparation for the first Heimdall release. The original PaddleOCR log, recovered configuration and dictionary, an aggregate dataset audit, and hashes of the external dataset and checkpoint files are documented under [`training/`](training/README.md). The historical validation membership and checkpoint-to-export link remain unverified. No Heimdall release version or Zenodo DOI has been assigned; archive-specific access and reuse terms remain to be finalized.
 
 ## Run the included check
 
@@ -46,7 +46,7 @@ The calculation uses 319 logged observations and 121 application lifetimes. A an
 | `evidence/manual_r20/` | Original joint-reference worksheet and visual mappings |
 | `evidence/runtime_snapshot/` | Model/source digests, configurations and the 19 September environment snapshot |
 | `evidence/ui/` | Interface screenshots underlying the source-path audit |
-| [`training/`](training/README.md) | Original PaddleOCR log, logged training configuration and metrics, file digest, and checkpoint/split linkage status |
+| [`training/`](training/README.md) | Original PaddleOCR log, recovered YAML and dictionary, aggregate dataset audit, external-file digests, metrics and provenance |
 | `figures/` | Camera images, crops, vector chart and manuscript diagram fragment |
 | `docs/REPRODUCTION.md` | Scope, dependencies and extended reproduction commands |
 | `docs/PROVENANCE.md` | Evidence preservation and limitations |
@@ -60,16 +60,18 @@ The existing `notes/` paths are retained because the audit scripts use them. Thi
 
 The unmodified [`train.log`](training/train.log) records four initialization sequences on 28 August 2026. The final session completed 50 epochs with PaddlePaddle 3.3.0 on `gpu:0`, using `PP-OCRv5_mobile_rec` (`SVTR_LCNet`, `PPLCNetV3`). Its best logged validation accuracy is 61.570245% at epoch 49. These are training-time component metrics.
 
-The authors report approximately two hours for the training work. The complete log spans 1 h 47 min 13 s; the final completed session spans 1 h 23 min 55 s. The log contains repeated missing-image errors during validation, and does not establish which checkpoint was exported for the camera replays. See the [training summary](training/README.md) and [manifest](training/manifest.json) for the recorded settings, metrics and remaining provenance questions.
+The authors report approximately two hours for the training work. The complete log spans 1 h 47 min 13 s; the final completed session spans 1 h 23 min 55 s. The current lists contain 1,373 training and 241 validation entries. The author reports that the sample repeatedly missing during logged validation was deleted as a duplicate; it is absent from the current splits but remains in `labels.txt`. These files do not establish the effective historical validation membership.
+
+The recovered dictionary exactly matches the runtime dictionary digest. The supplied checkpoint and optimizer have recorded hashes; static optimizer metadata is consistent with the logged best epoch. The checkpoint-to-deployed-export mapping remains unverified. See the [training summary](training/README.md) and [manifest](training/manifest.json) for the configuration comparison, dataset audit and limits of these links.
 
 ## Reproduction scope
 
 The included check recomputes the constant gates and F/A/G variants, their admissions and weighted winners, all 121 lifetime outcomes, the step bound, the human-reference summaries, and the original worksheet checksum.
 
-Full source videos, original prediction-run archives, model weights, the proprietary CV engine, and training images/manifests are not included. The package therefore does not rerun neural inference or independently verify all upstream detections, video-to-vehicle links, or historical checkpoint identity. Extended scripts remain available for use with the original external inputs; see [reproduction instructions](docs/REPRODUCTION.md).
+Full source videos, original prediction-run archives, model weights, the proprietary CV engine, training images, and the dataset list/review file contents are not included. The supplied lists were audited and hashed, with their historical limitations documented above. The package therefore does not rerun neural inference or independently verify all upstream detections, video-to-vehicle links, or historical checkpoint identity. Extended scripts remain available for use with the original external inputs; see [reproduction instructions](docs/REPRODUCTION.md).
 
 ## Citation and release status
 
-Citation metadata is in `CITATION.cff`. The original training log has been integrated. The first completed Heimdall release will receive its version and separate Zenodo DOI after its scope, provenance limitations and access/reuse terms are finalized. Until then, refer to a specific Git commit and this module path. The planned Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md).
+Citation metadata is in `CITATION.cff`. The recovered training evidence has been integrated. The first completed Heimdall release will receive its version and separate Zenodo DOI after its scope, provenance limitations and access/reuse terms are finalized. Until then, refer to a specific Git commit and this module path. The planned Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md).
 
 The authors still need to select the reuse license and finalize the access arrangements for vehicle identifiers/images before the public archived release. This packaging step neither anonymizes those materials nor assigns new permissions.

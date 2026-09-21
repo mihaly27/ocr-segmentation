@@ -20,10 +20,13 @@ abstract: >-
   OCR gates and fixed, directly switched, and step-bounded threshold
   trajectories over 319 observations and 121 tracking lifetimes, and
   checks outcomes against eight jointly transcribed human-reference cases.
-  The original PaddleOCR training log and a provenance summary are included;
-  exact dataset-split and checkpoint-to-export links remain unverified.
+  The original PaddleOCR log, recovered configuration and dictionary,
+  aggregate dataset audit, and external dataset/checkpoint digests are included.
+  Historical validation membership and checkpoint-to-export identity remain
+  unverified.
   It does not contain the full proprietary recognition engine, model
-  weights, original run archives, or complete source videos.
+  weights, dataset list/review contents, original run archives, or complete
+  source videos.
 keywords:
   - computer vision
   - license plate recognition

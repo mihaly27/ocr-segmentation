@@ -1,11 +1,11 @@
 {
   ".gitattributes": "935d7323636be2755f33829236ddb1d537ac09e8c92914a1d5ffa8b7c1e37676",
   ".gitignore": "eb461b97d0ab4247a653de9974bf45017730b206f21d2d4aaefb0a93dfea0c7c",
-  "CITATION.cff": "5030be27faee5f579869ed0a6067f65562555625925944bdd5aac260eb5dc7bd",
-  "README.md": "1e5b1e53d74c6c8faab5e4df7a940087eeb094dbfd99c2e6797bcac740421457",
-  "docs/PROVENANCE.md": "70872925f64467ebd68e8710c141057a433055b2273837cf4ee11bf5ec2968b7",
-  "docs/RELEASE.md": "293244a26c8bd2f1d022620587edf4ddcb8bedeacb08156cc23cf83d7a684d8e",
-  "docs/REPRODUCTION.md": "15235d242d298e5dcda9b4de4904ec6ba75274eb77a4771bbc6aea547337ad4a",
+  "CITATION.cff": "a0e9da61937b3ede00f273f42806826e3333d161bfe1dc6bb8c8278522bfe31e",
+  "README.md": "f67a23aeab496c51cd1c7d7bd02df4f489057a635c0755c0911e3becc648af6b",
+  "docs/PROVENANCE.md": "2cd8a8ba1f72fc1e65ea03c7e8adabcabb740ef29356cf4dc9a5cf161e3db3cf",
+  "docs/RELEASE.md": "d1157859c29b5eecf3a1bf8828124bedea93a9194d620833369efd2a7c44fcd8",
+  "docs/REPRODUCTION.md": "20452d8e26d271de4d88cf6917a1fb4121e95a99d22d773c2ea5627cdd645449",
   "docs/source_package_manifest.json": "dd7afa412309d6c788df073c61079e2a930fd7aaf9d74ebe2fd23729d9481f28",
   "evidence/manual_r20/R20_manual_reference.xlsx": "d35061ef895e4739a4f75e84f73bca1db91bdcd10d340db57db6241fb62c87cd",
   "evidence/manual_r20/R20_reference_regions.jpg": "add558225bf70985fca38fd6a26b14e9c6ffe1326b1bf2263510d3b3c1bd75a3",
@@ -77,7 +77,9 @@
   "scripts/plot_controlled_replay.py": "4ad6d3e13213ecfe35e3a096f9851ba6b0c24af1b676f85f72d44e3f64d73c9a",
   "scripts/render_manual_regions.py": "7f1c8b52d3cd5f0364678b46aaaf97c45b4824a1a9a4e53386b8ac8f0d402950",
   "scripts/verify_included_tables.py": "4046bc27a0cc83b38952d62edeef350394b6b31d17a238256de0da3cbdef51af",
-  "training/README.md": "8a0243588cbd2d433f7135843bb63ea04d6da87bc36fa20156cba543bceb66a0",
-  "training/manifest.json": "28c734be263e0bef18f8da6a5bf8a5270e563f19b708c51e274068a3d53c5213",
+  "training/README.md": "d6b3aa16c8670931ff7c14f3dc89e3f706990c4d3305b8e53b7c936e75a1aa3e",
+  "training/config.yml": "913bcdb25b43f074ecafe21c83e589a59b4e9cf653e81415c69413933fd5a6d7",
+  "training/manifest.json": "5da1afc5907f9b6c818230fda09dd51a40b64af090d2e23b3b922af6fac0e98a",
+  "training/ppocrv5_dict.txt": "4fdbe25e3c19611ae691e23189b05d01d2440a9ea882b39695c0395a8e6e165e",
   "training/train.log": "d6082dbfb2ec769c6239730975b102c757591339a3d2bf3cf3ee7ecdc1e551fd"
 }

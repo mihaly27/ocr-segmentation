@@ -7,13 +7,19 @@ release version or Zenodo DOI yet. The intended first supplement version is
 
 ## Current evidence
 
-The original OCR training log, logged configuration, metrics and file digest
-are now included under [`training/`](../training/README.md). The remaining
-provenance questions concern the exact dataset lists, the missing-image error
-during validation, and the mapping from the selected training checkpoint to
-the deployed OCR export. Resolve these where evidence exists, and explicitly
-document anything that remains unknown. Archiving this scoped supplement does
-not require claiming a complete neural-pipeline reproduction.
+The original OCR log, recovered configuration and dictionary, aggregate audit
+of the supplied dataset lists/review tables, and hashes of the external dataset
+and checkpoint/optimizer files are documented under [`training/`](../training/README.md). The author-reported
+duplicate removal is recorded. The historical validation membership and loader
+fallback, exact training-source revision, and mapping from checkpoint to
+deployed export remain unverified. Archiving this scoped supplement does not
+require claiming a complete neural-pipeline reproduction.
+
+The Git module includes the log, configuration, dictionary and aggregate audit.
+The dataset list/review contents, training images, model weights and optimizer
+state remain external. If the checkpoint is added as a separate
+Zenodo file, verify it against the recorded hash and update the archive's
+contents/access description. Do not imply that a digest is a public download.
 
 ## Archive preparation
 
@@ -25,8 +31,8 @@ not require claiming a complete neural-pipeline reproduction.
    date. Its repository and module URLs are already present. Do not reuse the
    DOI of another study or insert a guessed DOI.
 3. From `heimdall-replay-study/`, run
-   `python3 scripts/verify_included_tables.py`. Verify the original log against
-   `training/manifest.json` and refresh `SHA256SUMS.json` for every distributed
+   `python3 scripts/verify_included_tables.py`. Verify the log and recovered
+   files against `training/manifest.json`; refresh `SHA256SUMS.json` for every distributed
    module file except that checksum manifest itself.
 4. Commit the finalized module. An optional identifying Git tag can be named
    `heimdall-replay-v1.0.0`; a tag identifies a commit of the entire repository,
