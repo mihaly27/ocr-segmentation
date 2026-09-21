@@ -21,12 +21,11 @@ abstract: >-
   trajectories over 319 observations and 121 tracking lifetimes, and
   checks outcomes against eight jointly transcribed human-reference cases.
   The original PaddleOCR log, recovered configuration and dictionary,
-  aggregate dataset audit, and external dataset/checkpoint digests are included.
+  current dataset lists and review tables, and checkpoint digests are included.
   Historical validation membership and checkpoint-to-export identity remain
   unverified.
   It does not contain the full proprietary recognition engine, model
-  weights, dataset list/review contents, original run archives, or complete
-  source videos.
+  weights, original run archives, or complete source videos.
 keywords:
   - computer vision
   - license plate recognition

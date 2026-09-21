@@ -1,11 +1,10 @@
 # OCR training evidence
 
-The original `train.log`, recovered `config.yml` and character dictionary are
-included byte-for-byte. Five supplied dataset text files were also audited;
-their contents remain external to this Git module. The files were supplied on
-21 September 2026. [`manifest.json`](manifest.json) records their hashes, the
-log extraction, the aggregate dataset audit and the hashes of the external model
-files. No training, validation or model export was rerun for this package.
+The original `train.log`, recovered `config.yml` and character dictionary, and
+five supplied dataset text files are preserved byte-for-byte. They were supplied
+on 21 September 2026. [`manifest.json`](manifest.json) records their hashes,
+the log extraction, the dataset audit and the hashes of the external model files.
+No training, validation or model export was rerun for this package.
 
 ## Included and externally retained files
 
@@ -14,17 +13,11 @@ files. No training, validation or model export was rerun for this package.
 | [`train.log`](train.log) | Original log, including repeated starts and missing-image errors |
 | [`config.yml`](config.yml) | Recovered training configuration; original machine paths retained |
 | [`ppocrv5_dict.txt`](ppocrv5_dict.txt) | 37 characters: digits, uppercase Latin letters and hyphen |
-
-The following supplied files were audited and hashed, but are not distributed
-in this module:
-
-| Source file | Contents |
-|---|---|
-| `train_list.txt` | 1,373 current training entries |
-| `val_list.txt` | 241 current validation entries |
-| `labels.txt` | 1,615 label entries, including the subsequently reported deleted sample |
-| `labels_review.tsv` | Original review table: 2,534 data rows |
-| `labels_review_ocr_corrected.tsv` | Corrected review table: 2,533 data rows, including 1,614 approved entries |
+| [`dataset/train_list.txt`](dataset/train_list.txt) | 1,373 current training entries |
+| [`dataset/val_list.txt`](dataset/val_list.txt) | 241 current validation entries |
+| [`dataset/labels.txt`](dataset/labels.txt) | 1,615 label entries, including the subsequently reported deleted sample |
+| [`dataset/labels_review.tsv`](dataset/labels_review.tsv) | Original review table: 2,534 data rows |
+| [`dataset/labels_review_ocr_corrected.tsv`](dataset/labels_review_ocr_corrected.tsv) | Corrected review table: 2,533 data rows, including 1,614 approved entries |
 
 The supplied `ocr_extract.zip` also contains `best_model/model.pdparams`
 (68,648,052 bytes) and `best_model/model.pdopt` (121,453,158 bytes). These large
@@ -88,7 +81,7 @@ The author reports that a colleague considered this sample a duplicate, so it
 was deleted. The duplicate counterpart, criterion and deletion time were not
 supplied. This is the reported reason for removal, not an independently verified
 image-duplicate finding. The current train and validation lists omit the row;
-the source label file was audited without modification.
+the original label file is retained as supplied.
 
 The same path appears in 53 missing-image errors in the log: three in sequence 3
 and 50 in the completed sequence, before its validation results. Training
@@ -98,12 +91,12 @@ the fallback behavior, effective validation membership and effect on the metric
 remain unknown. The **61.57% is a logged OCR component validation result**, not
 an independently reproduced result or camera-replay recognition accuracy.
 
-One training label differs literally from the corrected review table: the
-review label contains an internal space absent from the split label. All
-validation labels match the corrected table. The review files also contain one
-nonstandard status in the older table and three missing statuses in the
-corrected table. These source inconsistencies are recorded in aggregate; no
-automatic label or row cleanup was applied.
+One training label differs literally from the corrected review table:
+`KKT617` in the split versus `KKT 617` in the review. The path is recorded in the
+manifest. All validation labels match the corrected table. The review files also
+retain one nonstandard status in the older table and three missing statuses in
+the corrected table. These are preserved source inconsistencies; no automatic
+label or row cleanup was applied.
 
 The completed sequence records four pretrained-head shape mismatch warnings
 (CTC 38 versus 18385 outputs; NRTR 42 versus 18389), followed by successful

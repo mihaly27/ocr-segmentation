@@ -7,17 +7,16 @@ release version or Zenodo DOI yet. The intended first supplement version is
 
 ## Current evidence
 
-The original OCR log, recovered configuration and dictionary, aggregate audit
-of the supplied dataset lists/review tables, and hashes of the external dataset
-and checkpoint/optimizer files are documented under [`training/`](../training/README.md). The author-reported
+The original OCR log, recovered configuration and dictionary, current dataset
+lists and review tables, and hashes of the supplied checkpoint/optimizer are
+documented under [`training/`](../training/README.md). The author-reported
 duplicate removal is recorded. The historical validation membership and loader
 fallback, exact training-source revision, and mapping from checkpoint to
 deployed export remain unverified. Archiving this scoped supplement does not
 require claiming a complete neural-pipeline reproduction.
 
-The Git module includes the log, configuration, dictionary and aggregate audit.
-The dataset list/review contents, training images, model weights and optimizer
-state remain external. If the checkpoint is added as a separate
+The Git module includes the small text evidence. Training images, model weights
+and optimizer state remain external. If the checkpoint is added as a separate
 Zenodo file, verify it against the recorded hash and update the archive's
 contents/access description. Do not imply that a digest is a public download.
 

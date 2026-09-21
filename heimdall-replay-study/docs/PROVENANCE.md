@@ -24,8 +24,7 @@ The subsequent `ocr_extract.zip` contains a training YAML, character dictionary,
 model parameters and optimizer state. The YAML and dictionary are included
 unchanged under `training/`; the binary files remain outside Git with their
 sizes and hashes in the training manifest. The five separately supplied
-dataset text/TSV files were audited without modification. Their contents remain
-external to this module; their hashes and aggregate audit results are included.
+dataset text/TSV files are retained unchanged under `training/dataset/`.
 
 The recovered dictionary matches the runtime dictionary digest and character
 order. The configuration matches the final completed log sequence except for

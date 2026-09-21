@@ -277,42 +277,32 @@
   },
   "current_dataset_files": {
     "received_date": "2026-09-21",
-    "preservation": "The five supplied text/TSV files were audited without modification. Their contents are not distributed in this Git module; hashes identify the externally retained source files.",
+    "preservation": "All five supplied text/TSV files are retained byte-for-byte under dataset/.",
     "files": [
       {
+        "path": "dataset/train_list.txt",
         "size_bytes": 100420,
-        "sha256": "577a7eeee8df918d15838193c3c89c3322f34e3168d800ea7462ba917bc58616",
-        "source_name": "train_list.txt",
-        "included_in_git": false,
-        "public_access_location": null
+        "sha256": "577a7eeee8df918d15838193c3c89c3322f34e3168d800ea7462ba917bc58616"
       },
       {
+        "path": "dataset/val_list.txt",
         "size_bytes": 17633,
-        "sha256": "c5de86b92286d61b1615191df46f43603eca162875bd1df41d51a24ac908879b",
-        "source_name": "val_list.txt",
-        "included_in_git": false,
-        "public_access_location": null
+        "sha256": "c5de86b92286d61b1615191df46f43603eca162875bd1df41d51a24ac908879b"
       },
       {
+        "path": "dataset/labels.txt",
         "size_bytes": 118128,
-        "sha256": "b022e9037310fcf6f7fea94d92e644b99bb2094efa3c037e00687bb11e99dbc9",
-        "source_name": "labels.txt",
-        "included_in_git": false,
-        "public_access_location": null
+        "sha256": "b022e9037310fcf6f7fea94d92e644b99bb2094efa3c037e00687bb11e99dbc9"
       },
       {
+        "path": "dataset/labels_review.tsv",
         "size_bytes": 214940,
-        "sha256": "1f657e5342d4541369281ec2b262f1356087aeca399b4bb0a4df4143456467a6",
-        "source_name": "labels_review.tsv",
-        "included_in_git": false,
-        "public_access_location": null
+        "sha256": "1f657e5342d4541369281ec2b262f1356087aeca399b4bb0a4df4143456467a6"
       },
       {
+        "path": "dataset/labels_review_ocr_corrected.tsv",
         "size_bytes": 219794,
-        "sha256": "91c98ca36b9ce0965bd7fc31125fdaac658b1406e18a63354f5db46a3ef1caee",
-        "source_name": "labels_review_ocr_corrected.tsv",
-        "included_in_git": false,
-        "public_access_location": null
+        "sha256": "91c98ca36b9ce0965bd7fc31125fdaac658b1406e18a63354f5db46a3ef1caee"
       }
     ],
     "row_counts": {
@@ -325,10 +315,30 @@
     "row_count_note": "TSV counts exclude the header; list counts are nonempty data lines.",
     "duplicate_image_paths_within_either_split": 0,
     "train_validation_image_path_overlap": 0,
+    "train_validation_shared_literal_labels": [
+      "AEGU-307",
+      "AIFK-541",
+      "AODD-585",
+      "AOFI-228",
+      "HKU-254",
+      "KZR-818",
+      "LKV-982",
+      "LXD-896",
+      "RKM-627"
+    ],
     "split_labels_match_labels_txt": true,
     "labels_txt_rows_absent_from_both_splits": [
       {
-        "path": "ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg"
+        "path": "ocr_dataset/unlabeled/plate_20260827_124744_831607_conf0.665.jpg",
+        "label": "HXN-658"
+      }
+    ],
+    "corrected_review_literal_label_differences": [
+      {
+        "path": "ocr_dataset/unlabeled/plate_20260827_100942_799007_conf0.783.jpg",
+        "split": "train",
+        "split_label": "KKT617",
+        "corrected_review_label": "KKT 617"
       }
     ],
     "review_status_counts": {
@@ -369,10 +379,7 @@
         }
       ]
     },
-    "interpretation": "These hashes identify the supplied current files, not independently established byte-identical copies of the lists used in the August training run. The current validation list omits the sample repeatedly referenced by that run. No repeated image paths does not establish vehicle/plate-level independence: nine literal labels occur in both splits. Original inconsistencies are retained for audit.",
-    "train_validation_shared_literal_label_count": 9,
-    "corrected_review_literal_label_difference_count": 1,
-    "corrected_review_literal_label_difference_summary": "One training entry has an internal space in the corrected review label that is absent from the split label. No validation label differs. Identifying label values are not included in this aggregate audit."
+    "interpretation": "These hashes identify the supplied current files, not independently established byte-identical copies of the lists used in the August training run. The current validation list omits the sample repeatedly referenced by that run. No repeated image paths does not establish vehicle/plate-level independence: nine literal labels occur in both splits. Original inconsistencies are retained for audit."
   },
   "missing_sample_author_report": {
     "received_date": "2026-09-21",
