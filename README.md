@@ -61,8 +61,9 @@ and hashes of the externally retained checkpoint files. The completed 50-epoch
 session used PaddlePaddle 3.3.0 and reports a best validation accuracy of 61.57%
 at epoch 49. The author reports that the sample missing during validation was
 deleted as a duplicate. Historical validation membership and the mapping from
-checkpoint to deployed export remain unverified. The first Heimdall archival
-release is being prepared and has no assigned archive DOI yet.
+checkpoint to deployed export remain unverified. Heimdall supplement version
+`1.0.0` is prepared for a separate Zenodo archive under the existing research-use
+license; no archive DOI has been assigned yet.
 
 ## Quick start
 

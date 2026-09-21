@@ -4,7 +4,7 @@ Supplementary data and analysis code for **Bounded Threshold Updates for Through
 
 This module contains the evidence and calculations supporting a one-camera replay case study. It reconstructs fixed OCR confidence gates and fixed/direct/step-bounded threshold trajectories over a frozen observation stream, including weighted consensus and comparison with a small joint human reference.
 
-**Current status:** preparation for the first Heimdall release. The original PaddleOCR log, recovered configuration and dictionary, current dataset lists and review tables, and hashes of the external checkpoint files are documented under [`training/`](training/README.md). The historical validation membership and checkpoint-to-export link remain unverified. No Heimdall release version or Zenodo DOI has been assigned; archive-specific access and reuse terms remain to be finalized.
+**Current status:** supplement version **1.0.0** is prepared for a separate Zenodo archive; no Zenodo DOI has been assigned yet. The original PaddleOCR log, recovered configuration and dictionary, current dataset lists and review tables, and hashes of the external checkpoint files are documented under [`training/`](training/README.md). The historical validation membership and checkpoint-to-export link remain unverified. The included [`LICENSE`](LICENSE) preserves the parent repository's research-use terms.
 
 ## Run the included check
 
@@ -51,7 +51,8 @@ The calculation uses 319 logged observations and 121 application lifetimes. A an
 | `docs/REPRODUCTION.md` | Scope, dependencies and extended reproduction commands |
 | `docs/PROVENANCE.md` | Evidence preservation and limitations |
 | `docs/RELEASE.md` | Steps to complete the first citable release |
-| `CITATION.cff` | Citation metadata for this research package |
+| `CITATION.cff` | Citation metadata and version for this research package |
+| `LICENSE` | Parent repository's research-use terms, copied without changes |
 | `SHA256SUMS.json` | Checksums for the current repository files |
 
 The existing `notes/` paths are retained because the audit scripts use them. This directory now contains machine-readable research evidence, without internal reviewer correspondence or editorial task histories.
@@ -72,6 +73,6 @@ Full source videos, original prediction-run archives, model weights, the proprie
 
 ## Citation and release status
 
-Citation metadata is in `CITATION.cff`. The recovered training evidence has been integrated. The first completed Heimdall release will receive its version and separate Zenodo DOI after its scope, provenance limitations and access/reuse terms are finalized. Until then, refer to a specific Git commit and this module path. The planned Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md).
+Citation metadata for version `1.0.0` is in `CITATION.cff`. The recovered training evidence has been integrated. The first Zenodo record will archive this module separately from the other studies in `ocr-segmentation`; see the [release instructions](docs/RELEASE.md). Until its actual DOI is available, cite the version, specific Git commit and module path.
 
-The authors still need to select the reuse license and finalize the access arrangements for vehicle identifiers/images before the public archived release. This packaging step neither anonymizes those materials nor assigns new permissions.
+The module is distributed under the existing [OCR Segmentation Research-Use License](LICENSE), copied unchanged from the parent repository. Third-party materials remain subject to their respective terms. Recorded strings and images are retained as supplied; this release does not anonymize them or grant additional permissions.

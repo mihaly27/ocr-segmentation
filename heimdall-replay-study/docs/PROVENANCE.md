@@ -8,7 +8,7 @@ The 19 September runtime snapshot supplies model and source digests, tracker YAM
 
 The eight confident human-reference cases come from a joint review. No independent blinded ratings or complete traffic inventory are claimed. The numerical results concern a retrospective readable subset and original application lifetimes, which are not deduplicated physical vehicle passages.
 
-Recorded strings and images remain unchanged. This repository organization does not anonymize them, establish public-redistribution rights, or extend permissions over the proprietary recognition engine. Access and reuse terms are to be finalized by the authors with the first release.
+Recorded strings and images remain unchanged. This repository organization does not anonymize them, establish public-redistribution rights, or extend permissions over the proprietary recognition engine. Version 1.0.0 retains the parent repository's research-use terms in the included `LICENSE`; third-party materials remain subject to their respective terms.
 
 Git line-ending conversion is disabled for this snapshot so that Windows checkouts do not invalidate recorded file digests. Later training files should also be retained in their original form and described through a separate manifest.
 
@@ -42,3 +42,12 @@ The training summary records split overlap and review-label discrepancies.
 This recovery does not alter the original runtime snapshot, replay data,
 source-package manifest or training log. It does not assign a release version,
 DOI or new reuse license.
+
+## Version 1.0.0 archive preparation
+
+The module now carries version `1.0.0` in its citation metadata and includes an
+unchanged copy of the parent repository's `LICENSE`. These packaging changes
+do not change any experimental evidence or establish the missing historical
+validation/export links. No Zenodo DOI is inserted before one has actually
+been reserved or assigned. A standalone archive must identify its exact source
+commit and retain the module's checksum manifest.
